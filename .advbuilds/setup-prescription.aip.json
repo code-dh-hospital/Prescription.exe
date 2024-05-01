@@ -1,0 +1,16 @@
+{
+  "MainExe": "Prescription.exe",
+  "ProductDetail": {
+    "ProductName": "DHG.Hospital Prescription"
+  },
+  "AdvancedInstallerShortcut": {
+    "Name": "DHG.Hospital Prescription",
+    "Target": "APPDIR\\Prescription.exe",
+    "InDirectories": ["DesktopFolder", "StartMenuFolder\\DHG Pharma"],
+    "PathIcon": "Logo.ico"
+  },
+  "IconInControlPanel": {
+    "IsSetIcon": true,
+    "PathIcon": "Logo.ico"
+  }
+}
