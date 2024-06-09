@@ -5,7 +5,14 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0607.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406070-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406070-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406070-NasDHSolutions.json)
+## 3.24.0609.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406090-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406090-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406090-NasDHSolutions.json)
+- ✨: Yêu cầu thực hiện 4750 - Cập nhật số liệu Liều dùng theo pshdxn
+- 📗: Thêm giao diện nhập liều dùng sáng trưa chiều tối, xữ lý tính liều dùng và add vào cột current.pshdxn.lieu_dung
+![](https://i.imgur.com/8eSfDaD.png)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/371
+- ☑: https://github.com/dh-hos/To_Ho_Tro/issues/20
+- ☑: https://github.com/dh-hos/To_Trien_Khai/issues/57
+## [v.3.24.0607.0]()
 - ✨: Thêm kiểm tra trước khi lưu đối với CCCD phải có 9,12 ký tự số hoặc hộ chiếu 8 ký tự bắt đầu là chữ in hoa và 7 ký tự số ở sau
 - 📕: Build lại với dll HosReg.Plus.dll v1.24.607.0
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/370
