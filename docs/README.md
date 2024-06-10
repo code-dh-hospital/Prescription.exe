@@ -5,7 +5,14 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0609.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406090-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406090-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406090-NasDHSolutions.json)
+## 3.24.0610.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406100-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406100-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406100-NasDHSolutions.json)
+- ✨: Thực hiện Yêu cầu - Bổ sung thêm trường phòng khám trên mẫu Phiếu nhập viện tự thiết kế (BV Thanh Bình) #379
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/379
+- 📗: lấy tenphong từ dmphong với điều kiệu `current.khambenh.maphong = current.dmphong.maphong`
+- 📕: Thêm para tenphong vào xrptGiayNhapVien.cs
+![](https://i.imgur.com/a2b6Ghw.png)
+
+## [v.3.24.0609.0]()
 - ✨: Yêu cầu thực hiện 4750 - Cập nhật số liệu Liều dùng theo pshdxn
 - 📗: Thêm giao diện nhập liều dùng sáng trưa chiều tối, xữ lý tính liều dùng và add vào cột current.pshdxn.lieu_dung
 ![](https://i.imgur.com/8eSfDaD.png)
