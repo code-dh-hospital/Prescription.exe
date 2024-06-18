@@ -6,10 +6,17 @@
 
 #
 ## 3.24.0618.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406180-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406180-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406180-NasDHSolutions.json)
+<<<<<<< HEAD
+- ✨: Thêm para pTenThanhVien trên mẫu hội chẩn - chỉ lấy tên thành viên không kèm chức vụ
+- 🐛: Mẫu trích BBHC tự thiết kế áp dụng theo tham số hoichan.customize = 0.
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/407
+![](https://i.imgur.com/jLiQC6Y.png)
+=======
 - 🐛: Lỗi - Trùng chẩn đoán chính và chẩn đoán kèm theo bệnh nhân khám nhiều phòng
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/253 
 - ![](https://i.imgur.com/493rDKv.png)
 - 📕: Xử lý trim khoảng trắng trước và sau trước khi replace, để loại bỏ trùng
+>>>>>>> 976d02654a2aea058197be3de70cab9618201901
 ## [v.3.24.0617.2]()
 - 🐛: Fix lỗi chọn ngày bắt đầu và kết thúc khi chọn combo loại báo cáo
 - ☑: https://github.com/dh-hos/dhg.hospitalreports/issues/116
