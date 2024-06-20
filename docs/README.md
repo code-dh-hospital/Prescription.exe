@@ -5,7 +5,41 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0620.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406201-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406201-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406201-NasDHSolutions.json)
+## 3.24.0620.6 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406206-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406206-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406206-NasDHSolutions.json)
+- ✨: Pushtest1
+## [v.3.24.0620.5]()
+- ✨: Thay đổi cách ghi nhận maxa trên form nhận bệnh, khám bệnh, hiệu chỉnh thông tin
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/400
+- ☑: https://github.com/dh-hos/To_Ho_Tro/issues/20
+- ☑: https://github.com/dh-hos/To_Trien_Khai/issues/57
+![](https://i.imgur.com/KGNPU2W.png)
+![](https://i.imgur.com/3bky44G.png)
+![](https://i.imgur.com/VVaB7q7.png)
+## [v.3.24.0620.4]()
+- ✨: Push lại lần 2 - Thay đổi cách ghi nhận maxa trên form nhận bệnh, khám bệnh, hiệu chỉnh thông tin
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/400
+- ☑: https://github.com/dh-hos/To_Ho_Tro/issues/20
+- ☑: https://github.com/dh-hos/To_Trien_Khai/issues/57
+![](https://i.imgur.com/KGNPU2W.png)
+![](https://i.imgur.com/3bky44G.png)
+![](https://i.imgur.com/VVaB7q7.png)
+## [v.3.24.0620.3]()
+- ✨: Push lại - Thay đổi cách ghi nhận maxa trên form nhận bệnh, khám bệnh, hiệu chỉnh thông tin
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/400
+- ☑: https://github.com/dh-hos/To_Ho_Tro/issues/20
+- ☑: https://github.com/dh-hos/To_Trien_Khai/issues/57
+![](https://i.imgur.com/KGNPU2W.png)
+![](https://i.imgur.com/3bky44G.png)
+![](https://i.imgur.com/VVaB7q7.png)
+## [v.3.24.0620.2]()
+- ✨: Thay đổi cách ghi nhận maxa trên form nhận bệnh, khám bệnh, hiệu chỉnh thông tin
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/400
+- ☑: https://github.com/dh-hos/To_Ho_Tro/issues/20
+- ☑: https://github.com/dh-hos/To_Trien_Khai/issues/57
+![](https://i.imgur.com/KGNPU2W.png)
+![](https://i.imgur.com/3bky44G.png)
+![](https://i.imgur.com/VVaB7q7.png)
+## [v.3.24.0620.1]()
 - 🐛: Lỗi - Bảng kê 6556 hiển thị sai tên VTYT
 - ![](https://i.imgur.com/NWHweKY.png)
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/256
