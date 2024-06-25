@@ -6,10 +6,15 @@
 
 #
 ## 3.24.0625.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406250-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406250-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32406250-NasDHSolutions.json)
+<<<<<<< HEAD
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/231
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/246
+=======
 - ✨: Thêm chức năng để tùy chọn in hay preview để set ngayinphieu trong psdangky
 - 🐛: Lỗi - Bảng kê 6556 bệnh nhân ngoại trú thu phí in không có ngày kết thúc
 - ![](https://i.imgur.com/fdDTJKx.gif)
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/258
+>>>>>>> ee63750b47f33d477ae5c018110dbf2b050622d2
 ## [v.3.24.0624.5]()
 - 🐛: Fix - Chức năng hiệu chỉnh tại From nhập viện chưa bắt theo ràng buộc khi nhập CMND
 - ☑: https://github.com/dh-hos/To_Ho_Tro/issues/30
