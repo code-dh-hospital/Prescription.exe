@@ -5,11 +5,23 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0701.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407010-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407010-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407010-NasDHSolutions.json)
+## 3.24.0701.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407012-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407012-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407012-NasDHSolutions.json)
+- ✨: `Gọi hàm MarkCheckInCanLamSang(String macls)` khi thực lưu chỉ định cls thành công
+- ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/32
+<<<<<<< HEAD
+## [v.3.24.0701.1]()
+- ✨: `Gọi hàm MarkCheckInCanLamSang(String macls)` khi thực lưu chỉ định cls thành công
+- ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/32
+## [v.3.24.0701.0]()
+- ✨: `Gọi hàm MarkCheckInCanLamSang(String macls)` khi thực lưu chỉ định cls thành công
+- ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/32
+=======
+## [v.3.24.0701.0]()
 - ✨: Ghi nhận XML4750 trong schema xml130
 - ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/32
 - ☑: https://github.com/dh-hos/To_Ho_Tro/issues/20
 - ☑: https://github.com/dh-hos/To_Trien_Khai/issues/57
+>>>>>>> 763290aca0332503bcdb7851397c658a827e3dad
 ## [v.3.24.0629.2]()
 - ✨: Bổ sung tham số ktsinhhieu.customize: cho phép cấu hình bắt buộc nhập tùy nhu cầu các chỉ số sinh hiệu
 
