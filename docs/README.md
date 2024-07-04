@@ -5,7 +5,10 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0704.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407042-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407042-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407042-NasDHSolutions.json)
+## 3.24.0704.3 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407043-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407043-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407043-NasDHSolutions.json)
+- 🐛: Bổ sung tham số ktsinhhieu.customize: Kiểm tra thông tin sinh hiệu tùy chọn (Các chỉ số: chieucao|cannang|vongnguc|vongdau|huyetap|nhietdo|mach|nhiptho|hb|fio2|nhomau cách nhau [|], ví dụ: chieucao|cannang - là bắt buộc nhập chiều cao, cân nặng)
+- ☑: https://github.com/dh-hos/To_Ho_Tro/issues/37
+## [v.3.24.0704.2]()
 - ✨: push test 1
 ## [v.3.24.0704.1]()
 - 🐛: Bổ sung tham số ktsinhhieu.customize: Kiểm tra thông tin sinh hiệu tùy chọn (Các chỉ số: chieucao|cannang|vongnguc|vongdau|huyetap|nhietdo|mach|nhiptho|hb|fio2|nhomau cách nhau [|], ví dụ: chieucao|cannang - là bắt buộc nhập chiều cao, cân nặng)
