@@ -5,7 +5,17 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0703.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407031-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407031-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407031-NasDHSolutions.json)
+## 3.24.0704.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407042-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407042-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407042-NasDHSolutions.json)
+- ✨: push test 1
+## [v.3.24.0704.1]()
+- 🐛: Bổ sung tham số ktsinhhieu.customize: Kiểm tra thông tin sinh hiệu tùy chọn (Các chỉ số: chieucao|cannang|vongnguc|vongdau|huyetap|nhietdo|mach|nhiptho|hb|fio2|nhomau cách nhau [|], ví dụ: chieucao|cannang - là bắt buộc nhập chiều cao, cân nặng)
+- ☑: https://github.com/dh-hos/To_Ho_Tro/issues/37
+<<<<<<< HEAD
+## [v.3.24.0704.0]()
+- 🐛: Bổ sung tham số ktsinhhieu.customize: Kiểm tra thông tin sinh hiệu tùy chọn (Các chỉ số: chieucao|cannang|vongnguc|vongdau|huyetap|nhietdo|mach|nhiptho|hb|fio2|nhomau cách nhau [|], ví dụ: chieucao|cannang - là bắt buộc nhập chiều cao, cân nặng)
+- ☑: https://github.com/dh-hos/To_Ho_Tro/issues/37
+=======
+## [v.3.24.0703.1]()
 - ✨:  chỉnh lại kiểm tra thời gian khám với đối tượng BHYT, bổ sung tham số `checktime.bhyt` cho đơn vị chọn kiểm hay không kiểm thời gian này.
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/440
 ![](https://i.imgur.com/vLfovEw.png)
@@ -21,6 +31,7 @@
 - 🐛: KHÔNG HIỆN FORM CHỌN PHÒNG CẤP STT CLS - BV QUẬN 12
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/263
 ![](https://i.imgur.com/9NWxuUs.png)
+>>>>>>> 2e06fd9ef10411182b1571c2b51a0ea4822c7d4a
 ## [v.3.24.0702.0]()
 - ✨: Bổ sung chức năng chọn mã máy khi thực hiện PT, TT
 - ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/34
