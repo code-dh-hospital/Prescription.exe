@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0706.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407060-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407060-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407060-NasDHSolutions.json)
+## 3.24.0708.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407080-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407080-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407080-NasDHSolutions.json)
+- ✨: Liều dùng - lấy số ngày uống theo từng mặt hàng, dựa vào số lượng của từng mặt hàng và chỉ định sáng, trưa, chiều, tối
+- ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/43
+![](https://i.imgur.com/cWUB6d5.png)
+## [v.3.24.0706.0]()
 - 🐛: Fix lỗi khi ra toa thuốc tổng tiền thuốc chưa đến số tiền giới hạn đã chặn không cho lưu
 - 🐛: Fix - thông báo chỉnh lại số tiền cho đúng định dạng có dấu phân cách hàng nghìn hiện thông báo lấy trực tiếp 1000000
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/267
