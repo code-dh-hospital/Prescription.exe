@@ -5,7 +5,12 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0709.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407090-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407090-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407090-NasDHSolutions.json)
+## 3.24.0709.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407091-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407091-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407091-NasDHSolutions.json)
+- ✨: Ghi nhận giờ, phút khi chọn tái khám (Giá trị mặc định 08 giờ 00 phút).
+- ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/48
+![](https://i.imgur.com/uTugueZ.png)
+![](https://i.imgur.com/QpdlDbI.png)
+## [v.3.24.0709.0]()
 - 🐛: Bổ sung tham số ktsinhhieu.customize: Kiểm tra thông tin sinh hiệu bệnh nhận BHYT tùy chọn (Các chỉ số: chieucao|cannang|vongnguc|vongdau|huyetap|nhietdo|mach|nhiptho|hb|fio2|nhommau cách nhau [|], ví dụ: chieucao|cannang - là bắt buộc nhập chiều cao, cân nặng)
 - ☑: https://github.com/dh-hos/To_Ho_Tro/issues/37
 ## [v.3.24.0708.1]()
