@@ -6,11 +6,26 @@
 
 #
 ## 3.24.0710.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407102-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407102-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407102-NasDHSolutions.json)
+- 🐛: Fix - báo lỗi khi cấp toa mà không nhập liều dùng.
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/464
+![](https://i.imgur.com/tMDHDGQ.png)
+## [v.3.24.0710.1]()
+- 🐛: Fix - báo lỗi khi cấp toa mà không nhập liều dùng.
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/464
+![](https://i.imgur.com/tMDHDGQ.png)
+<<<<<<< HEAD
+## [v.3.24.0710.0]()
+- 🐛: Fix - báo lỗi khi cấp toa mà không nhập liều dùng.
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/464
+![](https://i.imgur.com/tMDHDGQ.png)
+=======
+## [v.3.24.0710.2]()
 - ✨: Test msbuild
 ## [v.3.24.0710.1]()
 - ✨: Test msbuild
 ## [v.3.24.0710.0]()
 - ✨: Test msbuild
+>>>>>>> b5b00ca62ecc383c044d040d18d6d831fc9d56f3
 ## [v.3.24.0709.3]()
 - 🐛: Fix lỗi - Thủ thuật đã lập phiếu rồi nhưng vẫn báo chưa thực hiện không thể ra toa Prescription.
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/452
