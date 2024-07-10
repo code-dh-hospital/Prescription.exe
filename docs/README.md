@@ -5,7 +5,14 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0710.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407102-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407102-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407102-NasDHSolutions.json)
+## 3.24.0710.3 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407103-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407103-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407103-NasDHSolutions.json)
+- 🐛: Fix lỗi - Chức năng xác định kết thúc khám không load được danh mục kết quả điều trị đã khai báo trên trên Admin.
+- 🐛: Fix lỗi - Bệnh nhân đã xác định kết thúc khám với Kết quả không thay đổi
+				-> khi tắt phần mềm Prescription mở lại vào lại bệnh nhân thì không thấy được chẩn đoán và kết quả đã chọn.
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/465
+![](https://i.imgur.com/muvNZaM.png)
+![](https://i.imgur.com/1PMcprD.png)
+## [v.3.24.0710.2]()
 - 🐛: Fix - báo lỗi khi cấp toa mà không nhập liều dùng.
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/464
 ![](https://i.imgur.com/tMDHDGQ.png)
