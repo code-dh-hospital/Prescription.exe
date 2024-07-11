@@ -5,7 +5,13 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0711.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407110-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407110-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407110-NasDHSolutions.json)
+## 3.24.0711.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407111-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407111-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407111-NasDHSolutions.json)
+- 🐛: Chuyển câu thông báo sang dạng cảnh báo.
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/457
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/269
+![](https://i.imgur.com/ilC5Krd.png)
+![](https://i.imgur.com/NBAFjQf.png)
+## [v.3.24.0711.0]()
 - ✨: Lập phiếu PT,TT - Kiểm tra thời gian bắt đầu và kết thúc không được nhỏ hơn thời gian chỉ định.
 - ✨: Toa thuốc ràng buộc thời gian ra toa phải lớn hơn ngày giờ kết thúc của phiếu PT/TT
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/457
