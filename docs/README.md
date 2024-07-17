@@ -6,6 +6,10 @@
 
 #
 ## 3.24.0717.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407170-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407170-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407170-NasDHSolutions.json)
+<<<<<<< HEAD
+- 🐛: fix lỗi - chưa lập được phiếu PT-TT đối với CLS PT-TT không cấu hình loại PT trên danh mục
+- ☑: https://github.com/dh-hos/Yeu_cau_ho_tro/issues/182
+=======
 - 🐛: Form khám bệnh mất tab - push lại
 ## [v.3.24.0716.2]()
 - ✨: Hỗ trợ PK Phương Nam (96148) cập nhật các bệnh mãn tính
@@ -14,6 +18,7 @@
 - ✨: Thực hiện chức năng mở khóa bệnh nhân đã xác nhận kết thúc khám.
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/463
 ![](https://i.imgur.com/JSkHcJK.png)
+>>>>>>> 84e2de1d0349a80b6ca2d138ddc2bb9cb87da8dc
 ## [v.3.24.0716.0]()
 - 🐛: Fix lỗi Form khám bệnh Prescription thống kê sai danh sách CLS (lặp lại nhiều lần)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/490
