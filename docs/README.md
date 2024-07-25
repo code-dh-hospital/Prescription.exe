@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0724.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407242-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407242-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407242-NasDHSolutions.json)
+## 3.24.0725.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407250-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407250-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407250-NasDHSolutions.json)
+- 🐛: Fix lỗi - BN chuyển phòng, khi ấn khám không có cảnh báo nhập cân nặng.
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/281
+![](https://i.imgur.com/xrAjChZ.png)
+## [v.3.24.0724.2]()
 - ✨: Nếu người dùng không phân liều: cả 4 ô bằng 0 hoặc rỗng --> không bắt số lượng và không hỗ trợ ghép liều dùng (liều dùng rỗng).
 - ✨: Hỗ trợ phím tắt để người dùng có thể bỏ qua việc phân liều thay vì nhấn enter 4 lần như hiện tại(nhập số lượng xong ấn F4).
 - ✨: Hỗ trợ thiết lập danh mục liều dùng tương tự như danh mục chỉ định uống để người dùng tự thực hiện các trường hợp đặc biệt.
