@@ -5,7 +5,13 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0726.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407262-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407262-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407262-NasDHSolutions.json)
+## 3.24.0726.3 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407263-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407263-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407263-NasDHSolutions.json)
+- ✨: BANT theo ngày bổ sung đầy đủ chỉ số sinh hiệu như ngoại trú
+- 🐛: Khi chuyển phòng, các chỉ số để rỗng như Phòng khám đầu tiên thay vì chuyển phòng hiển thị 0.00
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/508
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/281
+![](https://i.imgur.com/fDg7aeJ.png)
+## [v.3.24.0726.2]()
 - 🐛: Không cho phép in phiếu 01 đối với bệnh án ngoại trú thanh toán đợt (Có check [`Theo Đợt`]), phải vào chức năng Tổng kết CP thực hiện,
 - ![](https://i.imgur.com/wcKWDhT.png)
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/274#issuecomment-2249843169
