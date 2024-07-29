@@ -5,7 +5,12 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0727.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407271-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407271-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407271-NasDHSolutions.json)
+## 3.24.0729.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407290-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407290-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32407290-NasDHSolutions.json)
+- ✨: Ghi nhận thời gian chỉ định cận lâm sàng theo thời gian chỉ định, không cập nhật thời gian chỉ định cho các cận lâm sàng khác đợt chỉ định.
+- ✨: Chỉ đinh cùng 1 cận lâm sàng khác đợt --> tách từng dòng riêng theo đợt.
+- ✨: Cập nhật cận lâm sàng theo idchidinh.
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/544
+## [v.3.24.0727.1]()
 - ✨: ghi nhật ký chức năng nhập Diễn biến và tóm tắt kết quả CLS cho các bệnh án nội trú, BANT theo đợt cũ đã xuất viện
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/536
 ![](https://i.imgur.com/tvATptD.png)
