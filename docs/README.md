@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0804.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408040-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408040-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408040-NasDHSolutions.json)
+## 3.24.0804.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408041-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408041-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408041-NasDHSolutions.json)
+- ✨:BANT - Kiểm tra chỉ số sinh hiệu khi lưu theo tham số ktsinhhieu.customize đối với đối tượng BHYT như khám thường
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/508
+![](https://i.imgur.com/IN9INPM.png)
+## [v.3.24.0804.0]()
 - ✨: Thêm para liều dùng lên toa thuốc
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/558
 ![](https://i.imgur.com/hPQGO1R.png)
