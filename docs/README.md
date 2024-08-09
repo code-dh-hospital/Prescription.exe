@@ -5,7 +5,13 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0808.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408081-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408081-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408081-NasDHSolutions.json)
+## 3.24.0809.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408090-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408090-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408090-NasDHSolutions.json)
+- 🐛: Fix - ràng buộc ngày tái khám phải lớn hơn ngày ra toa
+- 🐛: Fix - khi nhập ngày uống trên toa thuốc, ấn Enter thì tự động gợi ý ngày tái khám
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/291
+![](https://i.imgur.com/GG1Hq4T.png)
+![](https://i.imgur.com/ZNEYMNP.png)
+## [v.3.24.0808.1]()
 - 🐛: Fix Lỗi - BANT đã khám thêm diễn biến có công khám nhưng psdangky.dakham = 0 gây lỗi khi nhập viện
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/294
 ## [v.3.24.0808.0]()
