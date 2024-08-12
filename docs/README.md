@@ -5,7 +5,12 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0812.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408121-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408121-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408121-NasDHSolutions.json)
+## 3.24.0812.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408122-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408122-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408122-NasDHSolutions.json)
+- ✨: Thực hiện Yêu cầu - EKIP PT/TT CHỈ LOAD NHÂN VIÊN CÓ CHỨNG CHỈ HÀNH NGHỀ
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/584
+- 🐛: Fix lỗi vẫn xóa được EKIP PT/TT khi đã lưu phiếu PT/TT
+- ☑:https://github.com/dh-hos/dhg.hospitalprescription/issues/298
+## [v.3.24.0812.1]()
 - ✨: Thêm liều dùng vào form toa thuốc mẫu
 - 🐛: Fix lỗi không load được toa mẫu do thiếu liều dùng khi ra toa
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/575
