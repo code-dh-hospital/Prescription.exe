@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0815.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408150-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408150-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408150-NasDHSolutions.json)
+## 3.24.0816.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408160-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408160-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408160-NasDHSolutions.json)
+- ✨: Bắt buộc nhập Lý do vào viện form nhập viện, BA ngoại trú phần mềm Prescription (Lý do vào viện không được để trống)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/594
+![](https://i.imgur.com/F3AMTke.png)
+## [v.3.24.0815.0]()
 - 🐛: Fix lỗi không load được bác sĩ chỉ định công khám mặc định
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/303
 ![](https://i.imgur.com/KCLhENd.png)
