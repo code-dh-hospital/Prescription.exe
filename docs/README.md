@@ -5,9 +5,24 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0819.3 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408193-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408193-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408193-NasDHSolutions.json)
+## 3.24.0820.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408200-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408200-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408200-NasDHSolutions.json)
+- 🐛: Fix - tắt Form khám bệnh vào xem lại mất chẩn đoán chọn kết thúc.
+- 🐛: Fix - Chức năng chuyển phòng Form danh sách khám bệnh vẫn cho phép chuyển bệnh nhân đã xác nhận kết thúc khám.
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/465
+![](https://i.imgur.com/y1wgI5n.png)
+![](https://i.imgur.com/6dIT9fK.png)
+<<<<<<< HEAD
+## [v.3.24.0820.0]()
+- 🐛: Fix - tắt Form khám bệnh vào xem lại mất chẩn đoán chọn kết thúc.
+![](https://i.imgur.com/y1wgI5n.png)
+- 🐛: Fix - Chức năng chuyển phòng Form danh sách khám bệnh vẫn cho phép chuyển bệnh nhân đã xác nhận kết thúc khám.
+![](https://i.imgur.com/6dIT9fK.png)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/465
+=======
+## [v.3.24.0819.3]()
 - 🐛: Fix lỗi in toa bệnh nhân chỉ có năm sinh
 - ☑: https://github.com/dh-hos/To_Ho_Tro/issues/72
+>>>>>>> 4e722dcccc2eebba9d99881e2d3897a08e1cda44
 ## [v.3.24.0819.2]()
 - 🐛: Fix lỗi khi nhập lý do vào viện là khoảng trắng thì vẫn lưu được trên form nhập viện và BA ngoại trú
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/594
