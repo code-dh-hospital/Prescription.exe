@@ -5,7 +5,10 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0821.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408210-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408210-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408210-NasDHSolutions.json)
+## 3.24.0821.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408211-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408211-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408211-NasDHSolutions.json)
+- ✨: Cập nhật theo mô tả [ghi nhận ngày hẹn tái khám](https://github.com/dh-hos/Mo-ta-he-thong/blob/main/Thong-mo-ta-ghi-nhan-ngay-hen-kham-lai.md)
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/291
+## [v.3.24.0821.0]()
 - 🐛: Fix - Hiệu chỉnh thông tin chưa hỗ trợ tự lấy trạng thái chuyển tuyến = 5(Giấy hẹn lãnh thuốc) khi check bệnh nhân khám lao
 - 🐛: Fix - Thiếu thông tin Check giấy xác nhận lưu trú và chọn giấy lưu ở tab Thông tin thêm
 - ☑: https://github.com/dh-hos/dhg.hospitaladmin/issues/89
