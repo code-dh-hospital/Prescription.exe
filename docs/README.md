@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0821.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408211-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408211-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408211-NasDHSolutions.json)
+## 3.24.0821.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408212-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408212-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408212-NasDHSolutions.json)
+- ✨: Cập nhật theo mô tả [ghi nhận ngày hẹn tái khám](https://github.com/dh-hos/Mo-ta-he-thong/blob/main/Thong-mo-ta-ghi-nhan-ngay-hen-kham-lai.md)
+- 🐛: Fix lỗi thiếu điều kiện - dẫn đến không thể lưu khám bệnh khi ngày hẹn = null
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/291
+## [v.3.24.0821.1]()
 - ✨: Cập nhật theo mô tả [ghi nhận ngày hẹn tái khám](https://github.com/dh-hos/Mo-ta-he-thong/blob/main/Thong-mo-ta-ghi-nhan-ngay-hen-kham-lai.md)
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/291
 ## [v.3.24.0821.0]()
