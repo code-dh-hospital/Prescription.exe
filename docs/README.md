@@ -5,7 +5,13 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0821.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408212-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408212-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408212-NasDHSolutions.json)
+## 3.24.0822.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408220-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408220-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408220-NasDHSolutions.json)
+- 🐛: Fix - Bệnh án ngoại trú chưa bắt số lượng ICD theo tham số `ma_benh_kt.soluong`
+- 🐛: Fix - có thể thêm ICD phụ trùng với ICD chính
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/608
+![](https://i.imgur.com/wpC8Xla.png)
+![](https://i.imgur.com/D8mvra2.png)
+## [v.3.24.0821.2]()
 - ✨: Cập nhật theo mô tả [ghi nhận ngày hẹn tái khám](https://github.com/dh-hos/Mo-ta-he-thong/blob/main/Thong-mo-ta-ghi-nhan-ngay-hen-kham-lai.md)
 - 🐛: Fix lỗi thiếu điều kiện - dẫn đến không thể lưu khám bệnh khi ngày hẹn = null
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/291
