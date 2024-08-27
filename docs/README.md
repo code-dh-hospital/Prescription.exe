@@ -5,10 +5,27 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0826.5 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408265-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408265-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408265-NasDHSolutions.json)
+## 3.24.0827.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408270-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408270-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408270-NasDHSolutions.json)
+- ✨: Thực hiện - Hỗ trợ nhập chẩn đoán phụ trên chức năng Kết thúc BANT
+- ✨: Thực hiện hỗ trợ gõ chức năng CĐ Phụ giống như phần thay đổi diễn biến bệnh
+- ✨: Kiểm tra Mã CĐ phụ khi thực hiện lưu, nếu không đúng mã ICD thì không cho lưu
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/311
+![](https://i.imgur.com/1fj2rb6.png)
+![](https://i.imgur.com/SYmMOT5.png)
+<<<<<<< HEAD
+## [v.3.24.0827.0]()
+- ✨: Thực hiện - Hỗ trợ nhập chẩn đoán phụ trên chức năng Kết thúc BANT
+- ✨: Thực hiện hỗ trợ gõ chức năng CĐ Phụ giống như phần thay đổi diễn biến bệnh
+- ✨: Kiểm tra Mã CĐ phụ khi thực hiện lưu, nếu không đúng mã ICD thì không cho lưu
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/311
+![](https://i.imgur.com/1fj2rb6.png)
+![](https://i.imgur.com/SYmMOT5.png)
+=======
+## [v.3.24.0826.5]()
 - ✨: **💼**: **_Yêu cầu - Bổ sung thêm chức năng lưu Loại bênh nhân 4750_**
 - ✨:![](https://i.imgur.com/Q7Wf2qI.png) ![](https://i.imgur.com/G8lPJ5H.png)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/595
+>>>>>>> 35907839c78f73860b2854009b757b7881a6dbfe
 ## [v.3.24.0826.4]()
 - 🐛: Fix - Lỗi BANT sai trạng thái ra viện khi dùng chức năng thanh toán tháng
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/319
