@@ -5,7 +5,12 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0829.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408292-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408292-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408292-NasDHSolutions.json)
+## 3.24.0830.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408300-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408300-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32408300-NasDHSolutions.json)
+- ✨: Prescription thực hiện theo mẫu XtraReport chung theo [Mô tả giấy CNPT tự thiết kế](https://github.com/dh-hos/Mo-ta-he-thong/blob/main/Vuong-mo_ta-giay-CNPT-tu-thiet-ke.md)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/614
+![](https://i.imgur.com/TNzTIQl.png)
+![](https://i.imgur.com/JtNfFP8.png)
+## [v.3.24.0829.2]()
 - 🐛: Fix - Chức năng xóa chuyển phòng, xóa luôn quá trình điều trị của bệnh nhân ở phòng được chuyển
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/297
 ## [v.3.24.0829.1]()
