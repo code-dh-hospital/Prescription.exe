@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0909.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409090-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409090-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409090-NasDHSolutions.json)
+## 3.24.0909.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409091-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409091-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409091-NasDHSolutions.json)
+- 🐛: Fix - Lỗi hiệu chỉnh thông tin BANT không tìm thấy thông tin bệnh nhân (Load đủ thông tin đối với bệnh nhân đã kết thúc điều trị)
+![](https://i.imgur.com/52iDXsQ.png)
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/325
+## [v.3.24.0909.0]()
 - 🐛: Fix - Lỗi hiệu chỉnh thông tin BANT không tìm thấy thông tin bệnh nhân (nếu ra viện rồi, thì vô chức năng `Hiệu chỉnh TT`, vẫn lấy thông tin dữ liệu của chính ngay bệnh nhân đó, nhưng khi sử dụng chức năng Hiệu chỉnh trên form này thì cảnh báo bệnh nhân đã ra viện không thể điều chỉnh)
 ![](https://i.imgur.com/ExF0uWX.png)
 ![](https://i.imgur.com/fk2HDD3.png)
