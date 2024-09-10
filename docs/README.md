@@ -5,7 +5,12 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0910.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409100-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409100-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409100-NasDHSolutions.json)
+## 3.24.0910.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409101-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409101-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409101-NasDHSolutions.json)
+- ✨: Đối với những loại thuốc có số lượng uống nhỏ hơn số ngày uống thì vẫn lấy liều dùng tự động không ràng buộc theo số lượng
+- ✨: Thay cụm từ Chỉ định thành Cách dùng cho phù hợp với Quyết định 4750 (Một số phản ánh từ các đơn vị)
+![](https://i.imgur.com/oTVDfNA.png)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/637
+## [v.3.24.0910.0]()
 - ✨: Thực hiện kiểm tra khi xuất viện xong đã có hồ sơ trong XML130.bang1
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/633
 - ✨: Thực hiện xóa hồ sơ XML4750 khi thực hiện trả về điều trị BA Ngoại trú
