@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0911.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409110-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409110-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409110-NasDHSolutions.json)
+## 3.24.0912.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409120-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409120-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409120-NasDHSolutions.json)
+- 🐛: Fix -Chức năng in tổng kết bệnh án ngoại trú phát sinh lỗi khi in tổng kết và tắt form
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/328
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/327
+## [v.3.24.0911.0]()
 - ✨: Thay đổi text hiển thị `Chỉ định` thành `cách dùng` trên danh sách toa thuốc
 ![](https://i.imgur.com/zLtJYZt.png)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/637
