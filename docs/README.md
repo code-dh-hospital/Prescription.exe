@@ -5,7 +5,31 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0913.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409130-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409130-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409130-NasDHSolutions.json)
+## 3.24.0914.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409140-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409140-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409140-NasDHSolutions.json)
+- ✨: Merge code
+## [v.3.24.0913.0]()
+- 🐛: Sửa lỗi: Form cập nhật thông tin chỉ định giải phẫu bệnh sinh thiết đã lập, khi đóng form mở lại bị thiếu chẩn đoán.
+- ![](https://i.imgur.com/Zj0ODxE.png)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/629 
+## [v.3.24.0912.0]()
+- 🐛: Fix -Chức năng in tổng kết bệnh án ngoại trú phát sinh lỗi khi in tổng kết và tắt form
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/328
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/327
+## [v.3.24.0911.0]()
+- ✨: Thay đổi text hiển thị `Chỉ định` thành `cách dùng` trên danh sách toa thuốc
+![](https://i.imgur.com/zLtJYZt.png)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/637
+## [v.3.24.0910.1]()
+- ✨: Đối với những loại thuốc có số lượng uống nhỏ hơn số ngày uống thì vẫn lấy liều dùng tự động không ràng buộc theo số lượng
+- ✨: Thay cụm từ Chỉ định thành Cách dùng cho phù hợp với Quyết định 4750 (Một số phản ánh từ các đơn vị)
+![](https://i.imgur.com/oTVDfNA.png)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/637
+## [v.3.24.0910.0]()
+- ✨: Thực hiện kiểm tra khi xuất viện xong đã có hồ sơ trong XML130.bang1
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/633
+- ✨: Thực hiện xóa hồ sơ XML4750 khi thực hiện trả về điều trị BA Ngoại trú
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/641
+## [v.3.24.0913.0]()
 - 🐛: Sửa lỗi: Form cập nhật thông tin chỉ định giải phẫu bệnh sinh thiết đã lập, khi đóng form mở lại bị thiếu chẩn đoán.
 - ![](https://i.imgur.com/Zj0ODxE.png)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/629 
@@ -70,7 +94,6 @@
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/311
 ![](https://i.imgur.com/1fj2rb6.png)
 ![](https://i.imgur.com/SYmMOT5.png)
-<<<<<<< HEAD
 ## [v.3.24.0827.0]()
 - ✨: Thực hiện - Hỗ trợ nhập chẩn đoán phụ trên chức năng Kết thúc BANT
 - ✨: Thực hiện hỗ trợ gõ chức năng CĐ Phụ giống như phần thay đổi diễn biến bệnh
@@ -78,12 +101,10 @@
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/311
 ![](https://i.imgur.com/1fj2rb6.png)
 ![](https://i.imgur.com/SYmMOT5.png)
-=======
 ## [v.3.24.0826.5]()
 - ✨: **💼**: **_Yêu cầu - Bổ sung thêm chức năng lưu Loại bênh nhân 4750_**
 - ✨:![](https://i.imgur.com/Q7Wf2qI.png) ![](https://i.imgur.com/G8lPJ5H.png)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/595
->>>>>>> 35907839c78f73860b2854009b757b7881a6dbfe
 ## [v.3.24.0826.4]()
 - 🐛: Fix - Lỗi BANT sai trạng thái ra viện khi dùng chức năng thanh toán tháng
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/319
@@ -155,18 +176,15 @@
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/465
 ![](https://i.imgur.com/y1wgI5n.png)
 ![](https://i.imgur.com/6dIT9fK.png)
-<<<<<<< HEAD
 ## [v.3.24.0820.0]()
 - 🐛: Fix - tắt Form khám bệnh vào xem lại mất chẩn đoán chọn kết thúc.
 ![](https://i.imgur.com/y1wgI5n.png)
 - 🐛: Fix - Chức năng chuyển phòng Form danh sách khám bệnh vẫn cho phép chuyển bệnh nhân đã xác nhận kết thúc khám.
 ![](https://i.imgur.com/6dIT9fK.png)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/465
-=======
 ## [v.3.24.0819.3]()
 - 🐛: Fix lỗi in toa bệnh nhân chỉ có năm sinh
 - ☑: https://github.com/dh-hos/To_Ho_Tro/issues/72
->>>>>>> 4e722dcccc2eebba9d99881e2d3897a08e1cda44
 ## [v.3.24.0819.2]()
 - 🐛: Fix lỗi khi nhập lý do vào viện là khoảng trắng thì vẫn lưu được trên form nhập viện và BA ngoại trú
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/594
@@ -390,7 +408,6 @@
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/493
 ![](https://i.imgur.com/LzPS9ba.png)
 ![](https://i.imgur.com/E56rkKZ.png)
-<<<<<<< HEAD
 ## [v.3.24.0724.1]()
 - ✨: Nếu người dùng không phân liều: cả 4 ô bằng 0 hoặc rỗng --> không bắt số lượng và không hỗ trợ ghép liều dùng (liều dùng rỗng).
 - ✨: Hỗ trợ phím tắt để người dùng có thể bỏ qua việc phân liều thay vì nhấn enter 4 lần như hiện tại(nhập số lượng xong ấn F4).
@@ -405,11 +422,9 @@
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/493
 ![](https://i.imgur.com/LzPS9ba.png)
 ![](https://i.imgur.com/E56rkKZ.png)
-=======
 ## [v.3.24.0723.4]()
 - ✨: Ghi nhận ngày giờ nhập kết quả Xét nghiệm trong from ARV
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/513
->>>>>>> c5ac05cb9a09d56190c20e955b9eee33dfe032c4
 ## [v.3.24.0723.3]()
 - ✨: Ràng buộc không bỏ trống phương tiện vận chuyển khi lập phiếu chuyển tuyến (push lại)
 - ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/77
@@ -443,14 +458,11 @@
 ## [v.3.24.0721.0]()
 - 🐛: Fix Lỗi - Mở form khám bệnh (trường hợp check cấp cứu)  
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/279
-<<<<<<< HEAD
 ## [v.3.24.0721.0]()
 - 🐛: Fix Lỗi - Mở form khám bệnh (trường hợp check cấp cứu)  
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/279
-=======
 ## [v.3.24.0720.3]()
 - ✨: Hỗ trợ PK Phương Nam (96148), PK Nam Phương(96152) cập nhật các bệnh mãn tính
->>>>>>> 7e6ae77ee06006e71dea144f48d1e10b4b203554
 ## [v.3.24.0720.2]()
 - ✨: Cập nhật - Bổ sung chức năng hỗ trợ lấy dữ liệu [Tóm tắt kết quả CLS] - lấy đúng định dạng `[Tên CLS] : [Kết quả] ([Đơn vị đo])` và cách nhau bằng dấu `;`
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/474
@@ -500,10 +512,8 @@
 - 🐛: fix lỗi - chưa lập được phiếu PT-TT đối với CLS PT-TT không cấu hình loại PT trên danh mục
 - ☑: https://github.com/dh-hos/Yeu_cau_ho_tro/issues/182
 ## [v.3.24.0717.0]()
-<<<<<<< HEAD
 - 🐛: fix lỗi - chưa lập được phiếu PT-TT đối với CLS PT-TT không cấu hình loại PT trên danh mục
 - ☑: https://github.com/dh-hos/Yeu_cau_ho_tro/issues/182
-=======
 - 🐛: Form khám bệnh mất tab - push lại
 ## [v.3.24.0716.2]()
 - ✨: Hỗ trợ PK Phương Nam (96148) cập nhật các bệnh mãn tính
@@ -512,7 +522,6 @@
 - ✨: Thực hiện chức năng mở khóa bệnh nhân đã xác nhận kết thúc khám.
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/463
 ![](https://i.imgur.com/JSkHcJK.png)
->>>>>>> 84e2de1d0349a80b6ca2d138ddc2bb9cb87da8dc
 ## [v.3.24.0716.0]()
 - 🐛: Fix lỗi Form khám bệnh Prescription thống kê sai danh sách CLS (lặp lại nhiều lần)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/490
@@ -569,19 +578,16 @@
 - 🐛: Fix - báo lỗi khi cấp toa mà không nhập liều dùng.
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/464
 ![](https://i.imgur.com/tMDHDGQ.png)
-<<<<<<< HEAD
 ## [v.3.24.0710.0]()
 - 🐛: Fix - báo lỗi khi cấp toa mà không nhập liều dùng.
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/464
 ![](https://i.imgur.com/tMDHDGQ.png)
-=======
 ## [v.3.24.0710.2]()
 - ✨: Test msbuild
 ## [v.3.24.0710.1]()
 - ✨: Test msbuild
 ## [v.3.24.0710.0]()
 - ✨: Test msbuild
->>>>>>> b5b00ca62ecc383c044d040d18d6d831fc9d56f3
 ## [v.3.24.0709.3]()
 - 🐛: Fix lỗi - Thủ thuật đã lập phiếu rồi nhưng vẫn báo chưa thực hiện không thể ra toa Prescription.
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/452
@@ -623,11 +629,9 @@
 ## [v.3.24.0704.1]()
 - 🐛: Bổ sung tham số ktsinhhieu.customize: Kiểm tra thông tin sinh hiệu tùy chọn (Các chỉ số: chieucao|cannang|vongnguc|vongdau|huyetap|nhietdo|mach|nhiptho|hb|fio2|nhomau cách nhau [|], ví dụ: chieucao|cannang - là bắt buộc nhập chiều cao, cân nặng)
 - ☑: https://github.com/dh-hos/To_Ho_Tro/issues/37
-<<<<<<< HEAD
 ## [v.3.24.0704.0]()
 - 🐛: Bổ sung tham số ktsinhhieu.customize: Kiểm tra thông tin sinh hiệu tùy chọn (Các chỉ số: chieucao|cannang|vongnguc|vongdau|huyetap|nhietdo|mach|nhiptho|hb|fio2|nhomau cách nhau [|], ví dụ: chieucao|cannang - là bắt buộc nhập chiều cao, cân nặng)
 - ☑: https://github.com/dh-hos/To_Ho_Tro/issues/37
-=======
 ## [v.3.24.0703.1]()
 - ✨:  chỉnh lại kiểm tra thời gian khám với đối tượng BHYT, bổ sung tham số `checktime.bhyt` cho đơn vị chọn kiểm hay không kiểm thời gian này.
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/440
@@ -644,7 +648,6 @@
 - 🐛: KHÔNG HIỆN FORM CHỌN PHÒNG CẤP STT CLS - BV QUẬN 12
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/263
 ![](https://i.imgur.com/9NWxuUs.png)
->>>>>>> 2e06fd9ef10411182b1571c2b51a0ea4822c7d4a
 ## [v.3.24.0702.0]()
 - ✨: Bổ sung chức năng chọn mã máy khi thực hiện PT, TT
 - ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/34
@@ -652,20 +655,17 @@
 ## [v.3.24.0701.2]()
 - ✨: `Gọi hàm MarkCheckInCanLamSang(String macls)` khi thực lưu chỉ định cls thành công
 - ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/32
-<<<<<<< HEAD
 ## [v.3.24.0701.1]()
 - ✨: `Gọi hàm MarkCheckInCanLamSang(String macls)` khi thực lưu chỉ định cls thành công
 - ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/32
 ## [v.3.24.0701.0]()
 - ✨: `Gọi hàm MarkCheckInCanLamSang(String macls)` khi thực lưu chỉ định cls thành công
 - ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/32
-=======
 ## [v.3.24.0701.0]()
 - ✨: Ghi nhận XML4750 trong schema xml130
 - ☑: https://github.com/dh-hos/THEO-DOI-THUC-HIEN-4750/issues/32
 - ☑: https://github.com/dh-hos/To_Ho_Tro/issues/20
 - ☑: https://github.com/dh-hos/To_Trien_Khai/issues/57
->>>>>>> 763290aca0332503bcdb7851397c658a827e3dad
 ## [v.3.24.0629.2]()
 - ✨: Bổ sung tham số ktsinhhieu.customize: cho phép cấu hình bắt buộc nhập tùy nhu cầu các chỉ số sinh hiệu
 
@@ -712,15 +712,12 @@
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/231
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/246
 ## [v.3.24.0625.0]()
-<<<<<<< HEAD
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/231
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/246
-=======
 - ✨: Thêm chức năng để tùy chọn in hay preview để set ngayinphieu trong psdangky
 - 🐛: Lỗi - Bảng kê 6556 bệnh nhân ngoại trú thu phí in không có ngày kết thúc
 - ![](https://i.imgur.com/fdDTJKx.gif)
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/258
->>>>>>> ee63750b47f33d477ae5c018110dbf2b050622d2
 ## [v.3.24.0624.5]()
 - 🐛: Fix - Chức năng hiệu chỉnh tại From nhập viện chưa bắt theo ràng buộc khi nhập CMND
 - ☑: https://github.com/dh-hos/To_Ho_Tro/issues/30
@@ -819,17 +816,14 @@
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/407
 ![](https://i.imgur.com/jLiQC6Y.png)
 ## [v.3.24.0618.0]()
-<<<<<<< HEAD
 - ✨: Thêm para pTenThanhVien trên mẫu hội chẩn - chỉ lấy tên thành viên không kèm chức vụ
 - 🐛: Mẫu trích BBHC tự thiết kế áp dụng theo tham số hoichan.customize = 0.
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/407
 ![](https://i.imgur.com/jLiQC6Y.png)
-=======
 - 🐛: Lỗi - Trùng chẩn đoán chính và chẩn đoán kèm theo bệnh nhân khám nhiều phòng
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/253 
 - ![](https://i.imgur.com/493rDKv.png)
 - 📕: Xử lý trim khoảng trắng trước và sau trước khi replace, để loại bỏ trùng
->>>>>>> 976d02654a2aea058197be3de70cab9618201901
 ## [v.3.24.0617.2]()
 - 🐛: Fix lỗi chọn ngày bắt đầu và kết thúc khi chọn combo loại báo cáo
 - ☑: https://github.com/dh-hos/dhg.hospitalreports/issues/116
@@ -920,28 +914,23 @@
 ## [v.3.24.0521.3]()
 - ✨: Thêm mẫu tự thiết kế Biên bản hội chẩn và Trích Biên bản hội chẩn
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/346
-<<<<<<< HEAD
+
 ## [v.3.24.0521.3]()
 - ✨: Thêm mẫu tự thiết kế Biên bản hội chẩn và Trích Biên bản hội chẩn
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/346
 ## [v.3.24.0521.2]()
 - ✨: Thêm mẫu tự thiết kế Biên bản hội chẩn và Trích Biên bản hội chẩn
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/346
-=======
 ## [v.3.24.0521.2]()
 - 🐛: Fix báo cáo bệnh nhân OPC
 - ☑:  https://github.com/dh-hos/dhg.hospitalprescription/issues/249
-<<<<<<< HEAD
 ## [v.3.24.0521.0]()
 - 🐛: Fix báo cáo bệnh nhân OPC
 - ☑:  https://github.com/dh-hos/dhg.hospitalprescription/issues/249
-=======
->>>>>>> 04099f9c88460cbcec2ee0395d6d66127989b201
 ## [v.3.24.0521.1]()
 - ✨: test2
 ## [v.3.24.0521.0]()
 - ✨: test
->>>>>>> b4ad3b18a84fe773fcbbcccc2f71f86a4fa6fd54
 ## [v.3.24.0517.0]()
 - 🐛: Fix lỗi chức năng Hiệu chỉnh thông tin, lỗi khi lưu chỉnh sửa đối tượng và tiền công khám
 - ☑: https://github.com/dh-hos/dhg.hospitalregister/issues/67
