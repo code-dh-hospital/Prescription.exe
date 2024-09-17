@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0916.3 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409163-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409163-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409163-NasDHSolutions.json)
+## 3.24.0917.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409170-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409170-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409170-NasDHSolutions.json)
+- 🐛: Fix - Lỗi BANT khi Kết thúc ĐT vào hồ sơ - Tờ Bệnh án ngoại trú Chẩn đoán ra viện - Chẩn đoán phụ không hiển thị mã chẩn đoán
+![](https://i.imgur.com/iDvm7pS.png)
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/329
+## [v.3.24.0916.3]()
 - 🐛: **💼**: **_Lỗi - BANT MÃ CHẨN ĐOÁN PHỤ KHÔNG HIỂN THỊ_**
 - 🐛: Hỗ trợ thể hiện trang in sau khi thiết kế 
 - 🐛: Fix lỗi Chọn in Tổng kết lần 2, không hỏi thiết kế trang in ![](https://i.imgur.com/lsY8Hdy.png) ![](https://i.imgur.com/PHBWTZ4.png)
