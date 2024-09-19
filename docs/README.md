@@ -5,7 +5,13 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.0919.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409190-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409190-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409190-NasDHSolutions.json)
+## 3.24.0919.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409191-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409191-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32409191-NasDHSolutions.json)
+- ✨: Thực hiện gởi tối đa 12 ICD
+- 🐛: Fix - Kiểm tra ICD theo mã khám bệnh (bant hàng ngày) và mã bệnh án (bant theo đợt)
+- 🐛: Fix - Lỗi khi bấm vào QT Điều Trị load sai thông tin
+![](https://i.imgur.com/CF5Naoh.png)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/608
+## [v.3.24.0919.0]()
 - 🐛: Lỗi - chức năng ra toa thuốc không lấy được thuốc còn tồn kho (BV Hồng Dân) #332
 ![](https://i.imgur.com/A9hcx6i.png)
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/332
