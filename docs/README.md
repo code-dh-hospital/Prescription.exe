@@ -5,7 +5,14 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1003.3 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410033-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410033-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410033-NasDHSolutions.json)
+## 3.24.1003.4 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410034-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410034-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410034-NasDHSolutions.json)
+- ✨: Thêm các para Hổ trợ xuống dòng khi lấy tên thành viên.
+`pTenThanhVien_1` : Mỗi tên thành viên cách nhau 1 dòng.
+`pTenThanhVien_2` : Mỗi tên thành viên cách nhau 2 dòng.
+`pTenThanhVien_3` : Mỗi tên thành viên cách nhau 3 dòng.
+![](https://i.imgur.com/vpWsnYB.png)
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/342
+## [v.3.24.1003.3]()
 - ✨: Thực hiện Yêu cầu - MẪU HỘI CHẨN - CHỪA KHOẢNG TRỐNG KÝ TÊN CHỖ THÀNH VIÊN
 ![](https://i.imgur.com/YBQCOg5.png)
 - ✨: Trích BBHC : Chủ Tọa và Thư Ký bỏ Chức danh phía sau tên
