@@ -5,7 +5,15 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1008.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410081-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410081-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410081-NasDHSolutions.json)
+## 3.24.1008.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410082-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410082-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410082-NasDHSolutions.json)
+- ✨: Presctiption - Thực hiện - Mô tả ICD10 theo QĐ 4469 - BYT
+https://github.com/dh-hos/Mo-ta-he-thong/blob/main/ICD/ICD10-quyet-dinh-4469-BYT.md
+- Trường hợp `current.dmicd.cdc_loaitru = 1` và tham số `icd.loaitru.chandoanchinh = 1` Cảnh báo mã ICD không được phép chọn làm chẩn đoán chính -> vẫn cho phép lưu chẩn đoán.
+![](https://i.imgur.com/4ZWpalZ.png)
+- Trường hợp `current.dmicd.cdc_loaitru = 1` và tham số `icd.loaitru.chandoanchinh = 2` Cảnh báo mã ICD không được phép chọn làm chẩn đoán chính -> Không cho phép lưu chẩn đoán.
+![](https://i.imgur.com/Nle5JHp.png)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/677
+## [v.3.24.1008.1]()
 - 🐛: Fix lỗi - Lưu khám bệnh thì có cảnh báo có muồn thay đổi ngày hẹn không, nếu chọn ngày hẹn khác thì lưu lại ok, còn trường hợp nếu BS không muốn hẹn, chọn Không thì phần mềm không cho lưu
 - Xữ lý khi có cảnh báo đã hẹn tái khám, nếu bác sĩ chọn không thay đổi thì hiển thị lại ngày hẹn củ
 ![](https://i.imgur.com/pWSbITo.gif)
