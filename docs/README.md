@@ -5,7 +5,10 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1008.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410082-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410082-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410082-NasDHSolutions.json)
+## 3.24.1008.3 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410083-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410083-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410083-NasDHSolutions.json)
+- 🐛: Lỗi - PHÁT SINH LỖI KHI VÀO MENU KHÁM BỆNH
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/347
+## [v.3.24.1008.2]()
 - ✨: Presctiption - Thực hiện - Mô tả ICD10 theo QĐ 4469 - BYT
 https://github.com/dh-hos/Mo-ta-he-thong/blob/main/ICD/ICD10-quyet-dinh-4469-BYT.md
 - Trường hợp `current.dmicd.cdc_loaitru = 1` và tham số `icd.loaitru.chandoanchinh = 1` Cảnh báo mã ICD không được phép chọn làm chẩn đoán chính -> vẫn cho phép lưu chẩn đoán.
