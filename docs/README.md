@@ -5,7 +5,14 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1010.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410100-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410100-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410100-NasDHSolutions.json)
+## 3.24.1010.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410101-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410101-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410101-NasDHSolutions.json)
+- 🐛: Gọi hàm `MarkCheckInCanlamsang()` khi lưu khám bệnh không áp dụng cho 2 trường hợp xử trí `02:nhập viện` và `07:Bệnh án ngoại trú`.
+- 🐛: Gọi hàm `MarkRavien()` Khi kết thúc bệnh án trên form (`FrmTKBANTChung`, `FrmTKBANTRHM`, `FrmTKBANTTMH`, `FrmTKBANTMat`,`FrmTKBANTYHCT`). 
+		- Đối với BANT theo ngày `LoaiHoSoKCB = NGOAI_TRU`.
+		- Đối với BANT theo đợt  `LoaiHoSoKCB = BA_NGOAI_TRU`.
+- 🐛: Gọi hàm `MarkRavien()` Khi chỉnh `Ngày KT` trên form `Bệnh án ngoại trú` và lưu lại.
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/688
+## [v.3.24.1010.0]()
 - ✨: Bổ sung chức năng checkIn Cận lâm sàng - dịch vụ
 ![](https://i.imgur.com/4X6lvu6.gif)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/686
