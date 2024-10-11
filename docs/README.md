@@ -5,7 +5,17 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1010.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410101-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410101-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410101-NasDHSolutions.json)
+## 3.24.1011.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410110-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410110-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410110-NasDHSolutions.json)
+- ✨: Thực hiện - Quản lý tồn kho dựa vào trạng thái cân kho
+- ✨: Khi thực hiện `ra toa tủ trực` bổ sung ghi nhận mã tủ trực vào cột current.tkdatatemp.tutruc
+![](https://i.imgur.com/vwAwVpk.png)
+- ✨: Kiểm tra `current.tkdatatemp.da_can_kho <> 1` thì xữ lý như hiện tại. Ngược lại thì xử lý như sau:
+- `Thao tác lưu`: Tiếp tục trừ kho thêm 1 lần nữa khi xóa dữ liệu bảng `current.tkdatatemp`
+![](https://i.imgur.com/bOmk3ga.gif)
+- `Thao tác bỏ qua`, `xử lý xóa dữ liệu bảng tạm `(Trường hợp hai thao tác `Lưu` và `Bỏ qua` chưa hoàn thành khi thao tác): Không trừ kho khi xóa dữ liệu bảng `current.tkdatatemp`
+![](https://i.imgur.com/wsUFGIt.gif)
+- ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/668
+## [v.3.24.1010.1]()
 - 🐛: Gọi hàm `MarkCheckInCanlamsang()` khi lưu khám bệnh không áp dụng cho 2 trường hợp xử trí `02:nhập viện` và `07:Bệnh án ngoại trú`.
 - 🐛: Gọi hàm `MarkRavien()` Khi kết thúc bệnh án trên form (`FrmTKBANTChung`, `FrmTKBANTRHM`, `FrmTKBANTTMH`, `FrmTKBANTMat`,`FrmTKBANTYHCT`). 
 		- Đối với BANT theo ngày `LoaiHoSoKCB = NGOAI_TRU`.
