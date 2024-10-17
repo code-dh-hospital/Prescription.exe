@@ -5,7 +5,10 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1017.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410171-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410171-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410171-NasDHSolutions.json)
+## 3.24.1017.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410172-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410172-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410172-NasDHSolutions.json)
+- ✨: Hiển thị chỉ thị màu phân biệt loại bệnh nhân té ngã - 92118: Phụ sản Cần Thơ
+
+## [v.3.24.1017.1]()
 - ✨: Lỗi - Toa thuốc lấy sai chẩn đoán của bệnh nhân (BV Phụ Sản)
 ![](https://i.imgur.com/ZJqTC4W.png)
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/358
