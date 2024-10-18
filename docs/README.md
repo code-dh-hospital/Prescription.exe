@@ -5,9 +5,20 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1017.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410172-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410172-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410172-NasDHSolutions.json)
+## 3.24.1018.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410180-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410180-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410180-NasDHSolutions.json)
+- 🐛: Fix Lỗi - chức năng thanh toán tháng bệnh án ngoại trú theo đợt không tự sinh ra bệnh án mới khi hoàn thành kết thúc bệnh án cũ
+![](https://i.imgur.com/w6umn6y.png)
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/351
+<<<<<<< HEAD
+## [v.3.24.1018.0]()
+- 🐛: Fix Lỗi - chức năng thanh toán tháng bệnh án ngoại trú theo đợt không tự sinh ra bệnh án mới khi hoàn thành kết thúc bệnh án cũ
+![](https://i.imgur.com/w6umn6y.png)
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/351
+=======
+## [v.3.24.1017.2]()
 - ✨: Hiển thị chỉ thị màu phân biệt loại bệnh nhân té ngã - 92118: Phụ sản Cần Thơ
 
+>>>>>>> 2a233e1e2e3c35ad381474fd2586ea8e6fbf2ed3
 ## [v.3.24.1017.1]()
 - ✨: Lỗi - Toa thuốc lấy sai chẩn đoán của bệnh nhân (BV Phụ Sản)
 ![](https://i.imgur.com/ZJqTC4W.png)
