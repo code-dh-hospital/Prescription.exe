@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1018.3 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410183-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410183-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410183-NasDHSolutions.json)
+## 3.24.1018.4 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410184-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410184-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410184-NasDHSolutions.json)
+- ✨: `--- 🐛: **💼**: **_Lỗi - Phần mềm xuất XML 4750 sai mã bệnh chính và mã bệnh kèm theo khi bệnh nhân khám nhiều phòng_**
+- 🐛: ***Chỉnh lỗi khi in phiếu 01 không sinh đúng dữ liệu XML4750 và chẩn đoán bị sai*** ![](https://i.imgur.com/cRXTjTR.png) ![](https://i.imgur.com/mQ29Ykw.png)
+- ☑: https://github.com/dh-hos/dhg.hospitalprinter/issues/174 
+## [v.3.24.1018.3]()
 - 🐛: Lỗi - Bệnh nhân không có xác nhận kết thúc khám không chỉnh được chẩn đoán sau khi Printer mở khóa chứng từ và 1 số lỗi khác
 		+ Khi tham số xacnhanketthuckham = 2 Bệnh nhân khám bệnh xong không có xác nhận kết thúc khám-> in bảng kê 6556 , sau đó Printer mở khóa chứng từ bệnh nhân -> Prescription chỉnh chẩn đoán thì phần mềm báo bệnh nhân đã có xác nhận kết thúc khám và trong chức năng mở khóa kết thúc khám có check bệnh nhân đã kết thúc khám.
 		![](https://i.imgur.com/NEF8gI7.png)
