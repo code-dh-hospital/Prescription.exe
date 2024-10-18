@@ -5,7 +5,15 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1018.2 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410182-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410182-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410182-NasDHSolutions.json)
+## 3.24.1018.3 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410183-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410183-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410183-NasDHSolutions.json)
+- 🐛: Lỗi - Bệnh nhân không có xác nhận kết thúc khám không chỉnh được chẩn đoán sau khi Printer mở khóa chứng từ và 1 số lỗi khác
+		+ Khi tham số xacnhanketthuckham = 2 Bệnh nhân khám bệnh xong không có xác nhận kết thúc khám-> in bảng kê 6556 , sau đó Printer mở khóa chứng từ bệnh nhân -> Prescription chỉnh chẩn đoán thì phần mềm báo bệnh nhân đã có xác nhận kết thúc khám và trong chức năng mở khóa kết thúc khám có check bệnh nhân đã kết thúc khám.
+		![](https://i.imgur.com/NEF8gI7.png)
+		+ Khi tham số xacnhanketthuckham = 1 (Cảnh báo cho người dùng biết đã kết thúc hồ sơ bệnh án khi có chỉnh sửa).
+		![](https://i.imgur.com/pb02tvJ.png)
+		+ Bệnh nhân đã in bảng kê rồi mở khóa chứng từ thì trong chức năng mở khóa kết thúc khám có check bệnh nhân đã kết thúc khám cho dù bệnh nhân đó có kết thúc khám hay không.
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/357
+## [v.3.24.1018.2]()
 - 🐛: Fix lỗi - Ngoại trú - kiểm tra ICD chính
 ![](https://i.imgur.com/STopZeN.png)
 - 🐛: Fix lỗi - lỗi kiểm tra ICD (khi không có chẩn đoán phụ lấy sai số lượng dẫn đến không lưu được)
