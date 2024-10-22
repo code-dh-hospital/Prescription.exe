@@ -5,7 +5,11 @@
 <div align="center" style="font-size:xx-small">(✨: Tính năng, chức năng mới. 🐛: Chỉnh lỗi. ☑: Giải quyết công việc, issue) </div>
 
 #
-## 3.24.1022.0 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410220-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410220-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410220-NasDHSolutions.json)
+## 3.24.1022.1 [⬇️OneDrive](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410221-OneDrive.json) [⬇️GoogleStorage](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410221-GoogleStorage.json) [⬇️NasDHSolutions](https://dh-hos-code.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2F%2FdirectTo%2FPrescriptionexe%2F32410221-NasDHSolutions.json)
+- 🐛: Lỗi - BANT NGÀY, BA OPC XUẤT HIỆN NHIỀU DÒNG TẠI DANH SÁCH ĐĂNG KÝ
+![](https://i.imgur.com/xGC2sBD.png)
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/359
+## [v.3.24.1022.0]()
 - ✨: Yêu cầu - ĐIỀU CHỈNH LẠI CÁCH RÀNG BUỘC BỆNH NHÂN CHỈ CÓ PHIẾU THU TẠM ỨNG KHÔNG CHO CHỈNH ĐỐI TƯỢNG
 ![](https://i.imgur.com/VBXnkbB.gif)
 - ☑: https://github.com/dh-hos/To_Lap_Trinh/issues/712
