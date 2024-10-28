@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1028.5]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410285-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410285-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410285-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Không chỉ định được CLS khi bệnh nhân BHYT có toa mua ngoài
+![](https://i.imgur.com/eSFiw3l.gif)
+- ☑: https://github.com/dh-his/Ghi_Nhan_Loi/issues/15
+
 ## [v.3.24.1028.4]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410284-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410284-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410284-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription Bệnh án ngoại trú theo ngày phiếu hẹn tái khám không check được lý do vào viện 
 ![](https://i.imgur.com/gaetO54.png);
