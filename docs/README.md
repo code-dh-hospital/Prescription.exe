@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.24.1029.5]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410295-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410295-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410295-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Phát sinh lỗi khi thêm toa vật tư lấy từ tủ trực
+![](https://i.imgur.com/6SNi0Jo.png)
+- ☑: https://github.com/dh-his/Ghi_Nhan_Loi/issues/19
+- 🐛: Lỗi - Đối tượng thu phí chỉ định CLS thu phí phát sinh lỗi
+![](https://i.imgur.com/hbJxKVs.gif)
+- ☑: https://github.com/dh-his/Ghi_Nhan_Loi/issues/18
+
 ## [v.3.24.1029.4]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410294-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410294-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410294-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Phát sinh lỗi khi thêm toa vật tư lấy từ tủ trực
 ![](https://i.imgur.com/6SNi0Jo.png)
