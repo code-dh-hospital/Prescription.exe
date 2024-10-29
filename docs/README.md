@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.24.1029.1]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410291-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410291-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410291-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Ràng buộc dữ liệu khi nhập cân nặng.
+![](https://i.imgur.com/7NF7Boh.png)
+- ☑: https://github.com/dh-his/Ghi_Nhan_Loi/issues/12
+- 🐛: Lỗi - ĐKTP Cần Thơ - Chức năng THANH TOÁN THÁNG khi kết thúc BA cũ thiếu lưu trường QT_BENHLY và TOMTAT_KQ
+![](https://i.imgur.com/jGDyMzu.gif)
+- ☑: https://github.com/dh-his/Ghi_Nhan_Loi/issues/4
+
 ## [v.3.24.1029.0]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410290-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410290-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410290-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - ĐKTP Cần Thơ - Chức năng THANH TOÁN THÁNG khi kết thúc BA cũ thiếu lưu trường QT_BENHLY và TOMTAT_KQ
 ![](https://i.imgur.com/jGDyMzu.gif)
