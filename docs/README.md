@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1029.4]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410294-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410294-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410294-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Phát sinh lỗi khi thêm toa vật tư lấy từ tủ trực
+![](https://i.imgur.com/6SNi0Jo.png)
+- ☑: https://github.com/dh-his/Ghi_Nhan_Loi/issues/19
+
 ## [v.3.24.1029.3]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410293-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410293-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410293-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - ĐỐI TƯỢNG THU PHÍ CHỈ ĐỊNH CLS THU PHÍ PHÁT SINH LỖI
 ![](https://i.imgur.com/hbJxKVs.gif)
