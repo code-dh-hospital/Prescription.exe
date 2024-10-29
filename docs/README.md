@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1029.0]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410290-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410290-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410290-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - ĐKTP Cần Thơ - Chức năng THANH TOÁN THÁNG khi kết thúc BA cũ thiếu lưu trường QT_BENHLY và TOMTAT_KQ
+![](https://i.imgur.com/jGDyMzu.gif)
+- ☑: https://github.com/dh-his/Ghi_Nhan_Loi/issues/4
+
 ## [v.3.24.1028.5]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410285-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410285-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32410285-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Không chỉ định được CLS khi bệnh nhân BHYT có toa mua ngoài
 ![](https://i.imgur.com/eSFiw3l.gif)
