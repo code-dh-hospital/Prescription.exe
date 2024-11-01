@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.24.1101.5]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411015-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411015-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411015-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Công khám chưa thu tiền không chuyển vào được nội trú
+- Cảnh báo công khám đã in
+![](https://i.imgur.com/PnTdtuY.png)
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/366
+
+## [v.3.24.1101.4]()
+- 🐛: Lỗi - Công khám chưa thu tiền không chuyển vào được nội trú
+- Cảnh báo công khám đã in
+![](https://i.imgur.com/PnTdtuY.png)
+- ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/366
+
 ## [v.3.24.1101.3]() <sub><sup><sup>[⬇️OneDrive](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411013-OneDrive.json) [⬇️GoogleStorage](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411013-GoogleStorage.json) [⬇️NasDHSolutions](https://tolaptrinh.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411013-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Công khám chưa thu tiền không chuyển vào được nội trú
 - Cảnh báo công khám đã in
