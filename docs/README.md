@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.24.1115.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411151-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu Cầu - BV Nghĩa Hành yêu cầu Prescription tăng kích thước ô nhập trình tự phẫu thuật/thủ thuật form lập phiếu Phẫu thuật
+![](https://i.imgur.com/IRwFCRL.gif)
+
+## [v.3.24.1115.0]()
+- ✨: Yêu Cầu - BV Nghĩa Hành yêu cầu Prescription tăng kích thước ô nhập trình tự phẫu thuật/thủ thuật form lập phiếu Phẫu thuật
+![](https://i.imgur.com/IRwFCRL.gif)
+
 ## [v.3.24.1114.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411141-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription khi chỉnh toa và thêm thuốc mới
 ![](https://i.imgur.com/6mm2vIX.gif)
