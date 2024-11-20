@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411200-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - form đăng ký load thông tin ngày cấp - nơi cấp CCCD đã đăng ký trước đó khi đăng ký lại bằng mabn
+![](https://i.imgur.com/QyKA5SJ.gif)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/9
+
 ## [v.3.24.1119.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411193-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411193-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411193-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Trường XML1.MA_BENH_YHCT không lấy được mã yhct đã chỉ định (BV Hồng Ngự) ![](https://i.imgur.com/USUxBqr.png)
 - ☑: https://github.com/dhhiswork/Loi/issues/14
