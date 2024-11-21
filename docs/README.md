@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1121.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411211-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411211-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411211-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - REGISTER VÀ PRECRIPTION BỘ CLS SẮP XẾP MÃ BỘ THEO THỨ TỰ A-Z
+![](https://i.imgur.com/G0Rap1I.png)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/6
+
 ## [v.3.24.1121.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411210-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Yêu cầu - REGISTER VÀ PRECRIPTION BỘ CLS SẮP XẾP MÃ BỘ THEO THỨ TỰ A-Z
 ![](https://i.imgur.com/G0Rap1I.png)
