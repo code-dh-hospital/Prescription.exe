@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1121.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411213-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411213-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411213-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: CLS đã trả kết quả khi chỉ định thêm CLS đó thì phần mềm báo CLS đã chỉ định nhưng chưa thực hiện không thêm được
+![](https://i.imgur.com/XV6gvKx.gif)
+- ☑: https://github.com/dhhiswork/Loi/issues/23
+
 ## [v.3.24.1121.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411212-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411212-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411212-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Test: Register, Prescription: Nhận bệnh bệnh nhân Lãnh thuốc Lao không ghi nhận được ngày cấp giấy chứng nhận Lao 
 ![](https://i.imgur.com/FRiR0HC.gif)
