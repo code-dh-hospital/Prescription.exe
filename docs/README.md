@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1125.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411251-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Services gửi tự động Checkin: Prescription không ghi nhận được mã CLS có mã BYT để gửi checkin khi bệnh nhân có chỉ định CLS tự do không có mã BYT
+- 🐛: Xử lý đánh dấu checkin đối với những CLS được thanh toán BHYT 
+- ☑: https://github.com/dhhiswork/Loi/issues/38
+
 ## [v.3.24.1125.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411250-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription BANT Theo đợt không lấy được tên chẩn đoán chính ![](https://i.imgur.com/PRwxeCV.png)
 - ☑ : https://github.com/dhhiswork/Loi/issues/18
