@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.24.1125.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411252-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411252-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411252-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: `Fix lỗi - Treo module khi bấm menu Khám bệnh`
+- ![](https://www.dropbox.com/scl/fi/7v4ydp0padkmkssvb6p9i/Prescription.vshost_VmddO9aght.mp4?rlkey=z0f5j8rd991qdnwo8xb55724x&dl=0)
+- ☑: `https://github.com/dhhiswork/Loi/issues/13`
+
+
+- 🐛: Lỗi - Services gửi tự động Checkin: Prescription không ghi nhận được mã CLS có mã BYT để gửi checkin khi bệnh nhân có chỉ định CLS tự do không có mã BYT
+- 🐛: Xử lý đánh dấu checkin đối với những CLS được thanh toán BHYT 
+- ☑: https://github.com/dhhiswork/Loi/issues/38
+
 ## [v.3.24.1125.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411251-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Services gửi tự động Checkin: Prescription không ghi nhận được mã CLS có mã BYT để gửi checkin khi bệnh nhân có chỉ định CLS tự do không có mã BYT
 - 🐛: Xử lý đánh dấu checkin đối với những CLS được thanh toán BHYT 
