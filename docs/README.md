@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1125.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411253-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411253-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411253-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: `Fix lỗi - Treo module khi bấm menu Khám bệnh`
+- ![](https://www.dropbox.com/scl/fi/7v4ydp0padkmkssvb6p9i/Prescription.vshost_VmddO9aght.mp4?rlkey=z0f5j8rd991qdnwo8xb55724x&dl=0)
+- ☑: https://github.com/dhhiswork/Loi/issues/13
+
 ## [v.3.24.1125.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411252-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411252-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411252-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: `Fix lỗi - Treo module khi bấm menu Khám bệnh`
 - ![](https://www.dropbox.com/scl/fi/7v4ydp0padkmkssvb6p9i/Prescription.vshost_VmddO9aght.mp4?rlkey=z0f5j8rd991qdnwo8xb55724x&dl=0)
