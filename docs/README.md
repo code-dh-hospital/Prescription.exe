@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1127.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411271-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411271-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411271-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:Fix lỗi - Tờ điều trị trên Prescription không lấy được ghi chú vào cột y lệnh đối với trường hợp qtdieutri.ylenh không có giá trị
+![](https://i.imgur.com/YvEgT08.gif)
+- ☑: https://github.com/dhhiswork/Loi/issues/32
+
 ## [v.3.24.1127.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411270-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: BV Ung Bướu lỗi phần mềm tự lấy ngày hẹn tái khám khi cấp toa, hiển thị sai ngày hẹn
 ![](https://i.imgur.com/AKawly1.gif)
