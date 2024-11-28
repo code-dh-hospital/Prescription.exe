@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.24.1128.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411280-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Register, Prescription không nhập được cân nặng với 4 kí tự
+- 🐛: Kiểm tra cân nặng vượt quá 200 thì cảnh báo
+![](https://i.imgur.com/El7nflk.png)
+- ☑: https://github.com/dhhiswork/Loi/issues/35
+
 ## [v.3.24.1127.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411272-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411272-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411272-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - BỔ SUNG NGÀY CẤP - NƠI CẤP CỦA CMND TRONG FROM HIỆU CHỈNH THÔNG TIN 
 ![](https://i.imgur.com/pR3bRVS.png)
