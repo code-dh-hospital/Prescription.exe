@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.24.1130.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411300-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Cập nhật thời gian SMS hẹn chính xác đến giờ, phút ![](https://i.imgur.com/Dt2dZwi.png)
+- ✨: Bổ sung thêm loại mới Thử thai đối với tin nhắn khoa Hỗ trợ sơ sinh. Bổ sung các para để tạo nội dung tin nhắn: {pGioTaiKham}, {pGioPhutTaiKham}, {pGioPhutGiayTaiKham} lấy theo định dạng giờ 24.
+```sql
+INSERT INTO current.smsmau
+	(loaisms,noidung,masms,templatebv,addday1)
+VALUES
+	('Thử thai','BV PHU SAN TPCT kinh moi quy khach {pHoTenKhachHang} den thu thu thai vao ngay {pNgayTaiKham} tai khoa Ho tro sinh san. HOTLINE: 19008665.Tran trong!',
+    'ivf.thu_thai',
+    'BV PHU SAN TPCT kinh moi quy khach {pHoTenKhachHang} den thu thu thai vao ngay {pNgayGioTaiKham} tai khoa Ho tro sinh san. HOTLINE: 19008665.Tran trong!',-2)
+```
+- ✨: Nội dung template có thể chỉnh sửa bằng chương trình quản lý SMS (nếu hông có thể chỉnh noidung, templatebv trong bảng current.smsmau )
+- ✨: Các para hỗ trợ: {pHoTenKhachHang} {pTenMuiTiemNgua} {pNamSinh} {pTenKhoaTK} {pGioTaiKham} {pGioPhutTaiKham} {pGioPhutTaiKham} {pGioPhutGiayTaiKham} {pNgayTaiKham}
+- ☑: https://github.com/dhhiswork/YeuCau/issues/31
+
 ## [v.3.24.1129.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32411291-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Reports XML4210 và XML4750 MA_BENHKHAC VÀ MA_BENH_KT ghi nhận luôn mã bệnh YHCT (PK Đông Tây) ![](https://i.imgur.com/AbsLJUr.png). 
 - 🐛: Lưu ý: Những hồ sơ đã lưu sai phải dùng chức năng đối soát để cập nhật lại.
