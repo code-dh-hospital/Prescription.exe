@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.24.1204.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412044-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412044-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412044-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi ngày hẹn tái khám khi xóa toa thuốc và thêm toa mới
+![](https://i.imgur.com/lPAR1Ih.gif)
+- 🐛: khi chỉnh hạn tái khám -> ngày hẹn không chạy theo (Lưu ý: hiện tại phần mềm chỉ cập nhật ngày hẹn tái khám mới khi ngày hẹn đó lớn hơn ngày hẹn hiện tại.)
+![](https://i.imgur.com/PFA5Y2z.gif)
+- ☑: https://github.com/dhhiswork/Loi/issues/60
+
 ## [v.3.24.1204.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412043-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412043-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412043-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Kiểm tra giờ ekip thực hiện Phẫu thuật, thủ thuật ![](https://i.imgur.com/NwSyXvF.png)
 - ☑: https://github.com/dhhiswork/To_lap_trinh/issues/6
