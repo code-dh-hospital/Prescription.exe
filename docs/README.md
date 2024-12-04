@@ -6,6 +6,10 @@
 
 #
 
+## [v.3.24.1204.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412043-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412043-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412043-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Kiểm tra giờ ekip thực hiện Phẫu thuật, thủ thuật ![](https://i.imgur.com/NwSyXvF.png)
+- ☑: https://github.com/dhhiswork/To_lap_trinh/issues/6
+
 ## [v.3.24.1204.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412042-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412042-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412042-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Trường hợp thêm chi phí Thuốc, Cận lâm sàng kiểm tra thêm trường hợp current.psdangky.ngayinphieu có giá trị (Đã thực hiện in phiếu) thì chỉ cho phép chỉnh sửa trên những chi phí hiện có. Đồng thời thông báo cho người dùng biết là đã tồn tại thời gian in phiếu nên không thể thực hiện thêm thao tác thêm chi phí, chỉ được phép chỉnh sửa những chi phí hiện có. Và muốn thêm chi phí thì phải báo IT Quản trị hệ thống xóa thời gian in phiếu.
 - ***Ngoại trú và BANT thanh toán ngày, Không cho thêm toa thuốc mới*** ![](https://i.imgur.com/qQNv6L3.png)
