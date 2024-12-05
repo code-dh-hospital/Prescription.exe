@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.24.1205.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412053-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412053-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412053-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription chỉnh sửa thông tin hồ sơ thanh toán BHYT đã in phiếu thanh toán và đã mở khóa 
+- ✨: ***Ngoại trú và BANT thanh toán ngày, Không cho thêm toa thuốc mới*** ![](https://i.imgur.com/qQNv6L3.png)
+- ✨: ***Không cho thêm CLS mới.*** ![](https://i.imgur.com/AxyrWNe.png)
+- ✨: ***- Không cho thêm Toa vật tư.***![](https://i.imgur.com/y8dKphI.png)
+- ✨: ***Ràng buộc thời gian kết thúc PT/TT không được lớn hơn giờ kết thúc***![](https://i.imgur.com/CNlY0cZ.png)
+- ✨: ***BANT thanh toán ngày*** ![](https://i.imgur.com/dS3kdIP.png)![](https://i.imgur.com/cxjPlXA.png)![](https://i.imgur.com/svNuBxA.png)![](https://i.imgur.com/yblfgBq.png)
+- ☑: https://github.com/dhhiswork/To_lap_trinh/issues/4
+
 ## [v.3.24.1205.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412052-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412052-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412052-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Thêm cách nhập Hộ chiếu mẫu mới gồm 1 chữ cái + 8 số (hiện tại phần mềm chưa cho nhập)
 - 🐛: Chỉnh lỗi trên chức năng nhập viện không lưu được. ![](https://i.imgur.com/0gFInYM.png)
