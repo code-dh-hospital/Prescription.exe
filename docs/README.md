@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.24.1205.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412050-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung chức năng lấy lại CLS
+- ✨: Ràng buộc chức năng, khi chọn group Ngày chỉ định trên lưới Lịch sử sẽ lấy danh sách chi tiết ở lưới đang chọn, chức năng này chỉ thực hiện khi ở trạng thái xem chi định, nếu đang thêm hoặc chỉnh, sẽ không có chức năng này.
+- ✨: ***Thêm chức năng Double Click trên lưới danh sách Lịch sử chỉ định***, khi đang ở trạng thái `[Thêm]`, nếu dòng đang chọn là cận lâm sàng sẽ thực hiện chỉ định, ngược lại nếu là dòng group ngày chỉ định, sẽ lấy tất cả CLS thuộc group này để thêm vào danh sách chỉ định. ![](https://i.imgur.com/a4UufiJ.gif)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/29
+
 ## [v.3.24.1204.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412044-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412044-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412044-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi ngày hẹn tái khám khi xóa toa thuốc và thêm toa mới
 ![](https://i.imgur.com/lPAR1Ih.gif)
