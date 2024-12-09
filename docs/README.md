@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1209.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412090-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription, Treatment bổ sung tham cảnh báo giờ lập phiếu TT/PT cùng ekip ![](https://i.imgur.com/1O4wEGI.png) (***Có cập nhật cấu trúc mới***)
+- ✨: Thực hiện theo [Mô tả Kiểm tra thời gian kết quả HA-CN-TT-PT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/M%C3%B4%20t%E1%BA%A3%20Ki%E1%BB%83m%20tra%20th%E1%BB%9Di%20gian%20k%E1%BA%BFt%20qu%E1%BA%A3%20HA-CN-TT-PT.md) ![](https://i.imgur.com/HfdIR70.png)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/38
+
 ## [v.3.24.1205.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412053-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412053-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412053-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription chỉnh sửa thông tin hồ sơ thanh toán BHYT đã in phiếu thanh toán và đã mở khóa 
 - ✨: ***Ngoại trú và BANT thanh toán ngày, Không cho thêm toa thuốc mới*** ![](https://i.imgur.com/qQNv6L3.png)
