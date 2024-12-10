@@ -6,6 +6,10 @@
 
 #
 
+## [v.3.24.1210.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412102-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412102-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412102-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hiển thị tên CLS phụ vào Y lệnh của Tờ điều trị ![](https://i.imgur.com/NqnKwow.png)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/36
+
 ## [v.3.24.1210.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412101-NasDHSolutions.json)</sup></sup></sub>
 - ☑: https://github.com/dhhiswork/To_lap_trinh/issues/9
 - 🐛: Lỗi - Thiếu mã bệnh kèm theo trên trang in tờ điều trị Bệnh án ngoại trú ![](https://i.imgur.com/XttHCJn.png) ![](https://i.imgur.com/QH8tdyo.png)
