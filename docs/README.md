@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1211.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412112-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412112-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412112-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription nhận bệnh không check cấp cứu được khi lưu
+![](https://i.imgur.com/i4wIxVS.gif)
+- ☑: https://github.com/dhhiswork/Loi/issues/47
+
 ## [v.3.24.1211.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412111-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung chức năng lấy lại CLS
 - ✨: Hỗ trợ cảnh báo không cho lưu khi chọn CLS-DV mới khi chọn chức năng `[Thêm]` ![](https://i.imgur.com/sXifTKp.png)
