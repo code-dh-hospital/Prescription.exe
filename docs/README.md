@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1213.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412131-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung para `makb` và `maba` vào chức năng thiết kế toa thuốc bệnh án ngoại trú
+![](https://i.imgur.com/foaxvzj.png)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/48
+
 ## [v.3.24.1213.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412130-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Hiệu chỉnh thông tin chỉnh đối tượng bệnh nhân không lưu được đối tượng cần chỉnh (BV Ung Bướu)
 - ✨: Trường hợp `psdangky.dain = 1` thông báo đến người dùng không thể thay đổi đối tượng
