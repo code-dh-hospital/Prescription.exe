@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.24.1216.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412161-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Register, Prescription hỗ trợ In thông tin kiểm tra thông tuyến
+- ✨: **_Bổ sung chức năng in thông tin Thông tuyến BHXH_** ![](https://i.imgur.com/DdTOUDF.png) ![](https://i.imgur.com/xH1GXt7.png) ![](https://i.imgur.com/UuEGDdG.png) ![](https://i.imgur.com/vywyZ7E.png)
+- ✨: Hỗ trợ các para: `ngaygioin` `DATESYS` `hoten_taikhoanlv` `taikhoanlv`
+- ☑: https://github.com/dhhiswork/YeuCau/issues/43
+- ✨: Bổ sung form tình trạng dinh dưỡng ngoại trú - BV Nhi Đồng
+  ![](https://i.imgur.com/iD41xlx.png)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/7
+
+- ✨: Yêu cầu - Register, Prescription hỗ trợ In thông tin kiểm tra thông tuyến
+- ✨: **_Bổ sung chức năng in thông tin Thông tuyến BHXH_** ![](https://i.imgur.com/DdTOUDF.png) ![](https://i.imgur.com/xH1GXt7.png) ![](https://i.imgur.com/UuEGDdG.png) ![](https://i.imgur.com/vywyZ7E.png)
+- ✨: Hỗ trợ các para: `ngaygioin` `DATESYS` `hoten_taikhoanlv` `taikhoanlv`
+- ☑: https://github.com/dhhiswork/YeuCau/issues/43
+- ✨: Bổ sung form tình trạng dinh dưỡng ngoại trú - BV Nhi Đồng
+  ![](https://i.imgur.com/iD41xlx.png)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/7
+
 ## [v.3.24.1216.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412160-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung form tình trạng dinh dưỡng ngoại trú - BV Nhi Đồng
 ![](https://i.imgur.com/iD41xlx.png)
