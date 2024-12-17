@@ -6,6 +6,10 @@
 
 #
 
+## [v.3.24.1218.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412180-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hiển thị tên CLS phụ vào Y lệnh của Tờ điều trị ![](https://i.imgur.com/TPJAPr2.png) ![](https://i.imgur.com/mA4TCGn.png) ![](https://i.imgur.com/lVnCG2J.png)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/36
+
 ## [v.3.24.1217.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412171-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Toa thuốc không theo đơn không in được ngày tái khám (BV Tâm Phúc)
 ![](https://i.imgur.com/bu3V8Kx.png)
