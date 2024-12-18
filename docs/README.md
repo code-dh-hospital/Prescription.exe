@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1218.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412183-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412183-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412183-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: BV Công An CT: Prescription cấu hình máy cấp cứu vào khám bệnh là báo lỗi
+![](https://i.imgur.com/hv9lvpR.gif)
+- ☑: https://github.com/dhhiswork/Loi/issues/97
+
 ## [v.3.24.1218.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412182-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412182-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412182-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: BV Phụ Sản Toa vật tư kèm theo không lấy được thuốc từ tủ trực nhà thuốc
 ![](https://i.imgur.com/eCCqZht.gif)
