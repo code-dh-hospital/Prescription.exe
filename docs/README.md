@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.24.1219.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412192-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412192-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412192-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Mất số liệu tạm xuất khi chỉnh toa
+- ✨: Kiểm tra current.tkdatatemp.da_can_kho <> 1 xử lý như hiện tại. Ngược lại sẽ xử lý như sau:
+[Thao tác lưu]: Tiếp tục trừ kho thêm 1 lần nữa khi lưu khi xóa dữ liệu current.tkdatatemp.
+[Thao tác Bỏ qua], [Xử lý xóa dữ liệu bảng tạm] (trường hợp, hai thao tác [Lưu] và [Bỏ qua] trên chưa hoàn thành khi thao tác nhập xuất): Không trừ kho khi xóa dữ liệu current.tkdatatemp.
+![](https://i.imgur.com/IIKbiQz.gif)
+- ☑: https://github.com/dhhiswork/Loi/issues/73
+
 ## [v.3.24.1219.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412191-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: BV Đông Tây: Chức năng lấy lại toa không nghi nhận ngày tái khám
 ![](https://i.imgur.com/Y6zqcJv.gif)
