@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.24.1220.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412200-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription hiển thị ngày giờ cấp toa form cấp toa và ngày giờ khám bệnh form chẩn đoán
+![](https://i.imgur.com/e4xi48A.png)
+![](https://i.imgur.com/1BqnwBV.png)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/59
+
 ## [v.3.24.1219.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412192-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412192-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412192-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Mất số liệu tạm xuất khi chỉnh toa
 - ✨: Kiểm tra current.tkdatatemp.da_can_kho <> 1 xử lý như hiện tại. Ngược lại sẽ xử lý như sau:
