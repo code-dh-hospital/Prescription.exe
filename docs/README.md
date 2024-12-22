@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.24.1222.0]()
+
+- ✨: Bổ sung chức năng trả kết quả xét nghiệm ung thư tế bào tử cung.
+![image](https://github.com/user-attachments/assets/2dbb5f3e-e315-40e5-ae60-7a089e6c84ce)
+![image](https://github.com/user-attachments/assets/2b972a7e-049a-4c2e-9b2a-7c186d1aacf9)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/37
+=======
+
 ## [v.3.24.1220.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412202-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412202-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412202-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Các module add mã tạm 96151 Phòng khám đa khoa Sài Gòn Y Đức ·
 - ☑: https://github.com/dhhiswork/YeuCau/issues/60
@@ -2194,3 +2202,11 @@ https://github.com/dh-hos/Mo-ta-he-thong/blob/main/ICD/ICD10-quyet-dinh-4469-BYT
 ## [v.3.24.0516.0]()
 - 🐛: Fix lỗi báo cáo HIV
 - ☑: https://github.com/dh-hos/dhg.hospitalprescription/issues/249
+
+## [v.1.24.1222.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F12412220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F12412220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F12412220-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chức năng trả kết quả xét nghiệm ung thư tế bào tử cung.
+![image](https://github.com/user-attachments/assets/2dbb5f3e-e315-40e5-ae60-7a089e6c84ce)
+![image](https://github.com/user-attachments/assets/2b972a7e-049a-4c2e-9b2a-7c186d1aacf9)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/37
+<<<<<<< HEAD
