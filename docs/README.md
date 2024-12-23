@@ -6,6 +6,35 @@
 
 #
 
+## [v.3.24.1223.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412234-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412234-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412234-NasDHSolutions.json)</sup></sup></sub>
+test1
+
+## [v.3.24.1223.3]()
+- ✨: Yêu cầu - BV Lấp Vò: Prescription hiển thị ngày giờ cấp toa form cấp toa và ngày giờ khám bệnh form chẩn đoán
+- 🐛: Lỗi khi xem toa BANT theo ngày và theo đợt
+![](https://i.imgur.com/fW3330W.gif)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/59
+
+## [v.3.24.1223.2]()
+- ✨: Yêu cầu - BV Lấp Vò: Prescription hiển thị ngày giờ cấp toa form cấp toa và ngày giờ khám bệnh form chẩn đoán
+- 🐛: Lỗi khi xem toa BANT theo ngày và theo đợt
+![](https://i.imgur.com/fW3330W.gif)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/59
+
+## [v.3.24.1223.1]()
+- ✨: Yêu cầu - BV Lấp Vò: Prescription hiển thị ngày giờ cấp toa form cấp toa và ngày giờ khám bệnh form chẩn đoán
+- 🐛: Lỗi khi xem toa BANT theo ngày và theo đợt
+![](https://i.imgur.com/fW3330W.gif)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/59
+<<<<<<< HEAD
+
+## [v.3.24.1223.0]()
+- ✨: Yêu cầu - BV Lấp Vò: Prescription hiển thị ngày giờ cấp toa form cấp toa và ngày giờ khám bệnh form chẩn đoán
+- 🐛: Lỗi khi xem toa BANT theo ngày và theo đợt
+![](https://i.imgur.com/fW3330W.gif)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/59
+=======
+
 ## [v.3.24.1222.0]()
 
 - ✨: Bổ sung chức năng trả kết quả xét nghiệm ung thư tế bào tử cung.
