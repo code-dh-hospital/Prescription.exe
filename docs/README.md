@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.24.1223.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412237-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412237-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412237-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - BV Lấp Vò: Prescription hiển thị ngày giờ cấp toa form cấp toa và ngày giờ khám bệnh form chẩn đoán
+- 🐛: Đăng nhập ngày cũ cấp toa thuốc thì không xem được chi tiết thuốc của toa
+![](https://i.imgur.com/hOg7Xug.gif)
+- ☑: https://github.com/dhhiswork/YeuCau/issues/59
+
 ## [v.3.24.1223.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412236-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412236-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412236-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV QDY CT: Prescription Tổng kết CP BANT ngày tính sai số tiền bệnh nhân thanh toán và bệnh nhân nợ ![](https://i.imgur.com/P4iJUpY.png)
 - ☑: https://github.com/dhhiswork/Loi/issues/104
