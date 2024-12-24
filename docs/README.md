@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.24.1224.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412240-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Quản lý tủ trực -> Thống kê theo đối tượng thiếu đối tượng khác
+![](https://i.imgur.com/7WTtSTG.png)
+![](https://i.imgur.com/baZ86wO.png)
+
 ## [v.3.24.1223.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412237-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412237-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412237-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - BV Lấp Vò: Prescription hiển thị ngày giờ cấp toa form cấp toa và ngày giờ khám bệnh form chẩn đoán
 - 🐛: Đăng nhập ngày cũ cấp toa thuốc thì không xem được chi tiết thuốc của toa
