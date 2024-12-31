@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.24.1231.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412310-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412310-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412310-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription in toa thuốc không lấy được ngày hóa đơn (PK Medic miền đông)
+- 🐛: Toa thuốc lấy ngày ký không lấy được ngày hóa đơn
+![](https://i.imgur.com/D5WKfS3.gif)
+- 🐛: Khi ra toa thuốc sử dụng phím enter để lưu không load được thông tin toa mới chỉ định để in toa.
+![](https://i.imgur.com/tcrLvI9.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/4
+
 ## [v.3.24.1230.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412302-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412302-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32412302-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi xem kết quả XN bệnh nhân tháng cũ.
