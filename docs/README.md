@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0103.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501031-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - PK Medic: Prescription lấy lại toa mua ngoài bị chặn do chưa thực hiện CLS 
+- 🐛: Bỏ chặn kiểm tra CLS chưa thực hiện khi Lấy lại toa mua ngoài
+![](https://i.imgur.com/c5LnSUJ.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/18
+
 ## [v.3.25.0103.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501030-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - BV Sa Đéc: Bổ sung mẫu Phiếu hẹn khám lại và mẫu Phiếu chuyển cơ sở khám bệnh, chữa bệnh BHYT theo thông tư 1/2025/TT-BYT
 ![](https://i.imgur.com/XS883Jh.png)
