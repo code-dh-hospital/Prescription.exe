@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.25.0107.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501071-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Bệnh nhân BANT ARV khám lần đầu không lên sổ khám bệnh
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/17
+
+![](https://i.imgur.com/jbbkY5D.png)
+
+## [v.3.25.0107.0]()
+- 🐛: Lỗi - Bệnh nhân BANT ARV khám lần đầu không lên sổ khám bệnh
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/17
+
+![](https://i.imgur.com/jbbkY5D.png)
+
 ## [v.3.25.0105.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501052-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501052-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501052-NasDHSolutions.json)</sup></sup></sub>
 - ✨: DUAN - Phân luồng Bệnh Viện Phụ Sản Cần Thơ (thiếu dll nên push lại)
 - ✨: Tại form khám bệnh: Sau khi click [gọi bệnh], cập nhật lại thông tin psphanluong theo điều kiện: `khambenh.mabn = psphanluong.mabn AND khambenh.makb = psphanluong.makb AND cauhinhmay.makv = psphanluong.makv AND khambenh.maphong = psphanluong.maphong AND khambenh.ngaykcb::date = psphanluong.ngaylamviec::date`, gán `psphanluong.trangthai = 1`
