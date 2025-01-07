@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.0107.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501076-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501076-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501076-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Menu thiết kế chưa có mẫu mặc định giấy chuyển mới
+![](https://i.imgur.com/3w9CDHc.png)
+- 🐛: 1 số thông tin trên mẫu giấy chuyển mới chưa đúng
+![](https://i.imgur.com/6khHq74.png)
+![](https://i.imgur.com/zJptOmD.png)
+- 🐛: Cần xuống hàng phương pháp TT đầu tiên
+- 🐛: Khi trang in không đủ trên 1 tờ giấy A4 thì nên cho qua trang 2. hiện tại chỉ in được trang 1
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/10
+
 ## [v.3.25.0107.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501075-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501075-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501075-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Cân kho trước khi lưu > người dùng chỉnh lại số lượng mặt hàng trong toa thì thông báo không đủ số lượng cấp phát.
 - 🐛: Đồng thời khi lưu toa cũng chưa kiểm tra để cập nhật lại số lượng tạm xuất đúng theo số lượng trên toa.
