@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0107.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501074-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501074-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501074-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Báo cáo lượt khám theo bác sĩ (BANT thanh toán ngày lần đầu lập bệnh án) BV Ô Môn
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/28
+
+![](https://i.imgur.com/3kJPVK8.png)
+
 ## [v.3.25.0107.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501073-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501073-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501073-NasDHSolutions.json)</sup></sup></sub>
 - ??: Fix - M?u chuy?n vi?n m?c ??nh c�n 1 s? th�ng tin ch?a gi?ng m?u c?a TT01 
 - ?: https://i.dh-his.com/hdhiswork/YEUCAU/issues/10
