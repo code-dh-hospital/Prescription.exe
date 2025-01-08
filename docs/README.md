@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0108.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501082-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Trường hợp Cân kho trước khi lưu >> người dùng chỉnh số lượng thì cập nhật số lượng đó ngay >> xoá mặt hàng vừa chỉnh và lưu toa thì số lượng tạm xuất không trả về mà vẫn giữ nguyên số lượng lúc chỉnh.
+- 🐛: Cân kho trước khi lưu >> Chỉnh lại số lượng mặt hàng đang có sẳn chờ xuất, sau đó xoá mặt hàng đó và lưu toa lại thì số lượng tạm xuất bị trừ nhiều hơn số lượng ban đầu >> toa sau vẫn thấy sô lượng và lưu được gây ra âm kho.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1
+
 ## [v.3.25.0108.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501081-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Bổ sung thêm phần ký và đóng đấu trên phiếu chuyển viện
 ![](https://i.imgur.com/sLrNLSy.png)
