@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0114.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501142-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi: Prescription đã lập phiếu thủ thuật nhưng vào cấp toa báo chưa lập phiếu
+![](https://i.imgur.com/ikIcx50.gif)
+![](https://i.imgur.com/4Uv7Cwv.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/42
+
 ## [v.3.25.0114.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501141-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Thêm ekip khi chưa chỉnh phiếu, chọn loại ekip trên form khi in phiếu bị sai
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/36
