@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0116.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501164-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501164-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501164-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Cho chọn PT/TT khi lập phiếu chuyển viện (push lại)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
+
+![](https://i.imgur.com/VUEFUI9.png)
+![](https://i.imgur.com/6gYg6H2.png)
+![](https://i.imgur.com/Tm1P2z1.png)
+
 ## [v.3.25.0116.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501163-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501163-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501163-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Push lại
 - ✨: Tại form khám bệnh ngoại trú: Nếu các tham số `tuyenbv = 3`,`cap >= 2` và `khambenh.maicd` được xác định tại `dmicd.capchuyenmon = 1` thì cập nhật `psdangky.tuyen = 0` và `psdangky.tuyenxml = 0`
