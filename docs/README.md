@@ -6,6 +6,52 @@
 
 #
 
+## [v.3.25.0116.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501163-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501163-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501163-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Push lại
+- ✨: Tại form khám bệnh ngoại trú: Nếu các tham số `tuyenbv = 3`,`cap >= 2` và `khambenh.maicd` được xác định tại `dmicd.capchuyenmon = 1` thì cập nhật `psdangky.tuyen = 0` và `psdangky.tuyenxml = 0`
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
+
+## [v.3.25.0116.2]()
+- ✨: Push lại
+- ✨: Tại form khám bệnh ngoại trú: Nếu các tham số `tuyenbv = 3`,`cap >= 2` và `khambenh.maicd` được xác định tại `dmicd.capchuyenmon = 1` thì cập nhật `psdangky.tuyen = 0` và `psdangky.tuyenxml = 0`
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
+
+## [v.3.25.0116.1]()
+- ✨: Push lại
+- ✨: Tại form khám bệnh ngoại trú: Nếu các tham số `tuyenbv = 3`,`cap >= 2` và `khambenh.maicd` được xác định tại `dmicd.capchuyenmon = 1` thì cập nhật `psdangky.tuyen = 0` và `psdangky.tuyenxml = 0`
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
+
+## [v.3.25.0116.0]()
+- ✨: Push lại
+- ✨: Tại form khám bệnh ngoại trú: Nếu các tham số `tuyenbv = 3`,`cap >= 2` và `khambenh.maicd` được xác định tại `dmicd.capchuyenmon = 1` thì cập nhật `psdangky.tuyen = 0` và `psdangky.tuyenxml = 0`
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
+
+## [v.3.25.0115.4]()
+- ✨: Push lại
+- ✨: Tại form khám bệnh ngoại trú: Nếu các tham số `tuyenbv = 3`,`cap >= 2` và `khambenh.maicd` được xác định tại `dmicd.capchuyenmon = 1` thì cập nhật `psdangky.tuyen = 0` và `psdangky.tuyenxml = 0`
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
+
+## [v.3.25.0115.3]()
+- ✨: Tại form khám bệnh ngoại trú: Nếu các tham số `tuyenbv = 3`,`cap >= 2` và `khambenh.maicd` được xác định tại `dmicd.capchuyenmon = 1` thì cập nhật `psdangky.tuyen = 0` và `psdangky.tuyenxml = 0`
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
+
+## [v.3.25.0115.2]()
+- ✨: Yêu cầu - Cho chọn PT/TT khi lập phiếu chuyển viện rebuid
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
+
+![](https://i.imgur.com/qiXkggN.png)
+
+![](https://i.imgur.com/JXVrjjx.png)
+
+![](https://i.imgur.com/L1hMW0d.png)
+
+## [v.3.25.0115.1]()
+- ✨: Yêu cầu - Cho chọn PT/TT khi lập phiếu chuyển viện
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
+
+![](https://i.imgur.com/qiXkggN.png)
+![](https://i.imgur.com/JXVrjjx.png)
+
 ## [v.3.25.0115.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501150-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Còn lỗi khi thao tác chỉnh phiếu bấm thêm ekip rồi bấm bỏ qua -> chọn ekip chọn phiếu TT vẫn thêm được ekip (nếu không chọn phiếu TT thì mã ID ekip trống)
 - 🐛: Bấm chỉnh rồi thêm ekip thì không ghi nhận maloai TT/PT vào dữ liệu
