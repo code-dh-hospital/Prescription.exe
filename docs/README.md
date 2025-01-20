@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.25.0120.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501200-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung ràng buộc sinh hiệu và thời gian khám tối thiểu cho bệnh án ARV theo [Mô tả](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/MO%20TA%20THAY%20DOI%20XU%20LY%20RANG%20BUOC%20KHAM%20BENH%20ARV.md)
+- 🐛: Fix Lỗi - Bệnh nhân BANT ARV khám lần đầu không lên sổ khám bệnh
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/17
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/30
+
+- Ràng buộc thời gian khám tối thiểu từ lúc đăng ký theo [tham số checktime.bhyt]()
+![](https://i.imgur.com/N1QnCV2.png)
+![](https://i.imgur.com/N5Ibfqf.png)
+
+- Ràng buộc sinh hiệu theo ktsinhhieu.customize cho bệnh án ARV
+![](https://i.imgur.com/soZhPCW.png)
+![](https://i.imgur.com/xhINkTV.png)
+
+- Cập nhật đúng trạng thái khambenh.dakham khi lập BANT
+![](https://i.imgur.com/xutaOpN.gif)
+
 ## [v.3.25.0118.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501181-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Pre - Không lập được phiếu Phẩu thuật theo dõi
 ![](https://i.imgur.com/5QvKHGh.gif)
