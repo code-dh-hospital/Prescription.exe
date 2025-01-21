@@ -6,6 +6,31 @@
 
 #
 
+## [v.3.25.0121.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501212-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501212-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501212-NasDHSolutions.json)</sup></sup></sub>
+- ✨: DUAN - Tách nguồn quản lý thuốc BV Phụ sản #3
+	- Prescription: Bổ sung toa thuốc tiện ích
+		![](https://i.imgur.com/9DMK35u.png)
+		![](https://i.imgur.com/gxypDki.png)
+		![](https://i.imgur.com/2xeo3Gb.png)
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/3
+
+## [v.3.25.0121.1]()
+- ✨: DUAN - Tách nguồn quản lý thuốc BV Phụ sản #3
+	- Prescription: Bổ sung toa thuốc tiện ích
+		![](https://i.imgur.com/9DMK35u.png)
+		![](https://i.imgur.com/gxypDki.png)
+		![](https://i.imgur.com/2xeo3Gb.png)
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/3
+
+## [v.3.25.0121.0]()
+- ✨: - ✨: DUAN - Tách nguồn quản lý thuốc BV Phụ sản #3
+	- Prescription: Bổ sung toa thuốc tiện ích
+		![](https://i.imgur.com/9DMK35u.png)
+		![](https://i.imgur.com/gxypDki.png)
+		![](https://i.imgur.com/2xeo3Gb.png)
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/3
+<<<<<<< HEAD
+
 ## [v.3.25.0120.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501201-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix dư ký hiệu xuống dòng khi chọn PT/TT
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
