@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.0121.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501216-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501216-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501216-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung tham số cho phép người dùng tùy chọn thời gian bắt đầu được khám so với thời gian đăng ký bệnh nhân BHYT - Cải tiến code
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/30
+
+![](https://i.imgur.com/kfPg99k.png)
+
+![](https://i.imgur.com/0Kob4EM.png)
+
+![](https://i.imgur.com/86CCTFN.png)
+
 ## [v.3.25.0121.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501215-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501215-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501215-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription bệnh nhân ngoại trú ra toa không lấy được thuốc tủ trực 15 (BV Hồng Dân)
 - 🐛: Chức năng ra toa không lấy được thuốc tủ trực 15
