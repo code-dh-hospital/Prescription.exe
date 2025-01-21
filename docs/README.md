@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.25.0121.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501213-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501213-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501213-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung tham số cho phép người dùng tùy chọn thời gian bắt đầu được khám so với thời gian đăng ký bệnh nhân BHYT -Bổ sung điều kiện bắt theo tham số checktime.bhyt cho BANT ngày
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/30
+
+
+- Ngoại trú
+
+![](https://i.imgur.com/eXe4fjN.png)
+
+- BANT ngày 
+
+![](https://i.imgur.com/HjrWbzD.png)
+
+- Bệnh án ARV
+
+![](https://i.imgur.com/mEYM5rp.png)
+
 ## [v.3.25.0121.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501212-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501212-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501212-NasDHSolutions.json)</sup></sup></sub>
 - ✨: DUAN - Tách nguồn quản lý thuốc BV Phụ sản #3
 	- Prescription: Bổ sung toa thuốc tiện ích
