@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0122.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501220-NasDHSolutions.json)</sup></sup></sub>
+- ✨: DUAN - Tách nguồn quản lý thuốc BV Phụ sản #3
+	- Fix lỗi toa thuốc tiện ích
+	 ![](https://i.imgur.com/ApfdVi4.png)
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/3
+
 ## [v.3.25.0121.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501216-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501216-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32501216-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung tham số cho phép người dùng tùy chọn thời gian bắt đầu được khám so với thời gian đăng ký bệnh nhân BHYT - Cải tiến code
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/30
