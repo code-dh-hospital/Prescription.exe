@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0204.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502041-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Nhận bệnh -> bệnh nhân cấp cứu phần mềm ghi nhận trái tuyến psdangky.tuyenxml=1.
+![](https://i.imgur.com/fZa7bzz.gif)
+- 🐛: Hiệu chỉnh thông tin - Bệnh nhân bình thường hiển thị check cấp cứu, bệnh nhân cấp cứu hiển thị bình thường.
+![](https://i.imgur.com/sd0jT3I.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/11
+
 ## [v.3.25.0204.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502040-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - khám phòng 2 Prescription không lưu được chẩn đoán yhct của công khám khác chuyên khoa.
 ![](https://i.imgur.com/uB3SKwN.png)
