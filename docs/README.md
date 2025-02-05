@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0205.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502051-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription bệnh nhân ngoại trú ra toa không lấy được thuốc thuộc quản lý của kho chẳn 15 (BV Thốt nốt)
+![](https://i.imgur.com/5tDuox7.gif)
+- 🐛: Lỗi - báo lỗi khi ấn xem toa và in toa
+![](https://i.imgur.com/9rtc4l3.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/55
+
 ## [v.3.25.0205.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502050-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung kiểm soát các CLS chưa thực hiện khi kết thúc BA Ngoại trú theo đợt
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/35
