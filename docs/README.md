@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0205.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502053-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502053-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502053-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Pre: Yêu cầu - Bổ sung tham số có người dùng lựa chọn hiển thị hay không hiển thị VTYT khi xem quá trình điều trị. #37
+
+	![](https://i.imgur.com/Ef9UPRJ.png)
+	![](https://i.imgur.com/lNexeRM.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/37
+
 ## [v.3.25.0205.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502052-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502052-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502052-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Cho chọn PT/TT khi lập phiếu chuyển viện
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
