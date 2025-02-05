@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0205.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502050-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung kiểm soát các CLS chưa thực hiện khi kết thúc BA Ngoại trú theo đợt
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/35
+
+![](https://i.imgur.com/ikopnq2.png)
+
+![](https://i.imgur.com/X6I8A5U.png)
+
 ## [v.3.25.0204.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502041-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Nhận bệnh -> bệnh nhân cấp cứu phần mềm ghi nhận trái tuyến psdangky.tuyenxml=1.
 ![](https://i.imgur.com/fZa7bzz.gif)
