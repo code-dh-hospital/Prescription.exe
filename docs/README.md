@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0206.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502060-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BV Phụ Sản: Phần mềm báo lỗi khi in phiếu chỉ định CLS - (dh-issue/LOI/#58)
+- 🐛: ***Rút gọn code và chỉnh lỗi cú pháp SQL:*** ![](https://i.imgur.com/Ue4hhsa.gif)
+- ✨: ***Chỉ in Phiếu hướng dẫn nếu có dữ liệu.***
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/58
+
 ## [v.3.25.0205.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502054-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502054-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502054-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Cho chọn PT/TT khi lập phiếu chuyển viện - Bổ sung thông tin nơi giới thiệu
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/20
