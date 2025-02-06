@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0206.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502061-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Pre - Không lập được phiếu Phẩu thuật theo dõi
+![](https://i.imgur.com/7YP9rU2.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/49
+
 ## [v.3.25.0206.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502060-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Phụ Sản: Phần mềm báo lỗi khi in phiếu chỉ định CLS - (dh-issue/LOI/#58)
 - 🐛: ***Rút gọn code và chỉnh lỗi cú pháp SQL:*** ![](https://i.imgur.com/Ue4hhsa.gif)
