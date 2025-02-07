@@ -6,6 +6,10 @@
 
 #
 
+## [v.3.25.0207.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502070-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Thực hiện mô tả - Tại form khám bệnh: Sau khi click [gọi bệnh], cập nhật lại thông tin psphanluong theo điều kiện:6 `khambenh.mabn = psphanluong.mabn AND khambenh.makb = psphanluong.makb AND khambenh.maphong = psphanluong.maphong AND khambenh.ngaykcb::date = psphanluong.ngaylamviec::date`, gán `psphanluong.trangthai = 1`
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/1
+
 ## [v.3.25.0206.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502061-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Pre - Không lập được phiếu Phẩu thuật theo dõi
 ![](https://i.imgur.com/7YP9rU2.gif)
