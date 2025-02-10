@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0210.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502100-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Nhận bệnh, thông tin cột tình trạng ghi nhận sai. 
+- 🐛: Lỗi - Hiệu chỉnh thông tin bệnh nhân cấp cứu lưu lại thì mất trạng thái cấp cứu nhận bệnh trong
+form khám bệnh
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/11
+
 ## [v.3.25.0207.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502070-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Thực hiện mô tả - Tại form khám bệnh: Sau khi click [gọi bệnh], cập nhật lại thông tin psphanluong theo điều kiện:6 `khambenh.mabn = psphanluong.mabn AND khambenh.makb = psphanluong.makb AND khambenh.maphong = psphanluong.maphong AND khambenh.ngaykcb::date = psphanluong.ngaylamviec::date`, gán `psphanluong.trangthai = 1`
 - ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/1
