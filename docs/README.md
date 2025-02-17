@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0217.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502170-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật theo mô tả.
+	Nếu `khambenh.dakham = 0` (người bệnh chưa khám): cập nhật thông tin đã có của người bệnh tại table `psphanluong` với `psphanluong.maphong = <maphong>`, `psphanluong.makv = <makv>`, `psphanluong.stt = <max(stt)>` (`<maphong>` và `<makv>` của phòng khám được chuyển, stt lớn nhất của `<maphong>` được chuyển).
+	Nếu `khambenh.dakham != 0` (người bệnh có khám): phát sinh dòng dữ liệu mới của người bệnh tại table `psphanluong` với `psphanluong.maphong = <maphong>`, `psphanluong.makv = <makv>`, `psphanluong.stt = <max(stt)>` (`<maphong>` và `<makv>` của phòng khám được chuyển, stt lớn nhất của `<maphong>` được chuyển).
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/1
+
 ## [v.3.25.0213.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502130-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription chức năng lập chuyển viện không hiển hết thông tin
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/73
