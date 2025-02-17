@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0217.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502172-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502172-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502172-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - bổ sung chức năng bắt lượt khám hàng ngày đối với BANT (BV Tim Mạch CT) theo mô tả.
+https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-bo-sung-chuc-nang-canh-bao-luot-kham-theo-ngay-bant.md
+![](https://i.imgur.com/g1Kurpw.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/46
+
 ## [v.3.25.0217.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502171-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cập nhật theo mô tả
 ![](https://i.imgur.com/duHUZkz.png)
