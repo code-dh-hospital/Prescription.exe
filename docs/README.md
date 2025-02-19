@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0219.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502190-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BV Sa Đéc: Phiếu chuyển tuyến TT01 theo yêu cầu sai thông tin #77
+	- Prescription fix lỗi:
+	![](https://i.imgur.com/UI1vxyN.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/77
+
 ## [v.3.25.0218.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502180-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - BV Trà Cú: Yêu cầu chức năng in phiếu 01/BV bệnh nhân thu phí trong BANT theo ngày sử dụng mẫu giống với ngoại trú (Mẫu như BHYT) 
 ![](https://i.imgur.com/IdKHnhq.gif)
