@@ -6,6 +6,49 @@
 
 #
 
+## [v.3.25.0227.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502273-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502273-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502273-NasDHSolutions.json)</sup></sup></sub>
+- - ✨: Yêu cầu - bổ sung phiếu hẹn tự thiết kế BANT YHCT (BV YHCT CT) #64
+		BANT form Kết thúc điều trị.
+		![](https://i.imgur.com/fwhUFUD.png)
+		```csharp
+			OTH.Adapter.Common.HisPrivateCode.MabvIsUsePrivateCodeBy(OTH.Entity.Common.PrivateCodeKind.tkbayhct)
+		```
+		BV có triển khai BA YHCT --> in được phiếu hẹn tự thiết kế
+		![](https://i.imgur.com/ZRNq4wX.png)
+		Ngược lại in phiếu
+		![](https://i.imgur.com/Ruot9Gq.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/64
+
+## [v.3.25.0227.2]()
+- ✨: Yêu cầu - bổ sung phiếu hẹn tự thiết kế BANT YHCT (BV YHCT CT) #64
+		BANT form Kết thúc điều trị.
+		![](https://i.imgur.com/fwhUFUD.png)
+		```csharp
+			OTH.Adapter.Common.HisPrivateCode.MabvIsUsePrivateCodeBy(OTH.Entity.Common.PrivateCodeKind.tkbayhct)
+		```
+		BV có triển khai BA YHCT --> in được phiếu hẹn tự thiết kế
+		![](https://i.imgur.com/ZRNq4wX.png)
+		Ngược lại in phiếu
+		![](https://i.imgur.com/Ruot9Gq.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/64
+<<<<<<< HEAD
+
+## [v.3.25.0227.1]()
+- ✨: Yêu cầu - bổ sung phiếu hẹn tự thiết kế BANT YHCT (BV YHCT CT) #64
+		BANT form Kết thúc điều trị.
+		![](https://i.imgur.com/fwhUFUD.png)
+		```csharp
+			OTH.Adapter.Common.HisPrivateCode.MabvIsUsePrivateCodeBy(OTH.Entity.Common.PrivateCodeKind.tkbayhct)
+		```
+		BV có triển khai BA YHCT --> in được phiếu hẹn tự thiết kế
+		![](https://i.imgur.com/ZRNq4wX.png)
+		Ngược lại in phiếu
+		![](https://i.imgur.com/Ruot9Gq.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/64
+
 ## [v.3.25.0227.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502270-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Sau khi bấm Lưu xử trí thì chưa ghi nhận được giờ kết thúc của khám lâm sàng theo mô tả.
 - ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/1
