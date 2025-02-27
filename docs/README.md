@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0227.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502275-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502275-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502275-NasDHSolutions.json)</sup></sup></sub>
+- ✨:DUAN - Phân luồng Bệnh Viện Phụ Sản Cần Thơ.
+- 🐛: cập nhật `psphanluongketqua.thoigianketthuc` khi thực hiện xong các thao tác xử trí như: `[Cấp toa]`, `Chỉ định [CLS-DV]`, `[Hội chẩn]`, `[Phẫu thuật]`, `[Nhập viện]`, `[Chuyển viện]`, `[BA ngoại trú]`, tiến hành cập nhật thông tin thời gian kết thúc khám
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/1
+
 ## [v.3.25.0227.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502274-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502274-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502274-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Chưa cập nhật psphanluongketqua.thoigianketthuc = LOCALTIMESTAMP.
 ![](https://i.imgur.com/QpaFiwA.gif)
