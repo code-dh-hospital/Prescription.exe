@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.25.0303.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503031-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription chức năng hiệu chỉnh thông tin (BV Ung Bướu)
+Form [Hiệu chỉnh thông tin]: không lưu được thông tin `Điện thoại` và `CM` của [Thân nhân].
+![](https://i.imgur.com/zPQeF6B.gif)
+BANT: không lưu được Thông tin thân nhân và check cấp cứu.
+![](https://i.imgur.com/FaxpMh4.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/97
+
+## [v.3.25.0303.0]()
+- 🐛: Lỗi - Prescription chức năng hiệu chỉnh thông tin (BV Ung Bướu)
+Form [Hiệu chỉnh thông tin]: không lưu được thông tin "Điện thoại" và "CM" của [Thân nhân].
+![](https://i.imgur.com/zPQeF6B.gif)
+BANT: không lưu được Thông tin thân nhân và check cấp cứu.
+![](https://i.imgur.com/FaxpMh4.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/97
+
 ## [v.3.25.0228.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32502281-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Thạnh Trị: Lỗi số phiếu nghỉ ốm
 - 🐛: Fix - Đối với tham số `nghiom.sudung = 1` Khi chỉnh phiếu nghỉ ốm người dùng gõ lại số phiếu đang sử dụng cho bệnh nhân khác thì phần mềm không có cảnh báo 
