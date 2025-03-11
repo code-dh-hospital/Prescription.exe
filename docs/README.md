@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0311.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503112-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503112-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503112-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Presription (BANT theo đợt) chỉnh ngày giờ diễn biến
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/121
+
+- Khi `Chỉnh diễn biến` bổ sung nút chỉnh kế bên `Giờ khám` để người dùng click vào xác nhận thay đổi giờ diễn biến.
+- Nếu mở `Giờ khám` để chỉnh sẽ cập nhật giờ cho diễn biến, ngược lại nếu tắt `Giờ kham` bỏ qua không cập nhật giờ diễn biến
+
+![](https://i.imgur.com/82BFm9a.gif)
+
 ## [v.3.25.0311.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503111-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Presription (BANT theo đợt) chỉnh ngày giờ diễn biến
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/121
