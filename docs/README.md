@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0311.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503110-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi: Prescription Giấy chuyển tuyến TT01 lấy sai thông tin ngày sinh
+![](https://i.imgur.com/USptaqG.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/119
+
 ## [v.3.25.0307.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503072-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - XML3 4750 bệnh nhân ngoại trú không lấy được chẩn đoán YHCT (BV Thanh Bình) 
 - 🐛: Prescription khi khám không ghi nhận mã YHCT cho công khám
