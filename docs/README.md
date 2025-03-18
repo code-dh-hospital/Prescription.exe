@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0318.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503181-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Presription (BANT theo ngày) chỉnh ngày giờ diễn biến
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/149
+
+![](https://i.imgur.com/BZlG7LX.gif)
+
 ## [v.3.25.0318.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503180-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - PK Đông Tây: Prescription lưu sai thông tin mã bệnh YHCT khi sử dụng phím tắt Alt + L lưu chẩn đoán
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/148
