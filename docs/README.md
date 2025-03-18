@@ -6,6 +6,9 @@
 
 #
 
+## [v.3.25.0318.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503183-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503183-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503183-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật các mã bệnh dài ngày PK Nam Phương, PK Phương Nam
+
 ## [v.3.25.0318.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503182-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503182-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503182-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Khi thêm phiếu nghỉ -> xóa phiếu nghỉ đó -> thêm phiếu nghỉ mới -> chỉnh phiếu nghỉ mới lưu lại thì phần mềm không báo lỗi nữa mà cập nhật trong dữ liệu thông tin phiếu nghỉ ốm đã xóa giống với phiếu nghỉ hiện tại kể cả số phiếu đã xóa cũng cập nhật lại giống số phiếu hiện tại.
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/89
