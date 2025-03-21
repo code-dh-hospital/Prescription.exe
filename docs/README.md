@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0321.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503210-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Prescription chức năng ra toa thuốc BANT thanh toán đợt (BV Thốt Nốt) - LOI - dh-issue- #125
+- 🐛:  ***Cập nhật lại.***
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/125
+
 ## [v.3.25.0320.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503202-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503202-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503202-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BANT theo đợt khi cấp toa, chỉ định CLS, lập phiếu TT/PT, hội chẩn, chuyển viện báo lỗi 
 ![](https://i.imgur.com/buzpr61.gif)
