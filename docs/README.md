@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0324.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503241-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503241-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503241-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Fees (thu phí nội trú) Thuốc ARV (chi phí nguồn khác), tính sai tiền người bệnh đồng chi trả
+- 🐛: Kiểm tra và chỉnh lỗi khi nhập viện phải lưu thêm thông tin `bnnoitru.sdnguonkhac` theo `psdangky.sdnguonkhac`.
+![](https://i.imgur.com/b6RslyG.png)
+![](https://i.imgur.com/E4ENzZR.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/169
+
 ## [v.3.25.0324.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503240-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Chức năng đổi mã bệnh án trong Hiệu chỉnh thông tin không cập nhật lại mã bệnh án bảng chuyenphong
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/154
