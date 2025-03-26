@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0326.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503264-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503264-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503264-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription Chức năng lập phiếu nghỉ ốm (BV Tam Nông)
+- 🐛: Chức năng lập phiếu nghỉ ốm báo lỗi.
+- 🐛: Không nhập được ghi chú khi thực hiện xóa phiếu nghỉ ốm.
+![](https://i.imgur.com/B6Hkvai.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/187
+
 ## [v.3.25.0326.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503263-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503263-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503263-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Monitor hiển thị thông tin bệnh nhân tại phòng khám bỏ cột Tuổi.
 - ✨: Tại phòng khám Bác sĩ: Bác sĩ khám bệnh nhân nào thì trên Monitor hiển thị bệnh nhân đó ở trạng thái đang khám. Hiện tại đang lấy bệnh nhân đang khám+1 nên đơn vị không chịu.
