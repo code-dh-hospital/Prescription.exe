@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0326.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503262-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503262-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503262-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription Xóa xử trí nhập viện khi bệnh nhân nhập viện đã có diễn biến
+![](https://i.imgur.com/3mW5l5p.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/181
+
 ## [v.3.25.0326.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503261-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Thay đổi qui trình kiểm tra xóa cận lâm sàng kết nối PACS Bệnh viện Nhi Đồng. Chi tiết theo mô tả: [CHUC-NANG-RIENG/PACs-BV-Nhi-Dong/PACs-BV-Nhi-Dong-Can-Tho.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHUC-NANG-RIENG/PACs-BV-Nhi-Dong/PACs-BV-Nhi-Dong-Can-Tho.md)
