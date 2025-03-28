@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0328.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503280-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BANT theo đợt khi cấp toa, chỉ định CLS, lập phiếu TT/PT, hội chẩn, chuyển viện báo lỗi
+![](https://i.imgur.com/VEiSaeS.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/165
+
 ## [v.3.25.0326.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503264-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503264-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32503264-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription Chức năng lập phiếu nghỉ ốm (BV Tam Nông)
 - 🐛: Chức năng lập phiếu nghỉ ốm báo lỗi.
