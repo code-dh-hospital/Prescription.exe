@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.25.0406.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504060-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Hiển thị kết quả `Phiếu XQ, Phiếu chụp CT` bổ sung `QRCode` từ `link viewer` ca chụp từ hệ thống PACS (Bệnh viện Tâm Phúc).
+Phiếu X-Quang:
+![](https://i.imgur.com/6DbvFE8.png)
+
+Phiếu Chụp CT:
+![](https://i.imgur.com/21cOI3I.png)
+![](https://i.imgur.com/CHwE19J.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/156
+
 ## [v.3.25.0401.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504011-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504011-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504011-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi: Prescription Phiếu Thủ thuật /Phẫu thuật không hiển thị đủ thông tin khi Trình tự TT/PT quá dài #195
 	- Cập nhật: chuyển sang mẫu báo cáo tự thiết kế
