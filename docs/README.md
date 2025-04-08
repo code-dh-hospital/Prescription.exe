@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.0408.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504082-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - PRESCRIPTION - BANT chuyển viện in phiếu báo lỗi
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/216
+
+- Fix phát sinh lỗi khi người dùng nhập thiếu ngày điều trị nơi giới thiệu
+- Thêm cảnh báo nếu người dùng nhập thiếu thông tin nơi giới thiệu
+
+![](https://i.imgur.com/zyVsXK4.png)
+
+![](https://i.imgur.com/iXvYJQK.png)
+
 ## [v.3.25.0408.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504081-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Prescription cho xử trí lập BANT theo đợt và chuyển chi phí vào Bệnh án ngoại trú nếu có toa và cls
 - Cập nhật theo mô tả
