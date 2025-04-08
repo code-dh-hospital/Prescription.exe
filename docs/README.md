@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0408.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504080-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BV Cù Lao Minh: Prescription thống kê lượt khám theo bác sĩ chọn thống kê theo khoa, chính xác theo thời gian lấy sai thông tin
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/200
+
+- Fix lỗi không lấy báo cáo được theo tiêu chí ngày giờ
+- Fix xem báo cáo theo phòng vẫn hiển thị lọc theo khoa (chỉ hiển thị chọn khoa trên Register và Report)
+![](https://i.imgur.com/ST5Tla0.gif)
+
 ## [v.3.25.0407.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504070-NasDHSolutions.json)</sup></sup></sub>
 
 
