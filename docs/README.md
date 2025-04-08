@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0408.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504081-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Prescription cho xử trí lập BANT theo đợt và chuyển chi phí vào Bệnh án ngoại trú nếu có toa và cls
+- Cập nhật theo mô tả
+![](https://i.imgur.com/zCQ1LXM.png)
+https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/Benh-an-ngoai-tru-BHYT.md
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/136
+
 ## [v.3.25.0408.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504080-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Cù Lao Minh: Prescription thống kê lượt khám theo bác sĩ chọn thống kê theo khoa, chính xác theo thời gian lấy sai thông tin
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/200
