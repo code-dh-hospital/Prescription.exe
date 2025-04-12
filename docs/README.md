@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0412.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504120-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Sổ phẫu thuật/Sổ thủ thuật: sắp xếp theo ngày giờ phẫu thuật.
+![](https://i.imgur.com/KG2jbuY.png)
+![](https://i.imgur.com/a8fqZAH.png)
+![](https://i.imgur.com/fAme7uH.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/172
+
 ## [v.3.25.0411.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504112-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504112-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504112-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Điều chỉnh khi tiếp nhận bệnh và hiệu chỉnh thông tin bệnh nhân trong tỉnh đối với tham số `tuyenbv <= 2` và `mabvdk` có `tuyencmkt <= 2`.
