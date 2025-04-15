@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0415.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504152-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504152-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504152-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Sổ phẫu thuật/Sổ thủ thuật: sắp xếp theo ngày giờ phẫu thuật.
+![](https://i.imgur.com/hDdMh8x.png)
+![](https://i.imgur.com/h18E6ec.png)
+![](https://i.imgur.com/97q8hpA.png)
+![](https://i.imgur.com/wr0luKr.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/172
+
 ## [v.3.25.0415.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504151-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Prescription cho xử trí lập BANT theo đợt và chuyển chi phí vào Bệnh án ngoại trú nếu có toa và cls
 - ✨: Bổ sung chức năng chuyển toa thuốc/CLS vào bệnh án ngoại trú
