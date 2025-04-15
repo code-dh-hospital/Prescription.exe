@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0415.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504154-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504154-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504154-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Sổ phẫu thuật/Sổ thủ thuật: sắp xếp theo ngày giờ phẫu thuật.
+![](https://i.imgur.com/9HuRGHV.png)
+![](https://i.imgur.com/Caal8SY.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/172
+
 ## [v.3.25.0415.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504153-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504153-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504153-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription chức năng xóa phiếu chăm sóc (BV Thốt nốt).
 ![](https://i.imgur.com/BorFmUe.gif)
