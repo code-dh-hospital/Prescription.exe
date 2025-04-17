@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0417.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504170-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - PK Minh Quang: Lỗi khi lập phiếu nghỉ ốm số phiếu có 12 ký tự #246
+	+ Cập nhật:
+	![](https://i.imgur.com/qY2NnZC.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/246
+
 ## [v.3.25.0416.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504161-NasDHSolutions.json)</sup></sup></sub>
  - ✨: Yêu cầu: Prescription cho xử trí lập BANT theo đợt và chuyển chi phí vào Bệnh án ngoại trú nếu có toa và clst
  - 🐛: Prescription khi chuyển thuốc vào Bệnh án ngoại trú theo đợt chưa hiển thị lên được bảng kê
