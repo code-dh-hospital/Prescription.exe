@@ -6,6 +6,9 @@
 
 #
 
+## [v.3.25.0417.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504172-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504172-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504172-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Fix lỗi xuất danh sách bệnh nhân sang màn hình tivi (BV Sa Đéc)
+
 ## [v.3.25.0417.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504171-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Trà Cú: Monitor khu phát thuốc hiển thị sai bệnh nhân danh sách chờ (hoặc đã phục vụ) lên danh sách phục vụ
 - 🐛: Prescription khi khám bệnh cho bệnh nhân có STT khám trùng với số thứ tự bệnh nhân ở quầy nhận thuốc thì phần mềm cập nhật cột trangthai = 1 cho cả 2 bệnh nhân Prescription và Ordinal trên bảng monitor có sott trùng với STT khám ở Prescription
