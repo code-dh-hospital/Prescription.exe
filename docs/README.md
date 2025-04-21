@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.25.0421.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504210-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Tích hợp chức năng ký số lên phiếu chỉ định cận lâm sàng, phiếu kết quả cận lâm sàng.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/66
+
+- Chưa ký
+
+![](https://i.imgur.com/yVFyfdV.png)
+
+- Đã ký
+
+![](https://i.imgur.com/bonDn98.png)
+
 ## [v.3.25.0418.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504181-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Số cân nặng cập nhật sai khi Chỉnh
 ![](https://i.imgur.com/BSnVeRU.gif)
