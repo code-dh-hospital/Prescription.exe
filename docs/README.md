@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0423.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504231-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BV QDY CT: Lỗi bảng kê 6556 khi bệnh nhân có CLS thanh BHYT có check lấy giá DV #250
+	+ Cập nhật:
+		![](https://i.imgur.com/HR9ttKP.png)
+		![](https://i.imgur.com/IGKkZCj.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/250
+
 ## [v.3.25.0423.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504230-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Ung Bướu: Mất phiếu hẹn khám lại push lại
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/240
