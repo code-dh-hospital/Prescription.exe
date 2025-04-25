@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0425.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504251-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BV Tam Nông: Tóm tắt kết quả CLS khi kết thúc bệnh án nội trú, BANT không lấy được kết quả CĐHA từ ngoại trú chuyển vào #259
+	+ Cập nhật:
+	![](https://i.imgur.com/5HYC4nd.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/259
+
 ## [v.3.25.0425.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32504250-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Ung Bướu: Mất phiếu hẹn khám lại
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/240
