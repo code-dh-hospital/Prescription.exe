@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.25.0505.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505051-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BV Nghĩa Hành: Thuốc trên danh sách thuốc khi cấp toa bị double khi mã thuốc có ở 2 kho
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/268
+
+- Fix lỗi double nhiểu dòng khi mahh ở nhiều kho tại dmkho
+
+![](https://i.imgur.com/5UQv7mW.png)
+
+- Toa VT lấy từ kho
+![](https://i.imgur.com/ytvs3CN.png)
+
+- Toa VT lấy từ tủ trực
+![](https://i.imgur.com/nU5ppYk.png)
+
 ## [v.3.25.0505.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505050-NasDHSolutions.json)</sup></sup></sub>
 - ✨: YÊU CẦU - SẢN NHI TRÀ VINH - Đăng ký nhận bệnh BHYT có mã nơi ĐKBĐ 84001 thì mặc định Đúng Tuyến
 - ✨: https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/BHXH-THONGTUYEN/Tiep-nhan-benh-dung-tuyen-BV-tuyen-tinh.md
