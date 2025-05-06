@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.25.0506.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505062-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505062-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505062-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Bổ sung mẫu in phiếu đóng tiền tạm ứng như module Treatment. #205
+	- Cập nhật:
+		- Bổ sung chức năng in phiếu tạm ứng từ danh sách khám bệnh
+		![](https://i.imgur.com/JR6x3qh.png)
+
+		- Thông tin bệnh nhân lấy từ danh sách:
+
+		![](https://i.imgur.com/bGVZ4iW.png)
+
+		- Nhập số tiền cần đóng tạm ứng và in phiếu:
+
+		![](https://i.imgur.com/d6wfP2C.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/205
+
 ## [v.3.25.0506.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505061-NasDHSolutions.json)</sup></sup></sub>
 - ✨: YÊU CẦU - PRESCRIPTION - Toa mua ngoài không bắt/áp dụng đối với tham số toathuoc.sophuttoithieu
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/114
