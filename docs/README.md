@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0506.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505061-NasDHSolutions.json)</sup></sup></sub>
+- ✨: YÊU CẦU - PRESCRIPTION - Toa mua ngoài không bắt/áp dụng đối với tham số toathuoc.sophuttoithieu
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/114
+
+![](https://i.imgur.com/fH0QqQ7.gif)
+
 ## [v.3.25.0506.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505060-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Không chặn khám bệnh đối với bệnh nhân thu phí được chuyển phòng chưa đóng tiền công khám
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/271
