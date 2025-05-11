@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0511.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505110-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Medicine chức năng xuất tủ trực lấy số lượng từ phiếu dự trù (BV Phụ Sản)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/281
+
+- Khoá phiếu dự trù tủ trực khi thực hiện thao tác chỉnh
+![](https://i.imgur.com/YhwzDRW.png)
+
 ## [v.3.25.0510.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505100-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Register & Prescription: Lỗi khi đăng ký bệnh nhân khám lao
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/275
