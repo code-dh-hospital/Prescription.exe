@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0512.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505120-NasDHSolutions.json)</sup></sup></sub>
+- ✨:Yêu Cầu - Kiểm soát cận lâm sàng gửi nơi khác thực hiện
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/153
+
+- Bổ sung điều kiện dmcls.guinoikhac để thực hiện kiểm soát CLS chưa thực hiện theo tham số nt.canhbaocls và nt.canhbaottpt cho BANT đợt
+
+![](https://i.imgur.com/Glabs2R.gif)
+
 ## [v.3.25.0511.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505110-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Medicine chức năng xuất tủ trực lấy số lượng từ phiếu dự trù (BV Phụ Sản)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/281
