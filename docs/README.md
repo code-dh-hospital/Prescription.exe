@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0519.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505193-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505193-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505193-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: BANT đăng nhập tháng cũ không thấy tên bệnh nhân
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/293
+
+- Fix lấy sai danh sách BANT theo thangkt đăng nhập
+- Fix lấy danh sách đang điều trị BANT chỉ lấy các BANT có ngày bắt đầu <= ngày đăng nhập, các BANT lập sau ngày đăng nhập không hiển thị khi đăng nhập tháng cũ
+
+![](https://i.ibb.co/RGD78m6Y/5-ER1kwl-Cj-H.gif)
+
 ## [v.3.25.0519.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505192-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505192-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505192-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Quảng Ngãi: Tham số giaychuyenvien = 0 (in trực tiếp) không hoạt động khi sử dụng mẫu giấy chuyển viện tự thiết kế
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/297
