@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0519.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505190-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription form khám bệnh thêm mục thống kê bệnh nhân BANT
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/219
+
+- Bổ sung lọc theo BN đã lập BANT
+
+![](https://i.ibb.co/23ZRn1fZ/VJI6-Q6e-Eet.png)
+
 ## [v.3.25.0514.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505142-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Hỗ trợ Lấy số thứ tự tại Kios cho Bệnh viện đa khoa thành phố Cần Thơ 
 - ✨: Thiết kế form Cho phép người dùng cấu hình cho phép phòng khám (thuộc khoa) hiển thị tại Kiosk để người bệnh chọn (tương ứng cập nhật giá trị cột dmphong.showkiosk). Tại Kiosk chỉ hiển thị các phòng có cấu hình được phép hiển thị.
