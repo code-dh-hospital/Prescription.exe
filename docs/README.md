@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0520.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505200-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Bệnh nhân khám ngoại trú đã có toa, chuyển phòng khám bị mất sinh hiệu (BVĐK TP Cần Thơ).
+![](https://i.postimg.cc/26Mh7kJ9/Prescription-d9-Io-C9-BN4z.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/298
+
 ## [v.3.25.0519.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505193-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505193-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505193-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: BANT đăng nhập tháng cũ không thấy tên bệnh nhân
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/293
