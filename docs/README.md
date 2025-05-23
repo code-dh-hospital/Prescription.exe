@@ -6,6 +6,34 @@
 
 #
 
+## [v.3.25.0523.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505234-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505234-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505234-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Phiếu chỉ định in tên khoa chỉ định bị thiếu #309
+	- Cập nhật:
+		![](https://i.ibb.co/B58bwnwM/Prescription-3-MTKib-Lk2-K.png)
+		![](https://i.ibb.co/5WygXgjJ/Prescription-76m-Xi-Jjh-GU.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/309
+
+## [v.3.25.0523.3]()
+- 🐛: Lỗi - Prescription: "Phiếu chỉ định" in tên khoa chỉ định bị thiếu #309
+	- Cập nhật:
+		![](https://i.ibb.co/B58bwnwM/Prescription-3-MTKib-Lk2-K.png)
+		![](https://i.ibb.co/5WygXgjJ/Prescription-76m-Xi-Jjh-GU.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/309
+
+## [v.3.25.0523.2]()
+- 🐛: Lỗi - Prescription: "Phiếu chỉ định" in tên khoa chỉ định bị thiếu #309
+	- Cập nhật:
+		![](https://i.ibb.co/B58bwnwM/Prescription-3-MTKib-Lk2-K.png)
+		![](https://i.ibb.co/5WygXgjJ/Prescription-76m-Xi-Jjh-GU.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/309
+
+## [v.3.25.0523.1]()
+- 🐛: Lỗi - Prescription: "Phiếu chỉ định" in tên khoa chỉ định bị thiếu #309
+	- Cập nhật:
+		![](https://i.ibb.co/B58bwnwM/Prescription-3-MTKib-Lk2-K.png)
+		![](https://i.ibb.co/5WygXgjJ/Prescription-76m-Xi-Jjh-GU.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/309
+
 ## [v.3.25.0523.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505230-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Quảng Ngãi: Tham số giaychuyenvien = 0 (in trực tiếp) không hoạt động khi sử dụng mẫu giấy chuyển viện tự thiết kế
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/297
