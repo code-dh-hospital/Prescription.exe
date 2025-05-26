@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0526.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505261-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi: Prescription đã có chẩn đoán nhưng vào Cấp toa báo bệnh nhân chưa có chẩn đoán không cho Cấp toa
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/304
+
+- Dữ liệu cung cấp có toa `KB1.00010/202505` mất chẩn đoán không rõ nguyên nhân
+
+- Fix lỗi kiểm tra chẩn đoán dựa trên toa cũ > điều chỉnh Lấy thông tin khám hiện tại lên form khi thao tác thêm toa mới trước khi kiểm tra
+![](https://i.ibb.co/sdrr12cf/Snagit-Editor-Ljy-Hg-ZP8i-N.png)
+
 ## [v.3.25.0526.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505260-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - PK Đông Tây: Prescription CLS TT/PT đã xóa vẫn lập được phiếu TT/PT #318
 	- Cập nhật:
