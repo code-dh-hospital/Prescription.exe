@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.25.0526.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505260-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - PK Đông Tây: Prescription CLS TT/PT đã xóa vẫn lập được phiếu TT/PT #318
+	- Cập nhật:
+	+ Load danh sách:
+	![](https://i.ibb.co/rGQLPMFd/Prescription-LTs-IFl-Tl-Ya.png)
+
+	+ Sau khi load danh sách, xóa chỉ định, thực hiện thao tác thêm, nếu chỉnh định đã, thông báo:
+	![](https://i.ibb.co/Kx44ScFY/Prescription-x-Dj-YFc-KTbr.png)
+
+	+ Thực hiện lập phiếu phẫu thuật, khi lưu kiểm tra chỉnh định có bị xóa không? nếu có: thông báo:
+	![](https://i.ibb.co/8D40Br7c/Prescription-N7-H6-Ns-ZZv-N.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/318
+
 ## [v.3.25.0523.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505234-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505234-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505234-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Phiếu chỉ định in tên khoa chỉ định bị thiếu #309
 	- Cập nhật:
