@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0526.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505262-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505262-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505262-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BV Cù Lao Minh: Mất chỉ số sinh hiệu khi chuyển viện (bệnh nhân có toa thuốc)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/306
+
+- Fix lỗi bổ sung chỉ số sinh hiệu khi sinh thêm dòng tại bảng khambenh nếu bệnh nhân đã có toa thuốc
+![](https://i.ibb.co/8gMgR4mq/z7s-U47u-BMy.png)
+
 ## [v.3.25.0526.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505261-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi: Prescription đã có chẩn đoán nhưng vào Cấp toa báo bệnh nhân chưa có chẩn đoán không cho Cấp toa
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/304
