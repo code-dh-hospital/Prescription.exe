@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0527.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505271-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505271-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505271-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Prescription Hỗ trợ cho chỉnh liều dùng trên Toa thuốc sau khi bệnh nhân đã in phiếu 01KCB
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/247
+
+![](https://i.ibb.co/5gvPLc07/Prescription-Lo-WUQZye-VV.png)
+
+- Bổ sung ghi nhật ký có kèm theo thay đổi liều dùng
+![](https://i.ibb.co/DHYpfpy2/Hospital-Admin-dq-LQEm-R67-C.png)
+
 ## [v.3.25.0527.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505270-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription : Báo cáo lượt đăng ký ban đầu - Đăng ký khám online báo lỗi
 ![](https://i.ibb.co/Y4pCy2gW/Prescription-Wfu3w-Lo-Dt1.png)
