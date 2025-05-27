@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0527.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505270-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription : Báo cáo lượt đăng ký ban đầu - Đăng ký khám online báo lỗi
+![](https://i.ibb.co/Y4pCy2gW/Prescription-Wfu3w-Lo-Dt1.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/315
+
 ## [v.3.25.0526.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505262-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505262-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505262-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BV Cù Lao Minh: Mất chỉ số sinh hiệu khi chuyển viện (bệnh nhân có toa thuốc)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/306
