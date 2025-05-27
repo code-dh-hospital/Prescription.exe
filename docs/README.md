@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0527.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505272-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505272-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505272-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - BV Tim Mạch CT: Đề nghị phần mềm bổ sung tính năng Hỗ trợ KCB theo thông tư 01/2025
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/122
+- 📗: Lập phiếu chuyển viện -> nếu chuyenvien.maicd = dmicd.maicd AND dmicd.giatri1nam = 1 thì hỗ trợ đặt chuyenvien.giatri1nam = 1
+![](https://i.ibb.co/bMBNSLkM/Prescription-sj-UAKOc2u-Z.png)
+https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-tu-01-2025-BYT.md#user-content-fnref-2025-04-19-04-c10ebfa67abd0291dd40b079b461049d
+
 ## [v.3.25.0527.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505271-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505271-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505271-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Prescription Hỗ trợ cho chỉnh liều dùng trên Toa thuốc sau khi bệnh nhân đã in phiếu 01KCB
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/247
