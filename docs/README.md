@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.0529.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505291-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Chỉnh ngày giờ chuyển viện -> Phiếu chuyển viện không cập nhật
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/327
+
+- Fix không chỉnh được ngày chuyển viện
+- Fix không kiểm tra tiền công khám thu phí khi không khám phòng đầu
+
+![](https://live.staticflickr.com/65535/54553428418_e0719d4785_b.jpg)
+![](https://live.staticflickr.com/65535/54553371724_f9350e6bf1_b.jpg)
+
 ## [v.3.25.0529.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505290-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Phiếu nghĩ dưỡng thai bị khuất nút đóng
 ![](https://i.vgy.me/Uzi1Cl.png)
