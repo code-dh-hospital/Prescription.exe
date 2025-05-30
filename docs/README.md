@@ -6,6 +6,29 @@
 
 #
 
+## [v.3.25.0530.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505306-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505306-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505306-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - PK Đông Tây: Prescription CLS TT-PT đã xóa vẫn lập được phiếu TT-PT #318
+	- BANT: Fix lỗi CLS thủ thuật, phẫu thuật đã xóa vẫn lập được phiếu TT-PT
+		+ Thêm, sửa sau khi xóa
+		![](https://i.ibb.co/B2cKMWnR/Prescription-nef-Rf5-E0-NI.png)
+
+		+ Lưu sau khi xóa
+		![](https://i.ibb.co/GvWvnKNQ/Prescription-vcd-HWu2e-Dd.png)
+		
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/318
+<<<<<<< HEAD
+
+## [v.3.25.0530.5]()
+- 🐛: Lỗi - PK Đông Tây: Prescription CLS TT-PT đã xóa vẫn lập được phiếu TT-PT #318
+	- BANT: Fix lỗi CLS thủ thuật, phẫu thuật đã xóa vẫn lập được phiếu TT-PT
+		+ Thêm, sửa sau khi xóa
+		![](https://i.ibb.co/B2cKMWnR/Prescription-nef-Rf5-E0-NI.png)
+
+		+ Lưu sau khi xóa
+		![](https://i.ibb.co/GvWvnKNQ/Prescription-vcd-HWu2e-Dd.png)
+		
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/318
+
 ## [v.3.25.0530.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505304-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505304-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505304-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Lập BANT không chuyển bệnh YHCT chẩn đoán chính, sinh hiệu Hp, FiO2 vào BANT
 ![](https://i.vgy.me/K9lyHP.png)
