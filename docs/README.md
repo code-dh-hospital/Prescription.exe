@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0530.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505300-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Chỉnh ngày giờ chuyển viện -> Phiếu chuyển viện không cập nhật rebuild
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/327
+
+![](https://live.staticflickr.com/65535/54555215663_2aec0c46cc_b.jpg)
+
 ## [v.3.25.0529.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505291-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Chỉnh ngày giờ chuyển viện -> Phiếu chuyển viện không cập nhật
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/327
