@@ -6,6 +6,39 @@
 
 #
 
+## [v.3.25.0530.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505303-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505303-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505303-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - PRESCRIPTION - Xem BHYT không hiển thị câu Tôi đã nhận ... phim Xquang #323
+	- Cập nhật:
+	+ Xem phiếu:
+	![](https://i.ibb.co/pjw6QfJp/Prescription-j-OWs-DK9-Mk3.png)
+
+	+ In phiếu:
+	![](https://i.ibb.co/8Ldrp62J/kc-GBhtf-Pq6.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/323
+
+## [v.3.25.0530.2]()
+- 🐛: LỖI - PRESCRIPTION - Xem BHYT không hiển thị câu "Tôi đã nhận ... phim Xquang" #323
+	- Cập nhật:
+	+ Xem phiếu:
+	![](https://i.ibb.co/pjw6QfJp/Prescription-j-OWs-DK9-Mk3.png)
+
+	+ In phiếu:
+	![](https://i.ibb.co/8Ldrp62J/kc-GBhtf-Pq6.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/323
+
+## [v.3.25.0530.1]()
+- 🐛: LỖI - PRESCRIPTION - Xem BHYT không hiển thị câu "Tôi đã nhận ... phim Xquang" #323
+	- Cập nhật:
+	+ Xem phiếu:
+	![](https://i.ibb.co/pjw6QfJp/Prescription-j-OWs-DK9-Mk3.png)
+
+	+ In phiếu:
+	![](https://i.ibb.co/8Ldrp62J/kc-GBhtf-Pq6.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/323
+
 ## [v.3.25.0530.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32505300-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Chỉnh ngày giờ chuyển viện -> Phiếu chuyển viện không cập nhật rebuild
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/327
