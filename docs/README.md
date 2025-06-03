@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0603.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506030-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Chỉ số sinh hiệu Hb, FiO2 trong bệnh án ngoại trú không lấy theo diễn biến (qtdieutri có các cột dữ liệu thông tin này nhưng không được ghi nhận) mà lấy từ bảng khambenh nên khi chỉnh 1 diễn biến thì các chỉ số này thay đổi theo khi xem ở tất cả các lần diễn biến.
+![](https://i.vgy.me/S9fwDM.png)
+- 🐛: BANT theo ngày khi cấp toa thì khambenh.maxt = null
+![](https://i.vgy.me/53GRVc.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/325
+
 ## [v.3.25.0602.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506024-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506024-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506024-NasDHSolutions.json)</sup></sup></sub> <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506024-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506024-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506024-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Máy cấp cứu chỉnh chẩn đoán báo lỗi
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/306
