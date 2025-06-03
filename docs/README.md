@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0603.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506031-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi: Prescription Cấp toa từ Tủ trực không thấy được VTYT do Danh mục Vật tư thuộc kho Chẵn riêng với Kho dược #347
+	- Cập nhật: 
+
+	![](https://img.upanh.tv/2025/06/03/Prescription_8eO8RGrcCl.png)
+	![](https://img.upanh.tv/2025/06/03/B40opWs9CJ.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/347
+
 ## [v.3.25.0603.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506030-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Chỉ số sinh hiệu Hb, FiO2 trong bệnh án ngoại trú không lấy theo diễn biến (qtdieutri có các cột dữ liệu thông tin này nhưng không được ghi nhận) mà lấy từ bảng khambenh nên khi chỉnh 1 diễn biến thì các chỉ số này thay đổi theo khi xem ở tất cả các lần diễn biến.
 ![](https://i.vgy.me/S9fwDM.png)
