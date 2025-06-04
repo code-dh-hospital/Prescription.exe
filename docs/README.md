@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0604.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506040-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Chức năng đăng ký OPC (BV Ô Môn)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/343
+
+- Fix lỗi chức năng đăng ký OPC đăng nhập ngày cũ vẫn nhận tái khám được gây ra tình trạng ghi nhận psdangky.luubenh = 3 (lần tái khám cuối) sai ngày làm cho lần tái khám tiếp theo lấy sai thông tin.
+![](https://live.staticflickr.com/65535/54566538283_3a2db8fc31_b.jpg)
+
 ## [v.3.25.0603.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506031-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi: Prescription Cấp toa từ Tủ trực không thấy được VTYT do Danh mục Vật tư thuộc kho Chẵn riêng với Kho dược #347
 	- Cập nhật: 
