@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0604.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506042-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506042-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506042-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Chức năng đăng ký OPC (BV Ô Môn) rebuild
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/343
+
+- Fix sai ngày làm việc
+![](https://live.staticflickr.com/65535/54566538283_3a2db8fc31_b.jpg)
+
 ## [v.3.25.0604.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506041-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Trừ kho thuốc bệnh nhân ngoại trú (BV Cái Răng)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/345
