@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0606.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506060-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Chức năng đổi mã bệnh án ngoại trú thanh toán theo ngày (BV Thốt Nốt)
+- 🐛: Chức năng đổi mã bệnh án ngoại trú theo ngày chưa cập nhật được thuốc.
+![](https://i.vgy.me/AevAnv.png)
+![](https://i.vgy.me/7VzMXM.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/346
+
 ## [v.3.25.0605.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506052-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506052-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506052-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Chức năng đăng ký OPC (BV Ô Môn)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/343
