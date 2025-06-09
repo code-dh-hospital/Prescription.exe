@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.25.0609.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506090-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Điều chỉnh Biên bản hội chẩn Prescription (BV Phụ Sản)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/297
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/341
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/355
+
+- [Yêu cầu - Điều chỉnh Biên bản hội chẩn Prescription (BV Phụ Sản) thêm para tuỳ chọn xuống dòng để ký tên](https://i.dh-his.com/hdhiswork/YEUCAU/issues/297)
+![](https://live.staticflickr.com/65535/54576764903_dcd8b53f55_b.jpg)
+
+- [Lỗi: Prescription Vào Cấp Toa không chọn Toa thuốc cần Xem Bấm Nút Xem trở về Form đang khám](https://i.dh-his.com/hdhiswork/LOI/issues/355)
+
+![](https://live.staticflickr.com/65535/54576719179_5b4a86189a_b.jpg)
+
+- [Lỗi - Prescription: Chỉnh thông tin form khám bệnh không tự load thông tin mới lên form khi lưu](https://i.dh-his.com/hdhiswork/LOI/issues/341)
+
+![](https://live.staticflickr.com/65535/54576711369_896e34a828_b.jpg)
+
 ## [v.3.25.0606.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506060-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Chức năng đổi mã bệnh án ngoại trú thanh toán theo ngày (BV Thốt Nốt)
 - 🐛: Chức năng đổi mã bệnh án ngoại trú theo ngày chưa cập nhật được thuốc.
