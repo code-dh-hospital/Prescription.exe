@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.25.0611.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506111-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: không in được giấy chứng nhận phẫu thuật #335
+	- Cập nhật:
+		![](https://i.vgy.me/Y7U9NK.png)
+		![](https://i.vgy.me/CcUu8Y.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/335
+<<<<<<< HEAD
+
+## [v.3.25.0611.0]()
+- 🐛: Lỗi - Prescription: không in được giấy chứng nhận phẫu thuật #335
+	- Cập nhật:
+		![](https://i.vgy.me/Y7U9NK.png)
+		![](https://i.vgy.me/CcUu8Y.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/335
+=======
+
 ## [v.3.25.0609.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506090-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Điều chỉnh Biên bản hội chẩn Prescription (BV Phụ Sản)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/297
