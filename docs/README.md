@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.25.0616.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506162-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - BV Tim Mạch CT: Đề nghị phần mềm bổ sung tính năng Hỗ trợ KCB theo thông tư 01/2025
+- ✨: Tại form Khám bệnh không cập nhật lại `psdangky.tuyen = 0` và `psdangky.tuyenxml = 0` khi các tham số `tuyenbv = 3, cap >= 2` và `khambenh.maicd` được xác định tại `dmicd.capchuyenmon = 1` (tham chiếu khambenh.maicd = dmicd.maicd) 
+![](https://i.vgy.me/Vl5xLt.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/122
+
+## [v.3.25.0616.1]()
+- ✨: Yêu cầu - BV Tim Mạch CT: Đề nghị phần mềm bổ sung tính năng Hỗ trợ KCB theo thông tư 01/2025
+- ✨: Tại form Khám bệnh không cập nhật lại `psdangky.tuyen = 0` và `psdangky.tuyenxml = 0` khi các tham số `tuyenbv = 3, cap >= 2` và `khambenh.maicd` được xác định tại `dmicd.capchuyenmon = 1` (tham chiếu khambenh.maicd = dmicd.maicd) 
+![](https://i.vgy.me/Vl5xLt.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/122
+
+## [v.3.25.0616.0]()
+- ✨: Yêu cầu - BV Tim Mạch CT: Đề nghị phần mềm bổ sung tính năng Hỗ trợ KCB theo thông tư 01/2025
+- ✨: Tại form Khám bệnh không cập nhật lại `psdangky.tuyen = 0` và `psdangky.tuyenxml = 0` khi các tham số `tuyenbv = 3, cap >= 2` và `khambenh.maicd` được xác định tại `dmicd.capchuyenmon = 1` (tham chiếu khambenh.maicd = dmicd.maicd) 
+![](https://i.vgy.me/Vl5xLt.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/122
+
 ## [v.3.25.0612.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506122-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506122-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32506122-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Form Khám bệnh nút Khám bệnh bị che khuất
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/371
