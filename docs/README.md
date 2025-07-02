@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.25.0702.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507020-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Đồng bộ trạng thái màu tại danh sách Cận lâm sàng Form chẩn đoán cho đúng với Form chỉ định Cận lâm sàng, Fix lưu sai tuổi khi chỉnh thông tin tại Form danh sách.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/265
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/341
+
+- Đồng bộ trạng thái màu cho CLS tại Form chẩn đoán khám bệnh cho đồng bộ với Form CLS trên Prescription và Form CLS tự do trên Register
+![](https://live.staticflickr.com/65535/54627736738_ed3ec71389_b.jpg)
+
+
+- Fix lưu thông tin sai tuổi
+-[](https://live.staticflickr.com/65535/54627778870_e4e6601011_b.jpg)
+
 ## [v.3.25.0701.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507010-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Không load được Sổ thủ thuật/ Sổ phẫu thuật theo tùy chọn #339
 	- Cập nhật:
