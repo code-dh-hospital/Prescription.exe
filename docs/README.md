@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0707.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507072-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Khi bấm In Phiếu BHYT phần mềm hiện thông báo chặn không cho in phiếu khi có CLS, TT/PT chưa thực hiện nhưng phần mềm ghi nhận trạng thái đã in phiếu ở bảng khambenh, chidinhcls, chungtu, pshdxn và Không cho chỉnh chẩn đoán
+![](https://i.vgy.me/EdlsPU.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/358
+
 ## [v.3.25.0707.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507071-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Phần mềm Prescription Khám bệnh không cập nhật lại psdangky.tuyen = 0 và psdangky.tuyenxml = 0 khi các tham số tuyenbv = 3, cap >= 2 và khambenh.maicd được xác định tại dmicd.capchuyenmon = 1 (tham chiếu khambenh.maicd = dmicd.maicd)
 ![](https://i.vgy.me/glDaxU.gif)
