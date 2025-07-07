@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0707.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507070-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Phần mềm Prescription Khám bệnh không cập nhật lại psdangky.tuyen = 0 và psdangky.tuyenxml = 0 khi các tham số tuyenbv = 3, cap >= 2 và khambenh.maicd được xác định tại dmicd.capchuyenmon = 1 (tham chiếu khambenh.maicd = dmicd.maicd)
+![](https://i.vgy.me/glDaxU.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/122
+
 ## [v.3.25.0703.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507032-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Chỉnh sửa chi phí bệnh nhân ngoại trú đã in phiếu BHYT (BV Ung Bướu) - LOI - dh-issue- #337
 - 🐛:  ***Chỉnh lỗi in ở Prescription, với tham số không trừ kho trực tiếp mà vẫn khóa phiếu 01, xuất xml. Hướng xử lý đối với những bệnh nhân đã khóa như thông tin lỗi, phải thực hiện in lại phiếu 01 để xử lý đúng theo nghiệp vụ in không khóa.*** ![](https://live.staticflickr.com/65535/54630350806_bde18c9e3f_b.jpg)
