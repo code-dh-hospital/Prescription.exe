@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0708.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507080-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix lỗi chưa cập nhật lại cột Tuổi theo đơn vị tuổi
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/341
+
+![](https://live.staticflickr.com/65535/54641064660_6090abf4c4_b.jpg)
+
 ## [v.3.25.0707.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507072-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Khi bấm In Phiếu BHYT phần mềm hiện thông báo chặn không cho in phiếu khi có CLS, TT/PT chưa thực hiện nhưng phần mềm ghi nhận trạng thái đã in phiếu ở bảng khambenh, chidinhcls, chungtu, pshdxn và Không cho chỉnh chẩn đoán
 ![](https://i.vgy.me/EdlsPU.gif)
