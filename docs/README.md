@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.25.0709.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507091-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Không load được Sổ thủ thuật/ Sổ phẫu thuật theo tùy chọn #339
+	- Fix lỗi: chuyển cls đã lập phiếu thủ thuật phẫu thuật vào nội trú --> sau đó chuyển ra ngoại trú --> vẫn ghi nhận phiếu đó là của nội trú
+	- Chuyển cls vào nội trú
+	![](https://i.vgy.me/Jre8VU.png)
+
+	- Sổ phẫu thuật:
+	![](https://i.vgy.me/ZiJcKx.png)
+
+	- Chuyển CLS ra ngoại trú:
+	![](https://i.vgy.me/Vc3Ev8.png)
+
+	- Sổ phẫu thuật:
+	![](https://i.vgy.me/TkJNDW.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/339
+
 ## [v.3.25.0709.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507090-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Khi bấm In Phiếu BHYT phần mềm hiện thông báo chặn không cho in phiếu khi có CLS, TT/PT chưa thực hiện nhưng phần mềm ghi nhận trạng thái đã in phiếu ở bảng khambenh, chidinhcls, chungtu, pshdxn và Không cho chỉnh chẩn đoán
 ![](https://i.vgy.me/BeBw0S.gif)
