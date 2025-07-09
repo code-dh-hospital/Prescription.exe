@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.0709.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507092-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507092-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507092-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription, Treatment: Bổ sung para cân nặng trong mẫu in thuốc nghiện, hướng thần repush
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/235
+
+- Bổ sung para cân nặng cho ClsInToaThuoc [Mo-ta-he-thong/KHAMBENH/NGHIEP_VU_TOA_THUOC_NGOAI_TRU.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/NGHIEP_VU_TOA_THUOC_NGOAI_TRU.md)
+
+![](https://live.staticflickr.com/65535/54643402860_f66a5215ed_c.jpg)
+
+![](https://live.staticflickr.com/65535/54643094691_af6138a7c2_c.jpg)
+
 ## [v.3.25.0709.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507091-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Không load được Sổ thủ thuật/ Sổ phẫu thuật theo tùy chọn #339
 	- Fix lỗi: chuyển cls đã lập phiếu thủ thuật phẫu thuật vào nội trú --> sau đó chuyển ra ngoại trú --> vẫn ghi nhận phiếu đó là của nội trú
