@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0713.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507133-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507133-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507133-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung ký số giấy nhập viện và hủy ký số
+
+## [v.3.25.0713.2]()
+- ✨: Bổ sung ký số giấy nhập viện
+
 ## [v.3.25.0713.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507131-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  YÊU CẦU - Bổ sung Danh mục địa phương theo Công văn số 1027/CTK-CSCL (gọi tắt Danh mục theo CV 915/CTK-CSCL) - YEUCAU - dh-issue- #346
 - ✨:  ***Cập nhật thêm danh mục địa phương 2 cấp theo mô tả [CONGVAN-YEUCAU/Cong-van-915-CTK-CSCL-2025/Danh-muc-dia-phuong-Cong-van-915-v2.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CONGVAN-YEUCAU/Cong-van-915-CTK-CSCL-2025/Danh-muc-dia-phuong-Cong-van-915-v2.md).*** 
