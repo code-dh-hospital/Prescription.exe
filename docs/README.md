@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.25.0716.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507160-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung chức năng Chặn hoặc Cảnh báo khi sử dụng 1 vài thuốc đặc thù (có quy định số ngày tối thiểu khi sử dụng)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/249
+
+- Kiểm tra thuốc khi ra toa theo tham số thuoc.songaytoithieu.canhbao
+- Theo mô tả : [THUOC_SONGAYTOITHIEU.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/THUOC_SONGAYTOITHIEU.md)
+
+- thuoc.songaytoithieu.canhbao = 1
+![](https://live.staticflickr.com/65535/54657686571_923ec2b6ba_b.jpg)
+![](https://live.staticflickr.com/65535/54657686571_923ec2b6ba_b.jpg)
+
+- thuoc.songaytoithieu.canhbao = 2
+![](https://live.staticflickr.com/65535/54658063155_bd1ec706bc_b.jpg)
+![](https://live.staticflickr.com/65535/54657743141_83a0b14e41_b.jpg)
+
 ## [v.3.25.0715.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507153-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507153-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507153-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cho phép in lại phiếu nhập viện đã ký
 
