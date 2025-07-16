@@ -6,6 +6,28 @@
 
 #
 
+## [v.3.25.0717.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507174-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507174-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507174-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix: Lỗi Tài khoản bác sĩ khám đang khám ở máy khác, không thể lưu khám bệnh
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/363
+
+## [v.3.25.0717.3]()
+- ✨: Hỗ trợ giấy nghỉ ốm theo thông tư 25/2025/TT-BYT (Fix lỗi thiếu ngày khám liên 2)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/347
+
+## [v.3.25.0717.2]()
+- ✨: Hỗ trợ giấy nghỉ ốm theo thông tư 25/2025/TT-BYT (Fix lỗi thiếu ngày khám liên 2)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/347
+
+## [v.3.25.0717.1]()
+- ✨: Hỗ trợ giấy nghỉ ốm theo thông tư 25/2025/TT-BYT (Fix lỗi thiếu ngày khám liên 2)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/347
+
+## [v.3.25.0717.0]()
+- 🐛: Fix: Lỗi Tài khoản bác sĩ khám đang khám ở máy khác, không thể lưu khám bệnh
+- 🐛: Hỗ trợ giấy nghỉ ốm theo thông tư 25/2025/TT-BYT (Fix lỗi thiếu ngày khám liên 2)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/363
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/347
+
 ## [v.3.25.0716.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507160-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung chức năng Chặn hoặc Cảnh báo khi sử dụng 1 vài thuốc đặc thù (có quy định số ngày tối thiểu khi sử dụng)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/249
