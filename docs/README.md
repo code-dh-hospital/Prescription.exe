@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0717.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507177-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507177-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507177-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - BV Tim Mạch CT: Đề nghị phần mềm bổ sung tính năng Hỗ trợ KCB theo thông tư 01/2025
+- 🐛: Khi khám bệnh nhân trước có sử dụng mã ICD hỗ trợ cấp chuyên môn phần mềm cập nhật lại psdangky.tuyen = 0 và psdangky.tuyenxml = 0, khi khám bệnh nhân 2 không sử dụng mã icd hỗ trợ cấp chuyên môn phần mềm vẫn cập nhật lại psdangky.tuyen = 0 và psdangky.tuyenxml = 0
+![](https://i.vgy.me/6vWq58.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/122
+
 ## [v.3.25.0717.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507176-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507176-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507176-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung chức năng Chặn hoặc Cảnh báo khi sử dụng 1 vài thuốc đặc thù (có quy định số ngày tối thiểu khi sử dụng)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/249
