@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0718.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507180-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BV Tim Mạch CT: Thủ thuật đã lập phiếu in bảng kê báo chưa thực hiện
+- 🐛: Phần mềm Prescription in bảng kê rồi nhưng không lên báo cáo XML130 trên Reports và Admin do psxml không ghi nhận ngày thanh toán
+![](https://i.vgy.me/uP0ZLr.gif)
+- 🐛: Phần mềm Prescription khi in phiếu bệnh nhân ngày cũ không hiển thị thông báo cho cập nhật ngày giờ in phiếu mà ghi nhận ngày in phiếu (ngày thanh toán xml) là ngày hiện tại
+![](https://i.vgy.me/uP0ZLr.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/358
+
 ## [v.3.25.0717.8]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507178-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507178-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507178-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Treatment, Prescription hỗ trợ mẫu giấy ra viện theo thông tư 25/2025/TT-BYT (BV Tâm phúc)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/353
