@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0731.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507310-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507310-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507310-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - BV Phụ Sản: Báo cáo lượt đăng ký theo địa phương không thống kê được số liệu - LOI - dh-issue- #425
+- 🐛:  ***Xử lý lấy thông tin báo cáo theo danh mục địa phương 4750.*** ![](https://live.staticflickr.com/65535/54690443524_ddfcc23af4_b.jpg)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/425
+
 ## [v.3.25.0729.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507290-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription in bảng kê 01KCB tại Prescription XML4210 và 4750 mã bệnh chính lại đem qua cột mã bệnh khác #418
 	- Cập nhật Prescription
