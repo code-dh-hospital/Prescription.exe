@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.0804.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508040-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Treatment, Prescription hỗ trợ bắt chọn mã máy khi lập phiếu TT/PT dựa vào Danh mục cận lâm sàng
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/381
+
+- Bắt buộc chọn mã máy thực hiện theo Danh mục CLS [YEUCAU/issues/381](https://i.dh-his.com/hdhiswork/YEUCAU/issues/381)
+- Theo mô tả : [BẮT BUỘC CHỌN MÃ MÁY KHI LẬP PHIẾU PHẪU THUẬT/THỦ THUẬT](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Quan-tri-Admin/BO_SUNG_THONG_TIN_NHAP_MA_MAY_PTTT.md)
+![](https://i.vgy.me/nee7mT.png)
+
 ## [v.3.25.0731.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507313-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507313-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32507313-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bệnh án điện tử tích hợp với DHS #5
 - ✨: Cập nhật chức năng ký số EMR trên phiếu nhập viện và toa thuốc
