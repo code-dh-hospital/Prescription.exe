@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0805.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508051-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung thao tác hỗ trợ kết nối PACS Savina (tại BV YHCT Cần Thơ).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/374
+
+## [v.3.25.0805.0]()
+- 🐛: Hỗ trợ mẫu BẢN TÓM TẮT HỒ SƠ BỆNH ÁN theo thông tư 25/2025/TT-BYT (Fix thiếu ngày in)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/354
+
 ## [v.3.25.0804.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508040-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Treatment, Prescription hỗ trợ bắt chọn mã máy khi lập phiếu TT/PT dựa vào Danh mục cận lâm sàng
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/381
