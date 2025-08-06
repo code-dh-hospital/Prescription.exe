@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0806.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508063-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508063-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508063-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - BV Sa Đéc: XML 130 sai số tiền và số lượng thuốc khi bệnh nhân có chỉ định số lượng 3 số thập phân - LOI - dh-issue- #422
+- 🐛:  ***Tăng số chữ số làm tròn đối với tiền thuốc, vtyt lên 3 con số.*** ![](https://live.staticflickr.com/65535/54698688405_7329156e63_b.jpg)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/422
+
 ## [v.3.25.0806.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508062-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508062-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508062-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - BV Phụ Sản: Báo cáo lượt đăng ký theo địa phương không thống kê được số liệu - LOI - dh-issue- #425
 - 🐛:  ***Chỉnh lỗi lấy danh sách chi tiết theo số lượng theo danh mục địa phương 2 cấp.*** ![](https://live.staticflickr.com/65535/54702059257_a30f48946f_b.jpg)
