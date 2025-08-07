@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0807.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508072-NasDHSolutions.json)</sup></sup></sub>
+- ✨: `Yêu cầu - PRESCRIPTION hỗ trợ mẫu GIẤY XÁC NHẬN NGHỈ DƯỠNG THAI theo thông tư 25/2025/TT-BYT
+- ✨: Bổ sung thêm param `noicutru`
+![](https://i.vgy.me/NPBNvG.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/358
+
 ## [v.3.25.0807.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508071-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - PRESCRIPTION hỗ trợ mẫu GIẤY XÁC NHẬN NGHỈ DƯỠNG THAI theo thông tư 25/2025/TT-BYT
 ![](https://i.vgy.me/avY17a.png)
