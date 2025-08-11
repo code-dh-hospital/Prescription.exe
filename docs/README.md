@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.25.0811.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508115-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508115-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508115-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung ký số Phiếu BANT, Phiếu kết thúc BANT và giấy ra viện
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/5
+
+![](https://i.vgy.me/K09s1C.png)
+
+- Thao tác tại Nút Hồ sơ ký số và huỷ ký 3 mẫu
+
+![](https://i.vgy.me/Ag3jXH.png)
+![](https://i.vgy.me/QiCBE2.png)
+![](https://i.vgy.me/PwXF2Y.png)
+
 ## [v.3.25.0811.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508114-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508114-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508114-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bệnh án điện tử tích hợp với DHS #5
 - ✨: Cập nhật chức năng in toa khi ký số EMR - fix lỗi in không đúng size
