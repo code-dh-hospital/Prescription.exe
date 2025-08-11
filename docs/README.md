@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0811.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508114-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508114-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508114-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bệnh án điện tử tích hợp với DHS #5
+- ✨: Cập nhật chức năng in toa khi ký số EMR - fix lỗi in không đúng size
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/5
+
 ## [v.3.25.0811.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508113-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508113-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508113-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bệnh án điện tử tích hợp với DHS #5
 - ✨: Cập nhật function `KySoToDieuTri`, bổ sung thêm `AdmissionCode`, `PatientCode`, `MedicalRecordNo` vào body
