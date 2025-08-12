@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0812.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508121-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508121-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508121-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Bệnh án điện tử tích hợp với DHS - DUAN - dh-issue- #5
+- ✨:  ***Chỉnh lỗi toa thuốc A5 không in được đối với phiếu ký số. In bằng chức năng in tùy chọn*** ![](https://live.staticflickr.com/65535/54713968763_397e2e1687_b.jpg)
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/5
+
 ## [v.3.25.0812.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508120-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Bệnh án điện tử tích hợp với DHS - DUAN - dh-issue- #5
 - ✨:  ***Chỉnh lỗi in phiếu chuyển viện.***
