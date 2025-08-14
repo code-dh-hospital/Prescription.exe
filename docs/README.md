@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.25.0814.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508142-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: BV Phụ Sản: Biên bản hội chẩn và trích BBHC không hiển thị chức vụ #440
+	- Fix lỗi:
+	![](https://i.vgy.me/IugRsj.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/440
+
+- 🐛: Lối - Prescription: Phiếu phẫu thuật/thủ thuật chưa load được hình ảnh #438
+	- Fix lỗi:
+	![](https://i.vgy.me/JEe3tl.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/438
+
 ## [v.3.25.0814.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508141-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: BV Phụ Sản: Biên bản hội chẩn và trích BBHC không hiển thị chức vụ #440
 	- Fix lỗi:
