@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0818.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508183-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508183-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508183-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Cập nhật toa thuốc theo thông tư 26
+![](https://i.vgy.me/GKQPap.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/367
+
 ## [v.3.25.0818.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508182-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508182-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508182-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - BV Sa Đéc: XML 130 sai số tiền và số lượng thuốc khi bệnh nhân có chỉ định số lượng 3 số thập phân - LOI - dh-issue- #422
 - 🐛:  ***Chỉnh lỗi in và không tạo xml130 khi in phiếu 01.*** ![](https://live.staticflickr.com/65535/54727146322_cf4c0d193f_b.jpg) ![](https://live.staticflickr.com/65535/54728204079_cb709999f1_b.jpg)
