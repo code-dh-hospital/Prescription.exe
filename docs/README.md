@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0818.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508182-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508182-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508182-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - BV Sa Đéc: XML 130 sai số tiền và số lượng thuốc khi bệnh nhân có chỉ định số lượng 3 số thập phân - LOI - dh-issue- #422
+- 🐛:  ***Chỉnh lỗi in và không tạo xml130 khi in phiếu 01.*** ![](https://live.staticflickr.com/65535/54727146322_cf4c0d193f_b.jpg) ![](https://live.staticflickr.com/65535/54728204079_cb709999f1_b.jpg)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/422
+
 ## [v.3.25.0818.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508181-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Prescription: Bảng kê 6556 in thiếu tên chẩn đoán phụ (BV Cù Lao Minh) - LOI - dh-issue- #433
 - 🐛:  ***Xử lý lỗi trùng chẩn đoán, điều kiện kiểm tra cùng nếu chẩn đoán phụ có chứa tên chẩn đoán chính, và phải có dấu ; mới tính là trùng.***
