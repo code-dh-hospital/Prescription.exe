@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0818.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508180-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Lỗi Void DH.XML4750.HOSO..ctor khi in bảng kê - cập nhật tháng kế toán, cập nhật đối chiếu hồ sơ XML - LOI - dh-issue- #448
+- 🐛:  ***Chỉnh lỗi khi in và xuất XML130.***
+- ![](https://live.staticflickr.com/65535/54728056553_491beb41f0_b.jpg)![](https://live.staticflickr.com/65535/54728071699_5f7318fcaf_b.jpg)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/448
+
 ## [v.3.25.0814.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508145-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508145-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508145-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: BV Đông Hải - Hiển thị sai ngày hẹn tái khám khi xem toa ngày củ #445 (push lại)
 ![](https://i.vgy.me/hsX47i.gif)
