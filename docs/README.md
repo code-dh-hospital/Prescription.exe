@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0818.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508181-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Prescription: Bảng kê 6556 in thiếu tên chẩn đoán phụ (BV Cù Lao Minh) - LOI - dh-issue- #433
+- 🐛:  ***Xử lý lỗi trùng chẩn đoán, điều kiện kiểm tra cùng nếu chẩn đoán phụ có chứa tên chẩn đoán chính, và phải có dấu ; mới tính là trùng.***
+- ![](https://live.staticflickr.com/65535/54728172044_e584e921cc_b.jpg) ![](https://live.staticflickr.com/65535/54727946691_4522f6c142_b.jpg)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/433
+
 ## [v.3.25.0818.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508180-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Lỗi Void DH.XML4750.HOSO..ctor khi in bảng kê - cập nhật tháng kế toán, cập nhật đối chiếu hồ sơ XML - LOI - dh-issue- #448
 - 🐛:  ***Chỉnh lỗi khi in và xuất XML130.***
