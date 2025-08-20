@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0820.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508200-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Treatment , Prescription hỗ trợ tham số không bắt buộc nhập Phương pháp vô cảm khi lập phiếu TT/PT #380
+- ✨: Khi lập phiếu PT/TT không bắt buộc nhập phương pháp vô cảm đối với CLS có cấu hình không nhập phương pháp vô cảm
+![](https://i.vgy.me/YImVOI.png)
+![](https://i.vgy.me/tpC9p2.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/380
+
 ## [v.3.25.0819.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508192-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508192-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508192-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix lỗi khi in cls và dùng tài khoản chưa map chữ ký
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/459
