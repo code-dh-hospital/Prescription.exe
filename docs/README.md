@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0827.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508270-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription chức năng chuyển phòng (BV QDY CT) #464
+- 🐛: Kiểm tra trước khi chuyển phòng, nếu đã hủy chuyển phòng rồi thì không cho chuyển.
+![](https://i.vgy.me/7wjfdb.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/464
+
 ## [v.3.25.0826.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508261-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: BV Trà Cú: Toa thuốc nghiện - hướng thần không lấy được ngày hẹn tái khám
 ![](https://i.vgy.me/JAJj0d.png)
