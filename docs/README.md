@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0903.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509031-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - PRESCRIPTION - Báo lỗi Khi Lưu chẩn đoán
+![](https://i.vgy.me/ILXsQq.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/497
+
 ## [v.3.25.0903.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509030-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix lỗi BANT - thêm diễn biến mới (chưa chỉ định CLS thuốc) -> vào quá trình điều trị xem thì diễn biến đó cũng bị tách thành 2 dòng
 ![](https://i.vgy.me/40fard.png)
