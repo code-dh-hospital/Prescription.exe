@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0903.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509030-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix lỗi BANT - thêm diễn biến mới (chưa chỉ định CLS thuốc) -> vào quá trình điều trị xem thì diễn biến đó cũng bị tách thành 2 dòng
+![](https://i.vgy.me/40fard.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/457
+
 ## [v.3.25.0829.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32508291-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Bổ sung JSON của EMR trả về khi phát sinh lỗi(Data = null)
 - ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/5
