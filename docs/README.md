@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.0905.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509051-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - XML 130 bệnh án ngoại trú thanh toán đợt không lấy được chan_doan_rv và ma_benh_chinh (BV YHCT CT)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/453
+
+- Fix lỗi không cập nhật lại bnnoitru.maicdxml, bnnoitru.maicdpxml và bnnoitru.kqcdoanxml khi kết thúc điều trị BANT YHCT
+- Xuất 4750 trên Admin trong quá trình test cần tắt chức năng ký số do cấu hình ký số không được sẽ không hiển thị dữ liệu khi `Xem XML 4750`
+
+![](https://i.vgy.me/gCXzgg.png)
+
 ## [v.3.25.0905.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509050-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Bệnh án ngoại trú hỗ trợ in Phiếu công khai các Dịch vụ kỹ thuật và Phiếu công khai thuốc
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/244
