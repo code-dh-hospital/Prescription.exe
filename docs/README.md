@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.25.0905.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509050-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Bệnh án ngoại trú hỗ trợ in Phiếu công khai các Dịch vụ kỹ thuật và Phiếu công khai thuốc
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/244
+
+![](https://i.vgy.me/LGjcDg.png)
+
+![](https://i.vgy.me/zH720m.png)
+
+![](https://i.vgy.me/3WdV9b.png)
+
+![](https://i.vgy.me/1X5QNx.png)
+
 ## [v.3.25.0904.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509041-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - PRESCRIPTION - IN TOA TRẮNG NGÀY SINH KHÔNG HIỂN THỊ 
 ![](https://i.vgy.me/WryXk4.png)
