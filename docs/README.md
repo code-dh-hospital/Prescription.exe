@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0908.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509080-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: BV Ung Bướu: Quá trình điều trị không thống kê được CLS ngoại trú chuyển vào
+- 🐛: Lỗi Quá trình điều trị 1 diễn biến tách thành nhiều dòng có trùng CLS và có thêm dòng tên bác sĩ không có chỉ định CLS, thuốc trong diễn biến đó
+![](https://i.vgy.me/NjyNxF.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/457
+
 ## [v.3.25.0907.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509072-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Hỗ trợ chức năng chặn không cho phát sinh cùng chi trả khi chỉnh định cận lâm sàng, thuốc. Ngoại trừ cận lâm sàng có cấu hình theo tham số "bhytcothu.cls" (Khám ngoại trú + BANT ngày).
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/453
