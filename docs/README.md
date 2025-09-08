@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.0908.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509081-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Quá trình điều trị không lấy được thông tin thuốc
+![](https://i.vgy.me/vfgrQl.png)
+![](https://i.vgy.me/QcM6iR.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/457
+
 ## [v.3.25.0908.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509080-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: BV Ung Bướu: Quá trình điều trị không thống kê được CLS ngoại trú chuyển vào
 - 🐛: Lỗi Quá trình điều trị 1 diễn biến tách thành nhiều dòng có trùng CLS và có thêm dòng tên bác sĩ không có chỉ định CLS, thuốc trong diễn biến đó
