@@ -6,6 +6,28 @@
 
 #
 
+## [v.3.25.0909.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509091-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: BV Phụ Sản: Biên bản hội chẩn và trích BBHC không hiển thị chức vụ #440
+	- Cập nhật:
+	- Trích BBHC:
+	![](https://i.vgy.me/TVONg3.png)
+
+	- BBHC:
+	![](https://i.vgy.me/7y6063.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/440
+<<<<<<< HEAD
+
+## [v.3.25.0909.0]()
+- 🐛: Lỗi - Prescription: BV Phụ Sản: Biên bản hội chẩn và trích BBHC không hiển thị chức vụ #440
+	- Cập nhật:
+	- Trích BBHC:
+	![](https://i.vgy.me/TVONg3.png)
+
+	- BBHC:
+	![](https://i.vgy.me/7y6063.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/440
+=======
+
 ## [v.3.25.0908.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509082-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Quá trình điều trị không lấy được thông tin thuốc
 ![](https://i.vgy.me/ETOBpB.gif)
