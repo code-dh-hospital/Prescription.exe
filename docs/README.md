@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.0911.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509111-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: BV Phụ Sản: Biên bản hội chẩn và trích BBHC không hiển thị chức vụ #440
+	- Cập nhật:
+	- Trích BBHC: fix lỗi sai ngày ra viện, ngày hội chẩn, ngày ký, danh sách viên thiếu ghi chú
+	![](https://i.vgy.me/rUQxB0.png)
+	
+	- BBHC: Bổ sung thêm para cho phần ký tên của chủ tọa và thư ký
+	![](https://i.vgy.me/maQpgh.png)
+	![](https://i.vgy.me/YjD2Ia.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/440
+
 ## [v.3.25.0911.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509110-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: BV Ô Môn: Prescription in bảng kê ngoại trú, BANT cập nhật lại ngày giờ in phiếu 
 ![](https://i.vgy.me/m8tPbW.gif)
