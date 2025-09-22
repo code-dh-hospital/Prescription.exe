@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.0922.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509225-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509225-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509225-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Bổ sung thông tin cảnh báo Tài khoản bác sĩ đang khám tại máy khác
+![](https://i.vgy.me/nZTaRP.png)
+- ✨: Bổ sung trường hợp tham số `kb.bacsi = 2` cảnh báo và cho lưu.
+![](https://i.vgy.me/SnO6sq.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/439
+
 ## [v.3.25.0922.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509224-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509224-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509224-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Chức năng hiệu chỉnh thông tin bệnh án ngoại trú thanh toán đơn (BV Tâm Phúc) 
 ![](https://i.vgy.me/uyFJ92.png)
