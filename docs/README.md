@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.25.0923.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509230-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - PK Đông Tây: Nhận bệnh không lấy được thông tin bệnh nhân cũ và không cảnh báo bệnh nhân chưa ký phiếu thanh toán
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/520
+
+- Cập nhật thư viện không lấy được thông tin bệnh nhân khi đăng ký lại sau thông báo chưa ký bảng kê lần khám trước.
+- Fix không thông báo chưa ký lần khám trước khi nhận bệnh bằng CCCD.
+
+![](https://i.vgy.me/NKqWch.gif)
+
+- Fix kiểm tra sai giải thuật thuốc không có cấu hình tương tác không thể thêm vào toa
+
+![](https://i.vgy.me/AUZCSW.png)
+
 ## [v.3.25.0922.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509225-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509225-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509225-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Bổ sung thông tin cảnh báo Tài khoản bác sĩ đang khám tại máy khác
 ![](https://i.vgy.me/nZTaRP.png)
