@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.25.0923.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509231-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Lỗi in phiếu nhập viện tự thiết kế
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/505
+- 📕: Bổ sung xác nhận design và preview dựa vào tham số giaynhapvien
+
+- giaynhapvien = 0
+
+![](https://i.vgy.me/QtK8n7.png)
+
+- giaynhapvien = 1
+
+![](https://i.vgy.me/M12qQO.png)
+
 ## [v.3.25.0923.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509230-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - PK Đông Tây: Nhận bệnh không lấy được thông tin bệnh nhân cũ và không cảnh báo bệnh nhân chưa ký phiếu thanh toán
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/520
