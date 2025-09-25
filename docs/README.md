@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0925.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509254-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509254-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509254-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Bảng kê bệnh án ngoại trú thanh toán đợt ghi nhận sai chẩn đoán chính ra viện (BV Tam Nông) - LOI - dh-issue- #482
+- 🐛:  ***Chỉnh lỗi lấy sai chẩn đoán chính ra viện.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/09/DESKTOP-2FLMTI6-explorer-2025-09-25-19h15p08.787.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/482
+
 ## [v.3.25.0925.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509253-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509253-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509253-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Lỗi in toa thuốc, xem toa thuốc bệnh án OPC #529
 ![](https://i.vgy.me/ZHebD1.gif)
