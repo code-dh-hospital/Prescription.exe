@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0925.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509250-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung chức năng ngưng sử dụng mã máy thực hiện cls (BV Thanh Bình)
+- ✨: Khi load danh sách máy thực hiện CLS thêm điều kiện xoa = 0.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/448
+
 ## [v.3.25.0923.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509231-NasDHSolutions.json)</sup></sup></sub> <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509231-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Lỗi in phiếu nhập viện tự thiết kế
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/505
