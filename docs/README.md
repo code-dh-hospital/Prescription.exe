@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.0926.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509260-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bệnh án điện tử tích hợp với DHS #5
+- ✨: Thêm cảnh báo khi thực hiện ký số EMR mà chưa thiết kế trang in.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/5
+
 ## [v.3.25.0925.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509255-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509255-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509255-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Bảng kê bệnh án ngoại trú thanh toán đợt ghi nhận sai chẩn đoán chính ra viện (BV Tam Nông) - LOI - dh-issue- #482
 - 🐛:  ***Chỉnh lỗi lấy sai chẩn đoán chính ra viện.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/09/DESKTOP-2FLMTI6-explorer-2025-09-25-19h15p08.787.png)
