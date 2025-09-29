@@ -6,6 +6,10 @@
 
 #
 
+## [v.3.25.0930.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509300-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Hỗ trợ chức năng chặn không cho phát sinh cùng chi trả khi chỉnh định cận lâm sàng, thuốc. Ngoại trừ cận lâm sàng có cấu hình theo tham số bhytcothu.cls (Khám ngoại trú + BANT ngày) (PK Phương Nam + PK Nam Phương)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/453
+
 ## [v.3.25.0929.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32509290-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Thực hiện tích hợp chữ ký số trên phiếu ra viện. #490
 	- Cập nhật ký số giấy ra viện BANT YHCT
