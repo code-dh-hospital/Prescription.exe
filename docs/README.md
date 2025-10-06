@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1006.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510062-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510062-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510062-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: BV Tâm Thần ĐT: Phần mềm không in được 3 liên của toa nghiện, toa hướng thần
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/551
+
+![](https://i.vgy.me/cgXvkF.png)
+
 ## [v.3.25.1006.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510061-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Admin: Bổ sung tham số cấu hình số phút tối thiểu từ thời gian khám bệnh đến chỉ định cận lâm sàng 
 ![](https://i.vgy.me/4odbvB.png)
