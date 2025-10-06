@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1006.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510061-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Admin: Bổ sung tham số cấu hình số phút tối thiểu từ thời gian khám bệnh đến chỉ định cận lâm sàng 
+![](https://i.vgy.me/4odbvB.png)
+![](https://i.vgy.me/IduhLI.png)
+https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-tham-so-cau-hinh-thoi-gian-chi-dinh-can-lam-sang.md
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/452
+
 ## [v.3.25.1006.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510060-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung xử trí chỉnh và xoá theo thông tin chidinhcls.soctvp và pshdxn.soctvp
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/307
