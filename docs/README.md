@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.25.1006.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510060-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung xử trí chỉnh và xoá theo thông tin chidinhcls.soctvp và pshdxn.soctvp
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/307
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/338
+
+- Cho phép chỉnh hoặc xoá chi phí khi phiếu thu đã lập HDDT và sử dụng Mở khoá thay thế
+
+- Bổ sung cột chidinhcls.soctvp và pshdxn.soctvp khi load lên form CLS và Thuốc, cập nhật lại chidinhcls.soctvp và pshdxn.soctvp nếu dòng đang chỉnh có thông tin phiếu thu.
+
+![](https://i.vgy.me/mjDou2.png)
+
+- Sau khi chỉnh 
+
+![](https://i.vgy.me/ZPg3ON.png)
+
 ## [v.3.25.1003.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510033-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510033-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510033-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Chuyển khoa của BANT theo đợt - LOI - dh-issue- #548
 - 🐛:  ***Xử lý theo hướng lấy danh sách khoa, còn sử dụng, và khoa này phải có phòng khám còn sử dụng (dmphong.xoa=0 và noingoai=0).*** ![](https://i.vgy.me/SRLZK4.png)
