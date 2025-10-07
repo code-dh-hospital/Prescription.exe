@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1007.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510071-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - chức năng in phiếu nhập viện (BV Thạnh Trị) - LOI - dh-issue- #559
+- 🐛:  ***Chỉnh lỗi khi xem trang tin.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-07-09h00p53.290.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/559
+
 ## [v.3.25.1007.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510070-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Hỗ trợ chức năng chặn không cho phát sinh cùng chi trả khi chỉnh định cận lâm sàng, thuốc. Ngoại trừ cận lâm sàng có cấu hình theo tham số bhytcothu.cls (Khám ngoại trú + BANT ngày) (PK Phương Nam + PK Nam Phương)
 - 🐛: Bổ sung hiện thị chi phí trong thông báo.
