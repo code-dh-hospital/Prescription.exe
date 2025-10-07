@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1007.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510074-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510074-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510074-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Bổ sung chức năng kiểm tra cân nặng (BV Thạnh Trị) - YEUCAU - dh-issue- #502
+- ✨:  ***Bổ sung kiểm tra cân nặng phải lớn hơn 1. Các trường hợp không đổi từ chuỗi sang số xem như 0.***  ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-07-14h48p32.582.png) ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-07-14h49p13.571.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/502
+
 ## [v.3.25.1007.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510073-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510073-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510073-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  YÊU CẦU - Khám ngoại trú Khi cấp toa không bắt CLS gửi nơi khác có check Đã TH - YEUCAU - dh-issue- #474
 - ✨:  ***Bỏ qua không kiểm tra CLS thực hiện đối với các CLS có check Gửi nơi khác.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-07-14h14p07.248.png)
