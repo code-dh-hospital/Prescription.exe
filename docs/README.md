@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1008.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510083-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510083-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510083-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Bệnh nhân ngoại trú form chỉ định cls hiển thị nhiều dòng 1 cls (BV Thạnh Trị) - LOI - dh-issue- #562
+- 🐛:  ***Lỗi thể hiện trùng CLS.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-08-11h56p05.055.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/562
+
 ## [v.3.25.1008.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510082-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Bổ sung chức năng kiểm tra cân nặng (BV Thạnh Trị) - YEUCAU - dh-issue- #502
 - ✨:  ***Bổ sung chỉnh diễn biến cũng kiểm tra cân nặng.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-08-11h34p10.831.png)
