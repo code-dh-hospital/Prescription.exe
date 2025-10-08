@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1008.9]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510089-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510089-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510089-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Chức năng chỉ định cls bệnh án ngoại trú thanh toán đợt (BV Thạnh Trị) - LOI - dh-issue- #563
+- 🐛:  ***Chỉnh lỗi thêm CLS theo đợt (bỏ qua bước kiểm tra tham số thời gian tối thiểu từ lúc khám bệnh đến chỉ định CLS).***![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-08-15h17p18.785.png) 
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/563
+
 ## [v.3.25.1008.8]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510088-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510088-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510088-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Bổ sung chức năng kiểm tra cân nặng (BV Thạnh Trị) - YEUCAU - dh-issue- #502
 - ✨:  ***Bổ sung chỉnh diễn biến cũng kiểm tra cân nặng, kiểm tra số lớn hơn 1, 1 số lẻ.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-08-14h06p27.628.png)
