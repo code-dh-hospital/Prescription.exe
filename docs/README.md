@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1008.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510084-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510084-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510084-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  YÊU CẦU - Mẫu số 07 Nghỉ ốm - Bổ sung trường dữ liệu xuất excel gửi cổng BH - YEUCAU - dh-issue- #504
+- ✨:  ***Bổ sung các trường dữ liệu theo Yêu cầu, LOAI_GIAYTO=1 (lấy theo thông tin loại giấy báo tử).***![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-08-10h31p22.539.png)![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-08-10h31p28.646.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/504
+
 ## [v.3.25.1008.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510083-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510083-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510083-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Bệnh nhân ngoại trú form chỉ định cls hiển thị nhiều dòng 1 cls (BV Thạnh Trị) - LOI - dh-issue- #562
 - 🐛:  ***Lỗi thể hiện trùng CLS.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-08-11h56p05.055.png)
