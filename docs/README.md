@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1008.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510087-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510087-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510087-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Bổ sung chức năng kiểm tra cân nặng (BV Thạnh Trị) - YEUCAU - dh-issue- #502
+- ✨:  ***Bổ sung chỉnh diễn biến cũng kiểm tra cân nặng, kiểm tra số lớn hơn 1, 1 số lẻ.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-08-14h06p27.628.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/502
+
 ## [v.3.25.1008.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510086-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510086-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510086-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cập nhật lại mã đơn thuốc - chức năng in toa thông tư 26
 ![](https://i.vgy.me/awMpOD.png)
