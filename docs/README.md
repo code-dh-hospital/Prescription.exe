@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1009.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510094-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510094-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510094-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Prescription: BV Ô Môn: Bệnh nhân có chứng nhận miễn phần mềm hiển thị sai số tiền ở tổng kết chi phí và bảng kê sai mức hưởng - LOI - dh-issue- #566
+- 🐛:  ***Xử lý lại mức hưởng, nếu có mienchitra và không có chi phí phải thu %, thì chuyển MUCHUONG=100.*** ![](https://i.vgy.me/VZCRLm.png) ![](https://i.vgy.me/o2xgRw.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/566#issuecomment-16586
+
 ## [v.3.25.1009.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510093-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510093-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510093-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Chức năng hiệu chỉnh thông tin ngoại trú và BANT
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/542
