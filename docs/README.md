@@ -6,6 +6,35 @@
 
 #
 
+## [v.3.25.1009.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510093-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510093-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510093-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Chức năng hiệu chỉnh thông tin ngoại trú và BANT
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/542
+
+- Fix lỗi khi chỉnh thông tin BANT và bệnh án ARV
+
+- BANT đợt có phát sinh chi phí sẽ không cho đổi mã đối tượng.
+
+![](https://i.vgy.me/VMZx2k.png)
+
+- 🐛: Lỗi - Prescription: Hiệu chỉnh thông tin BN HIV
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/564
+
+![](https://i.vgy.me/oKh4yh.png)
+
+## [v.3.25.1009.2]()
+- 🐛: Lỗi - Chức năng hiệu chỉnh thông tin ngoại trú và BANT
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/542
+
+- Fix lỗi khi chỉnh thông tin BANT và bệnh án ARV
+- BANT đợt có phát sinh chi phí sẽ không cho đổi mã đối tượng.
+
+![](https://i.vgy.me/VMZx2k.png)
+
+- 🐛: Lỗi - Prescription: Hiệu chỉnh thông tin BN HIV
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/564
+
+![](https://i.vgy.me/oKh4yh.png)
+
 ## [v.3.25.1009.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510091-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Bổ sung chức năng kiểm tra cân nặng khi in bảng kê 6556 (BV Thạnh Trị) - YEUCAU - dh-issue- #503
 - ✨:  ***Bổ sung chức năng kiểm tra cân nặng (có thẻ BHYT, cân nặng lớn hơn 1) khi Ra viện.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-09-11h30p12.188.png)
