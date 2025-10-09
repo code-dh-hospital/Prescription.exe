@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1009.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510091-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Bổ sung chức năng kiểm tra cân nặng khi in bảng kê 6556 (BV Thạnh Trị) - YEUCAU - dh-issue- #503
+- ✨:  ***Bổ sung chức năng kiểm tra cân nặng (có thẻ BHYT, cân nặng lớn hơn 1) khi Ra viện.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-09-11h30p12.188.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/503
+
 ## [v.3.25.1009.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510090-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  YÊU CẦU - Mẫu số 06 Nghỉ dưỡng thai - Bổ sung trường dữ liệu xuất excel gửi cổng BH - YEUCAU - dh-issue- #506
 - ✨:  ***Bổ sung các trường dữ liệu theo yêu cầu LOAI_GIAYTO	SO_CCCD	NGAYCAP_CCCD	NOICAP_CCCD	NOI_CU_TRU_NND	MATINH_CU_TRU	MAXA_CU_TRU	TUOI_THAI	BENHICD10	TENBENHNICD10.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-09-09h12p02.948.png)
