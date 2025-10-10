@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1010.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510101-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Treatment - Prescription: BV Hồng Dân: Thêm para ghi nhận mã khoa 2348 vào giấy ra viện nội trú và BANT - YEUCAU - dh-issue- #468
+- ✨:  ***Bổ sung para: `ma_khoa_cv2348` trên phiếu ra viện BANT Chung, YHCT.***  ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-10-08h53p00.436.png) ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-10-08h53p24.371.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/468
+
 ## [v.3.25.1010.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510100-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Prescription: BV Ô Môn: Bệnh nhân có chứng nhận miễn phần mềm hiển thị sai số tiền ở tổng kết chi phí và bảng kê sai mức hưởng - LOI - dh-issue- #566
 - 🐛:  ***Xử lý lại mức hưởng, nếu có mienchitra và không có chi phí phải thu %, thì chuyển MUCHUONG=100. Bổ sung xử lý theo ngày miễn chi trả bắt đầu và kết thúc.*** ![](https://i.vgy.me/VZCRLm.png) ![](https://i.vgy.me/o2xgRw.png)
