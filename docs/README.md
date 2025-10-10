@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1010.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510102-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510102-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510102-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  YÊU CẦU - Mẫu số 06 Nghỉ dưỡng thai - Bổ sung trường dữ liệu xuất excel gửi cổng BH - YEUCAU - dh-issue- #506
+- ✨:  ***Bổ sung các trường dữ liệu theo yêu cầu LOAI_GIAYTO	SO_CCCD	NGAYCAP_CCCD	NOICAP_CCCD	NOI_CU_TRU_NND	MATINH_CU_TRU	MAXA_CU_TRU	TUOI_THAI	BENHICD10	TENBENHNICD10.***
+- ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-10-10h36p08.025.png) ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-10-10h36p26.769.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/506
+
 ## [v.3.25.1010.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510101-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Treatment - Prescription: BV Hồng Dân: Thêm para ghi nhận mã khoa 2348 vào giấy ra viện nội trú và BANT - YEUCAU - dh-issue- #468
 - ✨:  ***Bổ sung para: `ma_khoa_cv2348` trên phiếu ra viện BANT Chung, YHCT.***  ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-10-08h53p00.436.png) ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-10-08h53p24.371.png)
