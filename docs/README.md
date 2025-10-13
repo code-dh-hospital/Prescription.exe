@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.25.1013.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510131-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: BV Lấp Vò: Xem Lịch sử bệnh BANT theo đợt không thống kê đơn thuốc
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/567
+
+![](https://files.catbox.moe/x8uka0.png)
+
+- 🐛: Lỗi - Chức năng hiệu chỉnh thông tin ngoại trú và BANT
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/542
+
+- Fix không đổi psdangky.madt và công khám thiếu thông tin chidinhcls.maba khi đổi đối tượng BANT đợt
+
+![](https://files.catbox.moe/rly5df.png)
+
+![](https://files.catbox.moe/o0evw2.png)
+
 ## [v.3.25.1013.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510130-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi ký số - Prescription, không chuyển label chữ ký thành màu trắng
 
