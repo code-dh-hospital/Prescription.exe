@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1013.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510132-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510132-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510132-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Thực hiện tích hợp chữ ký số trên phiếu ra viện.
+- ✨: bổ sung chức năng 2 chữ ký trên cùng 1 phiếu
+![](https://files.catbox.moe/w3kkna.png)
+![](https://files.catbox.moe/o710ly.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/490
+
 ## [v.3.25.1013.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510131-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: BV Lấp Vò: Xem Lịch sử bệnh BANT theo đợt không thống kê đơn thuốc
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/567
