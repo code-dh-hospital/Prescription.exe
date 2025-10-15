@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1015.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510150-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Form Kết thúc ĐT và Tổng kết CP của BANT bị lỗi hiển thị thiếu thông tin khi màn hình độ phân giải thấp #573
+![](https://files.catbox.moe/7o56fu.png)
+![](https://files.catbox.moe/tv4wa4.png)
+![](https://files.catbox.moe/653bpd.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/573
+
 ## [v.3.25.1014.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510142-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - chọn đúng mã giường khi lập hồ sơ nhập viện
 - ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/48
