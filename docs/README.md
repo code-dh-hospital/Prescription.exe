@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1016.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510162-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  YÊU CẦU - Mẫu số 06 Nghỉ dưỡng thai - Bổ sung trường dữ liệu xuất excel gửi cổng BH - YEUCAU - dh-issue- #506
+- ✨:  YÊU CẦU - Mẫu số 07 Nghỉ ốm - Bổ sung trường dữ liệu xuất excel gửi cổng BH - YEUCAU - dh-issue- #504
+- ✨:  ***Đổi tên trường TENBENHICD10 thành TENBENICD10.***
+- ✨: Lấy chẩn đoán phụ vào TENBENICD10 (maicd giữ nguyên) ![](https://i.vgy.me/E1xKZ3.png) ![](https://i.vgy.me/F9YBoS.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/506
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/504
+
 ## [v.3.25.1016.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510161-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix Lưu nhập viện thì lại tự động mở form chọn mà giường thêm 1 lần nữa khi tham số nt.magiuong = 2
 - ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/48
