@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1019.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510190-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - BV Thốt Nốt: Số giấy chứng nhận thương tích tự tăng - YEUCAU - dh-issue- #513
+- ✨:  ***Bổ sung số phiếu khi in chứng nhận tai nạn thương tích (tự tăng theo năm kế toán).*** 
+- ✨:  ***`so_phieu: Số phiếu tăng theo năm`***
+- ✨: ***`so_phieu_namkt: Chuỗi số phiếu tăng theo năm theo SỐ: {so_phieu}/GCN-{namekt}`.***
+- ![](https://i.vgy.me/MyXK4U.png) ![](https://i.vgy.me/3pm6nA.png) ![](https://i.vgy.me/bnVLAt.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/513
+
 ## [v.3.25.1017.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510170-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: bỏ chặn - lấy lại toa thuốc do chưa thực hiện CLS đối với toa mua ngoài. 
 ![](https://files.catbox.moe/0uqybd.gif)
