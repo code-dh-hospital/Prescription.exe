@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1020.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510200-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung cảnh báo khi nhận bệnh tại phòng cấp cứu #496
+![](https://i.vgy.me/8asxul.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/496
+
 ## [v.3.25.1019.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510190-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - BV Thốt Nốt: Số giấy chứng nhận thương tích tự tăng - YEUCAU - dh-issue- #513
 - ✨:  ***Bổ sung số phiếu khi in chứng nhận tai nạn thương tích (tự tăng theo năm kế toán).*** 
