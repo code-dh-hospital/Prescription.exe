@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1020.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510202-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510202-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510202-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Lỗi: Phiếu khám bệnh vào viện hiển thị thông báo thiết kế trang in với tài khoản BS thường. - TOLAPTRINH - dh-issue- #59
+- ✨:  ***Bỏ chức năng hỏi thiết kế lại trang tin đối vơi tài khoản thường.***
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/59
+- ✨: Yêu cầu - Prescription: Bệnh án ngoại trú tài khoản người dùng có quyền Hiệu chỉnh thông tin #260
+
 ## [v.3.25.1020.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510201-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Bệnh án ngoại trú tài khoản người dùng có quyền Hiệu chỉnh thông tin #260
 ![](https://i.vgy.me/vMStUI.png)
