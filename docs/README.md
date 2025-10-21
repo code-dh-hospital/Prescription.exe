@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1021.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510210-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Register: Hiển thị danh sách địa phương 2 cấp tại mục Đăng ký KSK HĐ - YEUCAU - dh-issue- #532
+- ✨:  ***Thêm địa chỉ theo địa phương 2 cấp, theo tham số áp dụng.*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-21-09h38p06.208.png) ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-21-09h39p51.314.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/532#issuecomment-17335
+
 ## [v.3.25.1020.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510205-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510205-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510205-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription Bệnh án ngoại trú thanh toán ngày lịch sử bệnh xem kết quả cls ko hiển thị được kết quả và báo lỗi #582
 ![](https://i.vgy.me/R5O5cJ.png)
