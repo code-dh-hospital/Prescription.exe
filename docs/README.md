@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1022.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510226-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510226-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510226-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Lỗi - Prescription: PK Minh Quang: Cảnh báo sai Thời gian ra toa quá gần thời gian khám tham số toathuoc.sophuttoithieu #586
+![](https://i.vgy.me/pfE77e.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/586
+
 ## [v.3.25.1022.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510225-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510225-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510225-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Lỗi - Prescription: PK Minh Quang: Cảnh báo sai Thời gian ra toa quá gần thời gian khám tham số toathuoc.sophuttoithieu #586
 - ✨: Bổ sung thêm các thông tin giờ trên thông báo để khách hàng được rõ
