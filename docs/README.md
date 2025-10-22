@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1022.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510221-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510221-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510221-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Lỗi: Thiết kế phiếu nhập viện lấy sai para nên không có dữ liệu hiển thị - TOLAPTRINH - dh-issue- #58
+- ✨:  ***Cập nhật giá trị mặc định (phiếu thu mặc định) các giá trị `2. Các bộ phận: bophan` `5. Đã xử trí (thuốc, chăm sóc): daxutri`.*** 
+- ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-devenv-2025-10-22-09h30p05.388.png)
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/58#issuecomment-17249
+
 ## [v.3.25.1022.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510220-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Lỗi: Thiết kế phiếu nhập viện lấy sai para nên không có dữ liệu hiển thị - TOLAPTRINH - dh-issue- #58
 - ✨:  ***Cập nhật giá trị mặc định (phiếu thu mặc định) các giá trị `2. Các bộ phận: bophan` `5. Đã xử trí (thuốc, chăm sóc): daxutri`.*** 
