@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1022.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510222-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510222-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510222-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Bệnh án ngoại trú tài khoản người dùng có quyền Hiệu chỉnh thông tin
+- 🐛: Trường hợp BANT (Theo ngày. Theo đợt) chưa Hiệu chỉnh được thông tin!
+![](https://i.vgy.me/cXDxmk.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/260
+
 ## [v.3.25.1022.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510221-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510221-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510221-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Lỗi: Thiết kế phiếu nhập viện lấy sai para nên không có dữ liệu hiển thị - TOLAPTRINH - dh-issue- #58
 - ✨:  ***Cập nhật giá trị mặc định (phiếu thu mặc định) các giá trị `2. Các bộ phận: bophan` `5. Đã xử trí (thuốc, chăm sóc): daxutri`.*** 
