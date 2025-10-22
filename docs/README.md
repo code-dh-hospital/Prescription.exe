@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1022.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510220-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Lỗi: Thiết kế phiếu nhập viện lấy sai para nên không có dữ liệu hiển thị - TOLAPTRINH - dh-issue- #58
+- ✨:  ***Cập nhật giá trị mặc định (phiếu thu mặc định) các giá trị `2. Các bộ phận: bophan` `5. Đã xử trí (thuốc, chăm sóc): daxutri`.*** 
+- ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-devenv-2025-10-22-09h30p05.388.png)
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/58#issuecomment-17249
+
 ## [v.3.25.1021.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510212-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510212-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510212-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Bổ sung chức năng lấy lại sinh hiệu đối với bệnh án ngoại trú theo ngày (BV Thốt Nốt) - YEUCAU - dh-issue- #531
 - ✨:  ***Ghi nhận thêm các chỉ số sinh hiệu khi thực hiện chuyển phòng đối với BANT thanh toán ngày, các chỉ số áp dụng theo: "huyetap", "nhietdo", "mach", "nhiptho", "chieucao", "cannang", "hb", "fio2".*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-21-10h03p09.592.png) ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-21-10h05p27.721.png)
