@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.25.1022.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510224-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510224-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510224-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Lỗi - Prescription: PK Minh Quang: Cảnh báo sai Thời gian ra toa quá gần thời gian khám tham số toathuoc.sophuttoithieu #586
+![](https://i.vgy.me/KddrmL.png)
+- ✨: Bổ sung thêm các thông tin giờ trên thông báo để khách hàng được rõ
+![](https://i.vgy.me/LmPzox.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/586
+
+## [v.3.25.1022.3]()
+- ✨: Lỗi - Prescription: PK Minh Quang: Cảnh báo sai "Thời gian ra toa quá gần thời gian khám" tham số toathuoc.sophuttoithieu #586
+![](https://i.vgy.me/KddrmL.png)
+- ✨: Bổ sung thêm các thông tin giờ trên thông báo để khách hàng được rõ
+![](https://i.vgy.me/LmPzox.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/586
+
 ## [v.3.25.1022.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510222-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510222-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510222-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Bệnh án ngoại trú tài khoản người dùng có quyền Hiệu chỉnh thông tin
 - 🐛: Trường hợp BANT (Theo ngày. Theo đợt) chưa Hiệu chỉnh được thông tin!
