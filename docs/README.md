@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1023.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510230-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Chức năng tham số kb.bacsi = 0 không cho phép tài khoản khám nhiều phòng (BV Thạnh Trị) - LOI - dh-issue- #587
+- 🐛:  ***Chỉnh lỗi trường hợp mất kết nối, ngắt ngang vẫn thì khi sang máy khác sẽ biết trạng thái đăng nhập đã kết thúc.***
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/587#issuecomment-17427
+
 ## [v.3.25.1022.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510226-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510226-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510226-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Lỗi - Prescription: PK Minh Quang: Cảnh báo sai Thời gian ra toa quá gần thời gian khám tham số toathuoc.sophuttoithieu #586
 ![](https://i.vgy.me/pfE77e.gif)
