@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1023.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510236-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510236-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510236-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Lỗi khi cấp toa BANT theo đợt #591
+![](https://i.vgy.me/uMbCOE.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/591
+
 ## [v.3.25.1023.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510235-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510235-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510235-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung chức năng khảo sát CareMe theo tài liệu mô tả: [CareMe/CareMe.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CareMe/CareMe.md).
