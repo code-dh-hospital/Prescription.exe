@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1023.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510233-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510233-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510233-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Chức năng tham số kb.bacsi = 0 không cho phép tài khoản khám nhiều phòng (BV Thạnh Trị) - LOI - dh-issue- #587
+- 🐛:  ***Chỉnh lỗi khi máy khác bị tắt ngang, Pre vẫn bắt tài khoản đăng nhập máy khác.*** 
+![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-23-14h02p43.317.png)
+![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-23-14h03p08.376.png)
+![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-23-14h03p24.502.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/587#issuecomment-17427
+
 ## [v.3.25.1023.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510232-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510232-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510232-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Chức năng tham số kb.bacsi = 0 không cho phép tài khoản khám nhiều phòng (BV Thạnh Trị) - LOI - dh-issue- #587
 - 🐛:  ***Bổ sung OTH.Adapter.Common.PgAdvisoryLock hỗ trợ kiểm tra session bác sĩ đăng nhập.***
