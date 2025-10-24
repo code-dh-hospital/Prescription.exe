@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1024.9]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510249-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510249-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510249-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Chức năng tham số kb.bacsi = 0 không cho phép tài khoản khám nhiều phòng (BV Thạnh Trị) - LOI - dh-issue- #587
+- 🐛:  ***Chỉnh lỗi khi máy khác bị tắt ngang, Pre vẫn bắt tài khoản đăng nhập máy khác.*** ![](https://i.vgy.me/aKzjyz.png)![](https://i.vgy.me/YPixP1.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/587#issuecomment-17617
+
 ## [v.3.25.1024.8]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510248-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510248-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510248-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Chức năng tham số kb.bacsi = 0 không cho phép tài khoản khám nhiều phòng (BV Thạnh Trị) - LOI - dh-issue- #587
 - 🐛:  ***Chỉnh lỗi khi máy khác bị tắt ngang, Pre vẫn bắt tài khoản đăng nhập máy khác.*** ![](https://i.vgy.me/aKzjyz.png)![](https://i.vgy.me/YPixP1.png)
