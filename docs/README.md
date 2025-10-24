@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.1024.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510245-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510245-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510245-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - hỗ trợ mẫu PHIẾU CHUYỂN DỊCH VỤ CẬN LÂM SÀNG theo Nghị định số 188/2025/NĐ-CP
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/411
+
+- 📗: Bổ sung bảng current.chuyencls theo mô tả
+- 📕: Thêm design phiếu chuyển CLS theo nghị định 188
+
+- Theo mô tả : [CHUYEN_DICH_VU_CLS_NĐ_188_2025_NĐ_CP.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/CHUYEN_DICH_VU_CLS_N%C4%90_188_2025_N%C4%90_CP.md)
+
+![](https://files.catbox.moe/jz2ccp.png)
+
 ## [v.3.25.1024.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510244-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510244-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510244-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Lỗi - Prescription: Không ký số được toa thuốc và phiếu nhập viện - TOLAPTRINH - dh-issue- #62
 - ✨:  ***Chỉnh lỗi khi in ký số phiếu nhập viện (lỗi code không chạy vào ký số khi bật tham số giaynhapvien=1).*** ![](https://storage.googleapis.com/accurately-sharp-katydid.appspot.com/ShareX/2025/10/DESKTOP-2FLMTI6-explorer-2025-10-24-10h38p44.757.png)
