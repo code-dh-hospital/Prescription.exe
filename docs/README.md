@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.1024.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510247-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510247-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510247-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - hỗ trợ mẫu PHIẾU CHUYỂN DỊCH VỤ CẬN LÂM SÀNG theo Nghị định số 188/2025/NĐ-CP
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/411
+
+- Điều chỉnh khi chọn chuyển CLS trên lưới nếu là CLS con thì tự động check toàn bộ CLS con có cùng mã cha và check luôn CLS cha
+- Fix sai trạng thái check vào ô hết hạn trên mẫu chuyển CLS
+- Bổ sung thêm cảnh báo khi bấm xoá phiếu chuyển CLS
+- Fix không con phiếu chuyển CLS nào nhưng bấm Chỉnh phát sinh lỗi
+
+![](https://i.vgy.me/cG8oiI.png)
+
 ## [v.3.25.1024.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510246-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510246-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510246-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Hỗ trợ chức năng cấp thẻ tạm theo địa phương 2 cấp BV Thạnh trị #525
 
