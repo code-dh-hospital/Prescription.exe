@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.25.1028.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510282-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510282-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510282-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - hỗ trợ mẫu PHIẾU CHUYỂN DỊCH VỤ CẬN LÂM SÀNG theo Nghị định số 188/2025/NĐ-CP
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/411
+
+- Fix không chọn in được đối với các CLS đã lập phiếu chuyển CLS
+
+![](https://i.vgy.me/mftuSV.png)
+
+- Bổ sung báo cáo chuyển DV/CLS
+
+![](https://i.vgy.me/KAanv4.png)
+
 ## [v.3.25.1028.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510281-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  LỖI - PRESCRIPTION - Mẫu thiết kế Tóm tắt hồ sơ bệnh án - Bệnh án ngoại trú có một số Parameters không hiển thị thông tin khi in - LOI - dh-issue- #594
 - 🐛:  ***Chỉnh lỗi không lấy được chẩn đoán vào viện.***![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/28/DESKTOP-2FLMTI6-explorer-2025-10-28-18h39p28.502.png)
