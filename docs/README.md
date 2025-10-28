@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1028.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510281-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  LỖI - PRESCRIPTION - Mẫu thiết kế Tóm tắt hồ sơ bệnh án - Bệnh án ngoại trú có một số Parameters không hiển thị thông tin khi in - LOI - dh-issue- #594
+- 🐛:  ***Chỉnh lỗi không lấy được chẩn đoán vào viện.***![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/28/DESKTOP-2FLMTI6-explorer-2025-10-28-18h39p28.502.png)
+- 🐛:  ***Chỉnh lỗi Thiếu thông tin tenkhoa pQTBenhLi pTSBanThan PTSGiaDinh.*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/28/DESKTOP-2FLMTI6-explorer-2025-10-28-18h45p42.338.png)
+- 🐛: ***Trang này không có phần tiêu đề, nên không truyền. Đây là thông tin khi chưa chuyển tự thiết kế.*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/28/DESKTOP-2FLMTI6-explorer-2025-10-28-18h51p31.617.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/594#issuecomment-17881
+
 ## [v.3.25.1028.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510280-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Cập nhật 1 số tính năng theo yêu cầu CareMe.
