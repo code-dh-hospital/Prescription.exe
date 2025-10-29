@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.1029.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510293-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510293-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510293-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix lỗi thao tác chọn CLS chuyển thực hiện và không lưu được phiếu chuyển DV/CLS
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/411
+
+- Fix sai điều kiện kiểm tra khi check chọn Chuyển DV/CLS gây ra lỗi vẫn chọn được các kho khác mô tả
+- Fix lỗi lưu phiếu chuyển DV/CLS phát sinh lỗi
+
+![](https://files.catbox.moe/1aibbo.gif)
+
 ## [v.3.25.1029.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510292-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510292-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510292-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  LỖI - PRESCRIPTION - Mẫu thiết kế Tóm tắt hồ sơ bệnh án - Bệnh án ngoại trú có một số Parameters không hiển thị thông tin khi in - LOI - dh-issue- #594
 - 🐛:  ***Chỉnh lỗi không lấy được chẩn đoán vào viện.***![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/28/DESKTOP-2FLMTI6-explorer-2025-10-28-18h39p28.502.png)
