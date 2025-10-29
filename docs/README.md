@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1029.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510291-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Prescription: Phiếu chuyển viện không load được mục điều kiện chuyển tuyến - LOI - dh-issue- #599
+- 🐛:  ***Chỉnh lỗi sai thể hiện khoanh tròn điều kiện chuyển tuyến.*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/29/DESKTOP-2FLMTI6-explorer-2025-10-29-09h41p46.756.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/599
+
 ## [v.3.25.1029.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510290-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  LỖI - PRESCRIPTION - Mẫu thiết kế Tóm tắt hồ sơ bệnh án - Bệnh án ngoại trú có một số Parameters không hiển thị thông tin khi in - LOI - dh-issue- #594
 - 🐛:  ***Chỉnh lỗi không lấy được chẩn đoán vào viện.***![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/28/DESKTOP-2FLMTI6-explorer-2025-10-28-18h39p28.502.png)
