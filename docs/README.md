@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1029.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510297-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510297-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510297-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Treatment: Bổ sung thêm parameters họ tên quan hệ giấy ra viện - YEUCAU - dh-issue- #541
+- ✨:  ***Bổ sung `loaiqh` và `hotenqh` trên giấy ra viện.*** 
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/29/DESKTOP-2FLMTI6-explorer-2025-10-29-18h56p55.338.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/29/DESKTOP-2FLMTI6-explorer-2025-10-29-18h57p21.390.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/541
+
 ## [v.3.25.1029.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510296-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510296-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510296-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Prescription: PK Minh Quang: BANT Cảnh báo cân nặng không hợp lệ khi kết thúc BANT - vào cấp toa hiển thị cân nặng bằng 0 - LOI - dh-issue- #600
 - 🐛:  ***Chỉnh lỗi sai cân nặng khi kết thúc ra viện.*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/29/DESKTOP-2FLMTI6-explorer-2025-10-29-16h02p24.284.png)
