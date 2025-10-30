@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1030.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510301-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510301-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510301-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật chức năng in Ký số EMR. Mặc định số bản in là 1. Lưu lại trạng thái máy in để lần sau lấy lại thông tin này.
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/30/DESKTOP-2FLMTI6-explorer-2025-10-30-15h55p28.080.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/30/DESKTOP-2FLMTI6-explorer-2025-10-30-15h54p41.000.png)
+
 ## [v.3.25.1030.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510300-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  LỖI - PRESCRIPTION - Mẫu thiết kế Tóm tắt hồ sơ bệnh án - Bệnh án ngoại trú có một số Parameters không hiển thị thông tin khi in - LOI - dh-issue- #594
 - 🐛:  ***Chỉnh lỗi thiếu Para: `maba` khi in hồ sơ chưa kết thúc.*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/30/DESKTOP-2FLMTI6-explorer-2025-10-30-09h41p29.089.png)
