@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.1103.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511032-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Prescription chức năng in toa thuốc và in chỉ định cls (BV Ô Môn) - LOI - dh-issue- #598
+- 🐛:  ***Chỉnh lỗi không thể hiện trang in bằng 1, chỉnh lỗi in không được.***
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/03/DESKTOP-2FLMTI6-sidekick-2025-11-03-15h09p02.013.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/03/DESKTOP-2FLMTI6-explorer-2025-11-03-15h08p45.335.png)
+- 🐛:  ***Thêm chức năng, In và Đóng, và Đóng để thoát chức năng.*** 
+- ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/03/DESKTOP-2FLMTI6-explorer-2025-11-03-15h23p35.781.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/598
+
 ## [v.3.25.1103.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511031-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Laboratory: tham số xn.sudungmauchuan=8 Hỗ trợ phiếu kết quả gom tất cả các Xét nghiệm trên cùng một phiếu và nhóm theo loại cls
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/463
