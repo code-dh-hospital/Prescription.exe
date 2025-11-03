@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.25.1103.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511030-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - hỗ trợ mẫu PHIẾU CHUYỂN DỊCH VỤ CẬN LÂM SÀNG theo Nghị định số 188/2025/NĐ-CP
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/411
+- 📕: Cập nhật thêm thông tin maba của bảng chuyencls khi nhập viện, chuyển CLS vào nội trú và xoá nhập viện
+
+- 🐛: Fix không lấy được ngày bắt đầu và ngày kết thúc theo dữ liệu thangkt tại Form báo cáo chuyển CLS
+- Cập nhật lại thông tin maba khi chuyển cls vào nội trú, chuyển cls ra ngoại trú
+
+![](https://files.catbox.moe/zb1ju3.png)
+
+![](https://files.catbox.moe/h16ni9.png)
+
+![](https://files.catbox.moe/dudrl0.png)
+
 ## [v.3.25.1030.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510301-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510301-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32510301-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cập nhật chức năng in Ký số EMR. Mặc định số bản in là 1. Lưu lại trạng thái máy in để lần sau lấy lại thông tin này.
 ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/10/30/DESKTOP-2FLMTI6-explorer-2025-10-30-15h55p28.080.png)
