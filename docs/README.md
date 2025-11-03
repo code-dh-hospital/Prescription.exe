@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.1103.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511033-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511033-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511033-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix load sai thông tin sinh hiệu đối với BANT ngày và đợt trong chức năng Chỉnh thông tin bệnh nhân
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/542
+
+- BANT đợt
+![](https://files.catbox.moe/36hcqq.gif)
+
+- BANT ngày
+
+![](https://files.catbox.moe/d8zrl8.gif)
+
 ## [v.3.25.1103.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511032-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Prescription chức năng in toa thuốc và in chỉ định cls (BV Ô Môn) - LOI - dh-issue- #598
 - 🐛:  ***Chỉnh lỗi không thể hiện trang in bằng 1, chỉnh lỗi in không được.***
