@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1104.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511044-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511044-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511044-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Giao diện chỉ định cận lâm sàng
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/597
+
+![](https://files.catbox.moe/s1cchj.gif)
+
 ## [v.3.25.1104.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511043-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511043-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511043-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Prescription không ghi nhận phần trăm cùng chi trả khi tổng tiền bảo hiểm lớn hơn 15% mức lương cơ sở - LOI - dh-issue- #606
 - 🐛:  ***Chỉnh lỗi tính sai tiền Miễn cùng chi trả (khi không có check mienchitra, mà lại có ngày miễn chi trả ngaymienct). Xét đồng thời 2 điều kiện, phải có check mienchitra.***
