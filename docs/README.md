@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.25.1104.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511041-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Pre - Treat: Không lưu được phiếu Phẩu thuật khi có chọn hình. #72
+	- Cập nhật:
+	![](https://i.vgy.me/QwVvBu.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/72
+<<<<<<< HEAD
+
+## [v.3.25.1104.0]()
+- 🐛: Lỗi - Pre - Treat: Không lưu được phiếu Phẩu thuật khi có chọn hình. #72
+	- Cập nhật:
+	![](https://i.vgy.me/QwVvBu.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/72
+=======
+
 ## [v.3.25.1103.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511033-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511033-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511033-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix load sai thông tin sinh hiệu đối với BANT ngày và đợt trong chức năng Chỉnh thông tin bệnh nhân
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/542
