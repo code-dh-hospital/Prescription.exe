@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.1106.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511064-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511064-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511064-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chức năng ghi nhận chẩn đoán sơ bộ theo mô tả [XML130/QD4570/bang1.chan_doan_vao.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/bang1.chan_doan_vao.md)
+![](https://lh3.googleusercontent.com/pw/AP1GczObEZjFMMkzFBP2aKEmm-E42xUU6jCkyVHqSucFGs27eW9RnscH8SvJszw37XhZ_ES8QYUQ0g079QZSKGI0C0n_-v98Zpt-qyDD6r8dRrfS3Ja6d8M7kbADBUUSSOfmUiiFbUi-YuUEFzBuflJllBVH=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOjFcWvWOVzT5tDisV0e2F9CMXsYUhDEDSIthCceKFqWY-TQqGJP-F0dcBZiTD-RUhuiylVlv60oqYAMo8sE_gG1Qn19kGqCzemT_ob3BSLIiRoYXi6EvqHIlCEZ-HwYRLEvFXssLZpNjueUX3iF0Nv=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMLhnj2GirPZbSTxO-YWJBdNmqX2NninzuUE7z6Fqtkb_f0D0uXaxayCtSGrk3gYjZWWmeue9ppr37B3kKikQh0brWGMzpb8C3q_yCoXTOm95y9K1q40R1vvC-Uubjl8NbqDXCZynWrwfuUmCwDPmh2=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/553
+
 ## [v.3.25.1106.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511063-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511063-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511063-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Prescription cho toa thuốc tủ trực không lấy được thuốc của kho chẳn 15 (BV Thốt Nốt) - LOI - dh-issue- #608
 - 🐛:  ***Chỉnh lỗi lấy thiếu tồn kho, double tồn kho khi một mặt hàng thuộc 2 kho chẵn.*** 
