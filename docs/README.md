@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1106.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511061-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: PK Minh Quang: Hỗ trợ mẫu Phiếu thực hiện kỹ thuật phục hồi chức năng theo TT32 #543
+	- Cập nhật:
+	![](https://i.vgy.me/O9FxyQ.png)
+	![](https://i.vgy.me/7rs8KG.png)
+	![](https://i.vgy.me/WtCqoj.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/543
+
 ## [v.3.25.1106.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511060-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Không xem được kết quả Xét nghiệm khi sử dụng tham số xn.sudungmauchuan = 8|9
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/463
