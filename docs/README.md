@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.1106.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511066-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511066-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511066-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Prescription cho toa thuốc tủ trực không lấy được thuốc của kho chẳn 15 (BV Thốt Nốt) - LOI - dh-issue- #608
+- 🐛:  Lỗi: Prescription Cấp toa từ Tủ trực không thấy được VTYT do Danh mục Vật tư thuộc kho Chẵn riêng với Kho dược - LOI - dh-issue- #347
+- 🐛:  ***Chỉnh lỗi sai tồn kho khi gõ mã hàng hóa.*** 
+- ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/06/DESKTOP-2FLMTI6-explorer-2025-11-06-18h35p10.669.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/06/DESKTOP-2FLMTI6-explorer-2025-11-06-18h34p50.655.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/06/DESKTOP-2FLMTI6-explorer-2025-11-06-18h32p12.395.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/608
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/347
+- Luồng công việc liên quan: https://i.dh-his.com/hdhiswork/LOI/issues/268
+
 ## [v.3.25.1106.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511065-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511065-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511065-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung chức năng ghi nhận chẩn đoán sơ bộ theo mô tả [XML130/QD4570/bang1.chan_doan_vao.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/bang1.chan_doan_vao.md) khi xuất XML4750, cột `bang1.chan_doan_vao`:
