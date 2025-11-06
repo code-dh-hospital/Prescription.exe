@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.1106.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511062-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511062-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511062-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Prescription cho toa thuốc tủ trực không lấy được thuốc của kho chẳn 15 (BV Thốt Nốt) - LOI - dh-issue- #608
+- 🐛:  ***Chỉnh lỗi lấy thiếu tồn kho, double tồn kho khi một mặt hàng thuộc 2 kho chẵn.*** 
+- ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/06/DESKTOP-2FLMTI6-explorer-2025-11-06-14h18p31.237.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/06/DESKTOP-2FLMTI6-explorer-2025-11-06-14h18p02.382.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/06/DESKTOP-2FLMTI6-explorer-2025-11-06-14h11p38.597.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/06/DESKTOP-2FLMTI6-explorer-2025-11-06-13h53p32.506.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/608
+- Luồng công việc liên quan: https://i.dh-his.com/hdhiswork/LOI/issues/268
+
 ## [v.3.25.1106.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511061-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: PK Minh Quang: Hỗ trợ mẫu Phiếu thực hiện kỹ thuật phục hồi chức năng theo TT32 #543
 	- Cập nhật:
