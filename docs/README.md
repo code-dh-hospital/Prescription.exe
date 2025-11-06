@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1106.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511060-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Không xem được kết quả Xét nghiệm khi sử dụng tham số xn.sudungmauchuan = 8|9
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/463
+
+![](https://files.catbox.moe/xv8bbr.png)
+
+![](https://files.catbox.moe/lx8w1s.png)
+
 ## [v.3.25.1105.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511053-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511053-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511053-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - hỗ trợ mẫu PHIẾU CHUYỂN DỊCH VỤ CẬN LÂM SÀNG theo Nghị định số 188/2025/NĐ-CP
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/411
