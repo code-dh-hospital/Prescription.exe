@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1107.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511072-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chức năng cập nhật chẩn đoán đầu tiên theo yêu cầu [XML130/QD4570/bang1.chan_doan_vao.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/bang1.chan_doan_vao.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczOXP0_UUcdtQXIGMvfc7kCZdAA3hG6IQQNhr6l-Wrmh6Hou9w8rUHdYVmC5hYfXK-EqI0WUu1lb06bDmRAA1uDUGZZLKRFuSXv7q6MiEMXWRIGJHqnFRVlG7Qab5nQgXRA1c-c-cf5_K_Mp0iYOVZmy=w1311-h395-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMR12Gdy3WfmfaRJ-9v74vWTzofMMQUqrT5qL7TWuipE1kHiHI3ugGC8LXxKJ0sfEfFNolYa0pICpeU6hWcSileGoLnPhLndwLzRvRQUz1k6IQkMvWlifA9JU0o5onLTsLMrN48-dlPEPPqZfNSw1D3=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/553
+
 ## [v.3.25.1107.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511071-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Diagnose: Load thời gian thực hiện y lệnh theo thời gian bắt đầu gửi từ PACS
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/551
