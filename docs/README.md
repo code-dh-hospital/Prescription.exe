@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1107.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511070-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - PRESCRIPTION - In nhanh Giấy chuyển tuyến tại form Khám bệnh
+![](https://i.vgy.me/OXtLtG.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/611
+
 ## [v.3.25.1106.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511066-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511066-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511066-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Prescription cho toa thuốc tủ trực không lấy được thuốc của kho chẳn 15 (BV Thốt Nốt) - LOI - dh-issue- #608
 - 🐛:  Lỗi: Prescription Cấp toa từ Tủ trực không thấy được VTYT do Danh mục Vật tư thuộc kho Chẵn riêng với Kho dược - LOI - dh-issue- #347
