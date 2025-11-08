@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.1108.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511080-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Hỗ trợ xuất loại giấy tờ theo mô tả [THONG-TIN-BENH-NHAN/Xuat-Excel-Tom-tat-ho-so-benh-an.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Xuat-Excel-Tom-tat-ho-so-benh-an.md).
+
+![](https://lh3.googleusercontent.com/pw/AP1GczMKfrawPDMA-_xVXd43_jgaEyplmlspa1aR_rrRbqX3coVrBXafDrs4PsUOjAxnv_7c0hoONxWuy1gBRVd3oeAo-7zNBOys3nFwDxbK1V2G-dkZo51b3MjGdXypuyuzf1iUi8TZULqmeINCREq1-5wv=w1311-h220-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMGuP0ZFtbfBGNzFkakIY9ZbPG6oASHOHsm0C0WvjKdr_vjWjcApgSCha_wtDAT2-S8ONnoqLM8m3VXrMZ1AEMjvv9HiDGB9fbr4vDyynlRN2fIyccexcYMkTc2Dyfbo17y3oEQScp-gp1yBQWDc1Lw=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/552
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/522
+
 ## [v.3.25.1107.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511074-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511074-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511074-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Hỗ trợ chức năng chặn không cho phát sinh cùng chi trả khi chỉnh định cận lâm sàng, thuốc. Ngoại trừ cận lâm sàng có cấu hình theo tham số bhytcothu.cls (Khám ngoại trú + BANT ngày) (PK Phương Nam + PK Nam Phương)
 - 🐛: Fix lỗi tính tổng chi phí đối với BANT ngày.
