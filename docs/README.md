@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1110.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511102-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511102-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511102-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Chỉnh lỗi thông báo sai tài khoản đang khám ở máy khác (Nguyên nhân: sử dụng tên máy tính không theo cấu hình máy, mà theo trạng thái khóa của bệnh nhân, dẫn tới tình trạng lỗi.).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/587
+
+- 📕: Build lại cập nhật dll
+
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/10/DESKTOP-2FLMTI6-PgManager-2025-11-10-15h13p51.012.png)
+
 ## [v.3.25.1110.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511101-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Chức năng tham số kb.bacsi = 0 không cho phép tài khoản khám nhiều phòng (BV Thạnh Trị) - LOI - dh-issue- #587
 - 🐛:  ***Chỉnh lỗi thông báo sai tài khoản đang khám ở máy khác (Nguyên nhân: sử dụng tên máy tính không theo cấu hình máy, mà theo trạng thái khóa của bệnh nhân, dẫn tới tình trạng lỗi.).*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/10/DESKTOP-2FLMTI6-PgManager-2025-11-10-15h13p51.012.png)
