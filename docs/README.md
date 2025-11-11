@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.25.1111.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511112-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511112-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511112-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: PK Minh Quang: Hỗ trợ mẫu Phiếu thực hiện kỹ thuật phục hồi chức năng theo TT32 #543
+	- Cập nhật: BANT
+		![](https://i.vgy.me/ilKL2L.png)
+		![](https://i.vgy.me/Sqb6zi.png)
+
+	- Cập nhật: Khám bệnh
+		![](https://i.vgy.me/TMtNNU.png)
+
+	P/s: sắp xếp theo giờ bắt đầu thủ thuật, phẫu thuật
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/543
+
 ## [v.3.25.1111.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511111-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: PK Minh Quang: Hỗ trợ mẫu Phiếu thực hiện kỹ thuật phục hồi chức năng theo TT32 #543
 	- Cập nhật:
