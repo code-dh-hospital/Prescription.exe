@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.25.1111.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511111-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: PK Minh Quang: Hỗ trợ mẫu Phiếu thực hiện kỹ thuật phục hồi chức năng theo TT32 #543
+	- Cập nhật:
+		![](https://i.vgy.me/TpgkgG.png)
+		![](https://i.vgy.me/CvIRM2.png)
+	P/s: sắp xếp theo giờ bắt đầu thủ thuật, phẫu thuật
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/543
+<<<<<<< HEAD
+
+## [v.3.25.1111.0]()
+- ✨: Yêu cầu - Prescription: PK Minh Quang: Hỗ trợ mẫu Phiếu thực hiện kỹ thuật phục hồi chức năng theo TT32 #543
+	- Cập nhật:
+		![](https://i.vgy.me/TpgkgG.png)
+		![](https://i.vgy.me/CvIRM2.png)
+	P/s: sắp xếp theo giờ bắt đầu thủ thuật, phẫu thuật
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/543
+=======
+
 ## [v.3.25.1110.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511102-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511102-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511102-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Chỉnh lỗi thông báo sai tài khoản đang khám ở máy khác (Nguyên nhân: sử dụng tên máy tính không theo cấu hình máy, mà theo trạng thái khóa của bệnh nhân, dẫn tới tình trạng lỗi.).
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/587
