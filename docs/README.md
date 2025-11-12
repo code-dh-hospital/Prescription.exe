@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.1112.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511123-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511123-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511123-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Tại form tiếp nhận: Nếu `dmbenhnhan.cmnd` người dùng để trống thì mặc định để `loai_giayto = 0`.
+![](https://lh3.googleusercontent.com/pw/AP1GczOasJTa4TmmUImHI5fyJxh3cm4IokH9IcmXMkkpr3k6iVAYYorLYmd8e5BzLXVeeIxpoEq0bJYS8-HphcfWG2-Z34iAMBNzAsnYF6xH616Zxh9vmsmHfTsBD6-ZQg6CT01GpOsJpituzZEjIfzgx6iH=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPj6cGDn-KZNsZBT2jeCpD1s6xIrkKXAHOqfsaKkxboEN4oOkv0zHa7J64exZMGEQ7Wkppn6giNIUMvFGu3Ih3AsqKhQB-2X_6Sc8onMalkcaEKD-C5laRrQF7_ctUtCNEBPhyoNd8Afv8lK_liSqPV=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/522
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/552
+
 ## [v.3.25.1112.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511122-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511122-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511122-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: PK Minh Quang: Hỗ trợ mẫu Phiếu thực hiện kỹ thuật phục hồi chức năng theo TT32 #543
 	- Cập nhật: FIX lỗi bỏ lấy theo đợt
