@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.1112.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511122-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511122-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511122-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: PK Minh Quang: Hỗ trợ mẫu Phiếu thực hiện kỹ thuật phục hồi chức năng theo TT32 #543
+	- Cập nhật: FIX lỗi bỏ lấy theo đợt
+		![](https://files.catbox.moe/1hkkc8.gif)
+	- Lấy tất cả theo bệnh án --> không lấy theo đợt
+	P/s: Chỉ in những thủ thuật, phẫu thuật đã lập phiếu
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/543
+<<<<<<< HEAD
+
 ## [v.3.25.1112.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511121-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511121-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511121-NasDHSolutions.json)</sup></sup></sub>
 Push lại do không tải được
 - 🐛: Lỗi - Prescription xem kết quả xét nghiệm báo lỗi (BV Thốt Nốt).
