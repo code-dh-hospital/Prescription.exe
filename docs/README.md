@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1113.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511130-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Xóa công khám khi có xử trí nhập viện
+![](https://i.vgy.me/T3d6d0.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/539
+
 ## [v.3.25.1112.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511124-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511124-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511124-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  LỖI - Phiếu Phẫu thuật: Chọn Mã máy nhưng không hiển thị tên máy - XML3 không load được MA_MAY - LOI - dh-issue- #617
 - 🐛:  ***Chỉnh lỗi không lấy được XML03.MA_MAY (Lý do, trong danh mục không lưu dạng Upper, mà lúc lập phiếu, lưu dữ liệu trong bảng current.phauthuat lại Upper lên).*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/12/DESKTOP-2FLMTI6-explorer-2025-11-12-18h41p24.397.png)
