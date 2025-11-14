@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1114.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511143-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511143-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511143-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - BV Nghĩa Hành: Thuốc trên danh sách thuốc khi cấp toa bị double khi mã thuốc có ở 2 kho - LOI - dh-issue- #268
+- 🐛:  ***Chỉnh lỗi double khi lấy thuốc tại kho (khi một mặt hàng nhiều kho chẵn).*** 
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/14/DESKTOP-2FLMTI6-explorer-2025-11-14-15h27p30.291.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/14/DESKTOP-2FLMTI6-explorer-2025-11-14-15h27p07.194.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/14/DESKTOP-2FLMTI6-explorer-2025-11-14-18h46p18.465.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/268
+
 ## [v.3.25.1114.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511142-NasDHSolutions.json)</sup></sup></sub>
 - ✨: YÊU CẦU - PRESCRIPTION - Cập nhật bổ sung Phiếu chuyển tuyến Sốt Xuất Huyết và Tai Chân Miệng
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/601
