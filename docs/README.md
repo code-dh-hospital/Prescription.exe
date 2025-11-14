@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.1114.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511142-NasDHSolutions.json)</sup></sup></sub>
+- ✨: YÊU CẦU - PRESCRIPTION - Cập nhật bổ sung Phiếu chuyển tuyến Sốt Xuất Huyết và Tai Chân Miệng
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/601
+
+- Hoàn chỉnh Form thông tin cho chuyển viện sốt xuất huyết và Tay chân miệng
+- Chuyển phiếu chuyển viện sốt xuất huyết sang tự thiết kế
+- Theo mô tả [BO_SUNG_THONG_TIN_CHUYEN_VIEN_SXH_TCM.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/BO_SUNG_THONG_TIN_CHUYEN_VIEN_SXH_TCM.md)
+
+![](https://files.catbox.moe/j9p9qv.png)
+
 ## [v.3.25.1114.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511141-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - BV Nghĩa Hành: Thuốc trên danh sách thuốc khi cấp toa bị double khi mã thuốc có ở 2 kho - LOI - dh-issue- #268
 - 🐛:  ***Chỉnh lỗi double khi lấy thuốc tại kho (khi một mặt hàng nhiều kho chẵn).*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/14/DESKTOP-2FLMTI6-explorer-2025-11-14-15h27p30.291.png)
