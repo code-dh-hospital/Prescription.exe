@@ -6,6 +6,10 @@
 
 #
 
+## [v.3.25.1115.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511150-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix lỗi khuất phần điều chuyển bệnh nhân tại phòng (PK Phương Nam + PK Nam Phương)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/453
+
 ## [v.3.25.1114.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511143-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511143-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511143-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - BV Nghĩa Hành: Thuốc trên danh sách thuốc khi cấp toa bị double khi mã thuốc có ở 2 kho - LOI - dh-issue- #268
 - 🐛:  ***Chỉnh lỗi double khi lấy thuốc tại kho (khi một mặt hàng nhiều kho chẵn).*** 
