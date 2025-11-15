@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1115.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511151-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Chức năng tham số kb.bacsi = 0 không cho phép tài khoản khám nhiều phòng (BV Thạnh Trị) - LOI - dh-issue- #587
+- 🐛:  ***Cập nhật trạng thái trong lichtruc khi thay đổi cấu hình máy.***
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/15/DESKTOP-2FLMTI6-explorer-2025-11-15-10h00p52.264.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/15/DESKTOP-2FLMTI6-explorer-2025-11-15-10h01p12.048.png)
+![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/11/15/DESKTOP-2FLMTI6-explorer-2025-11-15-10h01p25.752.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/587
+
 ## [v.3.25.1115.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511150-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix lỗi khuất phần điều chuyển bệnh nhân tại phòng (PK Phương Nam + PK Nam Phương)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/453
