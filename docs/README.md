@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.25.1117.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511170-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Register, Prescription chức năng đăng ký khám chữa bệnh báo lỗi (BV Cái Răng)
+![](https://i.vgy.me/0stleW.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/622
+
 ## [v.3.25.1115.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511151-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Chức năng tham số kb.bacsi = 0 không cho phép tài khoản khám nhiều phòng (BV Thạnh Trị) - LOI - dh-issue- #587
 - 🐛:  ***Cập nhật trạng thái trong lichtruc khi thay đổi cấu hình máy.***
