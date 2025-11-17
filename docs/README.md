@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.25.1117.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511171-NasDHSolutions.json)</sup></sup></sub>
+- ✨: YÊU CẦU - PRESCRIPTION - Cập nhật bổ sung Phiếu chuyển tuyến Sốt Xuất Huyết và Tai Chân Miệng
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/601
+- 📗: Theo mô tả : [BO_SUNG_THONG_TIN_CHUYEN_VIEN_SXH_TCM.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/BO_SUNG_THONG_TIN_CHUYEN_VIEN_SXH_TCM.md)
+- 📕: Bổ sung design phiếu chuyển viện tay chân miệng
+
+- SXH
+
+![](https://files.catbox.moe/ygkqb0.png)
+
+- TCM
+
+![](https://files.catbox.moe/hvrq1j.png)
+
 ## [v.3.25.1117.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511170-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Register, Prescription chức năng đăng ký khám chữa bệnh báo lỗi (BV Cái Răng)
 ![](https://i.vgy.me/0stleW.png)
