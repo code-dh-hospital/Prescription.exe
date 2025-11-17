@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1117.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511172-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511172-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511172-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix thiếu ngày chuẩn đoán Tay chân miệng cho phiếu chuyển viện tay chân miệng
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/601
+
+![](https://files.catbox.moe/oy6zli.png)
+
 ## [v.3.25.1117.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511171-NasDHSolutions.json)</sup></sup></sub>
 - ✨: YÊU CẦU - PRESCRIPTION - Cập nhật bổ sung Phiếu chuyển tuyến Sốt Xuất Huyết và Tai Chân Miệng
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/601
