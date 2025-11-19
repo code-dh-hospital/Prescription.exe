@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.25.1119.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511190-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Thực hiện bổ sung các hàm kiểm tra ngày thực hiện y lệnh theo mô tả: [CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CHANDOANHINHANH/Thoi-gian-thuc-hien-y-lenh-CDHA-TDCN-TT-PT.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczOucqxlPOrXrRntbUgGmbPVnGEvsgT6qkY2Bl66O-J6t523avu6nTTlQv8Z2le2C7LC_795QSI1ULyockfsVtqnxulKH_173qmGisNYcujCrHjMMKZbQJzAPNLBXViQvHD9nQXsuO3YgJwjYvAKEl_3=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOKJoTxAdP2MtMmnYhwEWxOeczeHbIm6-gdBrxj1sUoCI04PdNHFwRfTPv8mAwnStakWnjhS6EeiygGblR2Y2Sk4schh6_E3nH8U7dumIDw1XCZk5T87wS6-HwIxnLGjF-57idLyu_Ios4kBc7OVdQm=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/515
+
 ## [v.3.25.1118.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511181-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Chuyển chi phí đã thu - rebuild cập nhật chuyencp
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/626
