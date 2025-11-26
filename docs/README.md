@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.1126.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511261-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung cấu hình lấy chẩn đoán ra viện đối với hồ sơ khám ngoại trú theo cập nhật mô tả [XML130/QD4570/Table xml130.bang01 - [Phụ lục - Mô tả XML130 - Bổ sung QĐ 4750].md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/Table%20xml130.bang01%20-%20%5BPh%E1%BB%A5%20l%E1%BB%A5c%20-%20M%C3%B4%20t%E1%BA%A3%20XML130%20-%20B%E1%BB%95%20sung%20Q%C4%90%204750%5D.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczNhYsTQTp-ge_cJROeHuypsTut15xZ9ywWirItIbXe92eIsKXj6H75tQTyYAjSKl5mIw2CnyM5bTdlFLmnOBPegp_PRIqwT5ceVURkpzgMalLEiNnCt1zHmdlV96r3V-S1_3Eq_Zgfmuhs25eLJU02I=w1160-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMjE1vzgDUT7hg6Iuz3m0M64YdToJ50nCfzCTXD_Os-pSM0fguTl4J5x5d5VjDroYPxqlTupQhBabeZqA0pKeUZACM1cNiE4diPxJD6Y9TegPsiGG8geGUWs5R24g5qhQ10VACnD9XdgvgEOn8-4mV2=w1246-h494-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczN2lWfBJHlTRHgnppLwh_f_cB7NhM_tR73us4A-blHwI-Vi0UuhOO6XmwOxqhN_G44UBLDzsGnxvtE9KU2Y7tVNaCR_kievD0aeeY7wJDDJ-kgTpW2llSvRCwNBK80uRxvkapSH1xYvsPsLSoo9FtDJ=w1658-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/576
+
 ## [v.3.25.1126.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511260-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription : BV Ô Môn: Bệnh án OPC thiếu manv bảng chidinhcls (công khám), khambenh
 ![](https://i.vgy.me/0vNDwn.png)
