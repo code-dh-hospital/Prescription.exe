@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.1127.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511270-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi ghi nhận chẩn đoán đầu tiên (thay đổi cách xét điều kiện phòng khám đầu tiên).
+=> Phòng đầu tiên:
+![](https://lh3.googleusercontent.com/pw/AP1GczOT40G-9-zyfMO_VowfP_tw2TidnZ6FKGb1LUuHEnPlDUyjsOvIbesa3QiJ0l7oYBdXaSxr4uZHAQqfOxhZCGzet2AGjBSmKu_uckZTCIYI8zxSB5WReedxQ-1S0-VLRvAWHeKLQ8_oKH7YfP8I_Zwz=w1648-h879-s-no-gm?authuser=0)
+
+=> Phòng thứ 2:
+![](https://lh3.googleusercontent.com/pw/AP1GczOI46iE9T8ao2WvCItMcmX-CB9rMVQyKEAb1Z-9j_0yS5RR2U6PndAr6DX1RODid2EkiALGlWSCo0ryqDA05g7wJyBoXa2HWBf0gov3LiDmhSU05rmvVRhIc-WVJlJyhGo_rO1p5to40NjL2dsz_XFD=w1649-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/553
+
 ## [v.3.25.1126.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511262-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511262-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32511262-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung cấu hình lấy chẩn đoán ra viện đối với hồ sơ khám ngoại trú theo cập nhật mô tả [XML130/QD4570/Table xml130.bang01 - [Phụ lục - Mô tả XML130 - Bổ sung QĐ 4750].md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/Table%20xml130.bang01%20-%20%5BPh%E1%BB%A5%20l%E1%BB%A5c%20-%20M%C3%B4%20t%E1%BA%A3%20XML130%20-%20B%E1%BB%95%20sung%20Q%C4%90%204750%5D.md).
