@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1205.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512051-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung kiểm soát Số phút tối đa (XML03.NGAY_TH_YL đến XML03.NGAY_KQ) người bệnh BHYT thuộc kho TT, PT, HA, CN.
+![](https://lh3.googleusercontent.com/pw/AP1GczO6Y209-6JZRDzCAY6AEbK74uYGCADqUE5_-KE3e1RtRh-D3gawglT-eGUGSi309WvblZ2jbuOPQ7gEJ0Nvm0b7h284Yk-avET0P_XI0PT1nS9KDqIHyOUwkC_p_TmPeG22IaHX0jDHJ-3uaTqHnZ3H=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOWxZr-O3DqXtIIxgDLGH1adBr8NTI24FqmqSqwJb8ZyqfATZs9cd9b-o8KGWkQjIP7dlDzMIuv_ZuwJQ0vxuQ9-ueH5NAPD7KeYygvCaJL2HuGc_xFrkj5v35qYuROJk_sV7aMvRgDblNVge0mx6uO=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/590
+
 ## [v.3.25.1205.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512050-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung thêm chẩn đoán phụ cho toa thuốc TT26 (Đơn thuốc khám nhiều chuyên khoa)
 ![](https://i.vgy.me/EFqAhg.png)
