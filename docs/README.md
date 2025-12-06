@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.25.1206.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512060-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung ghi nhận chẩn đoán đầu tiên cập nhật theo mô tả [XML130/QD4570/bang1.chan_doan_vao.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/bang1.chan_doan_vao.md). Khi tham số `kb.chandoandautien = 1`:
+![](https://lh3.googleusercontent.com/pw/AP1GczNxWjoH5ISF11dEmkdcN5yNvqqlzwDVodaugVa0igwbMB3OOE24ApUq6L_Lo0J6Kh2kAeMLMcntcgKQv5LaBgiXpvPLk8S7xC8nPnteUyD7UCCKiVLRPjEX1rJPo9WkoA5KdrgRkdPdbxFgAZLuhshM=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPSDuBXZYFgFPiOq5ZOHBs5woXDJcoA0v1iOZOEUxfDQ4solapuQY5oQ_EOultB1rJMQfaukQkN88WrPz1mz9OtrRpilpcysoBQXb-Yw37wWTWbjHfIsneTqand4KBgvFxNe1uRWaTYS12cmHjtG2b6=w1654-h879-s-no-gm?authuser=0)
+
+Khi hủy khám:
+![](https://lh3.googleusercontent.com/pw/AP1GczMkiZhAjO65ld5-NsOgyZRkfxhyL4jH7M_VK23uUOAmGkSAH456fzlkk5PWrRmsHRfTq8hpR6fCqC9hLaOb38R6Wd9EzwWNOXlLYXVWDPvtbX-T9zIwK2W58HWrmc7p2JR1SOSF9y-2xysn0NccGfc2=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/586
+
 ## [v.3.25.1205.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512051-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung kiểm soát Số phút tối đa (XML03.NGAY_TH_YL đến XML03.NGAY_KQ) người bệnh BHYT thuộc kho TT, PT, HA, CN.
