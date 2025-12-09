@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1209.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512090-NasDHSolutions.json)</sup></sup></sub>
+- ✨:  Yêu cầu - Hỗ trợ hàm tra cứu lịch sử KCB BHYT (BV Ô Môn) - YEUCAU - dh-issue- #549
+- ✨:  ***Chỉnh thời gian token (phiên làm việc giá trị 10 phút, tự động lấy lại token mới khi hết hạn).*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/12/09/DESKTOP-2FLMTI6-explorer-2025-12-09-14h09p11.227.png) ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/12/09/DESKTOP-2FLMTI6-explorer-2025-12-09-13h45p09.655.png)
+- ✨: ***Thêm chi tiết cảnh báo từ cổng giám định nếu thực hiện kiểm tra thông tuyến không được.*** ![](https://storage.googleapis.com/calf-sure-sawfly.appspot.com/2025/12/09/DESKTOP-2FLMTI6-explorer-2025-12-09-14h06p04.834.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/549#issuecomment-20300
+
 ## [v.3.25.1208.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512082-NasDHSolutions.json)</sup></sup></sub>
 - ✨:  Yêu cầu - Hỗ trợ hàm tra cứu lịch sử KCB BHYT (BV Ô Môn) - YEUCAU - dh-issue- #549
 - ✨:  ***Cập nhật chức năng lấy thêm thông tin lịch sử KCB theo công văn mới trường hợp cổng không trả về, theo tài liệu: api/egw/Lskcb2025.*** 
