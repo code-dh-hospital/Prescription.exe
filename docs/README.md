@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1210.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512101-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Tham số cấu hình số phút tối thiểu giữa 2 công khám của 1 bệnh nhân #587.
+- ✨: bổ sung thêm số phút chênh lệch vào thông báo.
+![](https://i.vgy.me/TsXV1v.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/587
+
 ## [v.3.25.1210.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512100-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Tham số cấu hình số phút tối thiểu giữa 2 công khám của 1 bệnh nhân #587
 ![](https://i.vgy.me/soO6V8.png)
