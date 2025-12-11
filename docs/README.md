@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1211.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512110-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung tham số hệ thống cảnh báo hoặc chặn bệnh nhân có BANT ngày đăng ký KCB #591
+- 🐛: Fix - Chưa bắt theo tác vụ thứ 2 (chuỗi cấu hình sau dấu ';' )
+![](https://i.vgy.me/EOwKUI.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/591
+
 ## [v.3.25.1210.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512102-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512102-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512102-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Tham số cấu hình số phút tối thiểu giữa 2 công khám của 1 bệnh nhân #587
 - ✨: Tại form khám bệnh, xử lý thêm công khám tự động -> cộng thêm số phút theo cấu hình để lưu công khám mới. Đảm bảo khoảng thời gian 2 công khám đúng với cấu hình.
