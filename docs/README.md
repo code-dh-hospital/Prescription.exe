@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1215.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512150-NasDHSolutions.json)</sup></sup></sub>
+- ✨: YÊU CẦU - Bổ sung parameters.chuthichchidinh trên mẫu thiết kế Phiếu chỉ định CLS và Phiếu trả kết quả Chẩn đoán hình ảnh XQ
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/601
+
+![](https://files.catbox.moe/su0fu6.png)
+![](https://files.catbox.moe/mjntc5.png)
+
 ## [v.3.25.1211.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512110-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung tham số hệ thống cảnh báo hoặc chặn bệnh nhân có BANT ngày đăng ký KCB #591
 - 🐛: Fix - Chưa bắt theo tác vụ thứ 2 (chuỗi cấu hình sau dấu ';' )
