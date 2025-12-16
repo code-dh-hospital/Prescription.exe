@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1216.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512160-NasDHSolutions.json)</sup></sup></sub>
+- ✨: YÊU CẦU - Bổ sung parameters.chuthichchidinh trên mẫu thiết kế Phiếu chỉ định CLS và Phiếu trả kết quả Chẩn đoán hình ảnh XQ
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/601
+
+![](https://files.catbox.moe/q900bp.gif)
+
 ## [v.3.25.1215.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512151-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Tham số cấu hình số phút tối thiểu giữa 2 công khám của 1 bệnh nhân.
 - 🐛: Xóa hết công khám rồi chỉ định lại phần mềm không bắt thời gian.
