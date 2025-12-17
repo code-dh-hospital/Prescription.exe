@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1217.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512170-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung ghi nhận Mẫu số theo mô tả [BHXH/Cong-van-3220-BHXH-CNTT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/BHXH/Cong-van-3220-BHXH-CNTT.md) khi lập phiếu nghỉ ốm.
+![](https://lh3.googleusercontent.com/pw/AP1GczPBbGEj7HWz-7IGM2hy3apjfFYYpLX3WzgwkFjdL34mzjLbByQstJu3uymS80aK3pQqYWkzzdxZWKXcJnzBahwSUFrZJj2NcCicafdTIKMrJ-2klIISDi-QjNqZll4MtBxPPC_Vtvx9DWlLBimg9sFP=w832-h831-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMs6IAUe2X-G9lyiv5CzNPWlqSivJtEJ4n_k6Bzicm7vBrs9YOiCCp9m8xpeQng8RGEytpQqjwpw6J5lFatD_MibbvRiCWaKpdaZpgQnUOZORuhj1nQIRjtElDvPajd6wGEsaaRkrb4FtBXck1fiDcf=w1528-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/603
+
 ## [v.3.25.1216.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512161-NasDHSolutions.json)</sup></sup></sub>
 (Push lại do thiêu dll)
 - ✨: Yêu cầu - Prescription: Tham số cấu hình số phút tối thiểu giữa 2 công khám của 1 bệnh nhân.
