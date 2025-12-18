@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1218.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512180-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Phiếu nghỉ ốm => Bỏ mặc định giá trị của mẫu số.
+![](https://lh3.googleusercontent.com/pw/AP1GczMflF5q8mEvIqSZO3JTso-LpJlOKTMK5V2Zn3Hdzg-JaDSRMvCz8hrDQejWlMT5rQZSkm75LHkZBDaMdx2OwvJ9JQnRITQ5WdD1cV34emcdUwnyVZcRHaXQRUpISuTeQBG5ICPBnnodz5T3U9ifEnuo=w832-h831-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/603
+
 ## [v.3.25.1217.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512170-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung ghi nhận Mẫu số theo mô tả [BHXH/Cong-van-3220-BHXH-CNTT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/BHXH/Cong-van-3220-BHXH-CNTT.md) khi lập phiếu nghỉ ốm.
