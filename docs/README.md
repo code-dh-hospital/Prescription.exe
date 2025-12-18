@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1218.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512181-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung ghi nhận tùy chọn Lao giai đoạn nặng và Xơ gan giai đoạn mất bù tại form tổng kết xuất viện bệnh án ngoại trú theo mô tả: [BHXH/Cong-van-3220-BHXH-CNTT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/BHXH/Cong-van-3220-BHXH-CNTT.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczMAkDvN098d4NxpRe52JdhHqQjFevdsgcMdy6_PZ-vsSze2ZHjcsvXmqm4HYEB_5yxZIbuI2EJo8uu18gIrFPwSoUMme9gCAwTkTwK1kG8LUzh3tohnUESpSo5n-OEP66bK_kuA65Yui1_NRO8wSSgE=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/600
+
 ## [v.3.25.1218.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512180-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Phiếu nghỉ ốm => Bỏ mặc định giá trị của mẫu số.
