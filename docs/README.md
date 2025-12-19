@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.25.1219.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512190-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hỗ trợ chức năng bổ sung chỉ số chuẩn đoán hình ảnh đối với XML4
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/585
+
+![](https://i.vgy.me/ChSFjB.png)
+
 ## [v.3.25.1218.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512181-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung ghi nhận tùy chọn Lao giai đoạn nặng và Xơ gan giai đoạn mất bù tại form tổng kết xuất viện bệnh án ngoại trú theo mô tả: [BHXH/Cong-van-3220-BHXH-CNTT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/BHXH/Cong-van-3220-BHXH-CNTT.md).
