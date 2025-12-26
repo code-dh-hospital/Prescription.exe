@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.25.1226.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512261-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Phiếu theo dõi điều trị BANT viết diễn biến theo cấu trúc như SOAP
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/615
+
+- 📗: Bổ sung cột theo mô tả [PHIEU_THEO_DOI_DIEU_TRI_TT32.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/PHIEU_THEO_DOI_DIEU_TRI_TT32.md)
+- 📕: Bổ sung Entity theo mô tả
+
+![](https://i.vgy.me/1MLwAZ.png)
+![](https://i.vgy.me/Fh7XLn.png)
+
 ## [v.3.25.1226.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512260-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Form khám bệnh hiển thị thêm thông tin dân tộc và chức năng cập nhật dân tộc
 ![](https://i.vgy.me/32rRKC.png)
