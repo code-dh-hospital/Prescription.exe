@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.25.1230.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512300-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi in toa thuốc.
+![](https://lh3.googleusercontent.com/pw/AP1GczPLFnkI0enRwOu2yaS9QbbUloa41-N1PwtfLfut6HoIIjdKBebaIFFuGVIAJEQ9zz5CGav7nA2Hg7lcfDx5wwRJxY-_YJACoz2e4h9GI53GSpj0kNvASE3rASB9RVURyKwOmGfhrL55Q3lCLe-W6sQE=w1661-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNTiMdN9_XAYOVsAeOmdR1BNGcNtypkky1WDZw5PXAFUVWDiTsr6atCcYQSnd3k4rqYU9rdyAjXwzfL_b5l0-bgfRsY7FkLBPAcmImGBBfp96jqeX8Xvs_KAfqGGinkaJbb2ci8dPZrRBywfJ5XdOdR=w610-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/676
+
 ## [v.3.25.1226.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512261-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Phiếu theo dõi điều trị BANT viết diễn biến theo cấu trúc như SOAP
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/615
