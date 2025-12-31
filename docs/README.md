@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.25.1231.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512311-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512311-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512311-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Phiếu theo dõi điều trị BANT viết diễn biến theo cấu trúc như SOAP
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/615
+
+- Chỉnh giao diện Form khám bệnh
+- Chỉnh design Phiếu theo dỗi điều trị TT32
+- Fix cập nhật y lệnh tại Form Quá trình điều trị bị ẩn các nút in.
+- Fix cập nhật nội dung kết quả CLS tại Form Quá trình điều trị
+
+![](https://i.vgy.me/wG9lCu.png)
+![](https://i.vgy.me/6Ioh5O.png)
+![](https://i.vgy.me/wG9lCu.png)
+
 ## [v.3.25.1231.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512310-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512310-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512310-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - PK Đông Tây: Cấu hình số phút từ ngày giờ cấp toa, kết quả CLS đến ngày giờ in phiếu
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/570
