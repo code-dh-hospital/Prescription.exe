@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.25.1231.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512310-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512310-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512310-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - PK Đông Tây: Cấu hình số phút từ ngày giờ cấp toa, kết quả CLS đến ngày giờ in phiếu
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/570
+
+- 📗: Mô tả [CAU_HINH_SO_PHUT_TOI_THIEU_IN_PHIEU_6556.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CAU%20HINH%20IN%20PHIEU%20KCB%206556/CAU_HINH_SO_PHUT_TOI_THIEU_IN_PHIEU_6556.md)
+- 📕: Bổ sung kiểm tra thời gian tối thiểu in phiếu 6556 khi in tại Prescription
+
+![](https://i.vgy.me/GYWjUv.png)
+
 ## [v.3.25.1230.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512302-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512302-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32512302-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Form khám bệnh hiển thị thêm thông tin dân tộc và chức năng cập nhật dân tộc #624
 - 🐛: Lỗi thông tin bị che khuất khi sử dụng trên máy có độ phân giải thấp
