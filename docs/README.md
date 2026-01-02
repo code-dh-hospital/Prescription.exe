@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.0102.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601020-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung mẫu chỉ định cận lâm sàng tự thiết kế theo Thông tư 32 theo mô tả [PHIEU-CHIDINH-KETQUA-CLS/Phieu-chi-dinh-can-lam-sang-Thong-tu-32.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/PHIEU-CHIDINH-KETQUA-CLS/Phieu-chi-dinh-can-lam-sang-Thong-tu-32.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczPBaTZYjeqhF914wxl9tzF5ZCf5rpqCaO24rtX8nJ1moFgCyCQkXMzzu1lklD3iLxdyfVcS4AiWzcwjBCwhfZH6fQ5-KPD2ydjbbtWWU-VCb8DJR1RP2jvA01v8nPuUOmEi54K7rfuqtlm9KK0AskhD=w650-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPV1aeX25irgLTLfhBGauPxmyci9VtQoTTDsZISDklY54Dgvr6CbnG8UBOA79dj5wAh_dOhY97l34n_3JuwMdwoz-x6drVhm5YJB8xO_YUf_ELTmnIh3M10PM8dJDR2uZZ_WUZSbvZtNBBWjJrMC_3D=w1054-h738-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczN5yCojiItlzYdvEcBj5I1c64NISoTntFAhDhfBfbDTD4s1AWFImEUdiWxU5drX8q4r5xDUbf3laicncvzq8Wq0EJMYiVszn8ILqtHkPJAby-uX8Ivrf58mUpewcwGQc_GR-8Y7gjNWwM0RwSp45AD8=w729-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczN7_qHyzpH30IyDdX_-GLN-JCOlkDqwThanfsD8Mk2vf2_2uFZqEzAYOKSASLGes0ePD6WsYeRwj6lfP49tUKJZMawLp4BQXuayTyKVFCGn3CkZf-RJ5YnweRobsIEtEe0-jHJlQxcoQ6fmn1wIJjaf=w914-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNsqKU74CrGf-0NcEDTZvsJMbcDmffbVWPtwLdllFRnignJ5NOax4ECIie3r4ggiVN-qm7qB9ZuXX2EilaFzzaQsk2hTjGjA0mciUct52U9ISSBZJIfxQMWzUeMMVdwuKIAL5PqjZbukkOnm0WSumbd=w758-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOUg4X5EpCtCK3W17TcOcC4pb6G7J7Y3phhvkLZRf4DJZLA93yUEqaljsNBym7XyE5MZ7yDUr6yeIZSKh6rMlT7CMNDa3Ot9tdqiV5nsw9C04ZjYnHr_lN9CRTl6Qy1K-2S3VDtU01ZhD-gqLioAiN3=w758-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMeP6-UQq0ovqqxEcJB4jbzfFF71Y0AiTF1W5z8lszTp7cYAftxCafhv8h5y-g_tQLVCowMjaTnr7s5IfixCnQRDV-soXE_2akvYpaEZUlLRXTFz9_kmzxJlcHeeQaLcaZLmFx9AC_mEQV3NTDGToIJ=w761-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNXdM0duJ9MF7p4f6ccBCGgznWpx8t9ccPgUjHVvqLM07brENY43HO0-ByIizDvEh66r0-zN6fYh-rI5RkI4XK0fdpPf_0mU-6vjYRWn1t44sS2wrX6GrnEvJU12QDMWr780HrfCF2NDQpMYQzrp-fA=w760-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPaQXyQ-BYnyDEuHUNp1i5RaHVDQBZ-yHP4W1d2DLAgNuBp668Ex20aT0RG-VM_L0tx6dn4832PZXTvsckaUM6xrcMekqJVr849j8aOI9WpN_tyQijhYKDLOftV3zNOg3H2BVfmNUdQGxKbE0egrHpM=w758-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMq_r5Obt2ZTCFjOfRpHON6vF_Sox83gwBnlVUgUFiUgFcpP35UlNu3VbflQ2_rEHPOMb_EKUBLk7pap2gX_TSv1K6s_SwGpaOiHG2mqoJroTW_7FcIJtXkY9cELj0Qt22VuBlkoT4LavajRNS12dqF=w760-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMqXHnJy2aVZXrLfnXBalwOLvFK42Q4qc5snnq8en3j2Wcr_X_XqzT3B0dBDB1MuPXegwq9oWMsK2Kp-itAs0MQ6PUqwepgIoyRbkiTbBUMO8TZ4FMedSFnKlKYr5CzkdfFIxG265zZDuaYjKiNvL29=w906-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNASq_c5Vze4rkF8n9ZW7ANOpMDIk4G6hQ2dDckbXXKRKnuESHM9B_zb7Y73rxyEby6_QfLG7-9Ul6-sa9ltYVMg3y0ecOBknDdknIAQ380bqLv6uNBvLuGJPgZSMVh6G2m9TuehPrchZrJ1U9O4c5R=w899-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczM9UDWf4ZmlR35evSEoerDy58imCxB336a3-9Nl8CJBToMDDNEzlXHM9A-aZDWu1FUQdDJiABIDWndZ_g-BdgdjtxF1plKvk4a26LbD2eijvltDHD21SI8jdLu92BSn6zxyqWdfksCj7nyhH0Zt4xAx=w729-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/620
+
 ## [v.3.26.0101.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601010-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription In toa thuốc không lấy số bản in theo tham số cấu hình
 ![](https://i.vgy.me/Rq2SxJ.gif)
