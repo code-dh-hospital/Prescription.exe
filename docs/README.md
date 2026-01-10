@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0110.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601101-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung toa thuốc ARV theo mô tả [ARV/Thuoc-ARV-quy-toan-cau.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/ARV/Thuoc-ARV-quy-toan-cau.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczPwWjgU5MfqCXeVdrAjrL-IgrISTzl8UkZQYXZpr3k1h3C1KIDAxOyWnn1T6NZPPYriBGVjGZqCQcmFweW3ph0Mbb4MDZNJ4ohaGO_dpcKz187Fs9uII4hjTJ69ke8UMVZFsgOKYqotKg-zvK7t0Ibn=w610-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMs0RHw1v3m_waRqDpJdKVU8ibNp1hG-2V4mkqdYTvb3rnpGeuGp0HiEZgAuxVi8NdQ2d0sK_uN2UoFZW_ntRBqQKyN2Yjcz4U9Zl8P1vg4Y1JorTkI8ReweH9kfIhDhmMtbOC9zgK4HC2XmKCIfE7M=w764-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/595
+
 ## [v.3.26.0110.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601100-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Load tự động mẫu số khi lập phiếu nghỉ ốm
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/635
