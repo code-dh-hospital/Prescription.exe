@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0111.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601110-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi Thuốc không cấu hình loại toa bị in 2 toa khác nhau.
+![](https://lh3.googleusercontent.com/pw/AP1GczOYDhrhpSa_sxUL0BZ90OilAjTibgkIgXMf8mgTsPEMNMhHtIhkWmsORpo72l5HnVJzDCh4I8PTA3CHhaCZwK4-hhd7Y9achfake3PlqOe1lgIUODaAkS61NoGOu1b8M_kCCcHEJ30XhFAZgIGGlzu7=w1059-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczM6AEuJqUaLfPL6Ux9Jy-pm4Pk4F1qIRHdoR5rHmJQEyVCx9eP7s-TLz8FKIYlS5wQlEZtgYubLwHxmNapp-7uKUGnaOX4hrcYra_liYp7EBT8T2r5ZNXovgntO7EZF3KdnuAeIQp9YyJrpTU9oDZ0Q=w1050-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/595
+
 ## [v.3.26.0110.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601101-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung toa thuốc ARV theo mô tả [ARV/Thuoc-ARV-quy-toan-cau.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/ARV/Thuoc-ARV-quy-toan-cau.md).
