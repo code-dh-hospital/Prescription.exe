@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0112.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601120-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Hồ sơ mở khóa thường khi chỉnh lại toa thuốc lấy thời gian y lệnh cũ #638
+- ✨: Trường hợp chỉnh toa, cho phép Khách hàng thao tác chỉnh ngày ngày lập để lưu dữ liệu.
+![](https://i.vgy.me/iFFh0Q.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/638
+
 ## [v.3.26.0111.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601110-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi Thuốc không cấu hình loại toa bị in 2 toa khác nhau.
