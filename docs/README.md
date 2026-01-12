@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0112.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601121-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601121-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601121-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Cập nhật ghi nhận chẩn đoán đầu tiên theo mô tả: [XML130/QD4570/bang1.chan_doan_vao.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/bang1.chan_doan_vao.md). Mở rộng giá trị tham số `kb.chandoandautien = 2`.
+![](https://lh3.googleusercontent.com/pw/AP1GczMPUMPp9ZNZV9LT1cs0m93OwkWLCyK5QOKj0X_4duG_17zgqUcbUwE7DH3PydlJzTW3RKhjMtUwwBlHvkbcnl9Sac4ETFpl_nR6a6kf_qSJLEbFk35rrgFBBvhmZv9eXVMvpJ7M1rByt0QvjRLh4_Pd=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/641
+
 ## [v.3.26.0112.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601120-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Hồ sơ mở khóa thường khi chỉnh lại toa thuốc lấy thời gian y lệnh cũ #638
 - ✨: Trường hợp chỉnh toa, cho phép Khách hàng thao tác chỉnh ngày ngày lập để lưu dữ liệu.
