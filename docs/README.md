@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0113.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601130-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Hồ sơ mở khóa thường khi chỉnh lại toa thuốc lấy thời gian y lệnh cũ
+- 🐛: Fix lỗi chỉnh giờ lập - phần mềm chưa cập nhật
+![](https://i.vgy.me/WrUD0H.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/638
+
 ## [v.3.26.0112.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601122-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601122-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601122-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cải tiến Prescription, Register #99
 [Mô tả chỉnh sửa](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-cai-tien-prescription-va-register.md)
