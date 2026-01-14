@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0114.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601146-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601146-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601146-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Hồ sơ mở khóa thường khi chỉnh lại toa thuốc lấy thời gian y lệnh cũ
+- ✨: Bổ sung thêm khi tùy chỉnh ngày giờ ra toa, ràng buộc thời gian phải lớn hơn thời gian khám bệnh, và nhỏ hơn thời gian kết thúc khám.
+![](https://i.vgy.me/7QG0bk.png)
+![](https://i.vgy.me/liu7vW.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/638
+
 ## [v.3.26.0114.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601145-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601145-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601145-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi - Prescription In Phiếu chỉ định cận lâm sàng không gom theo cận lâm sàng trên cùng 1 phiếu mà tách mỗi cls là một tờ riêng.
