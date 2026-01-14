@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0114.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601143-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601143-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601143-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Thông tin khám bệnh tự xuất hiện cuộn khi mở Sinh hiệu bị che tại Form danh sách BANT cho màn hình độ phân giải thấp
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/615
+
+![](https://i.vgy.me/XEzCd6.png)
+
 ## [v.3.26.0114.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601142-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cải tiến Register, Prescription - Không sử dụng SELECT * #102
 [Mô tả chỉnh sửa](https://github.com/dhhiswork/Mo-ta-he-thong/edit/main/Thong-mo-ta-cai-tien-prescription-va-register-select_*.md)
