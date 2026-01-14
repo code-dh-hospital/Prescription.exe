@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0114.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601141-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cải tiến Register, Prescription - Không sử dụng SELECT * #102
+[Mô tả chỉnh sửa](https://github.com/dhhiswork/Mo-ta-he-thong/edit/main/Thong-mo-ta-cai-tien-prescription-va-register-select_*.md)
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/102
+
 ## [v.3.26.0114.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601140-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Cập nhật thư viện Fix lỗi báo cáo lượt khám theo BS, Sổ PT/TT
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/683
