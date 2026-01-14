@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0114.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601144-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601144-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601144-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Cập nhật ghi nhận chẩn đoán đầu tiên theo mô tả: [XML130/QD4570/bang1.chan_doan_vao.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/bang1.chan_doan_vao.md). Mở rộng giá trị tham số `kb.chandoandautien = 2`.
+![](https://lh3.googleusercontent.com/pw/AP1GczNM9BW-0EQgXH4nobsLYvCaRFUIzqn_rmlZ9EuSSDDXdGj7PpScLIgaNk3TO3nPKzZ4MDULOTpnfLhob-_V2x2nzn6-D4sk2b_el7kA7tk32sSCNsa_OAuymG0xSwQBXo8twO3Y59dTyYd7BZWpRZaN=w1298-h563-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMnZ1Fob54luDmxT4KZ_6Ge9voEOX7LoWqUb7abDNmElZTvf-T866O2NfcAumRF8mcKHv7hVj19-hyk5d0QtCjnvZ91t28X2sirlrxogi_OM4aY6XGkQwRti8rilMSltmqRK8TISoKZ8cQq-JMSaA52=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/641
+
 ## [v.3.26.0114.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601143-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601143-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601143-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Thông tin khám bệnh tự xuất hiện cuộn khi mở Sinh hiệu bị che tại Form danh sách BANT cho màn hình độ phân giải thấp
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/615
