@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0114.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601145-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601145-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601145-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi - Prescription In Phiếu chỉ định cận lâm sàng không gom theo cận lâm sàng trên cùng 1 phiếu mà tách mỗi cls là một tờ riêng.
+![](https://lh3.googleusercontent.com/pw/AP1GczNxOTdRo5mJPU-0a97Ehpf63MPKTq6XCVs10MFBOwAZlbY2akpaXwf6_TkIMrtGEkJg9Qw08mJzm7rZRnEK7MjNqqd40Bhlh4OdcfYi_p8lyUM54Tfpe0Dl5J-_Oh9ZHR9pSWHu0aLHDKKmxu0sIKG5=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPsfjwZTWXP4_CKvHJ4Zxty9DD41vNbkhtCuqF95kT88wr9LZKWnVU64e_Xfe95cFb_htxCF11sEylPBmrKzFDFrofEXyfyOKEomR44Mk4Rn-tiUfy9zCymSL5uc9_GQmJxp3QUrM75FDjqLGAQq690=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/689
+
 ## [v.3.26.0114.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601144-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601144-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601144-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Cập nhật ghi nhận chẩn đoán đầu tiên theo mô tả: [XML130/QD4570/bang1.chan_doan_vao.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/bang1.chan_doan_vao.md). Mở rộng giá trị tham số `kb.chandoandautien = 2`.
