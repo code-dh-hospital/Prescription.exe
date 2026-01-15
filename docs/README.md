@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0115.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601150-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: - Hiệu chỉnh thông tin không chỉnh được đối tượng #693
+![](https://i.vgy.me/ypxs26.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/693
+
 ## [v.3.26.0114.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601146-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601146-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601146-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Hồ sơ mở khóa thường khi chỉnh lại toa thuốc lấy thời gian y lệnh cũ
 - ✨: Bổ sung thêm khi tùy chỉnh ngày giờ ra toa, ràng buộc thời gian phải lớn hơn thời gian khám bệnh, và nhỏ hơn thời gian kết thúc khám.
