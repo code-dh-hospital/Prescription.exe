@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.0115.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601152-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601152-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601152-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Register,Prescription: Bổ sung chức năng lập giấy báo tử, bệnh nhân tử vong ngoại viện #427
+	- Cập nhật:
+		- Module Prescription:
+
+		![](https://i.vgy.me/w6HyOQ.png)
+
+		- In giấy báo tử theo TT25:
+
+		![](https://i.vgy.me/avNqb9.png)
+
+		- In giấy báo tử theo TT24:
+
+		![](https://i.vgy.me/qdK1DC.png)
+		![](https://i.vgy.me/sGEXVM.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/427
+
 ## [v.3.26.0115.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601151-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung Phiếu chỉ định xét nghiệm TT32 khi tham số `xn.sudungmauchuan = 8`.
