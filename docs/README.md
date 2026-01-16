@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.26.0116.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601160-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung Phiếu chỉ định xét nghiệm TT32 lấy cấu hình khi tham số `xn.sudungmauchuan = 8`.
+![](https://lh3.googleusercontent.com/pw/AP1GczMbh7HLtrzEIuY4wDKmHT_lCCpvVe5DQKk5MCC0hQHzo3Ye5RnvozgyBbae1EP0VS_zmbLyTC--qKyJtUJTGUFvCeKdRox7B0DmRvFORVGVBMtMBxO-iDwB6OShK7r5W_T0leY-yPF7UKEVJkKzk16m=w605-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNS7w7ORM-uPaM2g4KwostgI7O64Wb72-9ePGsUyE2g61-MbftFk__g126vqhea2cROHyQ4G56cS7L30zKosIXaZal_2DVgPRbsbeTHIKxpW7gArebqYtg9zsa0srVVyqs7QxGsGcQqCMC5ED8Lkosq=w1025-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPHj2Ax5RfxoEcItyMVnd2GQjHYcmlWLlNS1WwLfGXw9-Njlyc-b8SRor9psOBXI-IrejDv51GYiWEYNj9yVcG6aZ3iJyum5lRj3prfHP1bG1mpRaMbpSzaME13dVMF2BsAeIZK2N7kBKDC0YFzgdkO=w775-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOzfyhtvb_bUM4eCCV0XKc-4SdULjvzhJl5zM-YRHgWnD5GDrM5syoqP5A_N6HP7_EgbLIL1D-5ILbfYXRjqiNz0mSducX811B7Hw8oAmUDf-RaeLs_ZcHJ0cCPeZB4RVIcxKsl3U13OZKFKYV-K9LV=w721-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczONBp7OmzBrC2rOpTkOM_4fmUThVHuPUecFEhbh0CsLTP1TgAcUnvxV-fn6RAlGA8H3M-a9unu6Od7l8q23Xg1rTf8XepAejcqX8xxcLeRJALzM44hzYGRcK5r6WaHxuMMoupev_g84pxcLLrcaXBi8=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPonj25XHKnGcW17VaJ1F2aWzQjwPQejZ4R79VMg1NvishOb4TKwGes5lALSdNClWVZEpfad6PzFfuWrXLl4toSJpI_T2r6ljBj9-eQnwby6pX0tpAK6p2By73WQmdc1_1BkbK6nL7pgryE_xvxKGQ-=w1406-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOe9vGLR6BUFRDkH0ilD5gL5SVLTsHJ6g0H4uYcXuWOd3GzI4vDvxO9IlQ9MQT0IqWLW2_-DfS96oWUuzjF_ZVb8ODaWLScKW7v3PeXe0RPW5omhNEjNCfpCB69kSPesL2O5vkviBGBq2KDcwvuH8Bd=w1655-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMclSfZF6ljuOKB7AjsSDuzFliDCyMXxefz9eIK1shuM756Q7f7GqwxkrEYjbKxsxFCJ87jCQaz-eJP41KXN6_xhgYxaNWE89jwYA0bRfYzB0HYGZbvLhyulyQe5HoNtrags2pBG-SXkMTQY0kXfy7U=w1864-h875-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMPDXaJuoS10VACb4KqGycXcLQ8oIRbUdIKJrFQ4C9u8GIrboHSi5Ch-hnGBSKLOCIyoTH5tSck5OCYYPlKlbvfwLoa9QFbe8mtqamRXDZwXY69X8QnfVzoYBAgGvfVgiL_BCScV6cCOdsGe0OKC-25=w1655-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/620
+
 ## [v.3.26.0115.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601152-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601152-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601152-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Register,Prescription: Bổ sung chức năng lập giấy báo tử, bệnh nhân tử vong ngoại viện #427
 	- Cập nhật:
