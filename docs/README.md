@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0116.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601163-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601163-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601163-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi in phiếu chỉ định CLS TT32.
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/105
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/620
+
 ## [v.3.26.0116.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601162-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  Lỗi - Prescription : Lưu nhận bệnh báo lỗi cho tất cả các đối tượng - LOI - dh-issue- #696
 - 🐛:  ***Chỉnh lỗi lưu khi nhận bệnh (Lỗi kiểm tra có điều trị BANT để cảnh báo).***![](https://images-worker.tlt41.workers.dev/i/019bc5b5-afcf-7ad4-a84f-d01badf166ad)
