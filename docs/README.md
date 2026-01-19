@@ -6,6 +6,90 @@
 
 #
 
+## [v.3.26.0119.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601191-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription, Treatment hỗ trợ Lấy nhiều tủ trực và chọn kho Cấp phát theo hợp đồng BVĐK TPCT #608
+	- Cập nhật:
+		☑: Medicine
+
+			- Danh sách kho chẵn: Dược, Nhà Thuốc, VTYT, ...: xác định rõ kho nào là kho vật tư (check VTYT)
+
+			![](https://i.vgy.me/NSqhYP.png)
+
+			- Danh sách tủ trực: thuộc khoa dược, nhà thuốc hoặc VTYT, ..
+
+			![](https://i.vgy.me/4Xyysc.png)
+
+		☑: Prescrtion:
+
+		- Cấu hình:
+		  ![](https://i.vgy.me/RD2yxT.png)
+
+		  - Ra toa: chức năng ra toa tủ trực (bị thừa) --> đề xuất bỏ, do xử lý trùng với chức năng ra toa bình thường
+			   - Ra bình thường: vẫn ra toa tủ trực được (nếu có cấu hình)
+			   - Ra toa tủ trực vẫn ra toa bình thường được
+
+			![](https://i.vgy.me/cePRAj.png)
+			![](https://i.vgy.me/r0D1jA.png)
+			![](https://i.vgy.me/QbHxRb.png)
+			![](https://i.vgy.me/JnLNoy.png)
+    
+		  - Quản lý:
+
+			![](https://i.vgy.me/NeM7PD.png)
+
+		  - Báo cáo: NTX tủ trực dược
+
+		  ![](https://i.vgy.me/6P90Ae.png)
+
+		  - Báo cáo: NTX tủ trực vật tư
+
+		  ![](https://i.vgy.me/seQ2wj.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/608
+<<<<<<< HEAD
+
+## [v.3.26.0119.0]()
+- ✨: Yêu cầu - Prescription, Treatment hỗ trợ Lấy nhiều tủ trực và chọn kho Cấp phát theo hợp đồng BVĐK TPCT #608
+	- Cập nhật:
+		☑: Medicine
+
+			- Danh sách kho chẵn: Dược, Nhà Thuốc, VTYT, ...: xác định rõ kho nào là kho vật tư (check VTYT)
+
+			![](https://i.vgy.me/NSqhYP.png)
+
+			- Danh sách tủ trực: thuộc khoa dược, nhà thuốc hoặc VTYT, ..
+
+			![](https://i.vgy.me/4Xyysc.png)
+
+		☑: Prescrtion:
+
+		- Cấu hình:
+		  ![](https://i.vgy.me/RD2yxT.png)
+
+		  - Ra toa: chức năng ra toa tủ trực (bị thừa) --> đề xuất bỏ, do xử lý trùng với chức năng ra toa bình thường
+			   - Ra bình thường: vẫn ra toa tủ trực được (nếu có cấu hình)
+			   - Ra toa tủ trực vẫn ra toa bình thường được
+
+			![](https://i.vgy.me/cePRAj.png)
+			![](https://i.vgy.me/r0D1jA.png)
+			![](https://i.vgy.me/QbHxRb.png)
+			![](https://i.vgy.me/JnLNoy.png)
+    
+		  - Quản lý:
+
+			![](https://i.vgy.me/NeM7PD.png)
+
+		  - Báo cáo: NTX tủ trực dược
+
+		  ![](https://i.vgy.me/6P90Ae.png)
+
+		  - Báo cáo: NTX tủ trực vật tư
+
+		  ![](https://i.vgy.me/seQ2wj.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/608
+=======
+
 ## [v.3.26.0116.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601163-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601163-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601163-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi in phiếu chỉ định CLS TT32.
