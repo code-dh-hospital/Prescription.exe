@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0122.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601225-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601225-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601225-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription chức năng in toa báo lỗi (BV Thạnh Trị)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/708
+
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWM5ZG45MmliYW85N2huOGZwOHlpdnQ1aDluNmg2NHMzOWljNDlyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3OvYEVkE2Iu95deTo/giphy.gif)
+
 ## [v.3.26.0122.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601224-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601224-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601224-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi => Quá trình điều trị BANT khi in không có tên cận lâm sàng phụ khi tham số `todieutri.tenclsphu = 1`.
