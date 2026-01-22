@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0122.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601224-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601224-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601224-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi => Quá trình điều trị BANT khi in không có tên cận lâm sàng phụ khi tham số `todieutri.tenclsphu = 1`.
+![](https://lh3.googleusercontent.com/pw/AP1GczO_rHAgNoPwnw5k7DrMr7DGJ3p1eFUKjbQGvxw0fQSsBk1F8ZPSy3qg00gEQT8CfGa3mbB5222wiUK7F9Kzsq3WNu3yzSv3KreYfFJe8ImaYG3BDo_QWk3Q42eTQLt_lqwe6wVUP4jFtZ15ktob8yCZ=w1107-h866-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczM8ut2luGNS-hZECucPCfk-k5wbSMvXugFpnkY9Vl3ZVFtDSP3itBfsuRKxXj_5ZGPbNCyqxQti6eC_jPacx5n7CuzqnKBfyP-uFPPAj83gT6rEKYjuo-t3K9jiOvg4QLSm1Zizie960KFD7-3w91Gy=w1034-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMJcFxLUW99axf0yyT_Bzin38ydHuuyq9meQ0Ff1x4OhSFWgPcy4wmBMAgmF12vXb1K0jEYrQzk37iCjrVG43VZkH0yVzHsMJqQ0SaVUw-2OmbOyUne5j685yVivjsx26vEqYpjC9YYPnnV09Qe5STV=w1080-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/707
+
 ## [v.3.26.0122.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601223-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601223-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601223-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Hiệu chỉnh thông tin bệnh nhân có BANT không chỉnh được thông tin lãnh thuốc Lao, thông tin chuyển viện #710
 ![](https://i.vgy.me/44GRcO.png)
