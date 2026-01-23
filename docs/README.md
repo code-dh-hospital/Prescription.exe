@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0123.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601232-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601232-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601232-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Register/Prescription: Khi in phiếu 01 không cho chỉnh phiếu nghỉ ốm #711
+	- Cập nhật: khi đã in phiếu 01, không cho cập nhật phiếu nghỉ ốm
+
+	![](https://i.vgy.me/KJqUy3.png)
+	![](https://i.vgy.me/GZnk4m.png)
+
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/711
+
 ## [v.3.26.0123.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601231-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung thông báo BANT đã phát sinh chi phí khi chỉnh thông tin 
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/706
