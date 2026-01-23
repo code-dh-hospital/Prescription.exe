@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.0123.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601230-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung Chẩn đoán đầu tiên đối với Bệnh án ngoại trú theo ngày, theo mô tả Mô tả: [XML130/QD4570/bang1.chan_doan_vao.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/bang1.chan_doan_vao.md).
+
+1. Cập nhật hỏi bệnh vào bệnh án:
+![](https://lh3.googleusercontent.com/pw/AP1GczOcZ7NXx00gpI23TXKn05j3dxTJa8MyDsnnS5ByD0isosgJ2Xq6NB7K7bXI0ON0EnMFUmWO_5XGA_C87u4XOl2h5CLjwGW9DN2UB1Aw-MqdLAyJImcSBtZ90HLigbTiovKSVmiadBTJThi8ufoa41wv=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMxcDqKuPDpXwkrO3mfc5CBFMeBpLfL-FB6hLbtedXq3Ix-8JV552SKzVLbsW_M7l1KSyW12LB2R8Aaufr0szXwGQMygMlkIbzkMsYUFo9o8sIr6uz5QTFJh3xg9-uJT58xN1SSpI7PNTUM2hBiQa9z=w1654-h879-s-no-gm?authuser=0)
+
+2. Bổ sung control xem và cập nhật chẩn đoán đầu tiên (chỉ áp dụng cho bệnh án quyết toán ngày): khi thêm hoặc điều chỉnh diễn biến.
+![](https://lh3.googleusercontent.com/pw/AP1GczMpHOkdcn7Xlsdzm78eW3W33GLVua8jKtejT_AZnWvsiVoIDRJiVmrRZqIKk3UJ4DuFqlmEWhElvtVEM2Zc8q6QSmdwCuuiKAY3J5Spk2hKzp18fZ5udGbfnCuJHRgWk2rYRwVDBPxWW0Hf1leM4-UC=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/656
+
 ## [v.3.26.0122.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601226-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601226-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601226-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Tắt parameters panel XtraReport.
