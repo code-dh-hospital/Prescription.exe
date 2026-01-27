@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0127.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601271-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601271-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601271-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription, Treatment phiếu chứng nhận thương tin không load được dữ liệu đã nhập BV Thốt Nốt #718
+	- Cập nhật:
+
+	![](https://i.vgy.me/T4aa5M.png)
+	![](https://i.vgy.me/jV0ZBO.png)
+	![](https://i.vgy.me/PJ5fM2.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/718
+
 ## [v.3.26.0127.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601270-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Register/Prescription: Tỉ lệ tiền công khám khi đăng ký nhận bệnh
 ![](https://i.vgy.me/MdkrOA.png)
