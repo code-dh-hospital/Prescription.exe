@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.26.0129.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601292-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601292-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601292-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription, Treatment phiếu chứng nhận thương tin không load được dữ liệu đã nhập BV Thốt Nốt #718
+	- Cập nhật: fix  lỗi hiển thị sai ngày cấp cccd
+
+		- Không có ngày cấp:
+
+		![](https://i.vgy.me/ulVnbS.png)
+
+		- Cập nhật lại CCCD:
+
+		![](https://i.vgy.me/8Be3m8.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/718
+<<<<<<< HEAD
+
 ## [v.3.26.0129.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601291-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Cải tiến/cập nhật các phiếu chỉ định cận lâm sàng TT32 và bổ sung mẫu TT32 đối với các cận lâm sàng BHYT không thanh/thu phí:
