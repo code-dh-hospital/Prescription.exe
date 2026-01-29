@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0129.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601291-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Cải tiến/cập nhật các phiếu chỉ định cận lâm sàng TT32 và bổ sung mẫu TT32 đối với các cận lâm sàng BHYT không thanh/thu phí:
+![](https://lh3.googleusercontent.com/pw/AP1GczOvlHjqkFNCcts8Qtq-DeiI1A4bhaQmEoTO_oPMCm5Kwm6r7bztfS7YeT5i2IszciOUxJlpZ8Eq1IlTT3iyLBIllgbrsOGVPDNCtGb48HRsDIkKGnmsZ49FfMvyuEqkFwRVYpkXM0Avsl1xPGcInZMl=w603-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczM8ajEOqf2HXHEYnnR5kvBQH3efqb8EtqCD9F3QeFr5uvtYqq2_0K5k3_93B54dPAYnI3gnHWQfhFREOZfwOzPFobdKx9-Q7O3zjOIWrhw57JAjM6tyncf6ercHxZFQQ5YKLyBR0_vP8cVvhcYm2393=w603-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOfLIAm_i3ewW4uIKNKxgeSSVmdDZw6m9jDRNMrWvhcN7GRaFssDpc3L8xp_Ee-HYK-a19c7BMGcGZ7j8lKdR4645gvHDVPisGmqrDG3FtywIh4moCYw-O8j3H-hgWlJX27U640zU6sC5AVXRxMQt7e=w603-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPLjMPMYGvz2HY63Sswt_1sKYbnN-H9GZLwBSLMo7QT4t3F1PqoyGNMYkkeg2IA6o62989_XbzvmPMoEC8gFV8dPM0LRt-Mx5qc3o51lpS7fxPgG5nJkpLN0sNGFcMKVIYxOO8zBqLM_OwkGvEm67Mt=w603-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOXByP5Jm3XsoM68Zx1H0DTc2SaiuDF955JE5609dwU-7o20hdwmw2VtX27EfoPYGtKzwm_HX6zSxu97mH7FjWtsDGMUuDkH8GWvutwTG8JueV0KN2wLwp7mkdWF5Ettx7kPRZ9YNKfnnLWmq9AYhuZ=w603-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMru23ijDbzrEDhhoemErzREx5NyAB2Yb8uEYYXdFXMau_mtIR_6fc4Lwd2JzDdsqcZqXX-CWTVKzqnkXvoF5MHUrVHBBKU9QWgrH3eoAjf_M9-vcuEvbLZGlc6QAxnrPZs_eNj8xax_jXF5R1qF5a3=w603-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/620
+
 ## [v.3.26.0129.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601290-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Tham số congkham.thoigianchidinh bắt số phút sai (thiếu 1 phút) #720
 ![](https://i.vgy.me/YZhQHt.png)
