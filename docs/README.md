@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0130.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601301-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601301-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601301-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Khi thuốc cấu hình Check Cả nam và Nữ lúc này bệnh nhân Nam hoặc nữ khám và cấp Toa Hộp thoại cảnh báo không đúng
+![](https://i.vgy.me/iECiLd.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/645
+
 ## [v.3.26.0130.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32601300-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription hỗ trợ cảnh báo hoặc chặn Đối với bệnh mãn tính có số ngày uống Toa thuốc nhỏ hơn số ngày uống cấu hình
 [MÔ TẢ CHỨC NĂNG CẤU HÌNH SỐ NGÀY UỐNG THEO ICD](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-bo-sung-chuc-nang-cau-hinh-so-ngay-uong-theo-icd.md)
