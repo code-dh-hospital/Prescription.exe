@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0203.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602030-NasDHSolutions.json)</sup></sup></sub>
+- ✨: YÊU CẦU - Bố sung chức năng Chỉ định và Chống chỉ định thuốc cho Bệnh viện Quân Dân Y TPCT #671
+- ✨: Bổ sung thêm key `OTH.Entity.Common.PrivateCodeKind.chongchidinh_thuoc` để sử dụng chức năng chỉ định và chống chỉ định thuốc
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/671
+
 ## [v.3.26.0202.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602022-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602022-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602022-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription hỗ trợ cảnh báo hoặc chặn Đối với bệnh mãn tính có số ngày uống Toa thuốc nhỏ hơn số ngày uống cấu hình
 ![](https://i.vgy.me/GPOP87.png)
