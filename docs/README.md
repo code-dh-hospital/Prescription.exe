@@ -6,6 +6,48 @@
 
 #
 
+## [v.3.26.0205.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602051-NasDHSolutions.json)</sup></sup></sub>
+- ✨:Yêu cầu - Prescription hỗ trợ Nút In CLS sàng gom cùng một phiếu đối với khám ngoại trú, BANT theo ngày và theo đợt #653
+
+	- Cập nhật:
+		1. Bổ sung nút in chỉ định cậm lâm sàng tổng hợp
+			- Ngoại trú:
+
+			![](https://i.vgy.me/gdNCWA.png)
+			![](https://i.vgy.me/t8Up4e.png)
+
+			- Bệnh án ngoại trú:
+
+			![](https://i.vgy.me/lqMb2o.png)
+
+		2. Bổ sung nút in tổng hợp CLS theo quá trình điều trị
+
+		![](https://i.vgy.me/iBFB4z.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/653
+<<<<<<< HEAD
+
+## [v.3.26.0205.0]()
+- ✨:Yêu cầu - Prescription hỗ trợ Nút In CLS sàng gom cùng một phiếu đối với khám ngoại trú, BANT theo ngày và theo đợt #653
+
+	- Cập nhật:
+		1. Bổ sung nút in chỉ định cậm lâm sàng tổng hợp
+			- Ngoại trú:
+
+			![](https://i.vgy.me/gdNCWA.png)
+			![](https://i.vgy.me/t8Up4e.png)
+
+			- Bệnh án ngoại trú:
+
+			![](https://i.vgy.me/lqMb2o.png)
+
+		2. Bổ sung nút in tổng hợp CLS theo quá trình điều trị
+
+		![](https://i.vgy.me/iBFB4z.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/653
+=======
+
 ## [v.3.26.0204.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602040-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Fix lỗi xét nghiệm TT32 chưa cấu hình mẫu chuẩn không hiển thị mẫu chung theo loại.
