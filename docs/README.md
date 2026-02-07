@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0207.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602070-NasDHSolutions.json)</sup></sup></sub>
+- ✨:Yêu cầu - Prescription hỗ trợ Nút In CLS sàng gom cùng một phiếu đối với khám ngoại trú, BANT theo ngày và theo đợt #653
+
+	- Cập nhật: Tách CLS thanh BHYT và không thanh
+		
+		![](https://i.vgy.me/ouOLsG.png)
+		![](https://i.vgy.me/zMazPF.png)
+		![](https://i.vgy.me/pFXb0T.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/653
+
 ## [v.3.26.0205.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602051-NasDHSolutions.json)</sup></sup></sub>
 - ✨:Yêu cầu - Prescription hỗ trợ Nút In CLS sàng gom cùng một phiếu đối với khám ngoại trú, BANT theo ngày và theo đợt #653
 
