@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0209.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602090-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription hỗ trợ cảnh báo hoặc chặn Đối với bệnh mãn tính có số ngày uống Toa thuốc nhỏ hơn số ngày uống cấu hình #666
+- 🐛: Mã ICD khi người dùng không cấu hình số ngày uống thì cột ngày tối thiểu và tối đa mặc định = 0 thì vào Cấp toa Prescription bỏ qua trường hợp cảnh báo
+![](https://i.vgy.me/gNIi34.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/666
+
 ## [v.3.26.0207.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602070-NasDHSolutions.json)</sup></sup></sub>
 - ✨:Yêu cầu - Prescription hỗ trợ Nút In CLS sàng gom cùng một phiếu đối với khám ngoại trú, BANT theo ngày và theo đợt #653
 
