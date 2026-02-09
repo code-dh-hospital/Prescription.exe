@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0209.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602091-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung/cập nhật mẫu chỉ định cận lâm sàng theo Mô tả: [PHIEU-CHIDINH-KETQUA-CLS/Phieu-chi-dinh-can-lam-sang-Thong-tu-32.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/PHIEU-CHIDINH-KETQUA-CLS/Phieu-chi-dinh-can-lam-sang-Thong-tu-32.md)
+![](https://lh3.googleusercontent.com/pw/AP1GczNfNy_EOav_Z0EQb5WdrU3mhtrtHdLi92LegbJBqgg2E2yhIp0VnBw0BHa2wKWt2TQypTTLbmcYKop4mQfYX4qtaSV5SXwMwFulPHpBrPsvSPIfPhPyJeoHfqGRZrUZzbomokAeWJfGcOi43jxVMXUL=w1271-h804-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPMJC3IAolD_XaQjoIzo5M8Dl4BgAAJk40HnIqq9RnYt86cywpJeJTWRYlsNm8Qjl3VaWRDC0kUnl0V1DTP4zOHeyNEprDKADifIKQhqlQucp4Oka2osK9_R0TLgQz8q_ErZefEskSwm2ytWQSL3z7v=w1279-h440-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/672
+
 ## [v.3.26.0209.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602090-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription hỗ trợ cảnh báo hoặc chặn Đối với bệnh mãn tính có số ngày uống Toa thuốc nhỏ hơn số ngày uống cấu hình #666
 - 🐛: Mã ICD khi người dùng không cấu hình số ngày uống thì cột ngày tối thiểu và tối đa mặc định = 0 thì vào Cấp toa Prescription bỏ qua trường hợp cảnh báo
