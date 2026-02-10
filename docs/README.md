@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.26.0210.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602101-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Điều chỉnh
+1. Cập nhật tiêu đề tên loại (điều chỉnh size) mẫu chỉ định xét nghiệm chung (MS: 16/BV-02) thông tư 32.
+![](https://lh3.googleusercontent.com/pw/AP1GczNCBYfFD4pfRnAKmMwhl9DrF5my2K9cE-w6KUrEGWT9YWzXbHyMnOLKRvuN0XHCjGx7gSOTZsaHZTGX2H_0BIr7GcYT-ZfBXGppmXQRumnRneqZlQUETO7xeUPbUaW4guxOsl_burz1If5OFO1aMMDn=w1654-h879-s-no-gm?authuser=0)
+
+2. Sửa lỗi mẫu không gom phiếu khi chọn cấu hình gom phiếu theo chi phí đối tượng
+![](https://lh3.googleusercontent.com/pw/AP1GczPeObSCHxzAvf-S_c6Ur_h5ZPbcuzizd-_XJyAom9UAE8o0cJ6_LEklWjXsZUavUKNts9zQqtCosazB54drAdkCYU2li6wYPoHSLAnDMoUY33b6yGwD5eXImXTB4V70_O6stOdUiWGaJmb1eAjWXoxs=w1654-h879-s-no-gm?authuser=0)
+
+3. Gom phiếu chỉ định nội bộ các kho ngoài TT32 (khi chọn cấu hình phiếu chỉ định TT32).
+![](https://lh3.googleusercontent.com/pw/AP1GczPb310v53dWK4tmXIyUbQ2NhQevBcBm47MH_lCD7B-MMUlAPc0DrfGfG4yXofq7uixKV3qk8od4iSS-COnll1sQLDs4el3XG8EDH3Q84bIzBRWLAhKW1DbbeP2bLGh_Gvy3fYSP1nSdayly986FPO8S=w1654-h879-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/672
+
 ## [v.3.26.0210.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602100-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription không chỉ định được cls và toa thuốc (báo không có bs trực - BV ĐKTP CT)
 ![](https://i.vgy.me/titUTT.gif)
