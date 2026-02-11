@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0211.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602115-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602115-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602115-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - PRESCRIPTION - Xem lịch sử khám bệnh Ngoại trú và BA ngoại trú #741
+![](https://i.vgy.me/Bay82x.png)
+![](https://i.vgy.me/9w55hs.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/741
+
 ## [v.3.26.0211.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602114-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602114-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602114-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - PRESCRIPTION - Xem lịch sử khám bệnh Ngoại trú và BA ngoại trú
 - 🐛: Thuốc không hiển thị theo ngày chỉ định của từng bác sĩ (như trên form Khám bệnh)
