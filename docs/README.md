@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0213.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602130-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi
+1. Cấu hình theo tham số: chưa in được phiếu chỉ định CLS chuyển viện, Phiếu chỉ định CLS giường bệnh hiển thị tên phiếu Công khám:
+![](https://lh3.googleusercontent.com/pw/AP1GczNJonC7qWEDa0R1qstYdq2xxi1rCRBZSMbzutEAUmYzeBl2udjkZYHXA_RhAupHg0t3LVYYz1J2dehHdL656TeVJ9o1ayjxdmcCF6YqFuXaXbscChUhyMluXqBcJC3dOST-R0RUpXScLWLofk8a-rbh=w1654-h879-s-no-gm?authuser=0)
+2. Prescription phiếu chỉ định nội bộ thu phí hiển thị sai chữ KHẨN:
+![](https://lh3.googleusercontent.com/pw/AP1GczM0R2mBfIPX4lD_k9xmun-dI3Ue0TcmMslgi-SY5SiwCn_JDk0cCJgV2i0DbAziAFu3XaGVOLC4SCkLtyITfN28Zktd6zQ-BgI2WSOXaCvPUGu3LfAC0Zoy4qHC0mAxCVhp-nCZJiNpEoS8o4aAOwG3=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNIzCpUKOzb6avAn_rcDtfscS7qtOIuDs-BZtcWoeh4ONxFEpQDF5-1QoCvQc8lCYlmbnJRzG3lP6vTxJPZQCUXcTZ0RX8M27mcInz0XI5DwLR1r9Uio0oU5o8Re8KoPmT5c0efXXWqDoiT1F8e8F9w=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/672
+
 ## [v.3.26.0212.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602120-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Bỏ cập nhật chẩn đoán đầu tiên khi lập bệnh án ngoại trú.
