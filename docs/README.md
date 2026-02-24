@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0224.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602243-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602243-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602243-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription chức năng xem toa thuốc - Lịch sử KCB báo lỗi
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/750
+
+![](https://i.vgy.me/4xKpJO.png)
+
+
+- 🐛: Lỗi - Prescription Chức năng thanh toán bệnh án ngoại trú theo đợt (BV ĐK TPCT)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/754
+
+![](https://i.vgy.me/DmjZQV.png)
+
 ## [v.3.26.0224.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602242-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602242-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602242-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  LỖI - ADMIN - QĐ 3176: XML1 - CHAN_DOAN_RV không có dữ liệu - LOI - dh-issue- #749
 - 🐛:  ***Chỉ lấy bản ghi có kqcdoan không rỗng, thay vì chỉ lấy bản ghi mới nhất bất kể có dữ liệu hay không, đối với trường hợp cấu hình sử dụng chỉ lấy phòng khám cuối.***
