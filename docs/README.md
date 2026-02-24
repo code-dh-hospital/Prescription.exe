@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0224.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602244-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602244-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602244-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  Lỗi - Admin chức năng gửi tự động XML3 sai tên cls so với danh mục (BV DDKTP CT) - LOI - dh-issue- #730
+- 🐛:  ***Xử lý không loại bỏ các ký tự rác (không thể hiện trong unicode) đối với trường TEN_DICH_VU, đảm bảo giống danh mục gửi cổng BHXH.***
+- ![](https://images-worker.tlt31.workers.dev/i/019c8e89-0e51-7527-a862-b2a2c76555c8)
+![](https://images-worker.tlt34.workers.dev/i/019c8e88-d3d4-754b-bcb5-421444e46ef5)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/730
+
 ## [v.3.26.0224.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602243-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602243-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602243-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription chức năng xem toa thuốc - Lịch sử KCB báo lỗi
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/750
