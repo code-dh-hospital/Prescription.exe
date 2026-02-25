@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0225.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602252-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602252-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602252-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Cập nhật hỏi bệnh vào `current.khambenh` khi thay đổi diễn biến đối với người bệnh bệnh án ngoại trú quyết toán ngày
+![](https://lh3.googleusercontent.com/pw/AP1GczPPfKIaPS45-elYmJPz9ontHge5-iRpKkTPQE6JamoOziVnbVipJMNo6NJmB0nx5xXQ0I_8gz9_xY5gXYmaQHeaczZA0CvQzzg5FIGBBE6AyHXljUWZhqWoTDQ8G1E1iHBGY6-nBgjbtCW4FTM0Bjsk=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMzrgCUnmZdLg2kIXoYJ9oTrwwBLkvocqg80i2IjQZlpoR7UnACBlhLycyNJVV9l_hibwmP8rIc4t0gN8RsafcT-tlOYEhDHqv4RIGs2fJGaTwdOl5jWgZ0wAGhGYlfRm8F-pamVUx5jS0NJoCG0MNp=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/656
+
 ## [v.3.26.0225.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602251-NasDHSolutions.json)</sup></sup></sub>
 - ✨: YÊU CẦU - XML3176: cột MA_BENH_KT và CHAN_DOAN_RV tự động loại bỏ các khoảng trắng dư thừa mã ICD khi có khoản trắng
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/687
