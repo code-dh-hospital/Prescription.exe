@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0225.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602250-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Chức năng nhận bệnh báo lỗi `dmthebhyt` violates foreign key constraint `dmthebhyt_fk1`
+- 📕: Trước khi insert hoặc update bảng dmthebhyt, kiểm tra lại `mabvkb` một lần nữa, nếu null thì add lại `mabvkb`.
+![](https://i.vgy.me/YQ7vLd.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/753
+
 ## [v.3.26.0224.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602246-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602246-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602246-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Xem hoặc in toa thuốc lấy sai thông tin para taikhamngaykhi, thiếu thông tin liều dùng, lỗi tachtoa #733
 - 🐛: Prescription vẫn còn thiếu thông tin Tái khám ngay khi
