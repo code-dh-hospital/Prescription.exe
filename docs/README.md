@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0226.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602260-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription Lịch sử bệnh không lấy được chẩn đoán thuốc và cận lâm sàng
+- 🐛: Fix lỗi double CLS khi xem lịch sử bệnh
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/752
+
+![](https://i.vgy.me/dYChPJ.png)
+
 ## [v.3.26.0225.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602252-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602252-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602252-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Cập nhật hỏi bệnh vào `current.khambenh` khi thay đổi diễn biến đối với người bệnh bệnh án ngoại trú quyết toán ngày
