@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.26.0226.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602262-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602262-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602262-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription Hỗ trợ cho chọn nhanh bộ ekipt khi lập phiếu Thủ thuật, Phẫu thuật #688
+	- Cập nhật:
+		- Ngoại trú:
+		![](https://i.vgy.me/kvE1cT.png)
+		![](https://i.vgy.me/iAFTQg.png)
+		![](https://i.vgy.me/bMWZCC.png)
+
+		- Bệnh án ngoại trú:
+		![](https://i.vgy.me/HuMwud.png)
+		![](https://i.vgy.me/Fo52wj.png)
+		
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/688
+
 ## [v.3.26.0226.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602261-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BANT theo đợt ký toa thuốc gửi sai AdmissionCode (ko lên nên push lại)
 ![](https://i.vgy.me/HAPMv5.png)
