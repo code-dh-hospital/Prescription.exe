@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0303.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603030-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi `In phiếu chỉ định cận lâm sàng Tổng hợp`.
+![](https://lh3.googleusercontent.com/pw/AP1GczOwzyRq-p6QB1qHSUum7uVq8OhkZZjbodvGlmZKM23_jZLvraIvW3VXOrw0OFGZCPkIBRuiYAhX60tZ8Zb0699Djy4tRatVChVr1OQw4pP8sbPZyOd2-1ZHGngfpy6t4QfNx8oSfYBYkonptlGtlcR0=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNXHtzpx6PAWC1eHLnN96FM2wesTRZdKsn0VUCbMqxN4oZ8cLICYmMIiX1YHkmF229maEjrFKjklOw_e3uBek7wWV6W9_XUZP9BPDyZqoQ1vzdVikiF5uA0jT_TLSQHgkfXkMT69c_7DzmsdRQy9qB8=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/766
+
 ## [v.3.26.0227.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32602270-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription Hỗ trợ cho chọn nhanh bộ ekipt khi lập phiếu Thủ thuật, Phẫu thuật #688
 	- Cập nhật:
