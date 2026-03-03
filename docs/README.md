@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0303.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603031-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription Hỗ trợ cho chọn nhanh bộ ekipt khi lập phiếu Thủ thuật, Phẫu thuật #688
+	- Cập nhật:
+		- Bổ sung nhật ký:
+		![](https://files.catbox.moe/gtct37.gif)
+
+		- Nhật ký theo phân hệ:
+		![](https://i.vgy.me/AzpPT5.png)
+	
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/688
+
 ## [v.3.26.0303.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603030-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi `In phiếu chỉ định cận lâm sàng Tổng hợp`.
