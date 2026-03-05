@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0305.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603053-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603053-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603053-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung hàm chung để kiểm tra dữ liệu trước khi lưu dữ liệu, bổ sung trên các phân hệ có chức năng nhập thông tin này.
+	+ Cập nhật:
+		- Bổ sung hàm kiểm tra chiều cao và cân nặng
+
+		![](https://i.vgy.me/7mMC9L.png)
+		![](https://i.vgy.me/LWZgxJ.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/771
+<<<<<<< HEAD
+
 ## [v.3.26.0305.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603052-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603052-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603052-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Phiếu theo dõi điều trị BANT theo thông tư 32 thêm tên bác sĩ ký mỗi diễn biến và y lệnh
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/702
