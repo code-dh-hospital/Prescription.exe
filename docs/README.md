@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0305.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603050-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription chức năng lịch sử khám chữa bệnh bệnh nhân ngoại trú và BANT (BV Vĩnh Thạnh) #769
+	- Fix lỗi xem nhật ký BANT và khám bệnh:
+
+	![](https://files.catbox.moe/1zb3gb.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/769
+
 ## [v.3.26.0304.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603043-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603043-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603043-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription, Diagnose, Treatment Hỗ cấu hình Mã máy thực hiện theo bộ ekip khi lập phiếu Thủ thuật, Phẫu thuật #700
 	- Cập nhật Prescription:
