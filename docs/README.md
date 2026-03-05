@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0305.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603052-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603052-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603052-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Phiếu theo dõi điều trị BANT theo thông tư 32 thêm tên bác sĩ ký mỗi diễn biến và y lệnh
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/702
+
+![](https://i.vgy.me/kjJS7R.png)
+
+- ✨: Yêu cầu - Prescription Tờ điều trị bệnh án ngoại trú in thêm ghi chú
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/680
+- 📕: Mô tả [BO_SUNG_THONG_TIN_PHIEU_THEO_DOI_DIEU_TRI_BANT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/BO_SUNG_THONG_TIN_PHIEU_THEO_DOI_DIEU_TRI_BANT.md)
+
+![](https://i.vgy.me/B5oIXl.png)
+
 ## [v.3.26.0305.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603051-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription chức năng chỉnh thông tin bệnh án ngoại trú sai mã bệnh án công khám (BV ĐKTP CT) #772
 ![](https://i.vgy.me/0XdeCP.gif)
