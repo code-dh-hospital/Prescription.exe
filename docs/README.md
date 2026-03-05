@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0305.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603051-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription chức năng chỉnh thông tin bệnh án ngoại trú sai mã bệnh án công khám (BV ĐKTP CT) #772
+![](https://i.vgy.me/0XdeCP.gif)
+![](https://i.vgy.me/LMoquw.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/772
+
 ## [v.3.26.0305.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603050-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription chức năng lịch sử khám chữa bệnh bệnh nhân ngoại trú và BANT (BV Vĩnh Thạnh) #769
 	- Fix lỗi xem nhật ký BANT và khám bệnh:
