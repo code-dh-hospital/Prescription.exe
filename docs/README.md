@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0306.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603062-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603062-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603062-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - PRESCRIPTION - BANT: In hồ sơ tờ Bệnh án ngoại trú Chẩn đoán khi ra viện không thể hiện mã ICD phụ kèm theo #778
+	- Cập nhật:
+
+	![](https://i.vgy.me/uFi7rN.png)
+
+- ☑:  https://i.dh-his.com/hdhiswork/LOI/issues/778
+<<<<<<< HEAD
+
 ## [v.3.26.0306.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603061-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription chức năng chỉnh thông tin bệnh án ngoại trú sai mã bệnh án công khám (BV ĐKTP CT) #772
 - 🐛: BANT ARV còn lỗi trường hợp đổi đối tượng khác -> công khám bị đánh dấu xóa
