@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0312.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603121-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603121-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603121-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription Hỗ trợ cho nhập thêm mã ICD từ Toa thuốc mẫu
+![](https://i.vgy.me/xF4qsG.png)
+![](https://i.vgy.me/nyyUWR.png)
+![](https://i.vgy.me/2dcaf0.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/668
+
 ## [v.3.26.0312.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603120-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Phiếu theo dõi điều trị BANT theo thông tư 32 thêm tên bác sĩ ký mỗi diễn biến và y lệnh
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/702
