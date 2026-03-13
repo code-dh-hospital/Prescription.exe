@@ -6,6 +6,28 @@
 
 #
 
+## [v.3.26.0313.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603131-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung hàm chung để kiểm tra dữ liệu trước khi lưu dữ liệu, bổ sung trên các phân hệ có chức năng nhập thông tin này.
+	+ Cập nhật:
+		- Bổ sung hàm kiểm tra chiều cao và cân nặng
+
+		![](https://files.catbox.moe/tgd8ul.gif)
+		![](https://i.vgy.me/R8U7nu.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/771
+<<<<<<< HEAD
+
+## [v.3.26.0313.0]()
+- ✨: Bổ sung hàm chung để kiểm tra dữ liệu trước khi lưu dữ liệu, bổ sung trên các phân hệ có chức năng nhập thông tin này.
+	+ Cập nhật:
+		- Bổ sung hàm kiểm tra chiều cao và cân nặng
+
+		![](https://files.catbox.moe/tgd8ul.gif)
+		![](https://i.vgy.me/R8U7nu.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/771
+=======
+
 ## [v.3.26.0312.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603121-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603121-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603121-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription Hỗ trợ cho nhập thêm mã ICD từ Toa thuốc mẫu
 ![](https://i.vgy.me/xF4qsG.png)
