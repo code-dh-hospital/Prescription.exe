@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0320.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603200-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription công khám bệnh án ngoại trú ghi nhận sai thông tin loại bệnh án ngoại trú (BV Thạnh Trị) #791
+- 🐛: Lỗi khi vào lại chức năng lập phiếu bệnh án ngoại trú
+![](https://i.vgy.me/wQSLOs.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/791
+
 ## [v.3.26.0319.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603190-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription công khám bệnh án ngoại trú ghi nhận sai thông tin loại bệnh án ngoại trú (BV Thạnh Trị) #791
 - 🐛: Lỗi khi xem lại form lập bệnh án đã chỉnh sang bệnh án theo đợt -> form lập bệnh án hiển thị bệnh án theo ngày
