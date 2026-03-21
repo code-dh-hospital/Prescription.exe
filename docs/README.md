@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0321.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603210-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi Form chỉ định cận lâm sàng mặc định in luôn phiếu chỉ định cls công khám.
+![](https://lh3.googleusercontent.com/pw/AP1GczOm123SnQLiRyJAH3SpxTmkjTGfuZFCFVBkuQwtlyito0GVXO_3rm1-l7XFki-wO45qN9yH2kq93s5AqGFEhL8jRGOtXNWvN3zLWCCVWlIIrgPS2Ema2lpmMe-P0YX-iAtT_3Fbf8JZKAYyZ2BPX1TH=w1718-h914-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/795
+
 ## [v.3.26.0320.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603201-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription công khám bệnh án ngoại trú ghi nhận sai thông tin loại bệnh án ngoại trú (BV Thạnh Trị) #791
 ![](https://i.vgy.me/hjsayq.gif)
