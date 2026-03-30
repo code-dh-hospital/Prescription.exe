@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0330.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603300-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription Hỗ trợ cho nhập thêm mã ICD từ Toa thuốc mẫu #668
+- ✨: Bổ sung thêm các cột sáng, trưa, chiều , tối hổ trợ lấy liều dùng tự động khi thêm thuốc trên toa mẫu.
+![](https://files.catbox.moe/g9t78i.png)
+- 🐛: Fix lỗi chọn thuốc 2 lần mới được.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/668
+
 ## [v.3.26.0327.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32603270-NasDHSolutions.json)</sup></sup></sub>
 - ✨: YÊU CẦU - Form cấp Giấy nghỉ ốm Bổ sung nút cho Thêm Tên đơn vị công ty #686
 - ✨: Chức năng import Công ty vào Danh mục bổ sung Lọc tên CTY và CÔNG TY, không hiển thị khi trùng.
