@@ -6,6 +6,108 @@
 
 #
 
+## [v.3.26.0413.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604133-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604133-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604133-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Bổ sung chức năng tách thẻ (BHYT 2) cho BANT Theo đợt #529
+	- Cập nhật:
+		- Bổ sung thẻ BH2: chỉ áp dụng với BANT đợt
+			
+			![](https://i.vgy.me/E7ldnf.png)
+			![](https://i.vgy.me/adUcpn.png)
+			
+			- Ra toa, CLS: Sau khi thêm thẻ BH2. Thao tác ra toa, chỉ định CLS mặc định lấy thông tin BH2 cho toa thuốc và CLS. Toa cũ vẫn là BH1
+
+			![](https://i.vgy.me/cgo5ha.png)
+
+		- Chuyển chi phí BH1 <-> BH2
+			
+			![](https://i.vgy.me/4E2CKQ.png)
+
+			- Chuyển CP từ BH1-->BH2: chọn bệnh nhân và chọn ngày bắt đầu chuyển chi phi. Thao tác như chuyển chi phí nội trú
+			![](https://i.vgy.me/4E2CKQ.png)
+
+			- Chuyển CP từ BH2-->BH1:
+
+			![](https://i.vgy.me/TnTq6i.png)
+
+		- Tổng kết chi phí:
+			- Chọn lại mẫu 6556 2 thẻ: đứng hoặc ngang
+			
+			![](https://i.vgy.me/niy5iw.png)
+			![](https://i.vgy.me/1CWpwB.png)
+
+		
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/529
+
+## [v.3.26.0413.2]()
+- ✨: Yêu cầu - Prescription: Bổ sung chức năng tách thẻ BHYT 2 cho BANT Theo đợt #529
+
+## [v.3.26.0413.1]()
+- ✨: Yêu cầu - Prescription: Bổ sung chức năng tách thẻ BHYT 2 cho BANT Theo đợt #529
+	- Cập nhật:
+		- Bổ sung thẻ BH2: chỉ áp dụng với BANT đợt
+			
+			![](https://i.vgy.me/E7ldnf.png)
+			![](https://i.vgy.me/adUcpn.png)
+			
+			- Ra toa, CLS: Sau khi thêm thẻ BH2. Thao tác ra toa, chỉ định CLS mặc định lấy thông tin BH2 cho toa thuốc và CLS. Toa cũ vẫn là BH1
+
+			![](https://i.vgy.me/cgo5ha.png)
+
+		- Chuyển chi phí BH1 <-> BH2
+			
+			![](https://i.vgy.me/4E2CKQ.png)
+
+			- Chuyển CP từ BH1-->BH2: chọn bệnh nhân và chọn ngày bắt đầu chuyển chi phi. Thao tác như chuyển chi phí nội trú
+			![](https://i.vgy.me/4E2CKQ.png)
+
+			- Chuyển CP từ BH2-->BH1:
+
+			![](https://i.vgy.me/TnTq6i.png)
+
+		- Tổng kết chi phí:
+			- Chọn lại mẫu 6556 2 thẻ: đứng hoặc ngang
+			
+			![](https://i.vgy.me/niy5iw.png)
+			![](https://i.vgy.me/1CWpwB.png)
+
+		
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/529
+<<<<<<< HEAD
+
+## [v.3.26.0413.0]()
+- ✨: Yêu cầu - Prescription: Bổ sung chức năng tách thẻ (BHYT 2) cho BANT Theo đợt #529
+	- Cập nhật:
+		- Bổ sung thẻ BH2: chỉ áp dụng với BANT đợt
+			
+			![](https://i.vgy.me/E7ldnf.png)
+			![](https://i.vgy.me/adUcpn.png)
+			
+			- Ra toa, CLS: Sau khi thêm thẻ BH2. Thao tác ra toa, chỉ định CLS mặc định lấy thông tin BH2 cho toa thuốc và CLS. Toa cũ vẫn là BH1
+
+			![](https://i.vgy.me/cgo5ha.png)
+
+		- Chuyển chi phí BH1 <-> BH2
+			
+			![](https://i.vgy.me/4E2CKQ.png)
+
+			- Chuyển CP từ BH1-->BH2: chọn bệnh nhân và chọn ngày bắt đầu chuyển chi phi. Thao tác như chuyển chi phí nội trú
+			![](https://i.vgy.me/4E2CKQ.png)
+
+			- Chuyển CP từ BH2-->BH1:
+
+			![](https://i.vgy.me/TnTq6i.png)
+
+		- Tổng kết chi phí:
+			- Chọn lại mẫu 6556 2 thẻ: đứng hoặc ngang
+			
+			![](https://i.vgy.me/niy5iw.png)
+			![](https://i.vgy.me/1CWpwB.png)
+
+		
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/529
+
+=======
+
 ## [v.3.26.0408.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604080-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Bổ phần bắt số ngày uống cố định tại PK Phương Nam và PK Nam Phương
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/666
