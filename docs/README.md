@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0415.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604150-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Bổ sung chức năng tách thẻ (BHYT 2) cho BANT Theo đợt #529
+	- Cập nhật: fix lỗi chỉ thêm 1 lần và không load hết dữ liệu thẻ 1, thẻ hết hạn không cảnh báo		
+		
+		![](https://i.vgy.me/CmFDT1.gif)
+		![](https://i.vgy.me/VJNqHU.png)
+		![](https://i.vgy.me/R2NLUw.png)
+		![](https://i.vgy.me/4g4xKA.png)
+		![](https://i.vgy.me/tEgjVR.png)
+		
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/529
+
 ## [v.3.26.0413.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604133-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604133-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604133-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Bổ sung chức năng tách thẻ (BHYT 2) cho BANT Theo đợt #529
 	- Cập nhật:
