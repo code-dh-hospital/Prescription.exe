@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0420.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604204-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604204-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604204-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription quá trình điều trị không in được phương pháp thực hiện thủ thuật (BV YHCT CT)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/819
+
+![](https://i.vgy.me/SJoZ2t.png)
+
 ## [v.3.26.0420.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604203-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604203-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604203-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Bổ sung thông tin phân biệt kỹ thuật YHCT hoặc PHCN và tách phiếu thực hiện kỹ thuật tương ứng (BV Trung Mỹ Tây) #137
 	- Cập nhật Pre:
