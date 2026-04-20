@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0420.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604205-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604205-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604205-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription khi bấm vào Form Chỉ định CLS bấm nút Thêm báo lỗi (Chỉ khám ngoại trú chỉ định mới bị lỗi) #821
+![](https://i.vgy.me/Ma4Zyo.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/821
+
 ## [v.3.26.0420.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604204-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604204-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604204-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription quá trình điều trị không in được phương pháp thực hiện thủ thuật (BV YHCT CT)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/819
