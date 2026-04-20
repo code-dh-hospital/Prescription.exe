@@ -6,6 +6,26 @@
 
 #
 
+## [v.3.26.0420.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604203-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604203-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604203-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Bổ sung thông tin phân biệt kỹ thuật YHCT hoặc PHCN và tách phiếu thực hiện kỹ thuật tương ứng (BV Trung Mỹ Tây) #137
+	- Cập nhật Pre:
+		- Load lại report có tiêu đề thay đổi theo mã loại CLS
+
+		![](https://i.vgy.me/qcN2Tw.png)
+		![](https://i.vgy.me/6afKQ5.png)
+		
+		- Tham số: tach_phieuphcn = 0
+
+		![](https://i.vgy.me/O8cr3N.png)
+
+		- Tham số: tach_phieuphcn = 1
+
+		![](https://i.vgy.me/0fkI1E.png)
+		![](https://i.vgy.me/em9uaq.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/137
+<<<<<<< HEAD
+
 ## [v.3.26.0420.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604202-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604202-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604202-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription chức năng gọi số thứ tự (BV QDY CT) #813
 - 🐛: Fix -  Chức năng nhận bệnh báo lỗi.
