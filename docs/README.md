@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0420.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604201-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription chức năng gọi số thứ tự (BV QDY CT) #813
+![](https://i.vgy.me/DWDWPW.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/813
+
 ## [v.3.26.0420.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604200-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription hỗ trợ toa thuốc YHCT, Thuốc Thang theo thông tư 55/2025/TT-BYT
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/719
