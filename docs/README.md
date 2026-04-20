@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.26.0420.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604200-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription hỗ trợ toa thuốc YHCT, Thuốc Thang theo thông tư 55/2025/TT-BYT
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/719
+
+- 🐛: Fix Lỗi chức năng xem và in toa tây y -> khi chọn in lần thứ 2
+- Bổ sung yêu cầu : mẫu thiết kế theo thống tư 55 chưa có đề xuất bổ sung thêm para ngày in và tài khoản in
+
+![](https://i.vgy.me/Hzja8B.png)
+
+- 🐛: Lỗi - Prescription Bệnh án ngoại trú Theo đợt Lưu toa thuốc báo lỗi
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/814
+
+![](https://i.vgy.me/wFqoky.png)
+
 ## [v.3.26.0417.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604171-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription hỗ trợ toa thuốc YHCT, Thuốc Thang theo thông tư 55/2025/TT-BYT
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/719
