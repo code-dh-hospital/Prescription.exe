@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0420.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604206-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604206-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604206-NasDHSolutions.json)</sup></sup></sub>
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/719
+
+- 🐛: Fix chức năng menu In/Xem toa thuốc không lấy được tài khoản và ngày in trên toa thuốc TT55
+- 🐛: Fix BANT Không in được số CCCD trên toa thuốc TT55
+
+![](https://i.vgy.me/9oU0Fa.png)
+
 ## [v.3.26.0420.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604205-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604205-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604205-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription khi bấm vào Form Chỉ định CLS bấm nút Thêm báo lỗi (Chỉ khám ngoại trú chỉ định mới bị lỗi) #821
 ![](https://i.vgy.me/Ma4Zyo.gif)
