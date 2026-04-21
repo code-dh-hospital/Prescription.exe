@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0421.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604213-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604213-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604213-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription hỗ trợ toa thuốc YHCT, Thuốc Thang theo thông tư 55/2025/TT-BYT (BV Ô Môn)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/719
+
+- Điều chỉnh thông nhất giá trị tài khoản in trên các mẫu toa thuốc
+
+![](https://i.vgy.me/neuA8P.png)
+![](https://i.vgy.me/S3JphV.png)
+
 ## [v.3.26.0421.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604212-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604212-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604212-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription hỗ trợ cảnh báo hoặc chặn khi có chẩn đoán chính bệnh Mạn tính theo ICD 10 mà không lập Bệnh án ngoại trú #731
 https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-chuc-nang-canh-bao-chan-doan-mang-tinh-khong-xu-tri-bant.md
