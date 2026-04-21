@@ -6,6 +6,29 @@
 
 #
 
+## [v.3.26.0421.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604214-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604214-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604214-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Bổ sung thông tin phân biệt kỹ thuật YHCT hoặc PHCN và tách phiếu thực hiện kỹ thuật tương ứng (BV Trung Mỹ Tây) #137
+	- Cập nhật Pre:
+		
+		- Tham số: tach_phieuphcn = 0
+
+		![](https://i.vgy.me/Pbe5Va.png)
+		![](https://i.vgy.me/uompvN.png)
+
+		- Tham số tach_phieuphcn = 1, cấu hình theo từng loại CLS nếu chưa có
+
+		![](https://i.vgy.me/TGGVhC.png)
+		![](https://i.vgy.me/92RycV.png)
+
+		![](https://i.vgy.me/eXlFsh.png)
+		![](https://i.vgy.me/3DwH8m.png)
+
+		![](https://i.vgy.me/BIwQsI.png)
+		![](https://i.vgy.me/ODpm0M.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/137
+<<<<<<< HEAD
+
 ## [v.3.26.0421.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604213-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604213-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604213-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription hỗ trợ toa thuốc YHCT, Thuốc Thang theo thông tư 55/2025/TT-BYT (BV Ô Môn)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/719
