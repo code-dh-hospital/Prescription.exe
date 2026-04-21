@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0421.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604215-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604215-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604215-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung tiện ích thêm chẩn đoán cập nhật chức năng chống chỉ định (BV QDY CT) #718
+	- Cập nhật Pre:
+		- Chỉ định CLS: hiển thị cảnh báo và có chức năng thêm chẩn đoán. 
+
+		![](https://i.vgy.me/aYPhyC.png)
+		![](https://i.vgy.me/jzvnCd.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/718
+
 ## [v.3.26.0421.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604214-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604214-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604214-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Bổ sung thông tin phân biệt kỹ thuật YHCT hoặc PHCN và tách phiếu thực hiện kỹ thuật tương ứng (BV Trung Mỹ Tây) #137
 	- Cập nhật Pre:
