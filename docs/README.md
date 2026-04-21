@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0421.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604211-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604211-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604211-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription khi bấm vào Form Chỉ định CLS bấm nút Thêm báo lỗi (Chỉ khám ngoại trú chỉ định mới bị lỗi) #821
+- 🐛: Khi vào Chỉ định cận lâm sàng KHÔNG bấm nút Thêm và nhấp double vào cls cũng nhảy qua cls đã chỉ định
+![](https://i.vgy.me/TUqdZp.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/821
+
 ## [v.3.26.0421.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604210-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Bệnh án ngoại trú thanh toán ngày (chỉ có công khám) khi in bảng kê 6556 Printer vẫn hiển thị chưa in
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/817
