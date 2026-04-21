@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0421.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604212-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604212-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604212-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription hỗ trợ cảnh báo hoặc chặn khi có chẩn đoán chính bệnh Mạn tính theo ICD 10 mà không lập Bệnh án ngoại trú #731
+https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-chuc-nang-canh-bao-chan-doan-mang-tinh-khong-xu-tri-bant.md
+![](https://i.vgy.me/RAmaq1.png)
+![](https://i.vgy.me/tO9eIR.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/731
+
 ## [v.3.26.0421.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604211-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604211-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604211-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription khi bấm vào Form Chỉ định CLS bấm nút Thêm báo lỗi (Chỉ khám ngoại trú chỉ định mới bị lỗi) #821
 - 🐛: Khi vào Chỉ định cận lâm sàng KHÔNG bấm nút Thêm và nhấp double vào cls cũng nhảy qua cls đã chỉ định
