@@ -6,6 +6,27 @@
 
 #
 
+## [v.3.26.0423.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604230-NasDHSolutions.json)</sup></sup></sub>
+- ✨: YÊU CẦU - PRESCRIPTION - Thiết kế trang in phiếu phẫu thuật thủ thuật: Bổ sung para Tuổi - Đơn vị tuổi - Người ký Phiếu PTTT #458
+	- Cập nhật Prescription: bổ sung para:
+		- Bỏ qua thiết kế lại --> in phiếu có sẵn.
+		
+		![](https://i.vgy.me/cTN3mp.png)
+		![](https://i.vgy.me/L9MjcJ.png)
+
+		- Chọn thiết kế lại: các para được bổ sung
+			- Tuoi: tuổi người bệnh
+			- dvttuoi: Đơn vị tính tuổi
+			- tuoi_dvttuoi: Tuổi và đơn vị tính tuổi
+			- hoten_lapphieu: họ và tên người lập phiếu
+			- hoten_phauthuat_chinh: họ và tên bác sĩ phẫu thuật chính
+			- hoten_gayme_chinh: họ và tên bác sĩ gây mê chính
+
+			![](https://i.vgy.me/MngxIU.png)
+			![](https://i.vgy.me/z29DMd.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/458
+
 ## [v.3.26.0422.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604220-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung tiện ích thêm chẩn đoán cập nhật chức năng chống chỉ định (BV QDY CT) #718
 	- Cập nhật Pre:
