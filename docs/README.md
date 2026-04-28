@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0428.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604280-NasDHSolutions.json)</sup></sup></sub>
+- 🐛:  GIẤY NGHỈ ỐM - Parameter.ngayky_ngaylap hiển thị không đúng ngày khi cấp Lần 2 trở đi- LỖI
+- 🐛:  ***Chỉnh lỗi lấy sai ngày lập khi lập nhiều phiếu nghỉ ốm.***
+- 📗: Nguyên nhân lỗi: code chưa xử lý lấy ngày lập theo `iddienbien`, chỉ lấy theo `mabn` và `makb` nên không xử lý được khi cùng `makb` có nhiều phiếu nghỉ ốm.
+- 📗: Thêm điều kiện `iddienbien` khi lấy thông tin ngày lập, khi in phiếu nghỉ ốm. ![](https://images-worker.tlt36.workers.dev/i/019dd2cd-d5fc-7a4b-b758-3bdfef2d92e8)
+![](https://images-worker.tlt32.workers.dev/i/019dd2c7-7fb7-7afe-920f-ee4006f5c601)
+![](https://images-worker.tlt08.workers.dev/i/019dd2c6-cff5-7094-8c12-919ab14bf5fb)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/836
+
 ## [v.3.26.0424.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604241-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604241-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604241-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription chức năng chỉ định cls bệnh án OPC bị ẩn chức năng thêm, chỉnh, xóa (BV Cái Răng) #829
 ![](https://i.vgy.me/JzwGAu.png)
