@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0428.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604281-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Đã lập BANT nhưng không vào được form lập BANT
+![](https://i.vgy.me/qrNJZy.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/774
+
 ## [v.3.26.0428.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604280-NasDHSolutions.json)</sup></sup></sub>
 - 🐛:  GIẤY NGHỈ ỐM - Parameter.ngayky_ngaylap hiển thị không đúng ngày khi cấp Lần 2 trở đi- LỖI
 - 🐛:  ***Chỉnh lỗi lấy sai ngày lập khi lập nhiều phiếu nghỉ ốm.***
