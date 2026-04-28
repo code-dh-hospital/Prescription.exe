@@ -6,6 +6,25 @@
 
 #
 
+## [v.3.26.0428.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604282-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604282-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604282-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - BANT - Tờ điều trị cột Y lệnh/Chỉ định không hiển thị Ghi chú và Thể hiện đúng Tên nhóm cột Y lệnh/Chỉ định
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/833
+
+- ✨: Yêu cầu - Prescription quá trình điều trị bổ sung toa vật tư kèm theo có thanh BHYT
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/721
+- 📗: Mô tả : https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/NOI_DUNG_YLENH_TRONG_PHIEU_THEO_DOI_DIEU_TRI.md
+
+- Ghi chú
+
+![](https://i.vgy.me/Tf0wP1.png)
+![](https://i.vgy.me/4qeMPK.png)
+
+
+- Toa vật tư 
+
+![](https://i.vgy.me/Jhnkoo.png)
+![](https://i.vgy.me/S9u6i5.png)
+
 ## [v.3.26.0428.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604281-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Đã lập BANT nhưng không vào được form lập BANT
 ![](https://i.vgy.me/qrNJZy.gif)
