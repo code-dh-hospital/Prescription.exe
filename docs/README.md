@@ -6,6 +6,26 @@
 
 #
 
+## [v.3.26.0428.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604283-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604283-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604283-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
+	- Cập nhật: 
+		XML5:
+
+		Phẫu thuật chưa loại maloai = ''
+		![](https://i.vgy.me/oSpv7h.png)
+		![](https://i.vgy.me/m8qouy.png)
+		
+		- In phiếu
+
+		![](https://i.vgy.me/Uh5RzN.png)
+		
+		- Kết quả:
+
+		![](https://i.vgy.me/3fINVb.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/713
+<<<<<<< HEAD
+
 ## [v.3.26.0428.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604282-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604282-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604282-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - BANT - Tờ điều trị cột Y lệnh/Chỉ định không hiển thị Ghi chú và Thể hiện đúng Tên nhóm cột Y lệnh/Chỉ định
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/833
