@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.26.0429.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604291-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription chức năng chỉ định cls bệnh án OPC bị ẩn chức năng thêm, chỉnh, xóa (BV Cái Răng) #829
+	- Fix lỗi không thêm được thông tin thuốc CLS cho thẻ 2
+		- Chỉ định CLS: Thẻ 1 và 2
+        	
+            ![](https://i.vgy.me/NxXERz.png)
+            
+            - Ra toa thẻ 1 và 2:
+            
+            ![](https://i.vgy.me/NWt3IK.png)
+            
+            - In tổng kết:
+            
+            ![](https://i.vgy.me/TxYcB7.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/829
+
 ## [v.3.26.0429.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604290-NasDHSolutions.json)</sup></sup></sub>
 - ✨- ✨: Yêu cầu - Diagnose Bộ ekipt trả kết quả thuộc kho Chẩn đoán hình ảnh cho phép chọn nhiều nhân viên thực hiện y lệnh #713
 	- Cập nhật: 
