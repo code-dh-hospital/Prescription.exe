@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0429.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604292-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604292-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604292-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bỏ ràng buộc thời gian khám bệnh đối với bệnh nhân check cấp cứu.
+![](https://lh3.googleusercontent.com/pw/AP1GczN0fFWSDGgTA8zJgK5PzEM3VJXBvx_RKMMgngOYN3s17vi1zIW0-8orHN9qK6k-Xo7kghoDBt3Hj4kspCKpGSW24WdTPrnHv94tiq0nluOChrqX1uZsq_EG7lqzUnUE-oI82zEjgVksF-8UU09g5Bvp=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNKnX1n2SQ3K1_kWJzJw1Tatuj-I80_w74CiQMWyv3yzlrFpI_d59eYhlmfZGkqSP_E_iEnYw3dIbmdVqedyz0OAv1C_xxsTy6XvFG-yQccei-qPuVCTfBrSSiW3dmXoEkNMrnjsHfaod9ZbF-auSXi=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/741#issuecomment-26947
+
 ## [v.3.26.0429.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32604291-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription chức năng chỉ định cls bệnh án OPC bị ẩn chức năng thêm, chỉnh, xóa (BV Cái Răng) #829
 	- Fix lỗi không thêm được thông tin thuốc CLS cho thẻ 2
