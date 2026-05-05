@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0505.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605052-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605052-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605052-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription BANT thanh toán đợt khi thực hiện chuyển phòng phần mềm cảnh báo sai (BV Cái Răng) #838
+![](https://i.vgy.me/rw1yXt.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/838
+
 ## [v.3.26.0505.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605051-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605051-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605051-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription quá trình điều trị bổ sung toa vật tư kèm theo có thanh BHYT
 - 🐛: para ylenh (phiếu theo dõi thông tư 32): không xuống dòng giữa các chi phí (các chi phí như cls, vtyt hiển thị liên tục không tách dòng)
