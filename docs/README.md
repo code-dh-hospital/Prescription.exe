@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0505.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605050-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription, Treatment Chức năng chuyển viện SXH - TCM lỗi nhập thông tin (BV QDY CT)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/831
+
+- 📕: Thay đổi kiểu dữ liệu 2 trường chuyenvien.sxh_do và chuyenvien.tcm_do.
+- 🐛: Fix lỗi sai định dạng ngày khi cập nhật vào dữ liệu.
+- 🐛: Fix Thiết kế ban đầu sai vị trí cái thông tin thuộc Group tay chân miệng nhưng thiết kế đưa vào Group Sốt xuất huyết : +IVIG, Phenobarbit, tổng liều 24 giờ
+- 🐛: Fix Thông tin Adrenaline không load đúng khi vào lại Form chuyển viện.
+
+![](https://i.vgy.me/yrSeOC.png)
+
 ## [v.3.26.0504.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605040-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription bệnh án ngoại trú thanh toán ngày ra toa thuốc báo lỗi (BV QDY CT) #837
 ![](https://i.vgy.me/79B5Ji.gif)
