@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0506.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605063-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605063-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605063-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Giấy chuyển viện có thêm chữ ký số của người đại diện đơn vị và bác sĩ điều trị #745
+- 🐛: Lỗi khi mẫu thiết kế chưa có para ký số
+- 🐛: Lỗi Chức năng xem và in thường vẫn in ra mẫu ký số
+![](https://i.vgy.me/ZvYeSj.gif)
+![](https://i.vgy.me/2UQJhP.gif)
+![](https://i.vgy.me/dJVUCF.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/745
+
 ## [v.3.26.0506.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605062-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605062-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605062-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Chức năng ký số BADT của phiếu PT/TT không thực hiện được. #139
 
