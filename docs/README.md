@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0506.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605061-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Giấy chuyển viện có thêm chữ ký số của người đại diện đơn vị và bác sĩ điều trị #745
+![](https://i.vgy.me/TaLmBE.png)
+![](https://i.vgy.me/rliume.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/745
+[Hướng dẫn sử dụng](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-huong-dan-cau-hinh-ky-so-nhiu-chu-ky.md)
+[Hướng dẫn tích hợp](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-huong-dan-tich-hop-chuc-nang-ky-so-nhieu-chu-ky.md)
+
 ## [v.3.26.0506.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605060-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Chức năng ký số BADT của phiếu PT/TT không thực hiện được. #139
 	- Nguyễn nhân gây lỗi:
