@@ -6,6 +6,25 @@
 
 #
 
+## [v.3.26.0506.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605060-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Chức năng ký số BADT của phiếu PT/TT không thực hiện được. #139
+	- Nguyễn nhân gây lỗi:
+		- Triều Vương: viết hàm mới in phiếu PT-TT chung nội/trú, git: https://i.dh-his.com/hdhiswork/YEUCAU/issues/458
+		- Không test hết trường hợp dẫn đến ký số bị lỗi
+
+		Cập nhật Prescription, fix hàm mới, sửa lỗi ký số:
+
+		- Không ký số:
+
+		![](https://i.vgy.me/i4dlnR.png)
+
+		- Ký số:
+
+		![](https://i.vgy.me/8YVb7v.png)
+
+
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/139
+
 ## [v.3.26.0505.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605052-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605052-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605052-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription BANT thanh toán đợt khi thực hiện chuyển phòng phần mềm cảnh báo sai (BV Cái Răng) #838
 ![](https://i.vgy.me/rw1yXt.gif)
