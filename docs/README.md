@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0507.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605071-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - PRESCRIPTION - Lỗi khi bấm vào nút XEM và IN TOA #841
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/841
+![](https://i.vgy.me/e8PfBx.png)
+![](https://i.vgy.me/KLVQHy.png)
+- 📗: Nguyên nhân lỗi: do chưa build mới dll `HospitalToaThuoc.dll` dẫn đến `HospitalToaThuoc.dll` không nhận được thay đổi từ dll `XTraRPT.dll`
+
 ## [v.3.26.0507.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605070-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - BANT - Đối tượng thu phí vào Chỉ định CLS báo lỗi #839
 ![](https://i.vgy.me/nZppVd.gif)
