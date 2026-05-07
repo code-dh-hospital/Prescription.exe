@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0507.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605072-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - PRESCRIPTION - Lỗi khi bấm vào nút XEM và IN TOA #841
+![](https://i.vgy.me/K3bE3M.png)
+![](https://i.vgy.me/8XvM2U.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/841
+
 ## [v.3.26.0507.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605071-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - PRESCRIPTION - Lỗi khi bấm vào nút XEM và IN TOA #841
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/841
