@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0507.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605070-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - BANT - Đối tượng thu phí vào Chỉ định CLS báo lỗi #839
+![](https://i.vgy.me/nZppVd.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/839
+- 📕: Nguyên nhân gây lỗi :
+- issues: https://i.dh-his.com/hdhiswork/YEUCAU/issues/529
+![](https://i.vgy.me/XJUQhM.png)
+
 ## [v.3.26.0506.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605063-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605063-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605063-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Giấy chuyển viện có thêm chữ ký số của người đại diện đơn vị và bác sĩ điều trị #745
 - 🐛: Lỗi khi mẫu thiết kế chưa có para ký số
