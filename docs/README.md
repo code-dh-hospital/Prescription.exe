@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.0507.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605073-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605073-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605073-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Phiếu thủ thuật, phẫu thuật có thêm chữ ký số tài khoản lập phiếu (triển khai CKS cá nhân) #740
+	- Cập nhật chữ ký số
+	 
+	 ![](https://i.vgy.me/OXLqy6.png)
+
+	 ![](https://i.vgy.me/FChcKN.png)
+
+	 ![](https://i.vgy.me/ZBBTF5.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/740
+<<<<<<< HEAD
+
 ## [v.3.26.0507.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605072-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - PRESCRIPTION - Lỗi khi bấm vào nút XEM và IN TOA #841
 ![](https://i.vgy.me/K3bE3M.png)
