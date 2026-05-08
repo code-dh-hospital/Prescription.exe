@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0508.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605080-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi lịch sử khám chữa bệnh không xem được kết quả xét nghiệm huyết học.
+![](https://lh3.googleusercontent.com/pw/AP1GczM5q3XbwOLWyDMqo-TmAE5-dwuK2qhp-ikf-8WlENiOeOB0QGo7SiRHo-vczbmKfMCJ9Utow6swOMc5KveymCTdP9RA5mLe8VQofwZr1mGdJg10uMS4ncTJ6KQansC9CeTErqnqX8N6tX06XRxPKXsz=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOYEYEF-EV2fUGDDus38sHUo7hYGD4VXJvZUhppIAUgq5lmnDpWjhQnMYMfGXF686l4xR-GIAJfJ9hQcv19pQ_wZ4k3GC0491tCztEpy89Q33etsIP_M4jGZe7pfTtGgxgDcKYdyA9TbKG42MZDbcvX=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/844#issuecomment-27438
+
 ## [v.3.26.0507.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605073-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605073-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605073-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Phiếu thủ thuật, phẫu thuật có thêm chữ ký số tài khoản lập phiếu (triển khai CKS cá nhân) #740
 	- Cập nhật chữ ký số
