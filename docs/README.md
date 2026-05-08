@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0508.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605084-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605084-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605084-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi lịch sử khám chữa bệnh không xem được kết quả chẩn đoán hình ảnh.
+![](https://lh3.googleusercontent.com/pw/AP1GczOmvrXVJlEcy7aOCgOqVIv0QW8NiLZuUjciFN9sJub0iA06urWjmPRlUQZWRJ72n5R-H4aVpJmbq4z7_FvNptJkEb4d2is1OampFQOEV8NaKiprT0Ot0D6JXndLI_IfJYOs2Ha3zU1YXpoVBjxjVy9a=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOVJkqhe-ACAt0DljIP4lfslQJVO40N9PQ95-orSFvaAs1If7jT05eUaDjkjpqykKDDOmCKSSv84bGLUkYGPadaUA0_dUlbppsU2Jo0dpztRweg8qkjy66n0qb08-lpqwCenFR_bfK-po4e3slvUlqb=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/844#issuecomment-27554
+
 ## [v.3.26.0508.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605083-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605083-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605083-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung Bệnh án ngoại trú RĂNG HÀM MẶT theo thông tư 32 theo mô tả: [EMR/So-hoa/Tong-hop-Benh-an-RHM-ngoai-tru.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/EMR/So-hoa/Tong-hop-Benh-an-RHM-ngoai-tru.md)
