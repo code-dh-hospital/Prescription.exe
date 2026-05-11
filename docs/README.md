@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0511.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605114-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605114-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605114-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung Bệnh án ngoại trú YHCT theo thông tư 32 theo mô tả: [EMR/So-hoa/Tong-hop-Benh-an-YHCT-ngoai-tru.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/EMR/So-hoa/Tong-hop-Benh-an-YHCT-ngoai-tru.md)
+![](https://lh3.googleusercontent.com/pw/AP1GczO_IXEklnxPTsj_9nxdMHxeteIMh8vKQSWkFUofR3qW0zC4zDjj9HRmk8_DG6FA8imTQSAKQo-JKqQP29lQQmPfYbsrQ8p7xssPJqFkuHOoH__GlYCq_JfN_CxUVVo1-H9BKwWrDr76zv4Ttoeyxf6L=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOZ7x2RWEdDWOjR4x_Z1WgI2A_MQf6OwUMj7au0_Eoi60KBSiRl4hOQVwPVUoyadoUnWVgjPUlyWIjoM9FVUjAAG3n9GaAxD8HphP5bKpOwIe_X1vG42rVShIiF32pmz3FxmBlJzy8iIp0CB0AwGHEN=w1123-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNdrfCh3cDvA7qgsi11VjXSmsIKB1b9X3Lb-OZTaffWCYCBoN0rg7qklO859iUiY8pCjm-HIZghWL7Ys3ItxjB4_ZTCbGATSDpiKktOPiBb_rJwO1Fh9v5OEIRiXphtA5p3y9W8ymJAgaflq5N4Mhx5=w1048-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/734#issuecomment-27196
+
 ## [v.3.26.0511.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605113-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605113-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605113-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung Bệnh án ngoại trú RĂNG HÀM MẶT theo thông tư 32 theo mô tả: [EMR/So-hoa/Tong-hop-Benh-an-RHM-ngoai-tru.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/EMR/So-hoa/Tong-hop-Benh-an-RHM-ngoai-tru.md)
