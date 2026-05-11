@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0511.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605113-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605113-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605113-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung Bệnh án ngoại trú RĂNG HÀM MẶT theo thông tư 32 theo mô tả: [EMR/So-hoa/Tong-hop-Benh-an-RHM-ngoai-tru.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/EMR/So-hoa/Tong-hop-Benh-an-RHM-ngoai-tru.md)
+
+![](https://lh3.googleusercontent.com/pw/AP1GczNVEQt6IrQs5xFup4ZfgRngxXIUARltVcIEfBj3Qp-PDzsPruOp-M29QE1JpuWLWAnnjQLr4HuyBvJsd6ao4xkX-a5suTyXrCrEScK1UxnJIfdhn5nmvz5ZbQK-IRX3BB6DZRRXvqBKO026E0W1eQPK=w1654-h879-s-no-gm?authuser=0)
+
+![](https://lh3.googleusercontent.com/pw/AP1GczMPJROwE5UxNIbhYLNPNjFziIfoIVoBsIjHtJC_0acY4c1oznpsW_uenCM6PRF1Yu4nzlykFQJjxqD6BQ4kP_UY2H3gxElzp6MvW5UJJ5vMGzvm3O9BnLzMLcLNleMQsgM3FtuD2tyVp1Vx4DVdnFbu=w1076-h879-s-no-gm?authuser=0)
+
+![](https://lh3.googleusercontent.com/pw/AP1GczOYf3HWUMtOj_r1dzaQCNGXoTu901WI2hdFc8v5fTFNUq3seVdKfaH8YvP4a0k-WUZUH9KN9QF3lg91VD-Vv1qKm9EnsmPW-0Xh3On7p_GRbUVSlzpdzgcVuDSxcekD1KRcCywUBvWSMTzlNmPgkEbk=w892-h872-s-no-gm?authuser=0)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/733#issuecomment-27194
+
 ## [v.3.26.0511.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605112-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605112-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605112-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi bệnh án ngoại trú xóa phiếu chuyển viện làm ngoại trú mất ngày bệnh, đổi xử trí.
