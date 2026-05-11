@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0511.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605115-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605115-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605115-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Register, Prescription: Phiếu nghỉ ốm có thêm chữ ký số của bác sĩ và người đại diện đơn vị #744
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/744
+- 📗: Trêm form phiếu nghỉ ốm bổ sung thêm nút `In - Ký Số`
+- 📗: Bổ sung thêm 2 params `manv_bacsi` và `manv_nguoidaidien` chứa giá trị mã nhân viên của bác sĩ và người đại diện để xác định chữ ký trên phiếu nghỉ ốm.
+![](https://i.vgy.me/enJGbl.png)
+
 ## [v.3.26.0511.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605114-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605114-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605114-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung Bệnh án ngoại trú YHCT theo thông tư 32 theo mô tả: [EMR/So-hoa/Tong-hop-Benh-an-YHCT-ngoai-tru.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/EMR/So-hoa/Tong-hop-Benh-an-YHCT-ngoai-tru.md)
