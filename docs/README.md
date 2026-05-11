@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0511.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605112-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605112-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605112-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi bệnh án ngoại trú xóa phiếu chuyển viện làm ngoại trú mất ngày bệnh, đổi xử trí.
+![](https://iili.io/BDgygY7.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/846#issuecomment-27491
+
 ## [v.3.26.0511.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605111-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Chức năng chuyển toa thuốc vào BANT ghi nhận sai thông tin #842
 ![](https://i.vgy.me/rYfIyD.gif)
