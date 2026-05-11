@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0511.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605110-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription không cho nhập viện nội trú khi bệnh đang điều trị bant thanh toán ngày (BV Thốt Nốt)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/845
+
+- 📕: Nguyên nhân chỉnh sót code từ luồng https://i.dh-his.com/hdhiswork/LOI/issues/845 bản cập nhật thư viện 0413.0 hàm kiểm tra BA nội trú nhưng điều kiện namvien = 0
+
+- 📕: Xử lý chỉnh điều kiện đúng khi kiểm tra bệnh nhân đã có bệnh án nội trú namvien = 1
+
+![](https://i.vgy.me/mEDobn.png)
+
 ## [v.3.26.0508.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605084-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605084-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605084-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi lịch sử khám chữa bệnh không xem được kết quả chẩn đoán hình ảnh.
