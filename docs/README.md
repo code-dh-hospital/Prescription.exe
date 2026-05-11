@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0511.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605111-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Chức năng chuyển toa thuốc vào BANT ghi nhận sai thông tin #842
+![](https://i.vgy.me/rYfIyD.gif)
+![](https://i.vgy.me/iBSmcu.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/842
+
 ## [v.3.26.0511.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605110-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription không cho nhập viện nội trú khi bệnh đang điều trị bant thanh toán ngày (BV Thốt Nốt)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/845
