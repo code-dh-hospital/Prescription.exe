@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.26.0512.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605120-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix lỗi in phiếu 2 thẻ
+	- 2 Thẻ:
+
+		![](https://i.vgy.me/lzD9QQ.png)
+
+	- 1 Thẻ:
+
+		![](https://i.vgy.me/S2jg9q.png)
+	- XML1:
+
+		![](https://i.vgy.me/KbjGmJ.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/529
+
 ## [v.3.26.0511.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605115-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605115-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605115-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Register, Prescription: Phiếu nghỉ ốm có thêm chữ ký số của bác sĩ và người đại diện đơn vị #744
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/744
