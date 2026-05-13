@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0513.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605135-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605135-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605135-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Không thể hiện tiêu đề cho toa vật tư và toa vật tư không tính phí khi lấy y lệnh theo tham số phieutheodoidieutri.ylenh
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/721
+- 📗: https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/NOI_DUNG_YLENH_TRONG_PHIEU_THEO_DOI_DIEU_TRI.md
+
+![](https://i.vgy.me/Q04Z1e.png)
+
 ## [v.3.26.0513.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605134-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605134-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605134-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Prescription đã lập phiếu nhập viện, vẫn cho phép chỉ định thêm CLS. (Chặn không cho thêm CLS khi đã lập phiếu nhập viện)
 ![](https://i.vgy.me/oYR949.gif)
