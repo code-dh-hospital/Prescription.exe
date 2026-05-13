@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0513.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605130-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - PRESCRIPTION - BANT in 1 số mẫu báo lỗi XtraRPT.Xtra #853
+![](https://i.vgy.me/5xhmvK.png)
+![](https://i.vgy.me/EY6Cot.png)
+![](https://i.vgy.me/PuJB2C.png)
+![](https://i.vgy.me/9sSagr.png)
+![](https://i.vgy.me/oIiNMM.png)
+![](https://i.vgy.me/6aEdF9.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/853
+
 ## [v.3.26.0512.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605122-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605122-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605122-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: khi xử trí nhập viện tại máy check cấp cứu nếu có công khám ngoại trú phần mềm không cảnh báo còn công khám ngoại trú.
 - 🐛: Trên form nhập viện, đơn vị mong muốn trường hợp click nhầm bỏ qua không xóa công khám, thì vào form chỉ định CLS vẫn cho xóa được công khám.
