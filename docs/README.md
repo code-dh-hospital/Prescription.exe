@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0513.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605133-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605133-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605133-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Prescription đã lập phiếu nhập viện, vẫn cho phép chỉ định thêm CLS. (Chặn không cho thêm CLS khi đã lập phiếu nhập viện)
+![](https://i.vgy.me/oYR949.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/539
+
 ## [v.3.26.0513.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605132-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605132-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605132-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Chức năng chuyển toa thuốc vào BANT ghi nhận sai thông tin #842
 - 🐛: BANT ngày phát sinh lỗi chuyển toa thuốc vào BANT:
