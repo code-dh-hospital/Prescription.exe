@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0514.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605143-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605143-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605143-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi chức năng xem lịch sử bệnh nhân nội trú không xem được kết quả CLS.
+![](https://lh3.googleusercontent.com/pw/AP1GczPArsdpZYD1sZPmXQLeFfF2NQ5Zt0L2I82v_BS4QkOmjCJTst99mZalcQHIhlSWsA6k6xGRWGoNo-Krk_IJbuGuI9b2LuPHuk1q7uHFkOSEBWLjsBnnRLfnVxddkHwaath7yo99qRexB0Xfz_FxV-Ys=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczO1qGGV9Idu9Oh2xIP4hLL_cCSOCbmfTg7c1DJ-BPApxDXohcxxCaq8ikQjxrKWs-0vi0Ju1QdUdGlSUFXBXxFLnsyGaZZvKiuSyHwdggvWJ6d7ao9vOK-WaRrPNTsafPmLqm2VhFnHKfKKIRM7B_Ye=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/849#issuecomment-27666
+
 ## [v.3.26.0514.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605142-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription, Register mở rộng chức năng Khám sức khỏe hợp đồng cho các đơn vị cấp theo key chức năng riêng #771
 ![](https://i.vgy.me/r1uBrI.png)
