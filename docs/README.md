@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.0514.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605144-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605144-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605144-NasDHSolutions.json)</sup></sup></sub>
+- ✨- ✨: Yêu cầu: Bổ sung màu đối thuốc cần lưu ý thi ra toa #752
+	
+	- Cập nhật: PRESCRIPTION
+		- Khám bệnh, BANT: Ra toa
+
+		![](https://i.vgy.me/wCQcts.png)
+		![](https://i.vgy.me/kwi1CL.png)
+
+
+		- Khám bệnh, BANT: Cận lâm sàng: toa vật tư kèm theo
+
+		![](https://i.vgy.me/8i2tqK.png)
+		![](https://i.vgy.me/OeMwMP.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/752
+<<<<<<< HEAD
+
 ## [v.3.26.0514.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605143-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605143-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605143-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi chức năng xem lịch sử bệnh nhân nội trú không xem được kết quả CLS.
