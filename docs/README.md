@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0514.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605142-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription, Register mở rộng chức năng Khám sức khỏe hợp đồng cho các đơn vị cấp theo key chức năng riêng #771
+![](https://i.vgy.me/r1uBrI.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/771
+- 📕: Bổ sung thêm key `khamsuckhoe_hopdong` hỗ trợ chức năng khám sức khỏe hợp đồng.
+
 ## [v.3.26.0514.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605141-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Xóa công khám khi có xử trí nhập viện #539
 - 🐛: Trường hợp mới lưu xử trí nhập viện, chưa lập phiếu nhập viện. Thì vẫn cho phép thêm CLS bình thường.
