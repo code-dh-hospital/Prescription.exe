@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0514.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605145-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605145-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605145-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Register, Prescription: Phiếu nghỉ ốm có thêm chữ ký số của bác sĩ và người đại diện đơn vị #744
+- 🐛: Register, Prescription khi tài khoản người đại diện không có chữ ký số nhưng tài khoản bác sĩ có chữ ký số thì phần mềm báo cả 2 tài khoản không có chữ ký số và không in được CKS
+![](https://i.vgy.me/8erx58.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/744
+
 ## [v.3.26.0514.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605144-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605144-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605144-NasDHSolutions.json)</sup></sup></sub>
 - ✨- ✨: Yêu cầu: Bổ sung màu đối thuốc cần lưu ý thi ra toa #752
 	
