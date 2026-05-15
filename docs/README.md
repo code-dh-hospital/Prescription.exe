@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0515.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605152-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605152-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605152-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi xem toa thuốc lịch sử khám bệnh.
+![](https://lh3.googleusercontent.com/pw/AP1GczOhaoPZsdnelBcrHa94CcV0PwPUbcnHhXJ9W1qdKekVpDjP6q5lcBVwxIFNA9hHyrwQeXCqwhAop90GwBlPk9VtDzEoWfPrUj_79FADXH8R3GFmgFgxK-xAtE2rqBe3TX7pWP08tyMYgEWwLDfGbXyb=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/849#issuecomment-27925
+
 ## [v.3.26.0515.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605151-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi lưu bệnh án ngoại trú RHM và lỗi mất tên bệnh nhân sau khi đã xử trí lập bệnh án ngoại trú:
