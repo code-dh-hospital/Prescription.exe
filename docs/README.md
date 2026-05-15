@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0515.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605151-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi lưu bệnh án ngoại trú RHM và lỗi mất tên bệnh nhân sau khi đã xử trí lập bệnh án ngoại trú:
+![](https://lh3.googleusercontent.com/pw/AP1GczMe21YK1lC4K76Nxo105J7O6hE0EIQzf1UrZnVEt7DzX8G2o-N1FJMav7ZwPNdYnqTSVTpfKvqSSTZJL392X7mVB9CvIsXuvjudd1gS0VbQkOd6ES_CW91T8hiKKlHf7WLH1w20NruUPMPkbMpErZeg=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczP7xgpAG67ih4Y57Z6xvR0vxXDZMwvN51Oewj6rWuBlr6e7MZxnsy_q6wBJn6N-9ROQ-SEoIcX9ZwPFx-kSleLvsesZe4PfNqvPWd_VEtJDTO_VQIlO6k6Wp2EFgIQsqMqELwZPadHGEXZLChr7uMSI=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/733#issuecomment-27885
+
 ## [v.3.26.0515.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605150-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Admin: Bổ sung tham số cấu hình số phút tối thiểu từ thời gian khám bệnh đến chỉ định cận lâm sàng #452
 - ✨: Điều chỉnh tham số cls.sophuttoithieu chỉ áp dụng với đối tượng thuộc BHYT [dmdoituong.bhyt IN (1,2)]
