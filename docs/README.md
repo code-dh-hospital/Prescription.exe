@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0515.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605150-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Admin: Bổ sung tham số cấu hình số phút tối thiểu từ thời gian khám bệnh đến chỉ định cận lâm sàng #452
+- ✨: Điều chỉnh tham số cls.sophuttoithieu chỉ áp dụng với đối tượng thuộc BHYT [dmdoituong.bhyt IN (1,2)]
+![](https://i.vgy.me/ul6fzV.png)
+![](https://i.vgy.me/A1EzhI.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/452
+
 ## [v.3.26.0514.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605145-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605145-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605145-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Register, Prescription: Phiếu nghỉ ốm có thêm chữ ký số của bác sĩ và người đại diện đơn vị #744
 - 🐛: Register, Prescription khi tài khoản người đại diện không có chữ ký số nhưng tài khoản bác sĩ có chữ ký số thì phần mềm báo cả 2 tài khoản không có chữ ký số và không in được CKS
