@@ -6,6 +6,36 @@
 
 #
 
+## [v.3.26.0515.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605155-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605155-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605155-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription bảng kê 6556 BANT đợt sai thông tin chi phí so với bản củ (BV ĐKTP CT) #854
+	- Fix lỗi: 
+		
+		![](https://i.vgy.me/YMC7du.png)
+
+	- Nguyên nhân:
+
+		- Khi lấy thông tin gói vật tư: chưa phân biệt Nội trú/Ngoại trú. Xử lý tạm thời: Ngoại trú không lấy thông tin gói vật tư
+		- Khi tiết kết lại report: cột sort chọn lại chưa chính xác
+			- Cột đúng:
+
+			![](https://i.vgy.me/nXTw5F.png)
+
+			- Cột sai:
+
+			![](https://i.vgy.me/aZry3E.png)
+
+			- Kết quả khi chọn lại cột sort:
+
+			![](https://i.vgy.me/8emUBZ.png)
+
+	- Hướng xử lý tiếp theo:
+
+		- Bổ thông tin cấu hình vào form: Ngoại trú cho phép người dùng cấu hình thể hiện vật tư theo gói hoặc không
+
+		![](https://i.vgy.me/r8t82s.png)
+	
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/854
+
 ## [v.3.26.0515.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605154-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605154-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605154-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Chuẩn hóa dữ liệu Unicode (NFC) trước khi lưu: Họ tên, địa chỉ, nơi công tác.
