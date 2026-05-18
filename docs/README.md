@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0518.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605180-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi chức năng xem toa thuốc còn lỗi khi chọn group thuốc và chọn cls -> click chọn xem toa thuốc.
+![](https://lh3.googleusercontent.com/pw/AP1GczMhtpCdtw_JKgzqJ20UE5f07f8cnxbfW-hETOAwv3btgCqccTQc_BbHZIZ4bZcf1XVzhI_Fu_k4So-d839UMwk47bbim-eKHWLoCUzhlQT3GszNRepRClfZf9gndE_lU5tx7avDCJvqBvyP4yeI1TMp=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/849#issuecomment-28016
+
 ## [v.3.26.0515.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605155-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605155-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605155-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription bảng kê 6556 BANT đợt sai thông tin chi phí so với bản củ (BV ĐKTP CT) #854
 	- Fix lỗi: 
