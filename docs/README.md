@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0518.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605183-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605183-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605183-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Form Khám sức khỏe HĐ không hiển thị phường xã, chỉnh thông tin báo lỗi, không chọn được icd phụ #858
+- 🐛: Chức năng khám sức khỏe HĐ không hiển thị phường xã:
+![](https://i.vgy.me/1K5cuk.png)
+- 🐛: Chức năng khám sức khỏe HĐ khi chỉnh thông tin lưu lại thì báo lỗi:
+![](https://i.vgy.me/rtpDRS.gif)
+- 🐛: Chức năng khám sức khỏe HĐ -> khám bệnh -> khi chọn ICD phụ trên danh mục thì không lấy được thông tin mà phải gõ tay vào ô CĐ phụ:
+![](https://i.vgy.me/VbIYSN.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/858
+
 ## [v.3.26.0518.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605182-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605182-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605182-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Admin, Prescription, Treatment hỗ trợ danh mục ICD10 theo Thông tư 06/2026/TT-BYT
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/749
