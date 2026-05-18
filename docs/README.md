@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0518.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605184-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605184-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605184-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi
+- Sửa lỗi: Khi xử trí 07 Bệnh án ngoại trú... nhập các thông tin lưu lại thì Ngoài from khám bệnh tìm lại không thấy tên bệnh nhân
+![](https://lh3.googleusercontent.com/pw/AP1GczPVDlDr1AZdV2UCETRcIcPSck81lK8Abpfwu6LCs07MboPMH-kot9oD5kCQOhilkfRUYO8J7V8BwSemlL9GTMuSEH1lzYnQ9TxZn_zSl8hw20y3GwDXd7zfluZIwK3iD3WwTVrjoPcZFjgRRG2a-DN-=w1654-h879-s-no-gm?authuser=0)
+- Nhờ anh rà lại các thông tin hành chính theo mẫu hiển thị sai thứ tự ==> Mẫu hiện tại đã đúng thứ tự theo TT32. bổ sung thêm các ô mã nghề nghiệp, mã quốc tịch trong mẫu hồ sơ.
+![](https://lh3.googleusercontent.com/pw/AP1GczMiary6MZ0DOX2MCVYcVDxIj0YrSMTlJN0KfTxAyAal4P7perhoYhxGaCaplx8YhIXYt6Zj4vv48PeeQmXvWnzxG5ECOf2IUWM8mrKchYw84Gm2mmZIFOzcB94PG7nxVfvTTqGGnKimWgKVTJUCUiqz=w1654-h879-s-no-gm?authuser=0)
+- Bổ sung trang bìa:
+![](https://lh3.googleusercontent.com/pw/AP1GczORYDaADPenH6KMfE2RBVaa1vFa921rZnGupMIhKu12ev64kbipGfNK3gYf2gWj3y7fH2LWDwaveYc6tz44UaYX_29YMm1ulN74gNXsZrsDYQvqNHM1uuE65Pdoef_6Ke0QzDanFQR-3Y6F0B_L03cm=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/734#issuecomment-27910
+
 ## [v.3.26.0518.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605183-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605183-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605183-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Form Khám sức khỏe HĐ không hiển thị phường xã, chỉnh thông tin báo lỗi, không chọn được icd phụ #858
 - 🐛: Chức năng khám sức khỏe HĐ không hiển thị phường xã:
