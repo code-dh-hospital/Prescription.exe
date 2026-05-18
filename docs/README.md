@@ -6,6 +6,32 @@
 
 #
 
+## [v.3.26.0518.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605182-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605182-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605182-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Admin, Prescription, Treatment hỗ trợ danh mục ICD10 theo Thông tư 06/2026/TT-BYT
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/749
+- 📗: https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/ICD/ICD10_THONG_TU_06_BYT.md
+- 📕: Áp dụng thử chức năng kiểm tra maicd theo TT06
+
+- Form chẩn đoán khám bệnh ngoại trú
+
+![](https://i.vgy.me/8xmaTu.png)
+
+- Form ra toa thuốc ngoại trú
+
+![](https://i.vgy.me/krQdp9.png)
+
+- Form BANT
+
+![](https://i.vgy.me/fba1My.png)
+
+- Form kết thúc BANT
+
+![](https://i.vgy.me/wEywvq.png)
+
+- Form lập phiếu tử vong ngoại viện
+
+![](https://i.vgy.me/l2SLNu.png)
+
 ## [v.3.26.0518.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605181-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Phiếu thủ thuật, phẫu thuật có thêm chữ ký số tài khoản lập phiếu (triển khai CKS cá nhân) #740
 	- Fix lỗi ký số: khi nhân viên chưa cấu hình chữ ký số
