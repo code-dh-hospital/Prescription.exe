@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0519.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605191-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung cấu hình `XML01.NGAY_VAO_NOI_TRU` đối với hồ sơ có `XML01.MA_LOAI_KCB = 02`.
+![](https://lh3.googleusercontent.com/pw/AP1GczMvPFIsymuz1Q_pxf-tz2GKYCqVt7Fl_Jxt4W_GSR3nc8wVNR8g6WzmkYUZhD_nnHVEwVjQrBUb2X31RRuOkEsO1AQLJy-i-5nxzRchDzKk6gVVBn2wWf4ECM9DfYEmUbxxh8nn1pAhrPANUe1j-4L4=w1248-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNgRTLYydV6D6KQ-H62-VDDWQh7QZmuNyeI7ah3Skj5h3fqs5WtdDijuRtWjuOJcZ5opaZl18wxZMWrDgtpviXZR7nEoGGS1hmAcJwIYtRNTDXT9P16LViV8JDirvIt0x9QK5nNiT4Z6G9eXol0V6dy=w1185-h543-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/855#issuecomment-27975
+
 ## [v.3.26.0519.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605190-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Xuất XML04.MA_BS_DOC_KQ theo cấu hình lấy Ekip TT/PT từ mô tả [DIAGNOSE/Vuong_mota_chucnang_lap_ekip_thuchien_module_Diagnose.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/DIAGNOSE/Vuong_mota_chucnang_lap_ekip_thuchien_module_Diagnose.md), [XML130/QD4570/Table xml130.bang04 - [Phụ lục - Mô tả XML130 - Bổ sung QĐ 4750].md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/Table%20xml130.bang04%20-%20%5BPh%E1%BB%A5%20l%E1%BB%A5c%20-%20M%C3%B4%20t%E1%BA%A3%20XML130%20-%20B%E1%BB%95%20sung%20Q%C4%90%204750%5D.md), [XML130/QD3176/Table xml3176.bang04 - [Phụ lục - Mô tả XML3176].md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD3176/Table%20xml3176.bang04%20-%20%5BPh%E1%BB%A5%20l%E1%BB%A5c%20-%20M%C3%B4%20t%E1%BA%A3%20XML3176%5D.md).
