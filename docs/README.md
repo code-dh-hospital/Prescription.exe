@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0520.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605201-NasDHSolutions.json)</sup></sup></sub>
+
+
+- 🐛: Sửa lỗi: Lưu Bệnh án ngoài Form khám bệnh tìm lại vẫn chưa thấy tên; chỉnh và Lưu lại bệnh án phát sinh lỗi; Bìa hồ sơ tự thiết kế.
+![](https://lh3.googleusercontent.com/pw/AP1GczMiPTn-8lBMGb42pCHHjUL9SkEkoWrfMKF1l0wKY68Ex81KBTYsGtbszF2IPigfsn588ioKoi4XC0BLvm7S2xt-2nbfviik61apmLi90n8vZX88lHBl28IgKiBUtTEGehMxU0Iv-EgvZLrL6BXE3ZDK=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNHvV1kiQcWVHOMMR245FgAkkF9dmvziNxCKBcPgeck8eNSfRiv1zgypMOkD1Yi5h13zrDFyGUWghb5Ss2afPc6oV4owoJCsPgG4QMrp5BCSwRl6EItrqTJyizPPFttK9sccbJhTIiqs172V70HZ-kN=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMidE5gyJ_BYnWTS1Pt3jB0uzEa-csHjuG2w0yUFwyZlkznIuNeAqH7ixKbu_NQzjzcl5IPRMlT-5OJLDJpRPDl-AS0Qtefkabb_2airO7D2EeVCOdrowkUwU1XtOKeLg5DYXBm8pK0cACS5efGyqCK=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPxM2gy1w6S6ZcOjdov1FhH6guRMxGaGk5WQd1LdhG220FWNGkACSKD6auEUtm2lLoQYEpv3gG5wFFuKnhinGs2Cu6CI7kbPQOIxW0Gsn9xNFbMGnM8p2MH_-IGDNxgDEY64pvpcRMPBG2tRhW4CTOH=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMubPFSBlXtpt3jlwH0D5CcPaVFxpWWoBmgFZQh89WlFibzCE7lhvAVHtR_-8Gh0tSCLGWFMENCiPewJbX6ZDamAAL4wlv3P3LHa0R6mg2ugdh97jtSyW2pO5Q6CIeoGAcKYnfCn3btejcSbD7bLvSK=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNiFEtWS2jWKS9cScVLISmWQSBNGlWrVRQlFS3miBkJ4wU7oU819GBafTyIYke25V5iUksbZDwla5DmqKs1Fkv_pZ76jTR6ypikZWM3tuyKgAkEqmfm8JOuvJ9DgLkKZoy4WZru6AulvVgOi1KaqwSO=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/733#issuecomment-28079
+
 ## [v.3.26.0520.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605200-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi: Lưu Bệnh án ngoài Form khám bệnh tìm lại vẫn chưa thấy tên; chỉnh và Lưu lại bệnh án phát sinh lỗi; Bìa hồ sơ tự thiết kế.
