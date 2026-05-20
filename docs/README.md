@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0520.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605202-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605202-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605202-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Form Khám sức khỏe HĐ không hiển thị phường xã, chỉnh thông tin báo lỗi, không chọn được icd phụ #858
+- 🐛: Lỗi khi lần đầu mỏ form khám sức khỏe HĐ lên chỉnh thông tin (đóng lỗi vẫn lưu được và lần chỉnh sau không lỗi):
+![](https://i.vgy.me/W3fzoY.gif)
+- 🐛: Thông tin bác sĩ khám bệnh đã nhập lưu lại nhưng đóng form mở lại thì không thấy:
+![](https://i.vgy.me/2dEH25.png)
+- 🐛: Lỗi chỉ định CLS:
+![](https://i.vgy.me/dRacI4.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/858
+
 ## [v.3.26.0520.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605201-NasDHSolutions.json)</sup></sup></sub>
 
 
