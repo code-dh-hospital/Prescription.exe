@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0521.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605213-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605213-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605213-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi sổ thủ thuật không lấy được thẻ BHYT của bệnh nhân bệnh án ngoại trú thanh toán ngày.
+![](https://lh3.googleusercontent.com/pw/AP1GczPD05-5sPx5-QTa6AW4UoPhpji6f507ySWGaGCdmYkTXS7frFaLlLawmU860KYO_X5cHclHlU650glOnZO6clQch9BhaTfncFrvfke2FWY4lq_S1N4yBtAQYJ78_ZoFvD4-VoFsdvZdM0qAnd4ygQyO=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/862#issuecomment-28259
+
 ## [v.3.26.0521.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605212-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605212-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605212-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI _ PRESCRIPTION - Dự trù khoa phòng, Dự trù tủ trực #860 
 	
