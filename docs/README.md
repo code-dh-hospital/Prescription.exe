@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0521.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605214-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605214-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605214-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Form Khám sức khỏe HĐ không hiển thị phường xã, chỉnh thông tin báo lỗi, không chọn được icd phụ #858
+- 🐛: Vẫn còn lỗi chỉ định CLS: (Có thể do chưa có chẩn đoán):
+![](https://i.vgy.me/WPsXq9.gif)
+- 🐛: Form chỉ định CLS-DV không hiển thị cổng khám phải bấm nút In mới hiện công khám:
+- 🐛: CLS được chỉ định từ form khám sức khỏe được ghi nhận tinhtrang = 0 (cấp cứu):
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/858
+
 ## [v.3.26.0521.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605213-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605213-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605213-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi sổ thủ thuật không lấy được thẻ BHYT của bệnh nhân bệnh án ngoại trú thanh toán ngày.
