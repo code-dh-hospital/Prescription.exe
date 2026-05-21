@@ -6,6 +6,34 @@
 
 #
 
+## [v.3.26.0521.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605212-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605212-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605212-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI _ PRESCRIPTION - Dự trù khoa phòng, Dự trù tủ trực #860 
+	
+	- Fix lỗi phát sinh: Yêu cầu bổ sung màu danh mục thuốc #752
+
+		- Tiện ích hỗ trợ > Dự trù khoa phòng
+
+		![](https://i.vgy.me/qWpsId.png)
+
+		- Tiện ích hỗ trợ > Toa thuốc mẫu
+
+		![](https://i.vgy.me/x00Jnw.png)
+
+		- Quản lý tủ trực > Xuất điều về
+
+		![](https://i.vgy.me/8itPVV.png)
+
+		- Quản lý tủ trực > Dự trù tủ trực
+
+		![](https://i.vgy.me/zOcunH.png)
+
+		- Quản lý tủ trực NT > Xuất khác
+
+		![](https://i.vgy.me/8vQrgv.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/860
+<<<<<<< HEAD
+
 ## [v.3.26.0521.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605211-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605211-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605211-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - PRESCRIPTION - Phiếu nhập viện mẫu mặc định: 'Mục số 12. Đến khám bệnh lúc' lấy sai Giờ nhập viện #864
 ![](https://i.vgy.me/N2B8y6.png)
