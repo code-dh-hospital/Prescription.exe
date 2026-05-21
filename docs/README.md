@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0521.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605210-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Admin, Prescription, Treatment hỗ trợ danh mục ICD10 theo Thông tư 06/2026/TT-BYT
+- 🐛: Fix chỉ kiểm tra giới tính Nam tại Form khám bệnh ngoại trú do truyền sai giá trị giới tính
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/749
+
+![](https://i.vgy.me/dWUIbX.png)
+
 ## [v.3.26.0520.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605202-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605202-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605202-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Form Khám sức khỏe HĐ không hiển thị phường xã, chỉnh thông tin báo lỗi, không chọn được icd phụ #858
 - 🐛: Lỗi khi lần đầu mỏ form khám sức khỏe HĐ lên chỉnh thông tin (đóng lỗi vẫn lưu được và lần chỉnh sau không lỗi):
