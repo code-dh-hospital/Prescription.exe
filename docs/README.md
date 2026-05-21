@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0521.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605215-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605215-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605215-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription Báo cáo ARV Cần Thơ thống kê sai bệnh nhân chuyển đến (BV Ô Môn)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/856
+
+- 📕: Điều chỉnh lại điều kiện lấy dòng 13 (bệnh nhân chuyển đến) bắt theo mabv 92007 cho báo cáo ARV
+
+![](https://i.vgy.me/zpw4kR.png)
+![](https://i.vgy.me/XOyV5p.png)
+![](https://i.vgy.me/DmD0dI.png)
+
 ## [v.3.26.0521.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605214-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605214-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605214-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Form Khám sức khỏe HĐ không hiển thị phường xã, chỉnh thông tin báo lỗi, không chọn được icd phụ #858
 - 🐛: Vẫn còn lỗi chỉ định CLS: (Có thể do chưa có chẩn đoán):
