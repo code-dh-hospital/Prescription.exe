@@ -6,6 +6,39 @@
 
 #
 
+## [v.3.26.0522.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605223-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605223-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605223-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription hỗ trợ thêm Para Mabn, Ghi chú vào mẫu tự thiết kế Phiếu hẹn #776
+  Prescription: Bổ sung 2 para: `mabn`, `toathuoc_tatca_ghichu` vào phiếu hẹn tái khám theo ND75
+	- `mabn`: Mã số bệnh nhân
+	- `toathuoc_tatca_ghichu`: Tất cả ghi chú của toa thuốc
+
+	![](https://i.vgy.me/oiHfDz.png)
+
+	✳️ IN TẠI FORM TOA THUỐC:
+
+	- Toa 1:
+
+	![](https://i.vgy.me/F9o8Qq.png)
+
+	- Toa 2:
+
+	![](https://i.vgy.me/1CK4Uo.png)
+
+	- Toa 3:
+
+	![](https://i.vgy.me/cx9rhC.png)
+
+	- Kết quả:
+
+	![](https://i.vgy.me/Id7Axi.png)
+
+
+	✳️ IN TẠI FORM KHÁM BỆNH:
+
+	![](https://i.vgy.me/Z1ffXG.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/776
+
 ## [v.3.26.0522.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605222-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605222-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605222-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription hỗ trợ thêm Para Mabn, Ghi chú vào mẫu tự thiết kế Phiếu hẹn #776
   Prescription: Bổ sung 2 para: `mabn`, `toathuoc_tatca_ghichu` vào phiếu hẹn tái khám theo ND75
