@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0522.8]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605228-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605228-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605228-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Chức năng hiệu chỉnh thông tin tự chỉnh lại mã quyền lợi và hạn dùng thẻ BHYT #867
+![](https://i.vgy.me/ad32ts.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/867
+
 ## [v.3.26.0522.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605227-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605227-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605227-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription đăng ký tái khám bệnh án OPC báo lỗi đối với đối tượng miễn phí (BV Ô Môn) #868
 ![](https://i.vgy.me/DI2jPG.gif)
