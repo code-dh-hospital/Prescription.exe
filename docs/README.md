@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0522.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605225-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605225-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605225-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Form bệnh án ngoại trú chung: Điều chỉnh lable checkbox thành `Thanh toán theo đợt`. Bổ sung checkbox `Thanh toán theo đợt` form Bệnh án RHM và YHCT (mặc định check chọn khi thêm mới).
+![](https://lh3.googleusercontent.com/pw/AP1GczO81PJTaKEtzdrRV8wWJZVcMbK6q6dSSi3fHmrO8fNjq-cPsgHPgYDtMmc00KQKADfpp4FMuVBdIQtohR0RY0VbiVqHg-x8j32UPlkHCVhQwmxeaev-Lhf2P_y87xQmYvfRCw3y8J6KP5Vh97FWlvn1=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOO1UELViY7CDKwqKVxy2z0cHGE9G4sszyq1GZcS9vjhLu8iolkYTMzxBKTXk9CzQOpbSi_uFg4yIoTtjj-piedUylSX8tCEr-Jk88nwvqrN36BvHcBYY5WzB_nA3elhb8USJJcdIIjhCmZHndMlfy1=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczN1HPdREJbPL2svr8IGbZbyMxP64dO9appZaZldQmGTFl5MuNyaEY3vdlIY0a08V5nm55rbX428mHwxxxN8Fv3rmde-2dKkF_ng4hFKVjWW1F55uqhsB_V1afjyJC4DO11dX9wZX2dXtucdwYWgZIcB=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/733#issuecomment-28283
+
 ## [v.3.26.0522.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605224-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605224-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605224-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - BANT Khi đăng nhập Ngày diễn biễn cũ vào CLS-DV lỗi tự bấm nút Thêm #863
 ![](https://i.vgy.me/fTpJa6.gif)
