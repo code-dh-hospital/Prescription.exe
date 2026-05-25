@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0525.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605251-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi bắt sai số phút tối thiểu theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczMXtG6JPS9UYdZObz1NSsIyuRoxQDwqorxunZeHhjP0EpKXe-pL-t106GK70GtFw3QfdB0FAbuRxkwtyhD26mz7qnMCEvWNiDc4UF8m-Fv93Y8QSpEThQdpRLMa35FhtR0JWS-i8TQApU2I1QMhFjm-=w1818-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPXDXm53oug5AL7EIfAnWg6q1EmGNS5tbZ4eZeMmJC5513DrBDBtBgFoKE5HV4oo0568FfuM_zs62xpYMvjpPPbkbLbzN-I1J2CiFa_S4_mmicYjzVS-MQom3Ce7uvUyvaq9hHJQoXn6MnDqYXujizj=w1828-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/774#issuecomment-28480
+
 ## [v.3.26.0525.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605250-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Lỗi in phiếu nhập viện BANT #866
 ![](https://i.vgy.me/hzqhWy.gif)
