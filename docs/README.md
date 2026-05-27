@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0527.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605270-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi không kiểm soát thời gian theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczMxm3rpr0oSfh9pEaczLe5a3H8AgfCsQumKIYik_L47YNq1KTq9E3XRU9leAZvr2vXbidw8eZjMiiO9Z2Btx7m1E0wV8Nwg2NAIQvYDgrl8yjf1W-EEw6zosittLM7teQ4qtrb2AR39BnKJaGq1N1Zz=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMAPyxI2nGH9x9xDzDpQmbE8vqSTgchCXGEaVKxmBXVNuEP0bmF-RD7-gM8PuZHdEVABQ3QETJmXNiDvTsRkX4r5vVJJFwxuuzSIYq3e3OQOEf0kyRMX7w5idUo88x51YeG31l08TSLLVWoxkMlDUOL=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPwgRH25E1X6ydqp97iYDjb9lapjqZYjdNBivWcceJ6epyaXko5ouPJ67Ay0IvesplAMT3GMaJvucMB-82cDHLktTMfdPUFZxKo1pt5yBWBBCKoZAxZy-dMh42zoKx26HmLpd9ub2Gv0OqHovjmG_s6=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNeAvzadQf251C0pen2QpigaU5fKX5BzdfxPLFzXMVG6JIWTPLTj9l1UL0uV-3bHWCpkOL_LXDTFCJaeiWYTQ1SL0DVg4Ob451PFli6JBJxVlgOwtpc4igmdTI06oEMT7rm9d3QGpNrE2Q9msEPiDUv=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/774#issuecomment-28556
+
 ## [v.3.26.0526.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605263-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605263-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605263-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription chức năng gọi bệnh không lấy được cổng com đã set lần trước (BV Ô Môn) #872
 - 🐛: Lỗi set cổng: trường hợp mở port lên chọn cổng đang sử dụng thì phần mềm hiển thị ra thông báo và không đóng lại được
