@@ -6,6 +6,35 @@
 
 #
 
+## [v.3.26.0527.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605276-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605276-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605276-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
+	- Cập nhật cấu trúc:
+
+	![](https://i.vgy.me/yL9ZfN.png)
+	![](https://i.vgy.me/aV300c.png)
+
+	- Đây là tính năng riêng cần cấp key để sử dụng:
+
+	![](https://i.vgy.me/z5wYOV.png)
+
+	- Bổ sung chứng năng thêm quyển giấy khám sức khỏe
+
+	![](https://i.vgy.me/ukdfbS.png)
+
+	- Thêm chức năng nhập cccd, ngày cấp, nơi cấp, họ tên người giám hộ, chọn ảnh
+
+	  ![](https://i.vgy.me/Pnchy3.png)
+	  ![](https://i.vgy.me/X1C9eA.png)
+
+	- In phiếu
+
+	![](https://i.vgy.me/RLpcMH.png)
+	![](https://i.vgy.me/ThlBum.png)
+	![](https://i.vgy.me/aXS8Dv.png)
+	![](https://i.vgy.me/ZqEj5P.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+
 ## [v.3.26.0527.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605275-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605275-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605275-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
 	- Cập nhật cấu trúc:
