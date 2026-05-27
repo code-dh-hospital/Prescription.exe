@@ -6,6 +6,887 @@
 
 #
 
+## [v.3.26.0527.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605275-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605275-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605275-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
+	- Cập nhật cấu trúc:
+
+	![](https://i.vgy.me/yL9ZfN.png)
+	![](https://i.vgy.me/aV300c.png)
+
+	- Đây là tính năng riêng cần cấp key để sử dụng:
+
+	![](https://i.vgy.me/z5wYOV.png)
+
+	- Bổ sung chứng năng thêm quyển giấy khám sức khỏe
+
+	![](https://i.vgy.me/ukdfbS.png)
+
+	- Thêm chức năng nhập cccd, ngày cấp, nơi cấp, họ tên người giám hộ, chọn ảnh
+
+	  ![](https://i.vgy.me/Pnchy3.png)
+	  ![](https://i.vgy.me/X1C9eA.png)
+
+	- In phiếu
+
+	![](https://i.vgy.me/RLpcMH.png)
+	![](https://i.vgy.me/ThlBum.png)
+	![](https://i.vgy.me/aXS8Dv.png)
+	![](https://i.vgy.me/ZqEj5P.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+
+## [v.3.26.0527.4]()
+- ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
+	- Cập nhật cấu trúc:
+
+	![](https://i.vgy.me/yL9ZfN.png)
+	![](https://i.vgy.me/aV300c.png)
+	
+	```sql
+	  CREATE TABLE current.dmquyenksk (
+		  quyen VARCHAR(20) NOT NULL,
+		  kyhieu VARCHAR(20) NOT NULL,
+		  tuso VARCHAR(20),
+		  denso VARCHAR(20),
+		  sohientai VARCHAR(20),
+		  sudung NUMERIC(1,0) DEFAULT 0,
+		  CONSTRAINT dmquyenksk_pkey PRIMARY KEY(quyen)
+		) 
+		WITH (oids = false);
+
+		COMMENT ON COLUMN current.dmquyenksk.sohientai IS 'Số chứng sinh hiện tại';
+		COMMENT ON COLUMN current.dmquyenksk.sudung IS '0: Ngưng sử dụng 1: Sử dụng';
+		ALTER TABLE current.dmquyenksk  OWNER TO postgres;
+	```
+
+	```sql
+	DO $$
+	BEGIN
+		-- 1. so_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'so_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN so_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.so_ksk IS 'Số khám sức khỏe';
+
+		-- 2. quyen_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'quyen_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN quyen_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.quyen_ksk IS 'Quyển khám sức khỏe';
+
+		-- 3. imglink
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'imglink') THEN
+			ALTER TABLE current.psdangky ADD COLUMN imglink VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.imglink IS 'Lưu đường link ảnh';
+
+		-- 4. lydo_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'lydo_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN lydo_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.lydo_ksk IS 'Lý do khám sức khỏe';
+
+		-- 5. tsgd_co_benh_truyennhiem
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsgd_co_benh_truyennhiem') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsgd_co_benh_truyennhiem NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsgd_co_benh_truyennhiem IS 'Tiền sử gia đình: có bệnh truyền nhiễm';
+
+		-- 6. tsgd_tenbenh_truyennhiem
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsgd_tenbenh_truyennhiem') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsgd_tenbenh_truyennhiem VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsgd_tenbenh_truyennhiem IS 'Tiền sử gia đình: tên bệnh truyền nhiễm';
+
+		-- 7. tsbt_sankhoa
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbt_sankhoa') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbt_sankhoa VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbt_sankhoa IS 'Tiền sử bản thân - Sản khoa';
+
+		-- 8. tc_bcg
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bcg') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bcg NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bcg IS 'Tiêm chủng vaccin BCG: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 9. tc_bachcau_hoga
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bachcau_hoga') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bachcau_hoga NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bachcau_hoga IS 'Tiêm chủng vaccin Bạch cầu, ho gà, uốn ván: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 10. tc_soi
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_soi') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_soi NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_soi IS 'Tiêm chủng vaccin Sởi: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 11. tc_bailiet
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bailiet') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bailiet NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bailiet IS 'Tiêm chủng vaccin bại liệt: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 12. tc_viemnao_nhatbanb
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_viemnao_nhatbanb') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_viemnao_nhatbanb NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_viemnao_nhatbanb IS 'Tiêm chủng vaccin viêm não nhật bản b: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 13. tc_viemganb
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_viemganb') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_viemganb NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_viemganb IS 'Tiêm chủng vaccin viêm gan b: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 14. tc_khac
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_khac') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_khac NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_khac IS 'Tiêm chủng vaccin khác: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 15. tsbenh_co_benhbamsinh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbenh_co_benhbamsinh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbenh_co_benhbamsinh NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbenh_co_benhbamsinh IS 'Có bệnh bẩm sinh, truyền nhiễm';
+
+		-- 16. tsbenh_tenbenh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbenh_tenbenh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbenh_tenbenh VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbenh_tenbenh IS 'Ghi rõ bệnh bẩm sinh, truyền nhiễm';
+
+		-- 17. dang_dtbenh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'dang_dtbenh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN dang_dtbenh VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.dang_dtbenh IS 'Ghi rõ bệnh và thuốc đang dùng';
+
+		-- 18. manv_tuanhoan_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tuanhoan_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tuanhoan_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tuanhoan_ksk IS 'Mã số bác sĩ khám tuần hoàn';
+
+		-- 19. manv_hohap_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_hohap_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_hohap_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_hohap_ksk IS 'Mã số bác sĩ khám hô hấp';
+
+		-- 20. manv_tieuhoa_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tieuhoa_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tieuhoa_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tieuhoa_ksk IS 'Mã số bác sĩ khám tiêu hóa';
+
+		-- 21. manv_than_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_than_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_than_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_than_ksk IS 'Mã số bác sĩ khám thận, tiết niệu';
+
+		-- 21. manv_noitiet_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_noitiet_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_noitiet_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_noitiet_ksk IS 'Mã số bác sĩ kham nội tiết';
+
+		-- 22. manv_thankinh_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_thankinh_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_thankinh_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_thanhkinh_ksk IS 'Mã số bác sĩ khám thần kinh';
+
+		-- 22. manv_tamthan_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tamthan_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tamthan_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tamthan_ksk IS 'Mã số bác sĩ khám tâm thần';
+
+		-- 23. manv_khamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_khamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_khamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_khamls_khac_ksk IS 'Mã số bác sĩ khám lâm sàng khác';
+
+		-- 23. khamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'khamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN khamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.khamls_khac_ksk IS 'Khám lâm sàng khác';
+
+		-- 23. plkhamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'plkhamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN plkhamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.plkhamls_khac_ksk IS 'Phân loại khám lâm sàng khác';
+
+	END $$;
+	```
+	- Đây là tính năng riêng cần cấp key để sử dụng:
+
+	![](https://i.vgy.me/z5wYOV.png)
+
+	- Bổ sung chứng năng thêm quyển giấy khám sức khỏe
+
+	![](https://i.vgy.me/ukdfbS.png)
+
+	- Thêm chức năng nhập cccd, ngày cấp, nơi cấp, họ tên người giám hộ, chọn ảnh
+
+	  ![](https://i.vgy.me/Pnchy3.png)
+	  ![](https://i.vgy.me/X1C9eA.png)
+
+	- In phiếu
+
+	![](https://i.vgy.me/RLpcMH.png)
+	![](https://i.vgy.me/ThlBum.png)
+	![](https://i.vgy.me/aXS8Dv.png)
+	![](https://i.vgy.me/ZqEj5P.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+
+## [v.3.26.0527.3]()
+- ✨: - ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
+	- Cập nhật cấu trúc:
+
+	![](https://i.vgy.me/yL9ZfN.png)
+	![](https://i.vgy.me/aV300c.png)
+	
+	```sql
+	  CREATE TABLE current.dmquyenksk (
+		  quyen VARCHAR(20) NOT NULL,
+		  kyhieu VARCHAR(20) NOT NULL,
+		  tuso VARCHAR(20),
+		  denso VARCHAR(20),
+		  sohientai VARCHAR(20),
+		  sudung NUMERIC(1,0) DEFAULT 0,
+		  CONSTRAINT dmquyenksk_pkey PRIMARY KEY(quyen)
+		) 
+		WITH (oids = false);
+
+		COMMENT ON COLUMN current.dmquyenksk.sohientai IS 'Số chứng sinh hiện tại';
+		COMMENT ON COLUMN current.dmquyenksk.sudung IS '0: Ngưng sử dụng 1: Sử dụng';
+		ALTER TABLE current.dmquyenksk  OWNER TO postgres;
+	```
+
+	```sql
+	DO $$
+	BEGIN
+		-- 1. so_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'so_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN so_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.so_ksk IS 'Số khám sức khỏe';
+
+		-- 2. quyen_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'quyen_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN quyen_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.quyen_ksk IS 'Quyển khám sức khỏe';
+
+		-- 3. imglink
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'imglink') THEN
+			ALTER TABLE current.psdangky ADD COLUMN imglink VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.imglink IS 'Lưu đường link ảnh';
+
+		-- 4. lydo_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'lydo_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN lydo_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.lydo_ksk IS 'Lý do khám sức khỏe';
+
+		-- 5. tsgd_co_benh_truyennhiem
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsgd_co_benh_truyennhiem') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsgd_co_benh_truyennhiem NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsgd_co_benh_truyennhiem IS 'Tiền sử gia đình: có bệnh truyền nhiễm';
+
+		-- 6. tsgd_tenbenh_truyennhiem
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsgd_tenbenh_truyennhiem') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsgd_tenbenh_truyennhiem VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsgd_tenbenh_truyennhiem IS 'Tiền sử gia đình: tên bệnh truyền nhiễm';
+
+		-- 7. tsbt_sankhoa
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbt_sankhoa') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbt_sankhoa VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbt_sankhoa IS 'Tiền sử bản thân - Sản khoa';
+
+		-- 8. tc_bcg
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bcg') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bcg NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bcg IS 'Tiêm chủng vaccin BCG: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 9. tc_bachcau_hoga
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bachcau_hoga') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bachcau_hoga NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bachcau_hoga IS 'Tiêm chủng vaccin Bạch cầu, ho gà, uốn ván: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 10. tc_soi
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_soi') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_soi NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_soi IS 'Tiêm chủng vaccin Sởi: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 11. tc_bailiet
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bailiet') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bailiet NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bailiet IS 'Tiêm chủng vaccin bại liệt: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 12. tc_viemnao_nhatbanb
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_viemnao_nhatbanb') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_viemnao_nhatbanb NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_viemnao_nhatbanb IS 'Tiêm chủng vaccin viêm não nhật bản b: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 13. tc_viemganb
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_viemganb') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_viemganb NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_viemganb IS 'Tiêm chủng vaccin viêm gan b: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 14. tc_khac
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_khac') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_khac NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_khac IS 'Tiêm chủng vaccin khác: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 15. tsbenh_co_benhbamsinh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbenh_co_benhbamsinh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbenh_co_benhbamsinh NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbenh_co_benhbamsinh IS 'Có bệnh bẩm sinh, truyền nhiễm';
+
+		-- 16. tsbenh_tenbenh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbenh_tenbenh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbenh_tenbenh VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbenh_tenbenh IS 'Ghi rõ bệnh bẩm sinh, truyền nhiễm';
+
+		-- 17. dang_dtbenh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'dang_dtbenh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN dang_dtbenh VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.dang_dtbenh IS 'Ghi rõ bệnh và thuốc đang dùng';
+
+		-- 18. manv_tuanhoan_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tuanhoan_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tuanhoan_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tuanhoan_ksk IS 'Mã số bác sĩ khám tuần hoàn';
+
+		-- 19. manv_hohap_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_hohap_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_hohap_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_hohap_ksk IS 'Mã số bác sĩ khám hô hấp';
+
+		-- 20. manv_tieuhoa_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tieuhoa_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tieuhoa_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tieuhoa_ksk IS 'Mã số bác sĩ khám tiêu hóa';
+
+		-- 21. manv_than_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_than_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_than_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_than_ksk IS 'Mã số bác sĩ khám thận, tiết niệu';
+
+		-- 21. manv_noitiet_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_noitiet_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_noitiet_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_noitiet_ksk IS 'Mã số bác sĩ kham nội tiết';
+
+		-- 22. manv_thankinh_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_thankinh_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_thankinh_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_thanhkinh_ksk IS 'Mã số bác sĩ khám thần kinh';
+
+		-- 22. manv_tamthan_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tamthan_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tamthan_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tamthan_ksk IS 'Mã số bác sĩ khám tâm thần';
+
+		-- 23. manv_khamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_khamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_khamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_khamls_khac_ksk IS 'Mã số bác sĩ khám lâm sàng khác';
+
+		-- 23. khamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'khamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN khamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.khamls_khac_ksk IS 'Khám lâm sàng khác';
+
+		-- 23. plkhamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'plkhamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN plkhamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.plkhamls_khac_ksk IS 'Phân loại khám lâm sàng khác';
+
+	END $$;
+	```
+	- Đây là tính năng riêng cần cấp key để sử dụng:
+
+	![](https://i.vgy.me/z5wYOV.png)
+
+	- Bổ sung chứng năng thêm quyển giấy khám sức khỏe
+
+	![](https://i.vgy.me/ukdfbS.png)
+
+	- Thêm chức năng nhập cccd, ngày cấp, nơi cấp, họ tên người giám hộ, chọn ảnh
+
+	  ![](https://i.vgy.me/Pnchy3.png)
+	  ![](https://i.vgy.me/X1C9eA.png)
+
+	- In phiếu
+
+	![](https://i.vgy.me/RLpcMH.png)
+	![](https://i.vgy.me/ThlBum.png)
+	![](https://i.vgy.me/aXS8Dv.png)
+	![](https://i.vgy.me/ZqEj5P.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+
+## [v.3.26.0527.2]()
+- ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
+	- Cập nhật cấu trúc:
+
+	![](https://i.vgy.me/yL9ZfN.png)
+	![](https://i.vgy.me/aV300c.png)
+	
+	```sql
+	  CREATE TABLE current.dmquyenksk (
+		  quyen VARCHAR(20) NOT NULL,
+		  kyhieu VARCHAR(20) NOT NULL,
+		  tuso VARCHAR(20),
+		  denso VARCHAR(20),
+		  sohientai VARCHAR(20),
+		  sudung NUMERIC(1,0) DEFAULT 0,
+		  CONSTRAINT dmquyenksk_pkey PRIMARY KEY(quyen)
+		) 
+		WITH (oids = false);
+
+		COMMENT ON COLUMN current.dmquyenksk.sohientai IS 'Số chứng sinh hiện tại';
+		COMMENT ON COLUMN current.dmquyenksk.sudung IS '0: Ngưng sử dụng 1: Sử dụng';
+		ALTER TABLE current.dmquyenksk  OWNER TO postgres;
+	```
+
+	```sql
+	DO $$
+	BEGIN
+		-- 1. so_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'so_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN so_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.so_ksk IS 'Số khám sức khỏe';
+
+		-- 2. quyen_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'quyen_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN quyen_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.quyen_ksk IS 'Quyển khám sức khỏe';
+
+		-- 3. imglink
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'imglink') THEN
+			ALTER TABLE current.psdangky ADD COLUMN imglink VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.imglink IS 'Lưu đường link ảnh';
+
+		-- 4. lydo_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'lydo_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN lydo_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.lydo_ksk IS 'Lý do khám sức khỏe';
+
+		-- 5. tsgd_co_benh_truyennhiem
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsgd_co_benh_truyennhiem') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsgd_co_benh_truyennhiem NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsgd_co_benh_truyennhiem IS 'Tiền sử gia đình: có bệnh truyền nhiễm';
+
+		-- 6. tsgd_tenbenh_truyennhiem
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsgd_tenbenh_truyennhiem') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsgd_tenbenh_truyennhiem VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsgd_tenbenh_truyennhiem IS 'Tiền sử gia đình: tên bệnh truyền nhiễm';
+
+		-- 7. tsbt_sankhoa
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbt_sankhoa') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbt_sankhoa VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbt_sankhoa IS 'Tiền sử bản thân - Sản khoa';
+
+		-- 8. tc_bcg
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bcg') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bcg NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bcg IS 'Tiêm chủng vaccin BCG: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 9. tc_bachcau_hoga
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bachcau_hoga') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bachcau_hoga NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bachcau_hoga IS 'Tiêm chủng vaccin Bạch cầu, ho gà, uốn ván: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 10. tc_soi
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_soi') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_soi NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_soi IS 'Tiêm chủng vaccin Sởi: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 11. tc_bailiet
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bailiet') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bailiet NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bailiet IS 'Tiêm chủng vaccin bại liệt: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 12. tc_viemnao_nhatbanb
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_viemnao_nhatbanb') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_viemnao_nhatbanb NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_viemnao_nhatbanb IS 'Tiêm chủng vaccin viêm não nhật bản b: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 13. tc_viemganb
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_viemganb') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_viemganb NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_viemganb IS 'Tiêm chủng vaccin viêm gan b: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 14. tc_khac
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_khac') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_khac NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_khac IS 'Tiêm chủng vaccin khác: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 15. tsbenh_co_benhbamsinh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbenh_co_benhbamsinh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbenh_co_benhbamsinh NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbenh_co_benhbamsinh IS 'Có bệnh bẩm sinh, truyền nhiễm';
+
+		-- 16. tsbenh_tenbenh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbenh_tenbenh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbenh_tenbenh VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbenh_tenbenh IS 'Ghi rõ bệnh bẩm sinh, truyền nhiễm';
+
+		-- 17. dang_dtbenh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'dang_dtbenh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN dang_dtbenh VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.dang_dtbenh IS 'Ghi rõ bệnh và thuốc đang dùng';
+
+		-- 18. manv_tuanhoan_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tuanhoan_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tuanhoan_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tuanhoan_ksk IS 'Mã số bác sĩ khám tuần hoàn';
+
+		-- 19. manv_hohap_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_hohap_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_hohap_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_hohap_ksk IS 'Mã số bác sĩ khám hô hấp';
+
+		-- 20. manv_tieuhoa_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tieuhoa_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tieuhoa_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tieuhoa_ksk IS 'Mã số bác sĩ khám tiêu hóa';
+
+		-- 21. manv_than_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_than_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_than_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_than_ksk IS 'Mã số bác sĩ khám thận, tiết niệu';
+
+		-- 21. manv_noitiet_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_noitiet_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_noitiet_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_noitiet_ksk IS 'Mã số bác sĩ kham nội tiết';
+
+		-- 22. manv_thankinh_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_thankinh_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_thankinh_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_thanhkinh_ksk IS 'Mã số bác sĩ khám thần kinh';
+
+		-- 22. manv_tamthan_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tamthan_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tamthan_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tamthan_ksk IS 'Mã số bác sĩ khám tâm thần';
+
+		-- 23. manv_khamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_khamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_khamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_khamls_khac_ksk IS 'Mã số bác sĩ khám lâm sàng khác';
+
+		-- 23. khamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'khamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN khamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.khamls_khac_ksk IS 'Khám lâm sàng khác';
+
+		-- 23. plkhamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'plkhamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN plkhamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.plkhamls_khac_ksk IS 'Phân loại khám lâm sàng khác';
+
+	END $$;
+	```
+	- Đây là tính năng riêng cần cấp key để sử dụng:
+
+	![](https://i.vgy.me/z5wYOV.png)
+
+	- Bổ sung chứng năng thêm quyển giấy khám sức khỏe
+
+	![](https://i.vgy.me/ukdfbS.png)
+
+	- Thêm chức năng nhập cccd, ngày cấp, nơi cấp, họ tên người giám hộ, chọn ảnh
+
+	  ![](https://i.vgy.me/Pnchy3.png)
+	  ![](https://i.vgy.me/X1C9eA.png)
+
+	- In phiếu
+
+	![](https://i.vgy.me/RLpcMH.png)
+	![](https://i.vgy.me/ThlBum.png)
+	![](https://i.vgy.me/aXS8Dv.png)
+	![](https://i.vgy.me/ZqEj5P.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+
+## [v.3.26.0527.1]()
+- ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
+	- Cập nhật cấu trúc:
+
+	![](https://i.vgy.me/yL9ZfN.png)
+	![](https://i.vgy.me/aV300c.png)
+	
+	```sql
+	  CREATE TABLE current.dmquyenksk (
+		  quyen VARCHAR(20) NOT NULL,
+		  kyhieu VARCHAR(20) NOT NULL,
+		  tuso VARCHAR(20),
+		  denso VARCHAR(20),
+		  sohientai VARCHAR(20),
+		  sudung NUMERIC(1,0) DEFAULT 0,
+		  CONSTRAINT dmquyenksk_pkey PRIMARY KEY(quyen)
+		) 
+		WITH (oids = false);
+
+		COMMENT ON COLUMN current.dmquyenksk.sohientai IS 'Số chứng sinh hiện tại';
+		COMMENT ON COLUMN current.dmquyenksk.sudung IS '0: Ngưng sử dụng 1: Sử dụng';
+		ALTER TABLE current.dmquyenksk  OWNER TO postgres;
+	```
+
+	```sql
+	DO $$
+	BEGIN
+		-- 1. so_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'so_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN so_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.so_ksk IS 'Số khám sức khỏe';
+
+		-- 2. quyen_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'quyen_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN quyen_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.quyen_ksk IS 'Quyển khám sức khỏe';
+
+		-- 3. imglink
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'imglink') THEN
+			ALTER TABLE current.psdangky ADD COLUMN imglink VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.imglink IS 'Lưu đường link ảnh';
+
+		-- 4. lydo_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'lydo_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN lydo_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.lydo_ksk IS 'Lý do khám sức khỏe';
+
+		-- 5. tsgd_co_benh_truyennhiem
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsgd_co_benh_truyennhiem') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsgd_co_benh_truyennhiem NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsgd_co_benh_truyennhiem IS 'Tiền sử gia đình: có bệnh truyền nhiễm';
+
+		-- 6. tsgd_tenbenh_truyennhiem
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsgd_tenbenh_truyennhiem') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsgd_tenbenh_truyennhiem VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsgd_tenbenh_truyennhiem IS 'Tiền sử gia đình: tên bệnh truyền nhiễm';
+
+		-- 7. tsbt_sankhoa
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbt_sankhoa') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbt_sankhoa VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbt_sankhoa IS 'Tiền sử bản thân - Sản khoa';
+
+		-- 8. tc_bcg
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bcg') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bcg NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bcg IS 'Tiêm chủng vaccin BCG: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 9. tc_bachcau_hoga
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bachcau_hoga') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bachcau_hoga NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bachcau_hoga IS 'Tiêm chủng vaccin Bạch cầu, ho gà, uốn ván: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 10. tc_soi
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_soi') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_soi NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_soi IS 'Tiêm chủng vaccin Sởi: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 11. tc_bailiet
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_bailiet') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_bailiet NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_bailiet IS 'Tiêm chủng vaccin bại liệt: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 12. tc_viemnao_nhatbanb
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_viemnao_nhatbanb') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_viemnao_nhatbanb NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_viemnao_nhatbanb IS 'Tiêm chủng vaccin viêm não nhật bản b: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 13. tc_viemganb
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_viemganb') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_viemganb NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_viemganb IS 'Tiêm chủng vaccin viêm gan b: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 14. tc_khac
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tc_khac') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tc_khac NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tc_khac IS 'Tiêm chủng vaccin khác: 1:có/ 0:không/ 2:không nhớ';
+
+		-- 15. tsbenh_co_benhbamsinh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbenh_co_benhbamsinh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbenh_co_benhbamsinh NUMERIC(1,0);
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbenh_co_benhbamsinh IS 'Có bệnh bẩm sinh, truyền nhiễm';
+
+		-- 16. tsbenh_tenbenh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tsbenh_tenbenh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN tsbenh_tenbenh VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.tsbenh_tenbenh IS 'Ghi rõ bệnh bẩm sinh, truyền nhiễm';
+
+		-- 17. dang_dtbenh
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'dang_dtbenh') THEN
+			ALTER TABLE current.psdangky ADD COLUMN dang_dtbenh VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.dang_dtbenh IS 'Ghi rõ bệnh và thuốc đang dùng';
+
+		-- 18. manv_tuanhoan_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tuanhoan_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tuanhoan_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tuanhoan_ksk IS 'Mã số bác sĩ khám tuần hoàn';
+
+		-- 19. manv_hohap_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_hohap_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_hohap_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_hohap_ksk IS 'Mã số bác sĩ khám hô hấp';
+
+		-- 20. manv_tieuhoa_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tieuhoa_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tieuhoa_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tieuhoa_ksk IS 'Mã số bác sĩ khám tiêu hóa';
+
+		-- 21. manv_than_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_than_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_than_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_than_ksk IS 'Mã số bác sĩ khám thận, tiết niệu';
+
+		-- 21. manv_noitiet_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_noitiet_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_noitiet_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_noitiet_ksk IS 'Mã số bác sĩ kham nội tiết';
+
+		-- 22. manv_thankinh_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_thankinh_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_thankinh_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_thanhkinh_ksk IS 'Mã số bác sĩ khám thần kinh';
+
+		-- 22. manv_tamthan_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_tamthan_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_tamthan_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_tamthan_ksk IS 'Mã số bác sĩ khám tâm thần';
+
+		-- 23. manv_khamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'manv_khamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN manv_khamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.manv_khamls_khac_ksk IS 'Mã số bác sĩ khám lâm sàng khác';
+
+		-- 23. khamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'khamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN khamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.khamls_khac_ksk IS 'Khám lâm sàng khác';
+
+		-- 23. plkhamls_khac_ksk
+		IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'plkhamls_khac_ksk') THEN
+			ALTER TABLE current.psdangky ADD COLUMN plkhamls_khac_ksk VARCHAR;
+		END IF;
+		COMMENT ON COLUMN current.psdangky.plkhamls_khac_ksk IS 'Phân loại khám lâm sàng khác';
+
+	END $$;
+	```
+	- Đây là tính năng riêng cần cấp key để sử dụng:
+
+	![](https://i.vgy.me/z5wYOV.png)
+
+	- Bổ sung chứng năng thêm quyển giấy khám sức khỏe
+
+	![](https://i.vgy.me/ukdfbS.png)
+
+	- Thêm chức năng nhập cccd, ngày cấp, nơi cấp, họ tên người giám hộ, chọn ảnh
+
+	  ![](https://i.vgy.me/Pnchy3.png)
+	  ![](https://i.vgy.me/X1C9eA.png)
+
+	- In phiếu
+
+	![](https://i.vgy.me/RLpcMH.png)
+	![](https://i.vgy.me/ThlBum.png)
+	![](https://i.vgy.me/aXS8Dv.png)
+	![](https://i.vgy.me/ZqEj5P.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+
 ## [v.3.26.0527.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605270-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi không kiểm soát thời gian theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md).
