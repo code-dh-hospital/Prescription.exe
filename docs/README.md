@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0528.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605281-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung cột `maba` theo báo cáo `Chỉ định CLS - Dịch vụ`:
+1. Điều chỉnh code tại thư viện `HosReg.DataAccess.Adapters.DmBenhNhanAdapter.cs`, bổ sung cột `maba` vào hàm `GetChiDinhCLSCt` phần code `[Theo bệnh nhân]`, chi tiết:
+![](https://lh3.googleusercontent.com/pw/AP1GczNuXU_6rzp78p1L0U5YjzEt8RWjEsxu0Qb22gw2C5J_j1LwCbYHCeCYpVnvYr0_rmCF6DNYoF_6hXSqd5T381ksS-CX0ew16u4PLHouNUsQQdrp0eRDiC8I5QBrPxLfmAhPQCdi5TKMZbeULoh-zFbV=w1817-h653-s-no-gm?authuser=0)
+2. Kết quả:
+![](https://lh3.googleusercontent.com/pw/AP1GczNa0d2mTCbwOQbkDLkREsRQ63sDuzcGpmxLsxFD-wESHy2yl3QqeWqEMFz3ZMBONH5itHX3t65Uzyz4829VSExHx_mR1_Ul-wmakNY0ZZnbggIKP6LqREHRbYNLlCIXq5881szrYA99QEPXxkn8Ykfm=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMltKpGhzyESrkROse-qgI0HvLQZVmiK80UOfp7ufRfrOC8yU8SRL8__-__6Jf2_foxVWjkH3hzYWH054ut12iXBUX-gaPiOEMhqdTrBAuijvhaSS4lAKWmO4paV4M6aoSoEyCGXx7vriQVRajncEDo=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/762#issuecomment-28671
+
 ## [v.3.26.0528.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605280-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription số bản in toa bảo hiểm không in được theo cấu hình tham số (BV ĐK CT)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/874
