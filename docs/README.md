@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0528.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605283-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605283-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605283-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi không kiểm soát thời gian theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md).
+1. Lỗi => khi Tham số chỉ kiểm tra đối tượng BHYT phần mềm kiểm tra luôn đối tượng thu phí: `nhanvien.thoigian.kb.cls = mucapdung:1|sophut:2|doituong:1`
+![](https://lh3.googleusercontent.com/pw/AP1GczMddPNaDb7DlasgChiFMEbOkVKkvN_XsF_eJjdp7xMD8hwkVaNpLuE_cA7_rMaJ4peBGLCvNMo3u6P5ffoBqbGKS75q5ZwZop1GSrPwkjCUzkrho-sbTif88JEIFG61oBz0P4QIyLk-fknDpWcDVoDB=w1806-h879-s-no-gm?authuser=0)
+2. Bắt sai đối tượng khi `nhanvien.thoigian.kb.cls = mucapdung:1|sophut:2|doituong:2`
+![](https://lh3.googleusercontent.com/pw/AP1GczNKLySQOgJUSErFTLTI5twGf1vlJ0R6yJ2LelNHtqaeiomIQuV2iEK_ANP7_pTKhQSEpaCHW8QsOwDoim9zgxmX8ZjSFlTgfLuiNt4C9UvE0H7lo5cdvEsplU4PTSDfhxcAZ_Y3VHZdOjH7zhMrPthr=w1809-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/774#issuecomment-28698
+
 ## [v.3.26.0528.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605282-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605282-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605282-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
 	- Push lần 2 
