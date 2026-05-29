@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0529.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605290-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bệnh án ngoại trú hỗ trợ điều chỉnh ngày diễn biến trước ngày theo mô tả [THAM_SO_HE_THONG/Thay-doi-dien-bien-benh-an-ngoai-tru-truoc-ngay.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Thay-doi-dien-bien-benh-an-ngoai-tru-truoc-ngay.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczNki2miq77mk7RzpudHUyKarleax47JYM7WoTDCu0yKbUWX9_PvFeAq0gW6WA0uc0p3di9GsleeNYNm8o3BbUyWtBJihZgAVyhMJ9Vuh-IDP9vFuOPJg42OTRaMKXwH5DdJjI3Z4Rtcdr1LXARbP1gT=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPT9p9awQ62Suj281vnsG4eEHSUdeBNx6RAIoaFVaD1qf_6-bolgwfGfWzxLiBZjZYxAWSwr2Es2g9BvCR-4Qmxquyzvb5qwKKE9qxeGvmTsmfvDK3gqZpKES_QtyxFsuqAb8Mydjo8J-KjkHTNGOtN=w1661-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/784#issuecomment-28772
+
 ## [v.3.26.0528.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605283-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605283-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605283-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi không kiểm soát thời gian theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md).
