@@ -6,6 +6,45 @@
 
 #
 
+## [v.3.26.0529.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605292-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605292-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605292-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
+
+	- Fix Form nhập thông tin phần nhập thông tin màu trùng với màu nền gây khó nhập
+	- Phần mềm nhớ kết quả của bệnh nhân khác khi khám mới
+
+	![](https://i.vgy.me/XnsQ0N.png)
+	![](https://i.vgy.me/WgGbNf.png)
+
+	- Yêu cầu cho phép chọn tất cả các bác sĩ được khám do cần bác sĩ của nhiều khoa khác nhau
+
+	![](https://i.vgy.me/rWjwJI.png)
+	
+
+	- Fix Có trang giấy trắng
+
+	![](https://i.vgy.me/WB5cwt.png)
+
+	- Fix Trang in thiếu thông tin
+
+	![](https://i.vgy.me/ah3gxY.png)
+
+	- Fix Không hiển thị được chữ ký scan: nên làm rộng các dòng ra để có đủ cho chữ ký
+
+	![](https://i.vgy.me/2oQkNj.png)
+
+	- Thêm chức năng cho bác sĩ nhập tay kết quả CLS và chọn bác sĩ nhập + chữ ký
+
+	![](https://i.vgy.me/WgGbNf.png)
+	![](https://i.vgy.me/dV6k6r.png)
+
+	- Fix lỗi trùng số 
+
+	![](https://i.vgy.me/QLwgNi.png)
+	![](https://i.vgy.me/UIgNhF.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+<<<<<<< HEAD
+
 ## [v.3.26.0529.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32605291-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bệnh án ngoại trú hỗ trợ điều chỉnh ngày diễn biến trước ngày theo mô tả [THAM_SO_HE_THONG/Thay-doi-dien-bien-benh-an-ngoai-tru-truoc-ngay.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Thay-doi-dien-bien-benh-an-ngoai-tru-truoc-ngay.md).
