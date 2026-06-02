@@ -6,6 +6,27 @@
 
 #
 
+## [v.3.26.0602.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606021-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606021-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606021-NasDHSolutions.json)</sup></sup></sub>
+- ✨:- ✨: Yêu cầu - Bổ sung tiện ích thêm chẩn đoán cập nhật chức năng chống chỉ định (BV QDY CT) #718
+	FIX: không thêm được cls như khi sử dụng tham số kb.chidinh = 1
+		- kb.chidinh = 1
+			- CLS:
+				
+				![](https://i.vgy.me/nHSQir.gif)
+			- Thuốc:
+
+				![](https://i.vgy.me/ex6O8P.gif)
+
+		- kb.chidinh = 2
+			- CLS:
+				
+				![](https://i.vgy.me/WsP2hY.gif)
+			- Thuốc:
+
+				![](https://i.ibb.co/Y48yqbq4/Prescription-Q1-RARj-Tj-Xc.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/718
+
 ## [v.3.26.0602.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606020-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Tính tỉ lệ % tiền công khám trong ngày theo mã thẻ BHYT #779
 [Mô tả tính tỉ lệ % tiền công khám trong ngày theo mã thẻ BHYT](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-bo-sung-chuc-nang-tinh-ti-le-tien-cong-kahm-trong-ngay-theo-ma-bhyt.md)
