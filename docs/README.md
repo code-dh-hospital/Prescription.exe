@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0602.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606020-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Tính tỉ lệ % tiền công khám trong ngày theo mã thẻ BHYT #779
+[Mô tả tính tỉ lệ % tiền công khám trong ngày theo mã thẻ BHYT](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-bo-sung-chuc-nang-tinh-ti-le-tien-cong-kahm-trong-ngay-theo-ma-bhyt.md)
+![](https://i.vgy.me/ALHgp2.png)
+![](https://i.vgy.me/mlWIfB.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/779
+
 ## [v.3.26.0601.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606011-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606011-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606011-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Hỗ trợ chữ ký số Người kết luận trên mẫu khám sức khỏe TT32 (TTYT Đức Linh)
 ![](https://i.vgy.me/kvA7c3.png)
