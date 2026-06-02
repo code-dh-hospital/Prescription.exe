@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0602.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606022-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606022-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606022-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Hỗ trợ phiếu PT/TT lấy ngày chỉ định trước ngày làm ngày bắt đầu và ngày kết thúc theo ngày chỉ định trước.
+![](https://lh3.googleusercontent.com/pw/AP1GczPWsIY_-YW3sjgKwh_4-AYNu0_6QyAiRV3TToNfvvas0K4kRiPe981PO_9o2FGUD17ElwGAZayB4hICpBuiVT5ffrO419iBN0ArQ5SqvcPeMrj144teP1oGfke7Im498qE66MGmKwBnSE80zyqbsBpb=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/784#issuecomment-28877
+
 ## [v.3.26.0602.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606021-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606021-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606021-NasDHSolutions.json)</sup></sup></sub>
 - ✨:- ✨: Yêu cầu - Bổ sung tiện ích thêm chẩn đoán cập nhật chức năng chống chỉ định (BV QDY CT) #718
 	FIX: không thêm được cls như khi sử dụng tham số kb.chidinh = 1
