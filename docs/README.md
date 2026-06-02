@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0602.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606023-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606023-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606023-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi không kiểm soát thời gian theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-va-tra-ket-qua-cls.md).
+1. Trường hợp click lưu tại Prescription trước, Diagnose sau:
+![](https://lh3.googleusercontent.com/pw/AP1GczN3kwe13gZ5EQDk8ZlhW2HJP7c6838WfayJe6ni9EhyaTy9yTupMCWwOeNyRiItiaqVmprNRc1ira-Eqj1_WdYzRmrU2pfWvoTz-h6NrH4_ioZsI4Fx0Hbdcf7qakttjWdvvidus3NwdJN-QgrbgxCe=w1248-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMdBZTvjN2SVw9LP_T0a0PBhRhbszpIbmWPqXHy79OFujhcSb7bE21h2aDIK2VneCpon8dVCFPtrvlDXiH4Au2MgABzcTRJgVEQOF3N1v0_OWuyVvY5yjg1d8JsXm_tYAkJvZNvGj7L9_WwUGmpfNLc=w1654-h879-s-no-gm?authuser=0)
+2. Trường hợp click lưu tại Diagnose trước, Prescription sau:
+![](https://lh3.googleusercontent.com/pw/AP1GczPemxzU2RJG3xjLSTGocoopjVbo62qoJVBAnthXCQr3lVlOEhpFUMFEA4L-fKQFP7nJeLdf1UOygrZBTb2fvinN6b4KyS4oUynWgOQHSaZ9N_MTUpvzoVdzrP0mQamdDUf6_5sm5RLZWoWwR4D1sLSi=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNDH1MPPnVUgUknOfA2koQuF3koEgvbYlWzkxBDndupviNwGbsinfnLy3CJTT1AWPMz-JlI-kui9YlzHA7x1SdkfjKNRDQcwdlA7wcFWahK70WIcaiywl3AnC1g_Dq7X6QxG_HVGFi1EHpKAe7rFZuF=w1248-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/774#issuecomment-28880
+
 ## [v.3.26.0602.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606022-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606022-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606022-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Hỗ trợ phiếu PT/TT lấy ngày chỉ định trước ngày làm ngày bắt đầu và ngày kết thúc theo ngày chỉ định trước.
