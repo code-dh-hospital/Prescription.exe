@@ -6,6 +6,50 @@
 
 #
 
+## [v.3.26.0603.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606033-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606033-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606033-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
+	- Cập nhật:
+
+		- Quyển khám sức khỏe có 6 số nhưng tạo quyển báo lỗi khi số cấp lớn:
+
+		![](https://i.vgy.me/xWV4VD.png)
+		![](https://i.vgy.me/oyGzwu.png)
+
+		- Chưa chọn BCG mà phần mềm tự có, chọn thiếu thông tin tiêm chủng phần mềm báo lỗi: gán mặc định giá trị là chưa tiêm
+		- Lưu thông tin được không báo lỗi nhưng vào xem lại không thấy thông tin KSK: gán mặc định giá trị là chưa tiêm
+
+		![](https://i.vgy.me/7sjyYL.png)
+
+		- Phần khám bệnh chưa chọn được bác sĩ khoa khác:
+
+		![](https://i.vgy.me/2w4sFK.png)
+
+		- Canh lề mục số 5 này :
+
+		![](https://i.vgy.me/a91ujX.png)
+
+		- Họ tên bệnh nhân phải viết in hoa:
+
+		![](https://i.vgy.me/1e0gMl.png)
+
+		- Phần mềm không tự chọn số giấy KSK được mà bắt mỗi lần lập phiếu là phải chọn quyển:
+
+		![](https://i.vgy.me/VRh8X9.png)
+
+		- Không lưu được thông tin CCCD:
+
+		![](https://i.vgy.me/Qhe6pS.gif)
+		- Phần mềm tự lấy ảnh thẻ của bệnh nhân khác khi chưa chọn hình thẻ:
+
+		![](https://i.vgy.me/ueQulU.png)
+
+		- Lỗi form không hiện đủ thông tin khi độ phân giải 1366x768:
+
+		![](https://i.vgy.me/lNwwjg.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+<<<<<<< HEAD
+
 ## [v.3.26.0603.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606032-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Tính tỉ lệ % tiền công khám trong ngày theo mã thẻ BHYT #779
 - 🐛: BN khám lần 2 load công khám tỉ lệ 30%. Thao tác xóa công khám đó, chỉ định công khám mới => mặc định lấy luôn 100%. Chưa hiển thị form cho người dùng chọn.
