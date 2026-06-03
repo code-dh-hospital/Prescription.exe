@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0603.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606034-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606034-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606034-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung tiện ích thêm chẩn đoán cập nhật chức năng chống chỉ định (BV QDY CT) #718
+	FIX: kb.chidinh = 2: Chức năng lấy lại toa không lấy được thuốc
+			
+	![](https://i.vgy.me/BX1gpF.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/718
+
 ## [v.3.26.0603.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606033-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606033-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606033-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
 	- Cập nhật:
