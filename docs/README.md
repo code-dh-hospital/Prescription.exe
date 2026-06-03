@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0603.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606031-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi không cho lưu khám bệnh nhưng khi bấm đồng ý vẫn thực hiện lưu khám bệnh hoặc chọn bỏ qua nhưng vẫn lưu khám bệnh.
+![](https://lh3.googleusercontent.com/pw/AP1GczPcYJG9T7Z-18cITqA_hixMyAEO4vVMStMtSr4g579seZfhat2Ca9NPaz9O4WrKDxF0Ukltn3_pM1lcDsdJrrqsgU-IuOmlCOvAOvgPWhY0lwso4F1t_T3lRFQShJkXElfoXGvgWDJapprXc0qj4TEp=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPNbEA0ii2MGH7NCJlLQmE7lLdHhke0oaMB-Spv7UwxAACVknLqrTsQGQKKXQpdWzD1K2_6uFw7cEIiSEsyr6xQa3_7B--UWBAn4T9Cqk49R_24bfRpnSQY0uoiKoI_xsFvXXL0au0UfL3or1To1bGu=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/774#issuecomment-28988
+
 ## [v.3.26.0603.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606030-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Tính tỉ lệ % tiền công khám trong ngày theo mã thẻ BHYT #779
 - 🐛: Bệnh nhân đăng ký khám lần 2, chọn % tỉ lệ công khám 30%, form chỉ định CLS load chưa đúng Thành tiền
