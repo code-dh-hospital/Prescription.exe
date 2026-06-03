@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0603.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606032-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Tính tỉ lệ % tiền công khám trong ngày theo mã thẻ BHYT #779
+- 🐛: BN khám lần 2 load công khám tỉ lệ 30%. Thao tác xóa công khám đó, chỉ định công khám mới => mặc định lấy luôn 100%. Chưa hiển thị form cho người dùng chọn.
+![](https://i.vgy.me/hZm7Jj.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/779
+
 ## [v.3.26.0603.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606031-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi không cho lưu khám bệnh nhưng khi bấm đồng ý vẫn thực hiện lưu khám bệnh hoặc chọn bỏ qua nhưng vẫn lưu khám bệnh.
