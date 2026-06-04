@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0604.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606042-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606042-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606042-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Hỗ trợ chỉ định cận lâm sàng theo chức năng `Chỉ định lại các chỉ định đang chọn` đối với diễn biến trước ngày của bệnh án ngoại trú.
+![](https://lh3.googleusercontent.com/pw/AP1GczM3ZiLEcX7JgfsMwtBEiNCILd-t_76ns6KJCJn6TU95IhzrPILT6X_qwq_AOncIaIklKBgyN-r36obwuQuQMUcTbe4z6n2cEeTNVpcI4OtDTQO1zbWMIQtr_CPJVGnaNRfxNAXxzZeqeNcMF0Ur0meQ=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/784#issuecomment-29004
+
 ## [v.3.26.0604.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606041-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription Tờ điều trị lấy sai thông tin thuốc (BV ĐKTP CT)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/882
