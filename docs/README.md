@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0604.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606043-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606043-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606043-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Tính tỉ lệ % tiền công khám trong ngày theo mã thẻ BHYT #779
+- 🐛: Phát sinh công khám mới (đầu tiên) nhưng tỉ lệ 30%.
+![](https://i.vgy.me/JIt4me.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/779
+
 ## [v.3.26.0604.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606042-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606042-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606042-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Hỗ trợ chỉ định cận lâm sàng theo chức năng `Chỉ định lại các chỉ định đang chọn` đối với diễn biến trước ngày của bệnh án ngoại trú.
