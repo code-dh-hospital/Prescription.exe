@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0604.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606040-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Chỉ định CLS BANT ghi nhận sai thời gian chỉ định (TTYT Đức Linh) #881
+![](https://i.vgy.me/EzuFVx.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/881
+- 📕: Phát sinh lỗi từ issues : https://i.dh-his.com/hdhiswork/YEUCAU/issues/784 do thay đổi code.
+![](https://i.vgy.me/QLshvR.png)
+-
+
 ## [v.3.26.0603.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606034-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606034-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606034-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Bổ sung tiện ích thêm chẩn đoán cập nhật chức năng chống chỉ định (BV QDY CT) #718
 	FIX: kb.chidinh = 2: Chức năng lấy lại toa không lấy được thuốc
