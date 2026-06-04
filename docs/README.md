@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0604.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606041-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription Tờ điều trị lấy sai thông tin thuốc (BV ĐKTP CT)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/882
+- 📕: Khi lấy y lệnh thuốc cho quá trình điều trị sai logic lấy dữ liệu gây ra double thuốc nếu có chungtu.sohd trùng nhau
+- 📕: Điều chỉnh điều kiện để load dữ liệu y lệnh thuốc.
+
+![](https://i.vgy.me/INPgks.png)
+
 ## [v.3.26.0604.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606040-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Chỉ định CLS BANT ghi nhận sai thời gian chỉ định (TTYT Đức Linh) #881
 ![](https://i.vgy.me/EzuFVx.png)
