@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0604.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606044-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606044-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606044-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: lỗi không lưu được thông tin số thang, cách sắc thuốc và cách uống dành cho toa thuốc yhct/ dược liệu. 
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/882
+
+![](https://i.vgy.me/7VRWZ3.png)
+
 ## [v.3.26.0604.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606043-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606043-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606043-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu: Tính tỉ lệ % tiền công khám trong ngày theo mã thẻ BHYT #779
 - 🐛: Phát sinh công khám mới (đầu tiên) nhưng tỉ lệ 30%.
