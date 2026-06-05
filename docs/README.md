@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0605.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606054-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606054-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606054-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Bổ sung ngày bắt đầu hiệu lực và ngày kết thúc hiệu lực mã giường #768
+	- Cập nhật:
+		
+		![](https://i.vgy.me/Vx3pAA.png)
+		![](https://i.vgy.me/bZMaI9.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/768
+<<<<<<< HEAD
+
 ## [v.3.26.0605.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606053-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606053-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606053-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription ghi nhận thời gian chỉ đinh CLS trùng với lần chỉ định đầu tiên
 ![](https://i.vgy.me/dLcklo.gif)
