@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0605.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606050-NasDHSolutions.json)</sup></sup></sub>
+
+
+- 🐛: Sửa lỗi chức năng `Kiểm tra trùng thẻ` form `Hiệu chỉnh thông tin`.
+![](https://lh3.googleusercontent.com/pw/AP1GczPYrFiBEtDgCx5cfSDpHegjsMuw6sCMSlE-EIVs2qmmLvPRVkCxwmV_iDrWhC_eL2-gK_JdXTp8H6UUUuajJzAStp0Vv6ijj3Gq5CZhxUaQGEhwfadxbMPan8n5k9VMeM3B_TT58ho2G_HOibv1XGlS=w1575-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/879#issuecomment-29051
+
 ## [v.3.26.0604.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606044-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606044-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606044-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: lỗi không lưu được thông tin số thang, cách sắc thuốc và cách uống dành cho toa thuốc yhct/ dược liệu. 
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/882
