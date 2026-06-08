@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.0608.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606081-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
+	- Fix lỗi: Lưu ngày tháng bị lỗi khi cấu hình DateStyle != 'DMY'
+
+		![](https://i.ibb.co/yBFShRRL/Prescription-5-M2-JW8d-I54.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+<<<<<<< HEAD
+
+## [v.3.26.0608.0]()
+- ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
+	- Fix lỗi: Lưu ngày tháng bị lỗi khi cấu hình DateStyle != 'DMY'
+
+		![](https://i.ibb.co/yBFShRRL/Prescription-5-M2-JW8d-I54.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+=======
+
 ## [v.3.26.0605.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606055-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606055-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606055-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung tự động tính chỉ số BMI trên form thông tin sinh hiệu theo mô tả: [THONG-TIN-BENH-NHAN/Chi-so-BMI.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Chi-so-BMI.md).
