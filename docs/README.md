@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0608.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606082-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung tự động tính chỉ số BMI trên form thông tin sinh hiệu theo mô tả: [THONG-TIN-BENH-NHAN/Chi-so-BMI.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Chi-so-BMI.md). Chỉ số BMI tự thay đổi khi cân nặng hoặc chiều cao thay đổi giá trị.
+![](https://lh3.googleusercontent.com/pw/AP1GczMWvFz_QB4ROT0SBx8vmT1nTNClnpbiBMPGZ6yqt23DxHTA6BOUXuWMDn4LJxNI_YXIi-rl3SJMxEu3WwcYtMZQUbkdvBaYW2evI4kfCDFHbyC7SKhYoooUHtDaLm8Sb6jC_x_K2_2EFC3aZF8pfkXb=w1250-h841-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMl--1-LU72qnHbph7myHC8YppEWot2j2owxL2s_8tAfLfH43sVD2EZFj0LNC2PaYetVmL0LgjeYtWM8a3uofawN2UF-QJpXPhUKWe907pYNcGn5HV9Kbw_C8QZcozhSLdp3TYJ89TcTh5V-5lW0gOi=w1529-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMmYOnWOGZVM-MqeJSxenpwG7Yc8D4SfGUXJlqFlAckOV0NCntyCQKNYGsznkn3ZjlqS7WNieszYrpUaCccQ_2unadOhJuTko_WdUymyrVxS1M15uwo9Maxi2YAfmNPTS49aEfuB_TDHjoX6mtPVDMP=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOO0aaKDJlR8j2d6k6RKOhD4QvNsS2p8V-dWjI4hIZt6u9Y7khL_NpFDmGowuVzUPhgnAPzj3d-iGubENhcjUVB_U9pOB-4gFU2qWOzYp5b38Gcv1S8CqmqXJSslBy4s-ZJFU1vqhp6t-iadIytir50=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/777#issuecomment-29272
+
 ## [v.3.26.0608.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606081-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
 	- Fix lỗi: Lưu ngày tháng bị lỗi khi cấu hình DateStyle != 'DMY'
