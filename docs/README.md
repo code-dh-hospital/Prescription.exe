@@ -6,6 +6,26 @@
 
 #
 
+## [v.3.26.0608.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606083-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606083-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606083-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Bổ sung tiện ích thêm chẩn đoán cập nhật chức năng chống chỉ định (BV QDY CT) #718
+	- Cập nhật: Bổ sung kiểm tra nút đồng y theo tham số: kb.chidinh
+
+	Cập nhật diễn giải tham số:
+
+	![](https://i.vgy.me/ycVVW0.png)
+
+	- kb.chidinh = 1
+	
+	![](https://i.vgy.me/F9m5tC.png)
+	![](https://i.vgy.me/zomU8z.png)
+
+	- kb.chidinh = 2
+
+	![](https://i.vgy.me/zQQdON.png)
+	![](https://i.vgy.me/5q8C8u.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/718
+
 ## [v.3.26.0608.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606082-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung tự động tính chỉ số BMI trên form thông tin sinh hiệu theo mô tả: [THONG-TIN-BENH-NHAN/Chi-so-BMI.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Chi-so-BMI.md). Chỉ số BMI tự thay đổi khi cân nặng hoặc chiều cao thay đổi giá trị.
