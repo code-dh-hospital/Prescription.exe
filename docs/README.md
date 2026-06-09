@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0609.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606091-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription hỗ trợ chức năng xóa diễn biến (tái khám) không có chi phí (PK Thiên Ân) #765
+- 🐛: BANT đợt mới lập bệnh án khi hủy tái khám -> thực hiện khám lại không được
+![](https://i.vgy.me/Iu2PTb.png)
+- 🐛: BANT đợt khi đăng nhập ngày củ hủy tái khám thì phần mềm lại hủy tái khám ngày tái khám mới nhất
+Trước khi hủy
+![](https://i.vgy.me/60NqLQ.gif)
+- 🐛: BANT ngày khi hủy tái khám ngày củ -> phần mềm cập nhật lại thông tin của lần khám trước đó dẫn đến sai thông tin của lần khám mới nhất
+- 🐛: BANT ngày mới lập bệnh án khi hủy tái khám -> Khi thực hiện khám lại báo lỗi.
+![](https://i.vgy.me/nrus2P.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/765
+
 ## [v.3.26.0609.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606090-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix lỗi Yêu cầu - Hỗ trợ gấp chức năng và giấy khám sức khỏe định kỳ mẫu số 02 theo thông tư 32/2023/TT-BYT #773
 
