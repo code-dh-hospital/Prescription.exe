@@ -6,6 +6,26 @@
 
 #
 
+## [v.3.26.0612.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606123-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606123-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606123-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Hỗ trợ chức năng in hoặc xuất phiếu khám sức khỏe TT32 có chữ ký số ra file PDF có tên file là mã bệnh nhân, mã khám bệnh #795
+
+
+	- Cập nhất xuất ký số PDF có sắn tên (lưu ý: BS kết luận phải có chữ ký số)
+
+	![](https://i.vgy.me/ORrBeN.png)
+
+	- Cấu hình tên file trong report:  <<SavePDF{{ten_file}}>>
+
+	![](https://i.vgy.me/k042rf.png)
+	![](https://i.vgy.me/jov3Bz.png)
+	![](https://i.vgy.me/AW1WBl.png)
+
+	- Fix lỗi quyển KSK không còn quyển nào.
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/795
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+<<<<<<< HEAD
+
 ## [v.3.26.0612.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606122-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606122-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606122-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Mẫu PDF 02/BH báo cáo quí có ký số theo thông tư 12/2026/TT-BTC
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/715
