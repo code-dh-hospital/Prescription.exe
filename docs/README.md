@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.0612.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606120-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chặn không cho lưu CLS khi đã có ghi nhận ngày in phiếu.
+1. Chặn không cho lưu chỉ định CLS nếu đã có tồn tại ngày in phiếu:
+![](https://lh3.googleusercontent.com/pw/AP1GczOD5PwosAr9mrGg3F3m9Gk9u6TV5NhYuXnxvRUs_ayEn_dJEsA_hhWFot1wm1F9kmfw48Vp-PVVP_9LiGADDcZ6Z_7kyCnAR-6sisMpzZ2ifskGmpVwJ9OyAukgYHBv-eWq7ZKtwFNBSJNLAs0iSoQ6=w1654-h879-s-no-gm?authuser=0)
+2. Chức năng hủy in phiếu BHYT:
+![](https://lh3.googleusercontent.com/pw/AP1GczOiBKWxPKZdUmCLlBwv79PfDzaGaC7up0Pq1WVreh71dfxwiF2npexXXVqxC8g17b1nPfSZWp8pHGWH9vRgBmrpKd5MoZHy4qT-o3GaLFDpIXu53thld5toTnoRRKDjvjHUuurcGUuKkWmE7Naq6nHL=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNMGCD0kMmK-s1Rl7zG02nAuXdp3sqiY9cPf0IVONiwDW5IssHKjZcO1SX0PN8hfcqyEofAiPQy9LV8Qhb83gKracMYqUWFp-YLvNSSEpND06wGeeHJsUM538-_y2BhKFmOqOSIvIYg5oNIrdILGwWY=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNZFHx-ZiQtDhb4k340RCCENidTniQFLRsDMVD7EFkVc2Faol6gVUMGEzHhWan8ZKKKXJnouA0BVx9Calj1J_BA53ugfPvr6Ru_J2HlWXxZ_Q0fAG1HX1HPz-HmPnf97DyBL_vK8--838sQm2DF5EA6=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOmRRY_qyUAyJMiKDQdrOraeLXVJbTaYCzBmrLBtLeUfHFYqZ_GXDG8jrll055Iq6syfhJUJeVIwRMxvitVwP3TLfS_UMG0ZYzNHZa_zO16toLAjc4J2eRRM2sK_8CKpiMzKLylUeYICk10S6H_eE8t=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMb8xQwGpEN8NXLIeVA1pkxipbOiwR7qe9Qfdue71AcUJCaqwCgypvi_xh7axDhVWtM3Jf8-4R6l6_AreglmT3xZifN1BYKijdEo2YKX3t2_VdQ2YMtQNiEQgvt5d2ULqguUsFzvIMVT9zUESjg4swG=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/797#issuecomment-29378
+
 ## [v.3.26.0609.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606091-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription hỗ trợ chức năng xóa diễn biến (tái khám) không có chi phí (PK Thiên Ân) #765
 - 🐛: BANT đợt mới lập bệnh án khi hủy tái khám -> thực hiện khám lại không được
