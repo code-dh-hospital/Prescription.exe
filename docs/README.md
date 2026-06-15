@@ -6,6 +6,1033 @@
 
 #
 
+## [v.3.26.0615.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606150-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi:  Thao tác lưu phiếu PT/TT phần mềm đã hiển thị đúng danh sách mã máy để chọn. Trường hợp người dùng nhập thủ công mã máy đã hết ngày dùng, phần mềm vẫn cho lưu được.
+![](https://lh3.googleusercontent.com/pw/AP1GczPzaLvGZLbIwv1j3UGbsXwgGyMbWJOK6sgLJCVNmHgq7sOQvM9Kj3JczVBjjnuw_ZTN4Xg_4H2Bhkb5e2uaF6cstVxINCGQqypwGFCrXbAz07_uvpUohGFb_xNHuthFeiUsaEDXljE28HumXgUqroac=w1661-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNvigQnegvCHkIJz3Tet5dAuNf1TI5q_sNt3kKP5PEPsT2W6gn4HprGuDsqbNMjmZVALxUfw5VuTHtaZDkwjTKjM_MZqJsPicwPxllNwbElqgpJyF4ngpViOZEcdypQpkUkSoWbKAJsPtZwmHJNLgCI=w1280-h720-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/793#issuecomment-29531
+
+## [v.3.26.0614.3]()
+- ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh) #796
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/796
+
+## [v.3.26.0614.2]()
+- ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh) #796
+
+	- Cập nhật
+		- script: 
+			
+		![](https://i.vgy.me/W6X6Sm.png)
+
+		```sql
+		DO $$
+		BEGIN
+			IF NOT EXISTS (
+				SELECT 1
+				FROM information_schema.tables
+				WHERE table_schema = 'current'
+				  AND table_name = 'pskhamsuckhoe'
+			) THEN
+
+				CREATE TABLE current.pskhamsuckhoe (
+				  mabn VARCHAR(20) NOT NULL,
+				  makb VARCHAR(20) NOT NULL,
+				  maba VARCHAR(20),
+				  taikhoan VARCHAR(20),
+				  xoa NUMERIC(1,0) DEFAULT 0,
+				  ngayxoa TIMESTAMP WITHOUT TIME ZONE,
+				  thangkt VARCHAR(2),
+				  namkt VARCHAR(4),
+				  manv_ketluan_ksk VARCHAR,
+				  trangthai_ketluan_ksk NUMERIC(1,0),
+				  ketluan_ksk VARCHAR,
+				  phanloai_ksk VARCHAR,
+				  sanphukhoa_ksk VARCHAR,
+				  noingoaikhoa_ksk VARCHAR,
+				  diung_ksk VARCHAR,
+				  tsgiadinh_ksk VARCHAR,
+				  tuyenvu_ksk VARCHAR,
+				  amdao_ksk VARCHAR,
+				  tucung_ksk VARCHAR,
+				  denghi_ksk VARCHAR,
+				  kqcls_ksk VARCHAR,
+				  manv_noikhoa_ksk VARCHAR,
+				  tuanhoan_ksk VARCHAR,
+				  pltuanhoan_ksk VARCHAR,
+				  hohap_ksk VARCHAR,
+				  plhohap_ksk VARCHAR,
+				  tieuhoa_ksk VARCHAR,
+				  pltieuhoa_ksk VARCHAR,
+				  than_ksk VARCHAR,
+				  plthan_ksk VARCHAR,
+				  noitiet_ksk VARCHAR,
+				  plnoitiet_ksk VARCHAR,
+				  co_ksk VARCHAR,
+				  plco_ksk VARCHAR,
+				  thankinh_ksk VARCHAR,
+				  plthankinh_ksk VARCHAR,
+				  tamthan_ksk VARCHAR,
+				  pltamthan_ksk VARCHAR,
+				  manv_ngoaikhoa_ksk VARCHAR,
+				  ngoaikhoa_ksk VARCHAR,
+				  plngoaikhoa_ksk VARCHAR,
+				  manv_sanphukhoa_ksk VARCHAR,
+				  plsanphukhoa_ksk VARCHAR,
+				  manv_mat_ksk VARCHAR,
+				  kmatphai_ksk VARCHAR,
+				  kmattrai_ksk VARCHAR,
+				  matphai_ksk VARCHAR,
+				  mattrai_ksk VARCHAR,
+				  matbenh_ksk VARCHAR,
+				  plmat_ksk VARCHAR,
+				  manv_tmh_ksk VARCHAR,
+				  tnoithuong_ksk VARCHAR,
+				  tnoitham_ksk VARCHAR,
+				  noithuong_ksk VARCHAR,
+				  noitham_ksk VARCHAR,
+				  tmhbenh_ksk VARCHAR,
+				  pltmh_ksk VARCHAR,
+				  manv_rhm_ksk VARCHAR,
+				  hamtren_ksk VARCHAR,
+				  hamduoi_ksk VARCHAR,
+				  rhmbenh_ksk VARCHAR,
+				  plrhm_ksk VARCHAR,
+				  manv_dalieu_ksk VARCHAR,
+				  dalieu_ksk VARCHAR,
+				  pldalieu_ksk VARCHAR,
+				  manv_cls_ksk VARCHAR,
+				  danhgiacls_ksk VARCHAR,
+				  plsuckhoe_ksk VARCHAR,
+				  cacbenh_ksk VARCHAR,
+				  cangiaiquyet_ksk VARCHAR,
+				  theluc_ksk VARCHAR,
+				  pltheluc_ksk VARCHAR,
+				  hesonhai_ksk VARCHAR,
+				  ghichu_ksk VARCHAR,
+				  so_ksk VARCHAR,
+				  quyen_ksk VARCHAR,
+				  imglink VARCHAR,
+				  lydo_ksk VARCHAR,
+				  tsgd_co_benh_truyennhiem NUMERIC(1,0),
+				  tsgd_tenbenh_truyennhiem VARCHAR,
+				  tsbt_sankhoa VARCHAR,
+				  tc_bcg NUMERIC(1,0),
+				  tc_bachcau_hoga NUMERIC(1,0),
+				  tc_soi NUMERIC(1,0),
+				  tc_bailiet NUMERIC(1,0),
+				  tc_viemnao_nhatbanb NUMERIC(1,0),
+				  tc_viemganb NUMERIC(1,0),
+				  tc_khac NUMERIC(1,0),
+				  tsbenh_co_benhbamsinh NUMERIC(1,0),
+				  tsbenh_tenbenh VARCHAR,
+				  dang_dtbenh VARCHAR,
+				  manv_tuanhoan_ksk VARCHAR,
+				  manv_hohap_ksk VARCHAR,
+				  manv_tieuhoa_ksk VARCHAR,
+				  manv_than_ksk VARCHAR,
+				  manv_khamls_khac_ksk VARCHAR,
+				  manv_noitiet_ksk VARCHAR,
+				  manv_tamthan_ksk VARCHAR,
+				  khamls_khac_ksk VARCHAR,
+				  plkhamls_khac_ksk VARCHAR,
+				  manv_thankinh_ksk VARCHAR,
+				  list_congviec_ksk JSONB DEFAULT '[]'::jsonb NOT NULL,
+				  list_tsbenh_banthan JSONB DEFAULT '[]'::jsonb NOT NULL,
+				  manv_laphieu_ksk VARCHAR,
+				  ngay_lapphieu_ksk TIMESTAMP WITHOUT TIME ZONE,
+				  hoibenh_ksk VARCHAR,
+				  tuoi_thaykinh_ksk NUMERIC(2,0),
+				  tinhchat_kinhnguyet_ksk NUMERIC(1,0),
+				  chuky_kinh_ksk NUMERIC(2,0),
+				  luongkinh_ksk NUMERIC(2,0),
+				  daubung_kinh_ksk NUMERIC(2,0),
+				  lap_giadinh_ksk NUMERIC(1,0),
+				  para_ksk VARCHAR,
+				  mophukhoa_ksk NUMERIC(1,0),
+				  mophukhoa_ghichu_ksk VARCHAR,
+				  apdung_bptt_ksk NUMERIC(1,0),
+				  apdung_bptt_ghichu_ksk VARCHAR,
+				  manv_co_ksk VARCHAR,
+				  danhgia_kqcls_ksk VARCHAR,
+				  ngayvaolam_ksk DATE,
+				  ngaytaikham DATE,
+				  CONSTRAINT pskhamsuckhoe_fk FOREIGN KEY (mabn)
+					REFERENCES current.dmbenhnhan(mabn)
+					ON DELETE NO ACTION
+					ON UPDATE CASCADE
+					NOT DEFERRABLE
+				) 
+				WITH (oids = false);
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.trangthai_ketluan_ksk
+				IS '- 0 hoac null: Chua ket luan.
+				- 1: da ket luan.
+				- 2: dang ket luan.';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.so_ksk
+				IS 'Số khám sức khỏe';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.quyen_ksk
+				IS 'Quyển khám sức khỏe';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.imglink
+				IS 'Lưu đường link ảnh';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.lydo_ksk
+				IS 'Lý do khám sức khỏe';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsgd_co_benh_truyennhiem
+				IS 'Tiền sử gia đình: có bệnh truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsgd_tenbenh_truyennhiem
+				IS 'Tiền sử gia đình: tên bệnh truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsbt_sankhoa
+				IS 'Tiền sử bản thân - Sản khoa';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_bcg
+				IS 'Tiêm chủng vaccin BCG: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_bachcau_hoga
+				IS 'Tiêm chủng vaccin Bạch cầu, ho gà, uốn ván: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_soi
+				IS 'Tiêm chủng vaccin Sởi: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_bailiet
+				IS 'Tiêm chủng vaccin bại liệt: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_viemnao_nhatbanb
+				IS 'Tiêm chủng vaccin viêm não nhật bản b: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_viemganb
+				IS 'Tiêm chủng vaccin viêm gan b: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_khac
+				IS 'Tiêm chủng vaccin khác: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsbenh_co_benhbamsinh
+				IS 'Có bệnh bẩm sinh, truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsbenh_tenbenh
+				IS 'Ghi rõ bệnh bẩm sinh, truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.dang_dtbenh
+				IS 'Ghi rõ bệnh và thuốc đang dùng';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_tuanhoan_ksk
+				IS 'Mã số bác sĩ khám tuần hoàn';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_hohap_ksk
+				IS 'Mã số bác sĩ khám hô hấp';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_tieuhoa_ksk
+				IS 'Mã số bác sĩ khám tiêu hóa';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_than_ksk
+				IS 'Mã số bác sĩ khám thận, tiết niệu';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_khamls_khac_ksk
+				IS 'Mã số bác sĩ khám lâm sàng khác';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_noitiet_ksk
+				IS 'Mã số bác sĩ kham nội tiết';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_tamthan_ksk
+				IS 'Mã số bác sĩ khám tâm thần';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.khamls_khac_ksk
+				IS 'Khám lâm sàng khác';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.plkhamls_khac_ksk
+				IS 'Phân loại khám lâm sàng khác';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_thankinh_ksk
+				IS 'Mã số bác sĩ khám thần kinh';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.list_congviec_ksk
+				IS 'json lưu trữ danh sách nghề, công việc trước đây {tencv,sonam_lv,sothang_lv,ngaybd_lv,ngaykt_lv}';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.list_tsbenh_banthan
+				IS 'json lưu trữ danh sách bệnh tật bản thân: {tenbenh,nam_phathien_benh,tenbenh_nn,nam_phathien_benh_nn}';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_laphieu_ksk
+				IS 'Mã nhân viên lập phiếu KSK ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.ngay_lapphieu_ksk
+				IS 'Ngày lập phiếu KSK ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.hoibenh_ksk
+				IS 'hỏi bệnh ksk ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tuoi_thaykinh_ksk
+				IS 'Bắt đầu thấy kinh năm bao nhiêu tuổi  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tinhchat_kinhnguyet_ksk
+				IS 'Kinh nguyệt có đều hay không  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.chuky_kinh_ksk
+				IS 'Chu kỳ kinh bao nhiêu ngày  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.luongkinh_ksk
+				IS 'Kinh kéo dài bao nhiêu ngày  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.daubung_kinh_ksk
+				IS 'Có đau bụng kinh không  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.lap_giadinh_ksk
+				IS 'Lập gia đình chưa ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.para_ksk
+				IS 'PARA sản khoa ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.mophukhoa_ksk
+				IS 'Có mổ sản, phụ khoa không ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.mophukhoa_ghichu_ksk
+				IS 'Ghi rõ nếu có mổ sản phụ khoa ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.apdung_bptt_ksk
+				IS 'Có áp dụng BPTT không ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.apdung_bptt_ghichu_ksk
+				IS 'Nếu Có áp dụng BPTT, ghi rõ ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_co_ksk
+				IS 'Mã BS khám cơ xương khớp  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.danhgia_kqcls_ksk
+				IS 'Đánh giá kết quả CLS  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.ngayvaolam_ksk
+				IS 'Ngày bắt đầu làm việc tại đơn vị hiện nay';
+
+				CREATE INDEX pskhamsuckhoe_idx ON current.pskhamsuckhoe
+				  USING btree (mabn COLLATE pg_catalog."default", makb COLLATE pg_catalog."default");
+
+				CREATE INDEX pskhamsuckhoe_idx1 ON current.pskhamsuckhoe
+				  USING btree (so_ksk COLLATE pg_catalog."default", quyen_ksk COLLATE pg_catalog."default", ngay_lapphieu_ksk);
+
+
+				ALTER TABLE current.pskhamsuckhoe
+				  OWNER TO postgres;
+
+			END IF;
+		END
+		$$;
+		```
+
+	- Nhập quá trình công việc và tiền sử bệnh bản thân:
+
+	![](https://i.vgy.me/kFS75M.png)
+	![](https://i.vgy.me/6wnfyv.png)
+
+	- Nhập sản phụ khoa (áp dụng giới tính nữ)
+
+	![](https://i.vgy.me/pGDLrc.png)
+
+	- Nhập khám lâm sàng, kết luận:
+
+	![](https://i.vgy.me/VchYS7.png)
+	![](https://i.vgy.me/c5Sp5L.png)
+
+	- In và in ký số:
+
+	![](https://i.vgy.me/RgKvAs.png)
+	![](https://i.vgy.me/sFsNwS.png)
+	![](https://i.vgy.me/Pg9U1A.png)
+	![](https://i.vgy.me/klfknt.png)
+	![](https://i.vgy.me/metoWB.png)
+
+	- In PDF ký số:
+
+	![](https://i.vgy.me/k042rf.png)
+	![](https://i.vgy.me/k042rf.png)
+	![](https://i.vgy.me/nZTqgB.png)
+	
+	P/s: IN ký EMR chưa tích hợp
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/796
+
+## [v.3.26.0614.1]()
+- ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh) #796
+
+	- Cập nhật
+		- script: 
+			
+		![](https://i.vgy.me/W6X6Sm.png)
+
+		```sql
+		DO $$
+		BEGIN
+			IF NOT EXISTS (
+				SELECT 1
+				FROM information_schema.tables
+				WHERE table_schema = 'current'
+				  AND table_name = 'pskhamsuckhoe'
+			) THEN
+
+				CREATE TABLE current.pskhamsuckhoe (
+				  mabn VARCHAR(20) NOT NULL,
+				  makb VARCHAR(20) NOT NULL,
+				  maba VARCHAR(20),
+				  taikhoan VARCHAR(20),
+				  xoa NUMERIC(1,0) DEFAULT 0,
+				  ngayxoa TIMESTAMP WITHOUT TIME ZONE,
+				  thangkt VARCHAR(2),
+				  namkt VARCHAR(4),
+				  manv_ketluan_ksk VARCHAR,
+				  trangthai_ketluan_ksk NUMERIC(1,0),
+				  ketluan_ksk VARCHAR,
+				  phanloai_ksk VARCHAR,
+				  sanphukhoa_ksk VARCHAR,
+				  noingoaikhoa_ksk VARCHAR,
+				  diung_ksk VARCHAR,
+				  tsgiadinh_ksk VARCHAR,
+				  tuyenvu_ksk VARCHAR,
+				  amdao_ksk VARCHAR,
+				  tucung_ksk VARCHAR,
+				  denghi_ksk VARCHAR,
+				  kqcls_ksk VARCHAR,
+				  manv_noikhoa_ksk VARCHAR,
+				  tuanhoan_ksk VARCHAR,
+				  pltuanhoan_ksk VARCHAR,
+				  hohap_ksk VARCHAR,
+				  plhohap_ksk VARCHAR,
+				  tieuhoa_ksk VARCHAR,
+				  pltieuhoa_ksk VARCHAR,
+				  than_ksk VARCHAR,
+				  plthan_ksk VARCHAR,
+				  noitiet_ksk VARCHAR,
+				  plnoitiet_ksk VARCHAR,
+				  co_ksk VARCHAR,
+				  plco_ksk VARCHAR,
+				  thankinh_ksk VARCHAR,
+				  plthankinh_ksk VARCHAR,
+				  tamthan_ksk VARCHAR,
+				  pltamthan_ksk VARCHAR,
+				  manv_ngoaikhoa_ksk VARCHAR,
+				  ngoaikhoa_ksk VARCHAR,
+				  plngoaikhoa_ksk VARCHAR,
+				  manv_sanphukhoa_ksk VARCHAR,
+				  plsanphukhoa_ksk VARCHAR,
+				  manv_mat_ksk VARCHAR,
+				  kmatphai_ksk VARCHAR,
+				  kmattrai_ksk VARCHAR,
+				  matphai_ksk VARCHAR,
+				  mattrai_ksk VARCHAR,
+				  matbenh_ksk VARCHAR,
+				  plmat_ksk VARCHAR,
+				  manv_tmh_ksk VARCHAR,
+				  tnoithuong_ksk VARCHAR,
+				  tnoitham_ksk VARCHAR,
+				  noithuong_ksk VARCHAR,
+				  noitham_ksk VARCHAR,
+				  tmhbenh_ksk VARCHAR,
+				  pltmh_ksk VARCHAR,
+				  manv_rhm_ksk VARCHAR,
+				  hamtren_ksk VARCHAR,
+				  hamduoi_ksk VARCHAR,
+				  rhmbenh_ksk VARCHAR,
+				  plrhm_ksk VARCHAR,
+				  manv_dalieu_ksk VARCHAR,
+				  dalieu_ksk VARCHAR,
+				  pldalieu_ksk VARCHAR,
+				  manv_cls_ksk VARCHAR,
+				  danhgiacls_ksk VARCHAR,
+				  plsuckhoe_ksk VARCHAR,
+				  cacbenh_ksk VARCHAR,
+				  cangiaiquyet_ksk VARCHAR,
+				  theluc_ksk VARCHAR,
+				  pltheluc_ksk VARCHAR,
+				  hesonhai_ksk VARCHAR,
+				  ghichu_ksk VARCHAR,
+				  so_ksk VARCHAR,
+				  quyen_ksk VARCHAR,
+				  imglink VARCHAR,
+				  lydo_ksk VARCHAR,
+				  tsgd_co_benh_truyennhiem NUMERIC(1,0),
+				  tsgd_tenbenh_truyennhiem VARCHAR,
+				  tsbt_sankhoa VARCHAR,
+				  tc_bcg NUMERIC(1,0),
+				  tc_bachcau_hoga NUMERIC(1,0),
+				  tc_soi NUMERIC(1,0),
+				  tc_bailiet NUMERIC(1,0),
+				  tc_viemnao_nhatbanb NUMERIC(1,0),
+				  tc_viemganb NUMERIC(1,0),
+				  tc_khac NUMERIC(1,0),
+				  tsbenh_co_benhbamsinh NUMERIC(1,0),
+				  tsbenh_tenbenh VARCHAR,
+				  dang_dtbenh VARCHAR,
+				  manv_tuanhoan_ksk VARCHAR,
+				  manv_hohap_ksk VARCHAR,
+				  manv_tieuhoa_ksk VARCHAR,
+				  manv_than_ksk VARCHAR,
+				  manv_khamls_khac_ksk VARCHAR,
+				  manv_noitiet_ksk VARCHAR,
+				  manv_tamthan_ksk VARCHAR,
+				  khamls_khac_ksk VARCHAR,
+				  plkhamls_khac_ksk VARCHAR,
+				  manv_thankinh_ksk VARCHAR,
+				  list_congviec_ksk JSONB DEFAULT '[]'::jsonb NOT NULL,
+				  list_tsbenh_banthan JSONB DEFAULT '[]'::jsonb NOT NULL,
+				  manv_laphieu_ksk VARCHAR,
+				  ngay_lapphieu_ksk TIMESTAMP WITHOUT TIME ZONE,
+				  hoibenh_ksk VARCHAR,
+				  tuoi_thaykinh_ksk NUMERIC(2,0),
+				  tinhchat_kinhnguyet_ksk NUMERIC(1,0),
+				  chuky_kinh_ksk NUMERIC(2,0),
+				  luongkinh_ksk NUMERIC(2,0),
+				  daubung_kinh_ksk NUMERIC(2,0),
+				  lap_giadinh_ksk NUMERIC(1,0),
+				  para_ksk VARCHAR,
+				  mophukhoa_ksk NUMERIC(1,0),
+				  mophukhoa_ghichu_ksk VARCHAR,
+				  apdung_bptt_ksk NUMERIC(1,0),
+				  apdung_bptt_ghichu_ksk VARCHAR,
+				  manv_co_ksk VARCHAR,
+				  danhgia_kqcls_ksk VARCHAR,
+				  ngayvaolam_ksk DATE,
+				  ngaytaikham DATE,
+				  CONSTRAINT pskhamsuckhoe_fk FOREIGN KEY (mabn)
+					REFERENCES current.dmbenhnhan(mabn)
+					ON DELETE NO ACTION
+					ON UPDATE CASCADE
+					NOT DEFERRABLE
+				) 
+				WITH (oids = false);
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.trangthai_ketluan_ksk
+				IS '- 0 hoac null: Chua ket luan.
+				- 1: da ket luan.
+				- 2: dang ket luan.';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.so_ksk
+				IS 'Số khám sức khỏe';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.quyen_ksk
+				IS 'Quyển khám sức khỏe';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.imglink
+				IS 'Lưu đường link ảnh';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.lydo_ksk
+				IS 'Lý do khám sức khỏe';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsgd_co_benh_truyennhiem
+				IS 'Tiền sử gia đình: có bệnh truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsgd_tenbenh_truyennhiem
+				IS 'Tiền sử gia đình: tên bệnh truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsbt_sankhoa
+				IS 'Tiền sử bản thân - Sản khoa';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_bcg
+				IS 'Tiêm chủng vaccin BCG: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_bachcau_hoga
+				IS 'Tiêm chủng vaccin Bạch cầu, ho gà, uốn ván: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_soi
+				IS 'Tiêm chủng vaccin Sởi: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_bailiet
+				IS 'Tiêm chủng vaccin bại liệt: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_viemnao_nhatbanb
+				IS 'Tiêm chủng vaccin viêm não nhật bản b: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_viemganb
+				IS 'Tiêm chủng vaccin viêm gan b: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_khac
+				IS 'Tiêm chủng vaccin khác: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsbenh_co_benhbamsinh
+				IS 'Có bệnh bẩm sinh, truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsbenh_tenbenh
+				IS 'Ghi rõ bệnh bẩm sinh, truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.dang_dtbenh
+				IS 'Ghi rõ bệnh và thuốc đang dùng';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_tuanhoan_ksk
+				IS 'Mã số bác sĩ khám tuần hoàn';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_hohap_ksk
+				IS 'Mã số bác sĩ khám hô hấp';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_tieuhoa_ksk
+				IS 'Mã số bác sĩ khám tiêu hóa';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_than_ksk
+				IS 'Mã số bác sĩ khám thận, tiết niệu';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_khamls_khac_ksk
+				IS 'Mã số bác sĩ khám lâm sàng khác';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_noitiet_ksk
+				IS 'Mã số bác sĩ kham nội tiết';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_tamthan_ksk
+				IS 'Mã số bác sĩ khám tâm thần';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.khamls_khac_ksk
+				IS 'Khám lâm sàng khác';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.plkhamls_khac_ksk
+				IS 'Phân loại khám lâm sàng khác';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_thankinh_ksk
+				IS 'Mã số bác sĩ khám thần kinh';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.list_congviec_ksk
+				IS 'json lưu trữ danh sách nghề, công việc trước đây {tencv,sonam_lv,sothang_lv,ngaybd_lv,ngaykt_lv}';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.list_tsbenh_banthan
+				IS 'json lưu trữ danh sách bệnh tật bản thân: {tenbenh,nam_phathien_benh,tenbenh_nn,nam_phathien_benh_nn}';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_laphieu_ksk
+				IS 'Mã nhân viên lập phiếu KSK ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.ngay_lapphieu_ksk
+				IS 'Ngày lập phiếu KSK ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.hoibenh_ksk
+				IS 'hỏi bệnh ksk ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tuoi_thaykinh_ksk
+				IS 'Bắt đầu thấy kinh năm bao nhiêu tuổi  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tinhchat_kinhnguyet_ksk
+				IS 'Kinh nguyệt có đều hay không  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.chuky_kinh_ksk
+				IS 'Chu kỳ kinh bao nhiêu ngày  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.luongkinh_ksk
+				IS 'Kinh kéo dài bao nhiêu ngày  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.daubung_kinh_ksk
+				IS 'Có đau bụng kinh không  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.lap_giadinh_ksk
+				IS 'Lập gia đình chưa ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.para_ksk
+				IS 'PARA sản khoa ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.mophukhoa_ksk
+				IS 'Có mổ sản, phụ khoa không ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.mophukhoa_ghichu_ksk
+				IS 'Ghi rõ nếu có mổ sản phụ khoa ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.apdung_bptt_ksk
+				IS 'Có áp dụng BPTT không ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.apdung_bptt_ghichu_ksk
+				IS 'Nếu Có áp dụng BPTT, ghi rõ ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_co_ksk
+				IS 'Mã BS khám cơ xương khớp  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.danhgia_kqcls_ksk
+				IS 'Đánh giá kết quả CLS  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.ngayvaolam_ksk
+				IS 'Ngày bắt đầu làm việc tại đơn vị hiện nay';
+
+				CREATE INDEX pskhamsuckhoe_idx ON current.pskhamsuckhoe
+				  USING btree (mabn COLLATE pg_catalog."default", makb COLLATE pg_catalog."default");
+
+				CREATE INDEX pskhamsuckhoe_idx1 ON current.pskhamsuckhoe
+				  USING btree (so_ksk COLLATE pg_catalog."default", quyen_ksk COLLATE pg_catalog."default", ngay_lapphieu_ksk);
+
+
+				ALTER TABLE current.pskhamsuckhoe
+				  OWNER TO postgres;
+
+			END IF;
+		END
+		$$;
+		```
+
+	- Nhập quá trình công việc và tiền sử bệnh bản thân:
+
+	![](https://i.vgy.me/kFS75M.png)
+	![](https://i.vgy.me/6wnfyv.png)
+
+	- Nhập sản phụ khoa (áp dụng giới tính nữ)
+
+	![](https://i.vgy.me/pGDLrc.png)
+
+	- Nhập khám lâm sàng, kết luận:
+
+	![](https://i.vgy.me/VchYS7.png)
+	![](https://i.vgy.me/c5Sp5L.png)
+
+	- In và in ký số:
+
+	![](https://i.vgy.me/RgKvAs.png)
+	![](https://i.vgy.me/sFsNwS.png)
+	![](https://i.vgy.me/Pg9U1A.png)
+	![](https://i.vgy.me/klfknt.png)
+	![](https://i.vgy.me/metoWB.png)
+
+	- In PDF ký số:
+
+	![](https://i.vgy.me/k042rf.png)
+	![](https://i.vgy.me/k042rf.png)
+	![](https://i.vgy.me/nZTqgB.png)
+	
+	P/s: IN ký EMR chưa tích hợp
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/796
+
+## [v.3.26.0614.0]()
+- ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh) #796
+
+	- Cập nhật
+		- script: 
+			
+		![](https://i.vgy.me/W6X6Sm.png)
+
+		```sql
+		DO $$
+		BEGIN
+			IF NOT EXISTS (
+				SELECT 1
+				FROM information_schema.tables
+				WHERE table_schema = 'current'
+				  AND table_name = 'pskhamsuckhoe'
+			) THEN
+
+				CREATE TABLE current.pskhamsuckhoe (
+				  mabn VARCHAR(20) NOT NULL,
+				  makb VARCHAR(20) NOT NULL,
+				  maba VARCHAR(20),
+				  taikhoan VARCHAR(20),
+				  xoa NUMERIC(1,0) DEFAULT 0,
+				  ngayxoa TIMESTAMP WITHOUT TIME ZONE,
+				  thangkt VARCHAR(2),
+				  namkt VARCHAR(4),
+				  manv_ketluan_ksk VARCHAR,
+				  trangthai_ketluan_ksk NUMERIC(1,0),
+				  ketluan_ksk VARCHAR,
+				  phanloai_ksk VARCHAR,
+				  sanphukhoa_ksk VARCHAR,
+				  noingoaikhoa_ksk VARCHAR,
+				  diung_ksk VARCHAR,
+				  tsgiadinh_ksk VARCHAR,
+				  tuyenvu_ksk VARCHAR,
+				  amdao_ksk VARCHAR,
+				  tucung_ksk VARCHAR,
+				  denghi_ksk VARCHAR,
+				  kqcls_ksk VARCHAR,
+				  manv_noikhoa_ksk VARCHAR,
+				  tuanhoan_ksk VARCHAR,
+				  pltuanhoan_ksk VARCHAR,
+				  hohap_ksk VARCHAR,
+				  plhohap_ksk VARCHAR,
+				  tieuhoa_ksk VARCHAR,
+				  pltieuhoa_ksk VARCHAR,
+				  than_ksk VARCHAR,
+				  plthan_ksk VARCHAR,
+				  noitiet_ksk VARCHAR,
+				  plnoitiet_ksk VARCHAR,
+				  co_ksk VARCHAR,
+				  plco_ksk VARCHAR,
+				  thankinh_ksk VARCHAR,
+				  plthankinh_ksk VARCHAR,
+				  tamthan_ksk VARCHAR,
+				  pltamthan_ksk VARCHAR,
+				  manv_ngoaikhoa_ksk VARCHAR,
+				  ngoaikhoa_ksk VARCHAR,
+				  plngoaikhoa_ksk VARCHAR,
+				  manv_sanphukhoa_ksk VARCHAR,
+				  plsanphukhoa_ksk VARCHAR,
+				  manv_mat_ksk VARCHAR,
+				  kmatphai_ksk VARCHAR,
+				  kmattrai_ksk VARCHAR,
+				  matphai_ksk VARCHAR,
+				  mattrai_ksk VARCHAR,
+				  matbenh_ksk VARCHAR,
+				  plmat_ksk VARCHAR,
+				  manv_tmh_ksk VARCHAR,
+				  tnoithuong_ksk VARCHAR,
+				  tnoitham_ksk VARCHAR,
+				  noithuong_ksk VARCHAR,
+				  noitham_ksk VARCHAR,
+				  tmhbenh_ksk VARCHAR,
+				  pltmh_ksk VARCHAR,
+				  manv_rhm_ksk VARCHAR,
+				  hamtren_ksk VARCHAR,
+				  hamduoi_ksk VARCHAR,
+				  rhmbenh_ksk VARCHAR,
+				  plrhm_ksk VARCHAR,
+				  manv_dalieu_ksk VARCHAR,
+				  dalieu_ksk VARCHAR,
+				  pldalieu_ksk VARCHAR,
+				  manv_cls_ksk VARCHAR,
+				  danhgiacls_ksk VARCHAR,
+				  plsuckhoe_ksk VARCHAR,
+				  cacbenh_ksk VARCHAR,
+				  cangiaiquyet_ksk VARCHAR,
+				  theluc_ksk VARCHAR,
+				  pltheluc_ksk VARCHAR,
+				  hesonhai_ksk VARCHAR,
+				  ghichu_ksk VARCHAR,
+				  so_ksk VARCHAR,
+				  quyen_ksk VARCHAR,
+				  imglink VARCHAR,
+				  lydo_ksk VARCHAR,
+				  tsgd_co_benh_truyennhiem NUMERIC(1,0),
+				  tsgd_tenbenh_truyennhiem VARCHAR,
+				  tsbt_sankhoa VARCHAR,
+				  tc_bcg NUMERIC(1,0),
+				  tc_bachcau_hoga NUMERIC(1,0),
+				  tc_soi NUMERIC(1,0),
+				  tc_bailiet NUMERIC(1,0),
+				  tc_viemnao_nhatbanb NUMERIC(1,0),
+				  tc_viemganb NUMERIC(1,0),
+				  tc_khac NUMERIC(1,0),
+				  tsbenh_co_benhbamsinh NUMERIC(1,0),
+				  tsbenh_tenbenh VARCHAR,
+				  dang_dtbenh VARCHAR,
+				  manv_tuanhoan_ksk VARCHAR,
+				  manv_hohap_ksk VARCHAR,
+				  manv_tieuhoa_ksk VARCHAR,
+				  manv_than_ksk VARCHAR,
+				  manv_khamls_khac_ksk VARCHAR,
+				  manv_noitiet_ksk VARCHAR,
+				  manv_tamthan_ksk VARCHAR,
+				  khamls_khac_ksk VARCHAR,
+				  plkhamls_khac_ksk VARCHAR,
+				  manv_thankinh_ksk VARCHAR,
+				  list_congviec_ksk JSONB DEFAULT '[]'::jsonb NOT NULL,
+				  list_tsbenh_banthan JSONB DEFAULT '[]'::jsonb NOT NULL,
+				  manv_laphieu_ksk VARCHAR,
+				  ngay_lapphieu_ksk TIMESTAMP WITHOUT TIME ZONE,
+				  hoibenh_ksk VARCHAR,
+				  tuoi_thaykinh_ksk NUMERIC(2,0),
+				  tinhchat_kinhnguyet_ksk NUMERIC(1,0),
+				  chuky_kinh_ksk NUMERIC(2,0),
+				  luongkinh_ksk NUMERIC(2,0),
+				  daubung_kinh_ksk NUMERIC(2,0),
+				  lap_giadinh_ksk NUMERIC(1,0),
+				  para_ksk VARCHAR,
+				  mophukhoa_ksk NUMERIC(1,0),
+				  mophukhoa_ghichu_ksk VARCHAR,
+				  apdung_bptt_ksk NUMERIC(1,0),
+				  apdung_bptt_ghichu_ksk VARCHAR,
+				  manv_co_ksk VARCHAR,
+				  danhgia_kqcls_ksk VARCHAR,
+				  ngayvaolam_ksk DATE,
+				  ngaytaikham DATE,
+				  CONSTRAINT pskhamsuckhoe_fk FOREIGN KEY (mabn)
+					REFERENCES current.dmbenhnhan(mabn)
+					ON DELETE NO ACTION
+					ON UPDATE CASCADE
+					NOT DEFERRABLE
+				) 
+				WITH (oids = false);
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.trangthai_ketluan_ksk
+				IS '- 0 hoac null: Chua ket luan.
+				- 1: da ket luan.
+				- 2: dang ket luan.';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.so_ksk
+				IS 'Số khám sức khỏe';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.quyen_ksk
+				IS 'Quyển khám sức khỏe';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.imglink
+				IS 'Lưu đường link ảnh';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.lydo_ksk
+				IS 'Lý do khám sức khỏe';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsgd_co_benh_truyennhiem
+				IS 'Tiền sử gia đình: có bệnh truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsgd_tenbenh_truyennhiem
+				IS 'Tiền sử gia đình: tên bệnh truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsbt_sankhoa
+				IS 'Tiền sử bản thân - Sản khoa';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_bcg
+				IS 'Tiêm chủng vaccin BCG: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_bachcau_hoga
+				IS 'Tiêm chủng vaccin Bạch cầu, ho gà, uốn ván: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_soi
+				IS 'Tiêm chủng vaccin Sởi: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_bailiet
+				IS 'Tiêm chủng vaccin bại liệt: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_viemnao_nhatbanb
+				IS 'Tiêm chủng vaccin viêm não nhật bản b: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_viemganb
+				IS 'Tiêm chủng vaccin viêm gan b: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tc_khac
+				IS 'Tiêm chủng vaccin khác: 1:có/ 0:không/ 2:không nhớ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsbenh_co_benhbamsinh
+				IS 'Có bệnh bẩm sinh, truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tsbenh_tenbenh
+				IS 'Ghi rõ bệnh bẩm sinh, truyền nhiễm';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.dang_dtbenh
+				IS 'Ghi rõ bệnh và thuốc đang dùng';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_tuanhoan_ksk
+				IS 'Mã số bác sĩ khám tuần hoàn';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_hohap_ksk
+				IS 'Mã số bác sĩ khám hô hấp';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_tieuhoa_ksk
+				IS 'Mã số bác sĩ khám tiêu hóa';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_than_ksk
+				IS 'Mã số bác sĩ khám thận, tiết niệu';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_khamls_khac_ksk
+				IS 'Mã số bác sĩ khám lâm sàng khác';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_noitiet_ksk
+				IS 'Mã số bác sĩ kham nội tiết';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_tamthan_ksk
+				IS 'Mã số bác sĩ khám tâm thần';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.khamls_khac_ksk
+				IS 'Khám lâm sàng khác';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.plkhamls_khac_ksk
+				IS 'Phân loại khám lâm sàng khác';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_thankinh_ksk
+				IS 'Mã số bác sĩ khám thần kinh';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.list_congviec_ksk
+				IS 'json lưu trữ danh sách nghề, công việc trước đây {tencv,sonam_lv,sothang_lv,ngaybd_lv,ngaykt_lv}';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.list_tsbenh_banthan
+				IS 'json lưu trữ danh sách bệnh tật bản thân: {tenbenh,nam_phathien_benh,tenbenh_nn,nam_phathien_benh_nn}';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_laphieu_ksk
+				IS 'Mã nhân viên lập phiếu KSK ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.ngay_lapphieu_ksk
+				IS 'Ngày lập phiếu KSK ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.hoibenh_ksk
+				IS 'hỏi bệnh ksk ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tuoi_thaykinh_ksk
+				IS 'Bắt đầu thấy kinh năm bao nhiêu tuổi  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.tinhchat_kinhnguyet_ksk
+				IS 'Kinh nguyệt có đều hay không  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.chuky_kinh_ksk
+				IS 'Chu kỳ kinh bao nhiêu ngày  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.luongkinh_ksk
+				IS 'Kinh kéo dài bao nhiêu ngày  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.daubung_kinh_ksk
+				IS 'Có đau bụng kinh không  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.lap_giadinh_ksk
+				IS 'Lập gia đình chưa ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.para_ksk
+				IS 'PARA sản khoa ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.mophukhoa_ksk
+				IS 'Có mổ sản, phụ khoa không ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.mophukhoa_ghichu_ksk
+				IS 'Ghi rõ nếu có mổ sản phụ khoa ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.apdung_bptt_ksk
+				IS 'Có áp dụng BPTT không ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.apdung_bptt_ghichu_ksk
+				IS 'Nếu Có áp dụng BPTT, ghi rõ ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.manv_co_ksk
+				IS 'Mã BS khám cơ xương khớp  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.danhgia_kqcls_ksk
+				IS 'Đánh giá kết quả CLS  ';
+
+				COMMENT ON COLUMN current.pskhamsuckhoe.ngayvaolam_ksk
+				IS 'Ngày bắt đầu làm việc tại đơn vị hiện nay';
+
+				CREATE INDEX pskhamsuckhoe_idx ON current.pskhamsuckhoe
+				  USING btree (mabn COLLATE pg_catalog."default", makb COLLATE pg_catalog."default");
+
+				CREATE INDEX pskhamsuckhoe_idx1 ON current.pskhamsuckhoe
+				  USING btree (so_ksk COLLATE pg_catalog."default", quyen_ksk COLLATE pg_catalog."default", ngay_lapphieu_ksk);
+
+
+				ALTER TABLE current.pskhamsuckhoe
+				  OWNER TO postgres;
+
+			END IF;
+		END
+		$$;
+		```
+
+	- Nhập quá trình công việc và tiền sử bệnh bản thân:
+
+	![](https://i.vgy.me/kFS75M.png)
+	![](https://i.vgy.me/6wnfyv.png)
+
+	- Nhập sản phụ khoa (áp dụng giới tính nữ)
+
+	![](https://i.vgy.me/pGDLrc.png)
+
+	- Nhập khám lâm sàng, kết luận:
+
+	![](https://i.vgy.me/VchYS7.png)
+	![](https://i.vgy.me/c5Sp5L.png)
+
+	- In và in ký số:
+
+	![](https://i.vgy.me/RgKvAs.png)
+	![]()
+	![]()
+
+	- In PDF ký số:
+
+	![](https://i.vgy.me/k042rf.png)
+	![](https://i.vgy.me/k042rf.png)
+	![](https://i.vgy.me/nZTqgB.png)
+	
+	P/s: IN ký EMR chưa tích hợp
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/796
+
+## [v.3.26.0613.0]()
+- ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh)
+
 ## [v.3.26.0612.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606123-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606123-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606123-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Hỗ trợ chức năng in hoặc xuất phiếu khám sức khỏe TT32 có chữ ký số ra file PDF có tên file là mã bệnh nhân, mã khám bệnh #795
 
