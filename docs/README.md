@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0616.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606162-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi:  Thao tác lưu phiếu PT/TT phần mềm đã hiển thị đúng danh sách mã máy để chọn. Trường hợp người dùng nhập thủ công mã máy đã hết ngày dùng, phần mềm vẫn cho lưu được.
+![](https://lh3.googleusercontent.com/pw/AP1GczPzaLvGZLbIwv1j3UGbsXwgGyMbWJOK6sgLJCVNmHgq7sOQvM9Kj3JczVBjjnuw_ZTN4Xg_4H2Bhkb5e2uaF6cstVxINCGQqypwGFCrXbAz07_uvpUohGFb_xNHuthFeiUsaEDXljE28HumXgUqroac=w1661-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNvigQnegvCHkIJz3Tet5dAuNf1TI5q_sNt3kKP5PEPsT2W6gn4HprGuDsqbNMjmZVALxUfw5VuTHtaZDkwjTKjM_MZqJsPicwPxllNwbElqgpJyF4ngpViOZEcdypQpkUkSoWbKAJsPtZwmHJNLgCI=w1280-h720-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/793#issuecomment-29531
+
 ## [v.3.26.0616.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606161-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh) #796
 
