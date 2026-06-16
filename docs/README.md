@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0616.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606161-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh) #796
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/796
+<<<<<<< HEAD
+
+## [v.3.26.0616.0]()
+- ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh) #796
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/796
+=======
+
 ## [v.3.26.0615.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606150-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi:  Thao tác lưu phiếu PT/TT phần mềm đã hiển thị đúng danh sách mã máy để chọn. Trường hợp người dùng nhập thủ công mã máy đã hết ngày dùng, phần mềm vẫn cho lưu được.
