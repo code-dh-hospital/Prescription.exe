@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0617.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606170-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - BANT - Bản tóm tắt hồ sơ bệnh án chưa check: Giới tính, phương pháp điều trị, tình trạng ra viện #895
+![](https://i.vgy.me/uFyAjl.png)
+![](https://i.vgy.me/wg9VvQ.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/895
+
 ## [v.3.26.0616.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606162-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi:  Thao tác lưu phiếu PT/TT phần mềm đã hiển thị đúng danh sách mã máy để chọn. Trường hợp người dùng nhập thủ công mã máy đã hết ngày dùng, phần mềm vẫn cho lưu được.
