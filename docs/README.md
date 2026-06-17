@@ -6,6 +6,114 @@
 
 #
 
+## [v.3.26.0617.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606172-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606172-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606172-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Chức năng chọn ICD-10 cho phần kết luận trên các mẫu phiếu khám sức khỏe (TTYT Đức Linh) #808
+
+- Cập nhật script:
+
+![](https://i.vgy.me/Hx9WoT.png)
+
+```sql
+
+DO $$
+BEGIN
+    -- 1. maicd_kl_ksk
+    IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'pskhamsuckhoe' AND column_name = 'maicd_kl_ksk') THEN
+        ALTER TABLE current.pskhamsuckhoe ADD COLUMN maicd_kl_ksk VARCHAR;
+    END IF;
+    COMMENT ON COLUMN current.pskhamsuckhoe.maicd_kl_ksk IS 'Mã ICD chính kết luận KSK';
+
+    -- 2. tenicd_kl_ksk
+    IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'pskhamsuckhoe' AND column_name = 'tenicd_kl_ksk') THEN
+        ALTER TABLE current.pskhamsuckhoe ADD COLUMN tenicd_kl_ksk VARCHAR;
+    END IF;
+    COMMENT ON COLUMN current.pskhamsuckhoe.tenicd_kl_ksk IS 'Tên ICD chính kết luận KSK ';
+
+    -- 3. maicdp_kl_ksk
+    IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'pskhamsuckhoe' AND column_name = 'maicdp_kl_ksk') THEN
+        ALTER TABLE current.pskhamsuckhoe ADD COLUMN maicdp_kl_ksk VARCHAR;
+    END IF;
+    COMMENT ON COLUMN current.pskhamsuckhoe.maicdp_kl_ksk IS 'Mã ICD phụ kết luận KSK';
+
+    -- 4. tenicdp_kl_ksk
+    IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'pskhamsuckhoe' AND column_name = 'tenicdp_kl_ksk') THEN
+        ALTER TABLE current.pskhamsuckhoe ADD COLUMN tenicdp_kl_ksk VARCHAR;
+    END IF;
+    COMMENT ON COLUMN current.pskhamsuckhoe.tenicdp_kl_ksk IS 'Tên ICD phụ kết luận KSK ';
+	
+	-- 1. maicd_kl_ksk
+    IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'maicd_kl_ksk') THEN
+        ALTER TABLE current.psdangky ADD COLUMN maicd_kl_ksk VARCHAR;
+    END IF;
+    COMMENT ON COLUMN current.psdangky.maicd_kl_ksk IS 'Mã ICD chính kết luận KSK';
+
+    -- 2. tenicd_kl_ksk
+    IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tenicd_kl_ksk') THEN
+        ALTER TABLE current.psdangky ADD COLUMN tenicd_kl_ksk VARCHAR;
+    END IF;
+    COMMENT ON COLUMN current.psdangky.tenicd_kl_ksk IS 'Tên ICD chính kết luận KSK ';
+
+    -- 3. maicdp_kl_ksk
+    IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'maicdp_kl_ksk') THEN
+        ALTER TABLE current.psdangky ADD COLUMN maicdp_kl_ksk VARCHAR;
+    END IF;
+    COMMENT ON COLUMN current.psdangky.maicdp_kl_ksk IS 'Mã ICD phụ kết luận KSK';
+
+    -- 4. tenicdp_kl_ksk
+    IF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_name = 'psdangky' AND column_name = 'tenicdp_kl_ksk') THEN
+        ALTER TABLE current.psdangky ADD COLUMN tenicdp_kl_ksk VARCHAR;
+    END IF;
+    COMMENT ON COLUMN current.psdangky.tenicdp_kl_ksk IS 'Tên ICD phụ kết luận KSK ';
+
+    
+END $$;
+
+```
+
+- Thêm chẩn đoán kết luận:
+
+![](https://i.ibb.co/tTRrhDxh/Prescription-jg99-FR71-Jp.gif)
+
+- Trang in: thêm para mã bệnh, tên bệnh kết luận
+
+![](https://i.vgy.me/EWKlC1.png)
+![](https://i.vgy.me/F9G5ua.png)
+
+- Fix lỗi lấy thông tin người bệnh trước:
+
+![](https://i.vgy.me/UYybhJ.png)
+![](https://i.vgy.me/PEWoVo.png)
+
+- Lỗi không hiển thị form kết quả cls:
+
+![](https://i.vgy.me/EnVWKg.png)
+![](https://i.vgy.me/lA29xM.png)
+
+- Fix lỗi trang in
+
+![](https://i.vgy.me/0E84nv.png)
+![](https://i.vgy.me/fCynYk.png)
+![](https://i.vgy.me/w4YfcT.png)
+
+
+- Fix lỗi thêm công việc mới mất công việc cũ:
+
+![](https://i.vgy.me/aJ0chf.gif)
+
+
+- Fix lỗi: lấy ngày tái khám bệnh nhân cũ
+
+![](https://i.vgy.me/qdAviH.gif)
+![](https://i.vgy.me/gYfmwN.gif)
+
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/808
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/796
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+
+
+<<<<<<< HEAD
+
 ## [v.3.26.0617.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606171-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi ==> trường hợp thao tác Lấy lại phiếu PT/TT load lại mã máy đã check Ngưng sử dụng nhưng phần mềm vẫn cho lưu.
