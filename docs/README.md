@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0617.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606171-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi ==> trường hợp thao tác Lấy lại phiếu PT/TT load lại mã máy đã check Ngưng sử dụng nhưng phần mềm vẫn cho lưu.
+![](https://lh3.googleusercontent.com/pw/AP1GczPf3xXzw9uh65N0aSU-pHqVc4Wa1IsMNvd1n85Fw2MPV3beg72gbe8UuebBq8UH0U5oVfkaPLEzdkbDH2fx_osH8k8U_ODQhzPpRDKcW6eMyfZdvKPRyNip_jOGwxS5jDNOn0LItgizJHHypKVIrbmi=w1656-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/793#issuecomment-29703
+
 ## [v.3.26.0617.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606170-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - BANT - Bản tóm tắt hồ sơ bệnh án chưa check: Giới tính, phương pháp điều trị, tình trạng ra viện #895
 ![](https://i.vgy.me/uFyAjl.png)
