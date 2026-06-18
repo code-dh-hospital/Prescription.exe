@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0618.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606180-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - XML bệnh án ARV có ngày y lệnh công khám lớn hơn ngày ra viện (BV Cái Răng)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/897
+
+- Tắt các chứng năng khác khi thao tác Khám bệnh
+
+![](https://i.vgy.me/BimvTM.png)
+
 ## [v.3.26.0617.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606172-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606172-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606172-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Chức năng chọn ICD-10 cho phần kết luận trên các mẫu phiếu khám sức khỏe (TTYT Đức Linh) #808
 
