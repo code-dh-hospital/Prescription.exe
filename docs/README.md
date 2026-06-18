@@ -6,6 +6,25 @@
 
 #
 
+## [v.3.26.0618.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606181-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh) #796
+
+	- Fix lỗi trùng số SKS mẫu 02 và 03:
+
+	![](https://i.vgy.me/tSlDao.png)
+	![](https://i.vgy.me/fY9Y5i.png)
+	![](https://i.vgy.me/JMAq2j.png)
+	![](https://i.vgy.me/NTNWMF.png)
+	
+
+	- Chọn nhiều dòng kết quả CLS:
+
+	![](https://i.vgy.me/StKmg8.gif)
+	![](https://i.vgy.me/UmDRgI.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/796
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/773
+
 ## [v.3.26.0618.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606180-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - XML bệnh án ARV có ngày y lệnh công khám lớn hơn ngày ra viện (BV Cái Răng)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/897
