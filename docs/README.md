@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0619.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606191-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu: Bổ sung ngày bắt đầu hiệu lực và ngày kết thúc hiệu lực mã giường #768
+	- Cập nhật: lấy danh mục giường bệnh theo hàm (form nhập viện)
+
+	![](https://i.vgy.me/qLgphg.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/768
+
 ## [v.3.26.0619.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606190-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix lỗi danh sách khám bệnh ARV không có bệnh nhân khi vào các chức năng phát sinh lỗi 
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/897
