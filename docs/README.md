@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0622.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606221-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606221-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606221-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Chưa có mã bệnh án vẫn cho phép chuyển CLS vào nội trú #901
+- 🐛: Sau khi đã phát sinh maba mới thông báo bệnh nhân chuyển CLS vào nội trú
+![](https://i.vgy.me/hyjuHT.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/901
+
 ## [v.3.26.0622.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606220-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Chưa có mã bệnh án vẫn cho phép chuyển CLS vào nội trú #901
 ![](https://i.vgy.me/JTOOPi.gif)
