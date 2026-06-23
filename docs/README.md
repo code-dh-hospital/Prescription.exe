@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0623.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606231-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh) #796
+
+	- Fix lỗi: không chỉnh được thông tin, gõ sai mã bs
+
+	![](https://i.vgy.me/7Wwnq7.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/796
+
 ## [v.3.26.0623.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606230-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh) #796
 
