@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0624.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606240-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Cải tiến hàm `current.fn_check_sudung()` theo mô tả [Quan-tri-Admin/Danh-muc-Ma-may.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Quan-tri-Admin/Danh-muc-Ma-may.md) áp dụng cho mã máy.
+![](https://lh3.googleusercontent.com/pw/AP1GczPpU7nxupvHLWiZS8qA17f_LfPZ3X4BEUSlJlt4oUL0zrWU-JSadLOHcrwrM_QLqJHAm4-IyLSjWkWqSYbJso3w65tgm50urRgREs_YxYaFCBUqaD5qq0cugGJNJDE1jxqmZwuluT22dsFuxSgB1kRa=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/793#issuecomment-29998
+
 ## [v.3.26.0623.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606231-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Hỗ trợ mẫu khám sức khỏe định kỳ số 03 theo thông tư 32/2023/TT-BYT và ký số bác sĩ kết luận mẫu 03 (TTYT Đức Linh) #796
 
