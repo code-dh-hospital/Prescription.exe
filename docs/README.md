@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0629.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606292-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606292-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606292-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi phiếu 01 theo QĐ6556 không hiển thị được chữ ký người bệnh.
+![](https://lh3.googleusercontent.com/pw/AP1GczM_fCLwxAkndMOlPVmyuZaRWa_DqGOcMPp_3GctG7xleqWM6gdnrKlpQBHfbTTiApt-QMGvLaXiESzLKl5P2Ywjyng8iW80WelbVV2JWYVsBCJU76kGfYJGOnauQrXRE4xZpQUbVfATy9lJ9uVmafYq=w1270-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMzxeRPvaM0LNrg7eA8CWgJ4tbUObXoaixPXEMIw8Ve3rpLOORuKudASz_AAC6632oCdlpMzdQvWOxQFEaJV5BZYlE0MPuj2O_4Z61CHqJffDxtTai7jUEzeRZm7twbtPKhl_iKVhY8TXvS--AvOVt8=w731-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/716#issuecomment-30144
+
 ## [v.3.26.0629.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606291-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Mẫu bảng kê chi phí KCB mới theo QĐ 697/QĐ-BYT ngày 19/3/2026 #716 (push lại)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/716
