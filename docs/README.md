@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0630.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606303-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606303-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606303-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Mẫu bảng kê chi phí KCB mới theo QĐ 697/QĐ-BYT ngày 19/3/2026
+- 🐛: Fix in dư trang in bảng kê KCB
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/716
+- 📕: Bổ sung EKeToanVienPhi khi in bảng kê tại Form khám bệnh và BANT
+
+![](https://i.vgy.me/XVGAeT.png)
+
+![](https://i.vgy.me/HQFcUm.png)
+
 ## [v.3.26.0630.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606302-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606302-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606302-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Mẫu bảng kê chi phí KCB mới theo QĐ 697/QĐ-BYT ngày 19/3/2026 #716 (push lại)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/716
