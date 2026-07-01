@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0701.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607010-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung Option 6556 và para để tuỳ chọn ký số cho Người lập bảng kê.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/716
+- 📗: https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CAU%20HINH%20IN%20PHIEU%20KCB%206556/BO_SUNG_CAU_HINH_AP_DUNG_VA_IN_BANG_KE_QD_697_BYT.md
+
+![](https://i.vgy.me/NTlSxN.png)
+
 ## [v.3.26.0630.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606304-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606304-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32606304-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Mẫu bảng kê chi phí KCB mới theo QĐ 697/QĐ-BYT ngày 19/3/2026
 - 🐛: Fix lỗi chưa lưu được tên nhóm bảng kê vào XML3 cho VTYT và mất giá trị ma_doituong_kcb trên bảng kê
