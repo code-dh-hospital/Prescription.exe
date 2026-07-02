@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.26.0702.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607023-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607023-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607023-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - PRESCRIPTION - From Nhập viện và BA ngoại trú các trường nhập liệu không hiển thị hết nội dung #906
+![](https://i.vgy.me/Jx1b61.png)
+![](https://i.vgy.me/wxPpu3.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/906
+- 📕: 
+- Mở rộng sức chứa của các Editbox từ 255 lên 100
+- Mở rộng độ dài các trường lưu trữ sau từ VARCHAR(255) lên VARCHAR(1000) :
+- `current.bnnoitru.lydovv`
+- `current.bangoai.toanthan`
+- `current.bangoai.bophan`
+- `current.bangoai.kqcls`
+- `current.hbtsbenh.lydovv`
+- `current.hbtsbenh.qtbenhly`
+
 ## [v.3.26.0702.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607022-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607022-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607022-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription mất chức năng chỉnh ngày giờ diễn biến bệnh án ngoại trú (BV Thốt Nốt) #903
 ![](https://i.vgy.me/m2uruI.png)
