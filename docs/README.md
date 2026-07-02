@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0702.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607020-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Lỗi - Prescription không cảnh báo vượt lượt khám theo cấu hình (BV Thốt Nốt) #902
+![](https://i.vgy.me/0GUuJS.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/902
+- 📕: Nguyên nhân: do sql lấy số lượt khám đang đếm bằng cách `count(DISTINCT kb.mabn)` dẫn đến một số trường hợp trùng mã bệnh nhân nhưng khác phòng thì không đếm được
+![](https://i.vgy.me/QFF5xG.png)
+- Đã chỉnh sửa lại sql đếm tất cã các dòng `Count(*)`
+
 ## [v.3.26.0701.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607010-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung Option 6556 và para để tuỳ chọn ký số cho Người lập bảng kê.
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/716
