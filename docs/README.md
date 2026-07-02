@@ -6,6 +6,27 @@
 
 #
 
+## [v.3.26.0702.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607025-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607025-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607025-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi
+1. **Nguyên nhân**: tại thư viện `HosReg.Code.dll` => Class `HosReg.Code.Classes.ClsBaoCao` => Hàm `mcboLoaiBc_ValueChanged(object sender, EventArgs e)` đang ghi nhận thời gian kết thúc luôn lấy **ngày 1** của tháng kết thúc. Ví dụ tháng kết thúc là tháng 6 của quý 2 đang là: `this.cboNgayKT.Value = new DateTime(nam, 6, 1);`, nên kết quả là `01/06/2026`.
+2. **Cách xử lý điều chỉnh**: Tại hàm `mcboLoaiBc_ValueChanged(object sender, EventArgs e)` điều chỉnh lại cách gán giá trị thời gian kết thúc lấy **ngày cuối cùng của tháng**. Ví dụ tháng kết thúc là tháng 6 của quý 2 đang là: `this.cboNgayKT.Value = new DateTime(nam, 6, DateTime.DaysInMonth(nam, 6));`, nên kết quả là `30/06/2026`.
+3. Kết quả: các báo cáo thống kê:
+```
+-> Lượt đăng ký ban đầu
+-> Theo bác sĩ
+-> Theo giới tính
+-> Phân loại bệnh
+-> Theo nhóm ICD
+-> Theo ICD
+-> Chỉ định CLS - Dịch vụ
+-> Danh sách nhập viện
+-> Danh sách chuyển viện
+```
+![](https://lh3.googleusercontent.com/pw/AP1GczPj1SXmT2RbvQjfXoNKWXT1M5Kt7axRo9U-EHGdRXYY4uio4oCjzF3S1YyprIvpFDlnhsa4Sk5JLKOCT1NLrcyOCYtZo7ntYRWm4y9bBBPTdMflaL4FgSLflF811nlbbQgPHx0o2CFPgsXJmFgaDosC=w1460-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczONRtIMX6c9GouhDUidKAmPCIcg93JcwMckmSYG9Zz8nBXdVi6iRv4zaMPZ94cwDZ6T_7fCP-aGJpoWJg9fZ_S0MHd3bG6jXBflGPpeZhbwxpoh3pWscX3G3V2hsLkdK3pYGtQMlZo49guxCOa3-X1C=w1460-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/904#issuecomment-30228
+
 ## [v.3.26.0702.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607024-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607024-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607024-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Điều chỉnh mẫu gốc phiếu Thủ thuật/Phẫu thuật có sẵn hình ảnh lược đồ.
