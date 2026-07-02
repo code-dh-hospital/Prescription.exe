@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0702.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607024-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607024-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607024-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Điều chỉnh mẫu gốc phiếu Thủ thuật/Phẫu thuật có sẵn hình ảnh lược đồ.
+![](https://lh3.googleusercontent.com/pw/AP1GczMhs5ABpdjqiQ0nwNpuUuxzq2o9JgsEqKV8xDiZkkZWB44SLJqdgPtmreVP3jKNG8liP3wfcbv_oNNyBqqYzLR-gnFvxiXUozoxui94B4pDaFyoj-6Mih4B1GbwJ41ZvJ_tf8rLQUmfggplnVuIuIE9=w1270-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMMue8Rv7AON_VBA6TYrSdgjY6AWiuXdr_ILUy0MZ54iA2kuGhC1zfWOfLqE8VX7j5kQCn8GuMthAMSygIeXxbZIvGpG2tQMkqv20795ODPm_f6zcSQFxIF-R2JbNsskxc3jsMhsDzpPPUiLD_l633f=w1654-h879-s-no-gm?authuser=0)
+- ☑: (https://i.dh-his.com/hdhiswork/LOI/issues/905#issuecomment-30227
+
 ## [v.3.26.0702.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607023-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607023-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607023-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - PRESCRIPTION - From Nhập viện và BA ngoại trú các trường nhập liệu không hiển thị hết nội dung #906
 ![](https://i.vgy.me/Jx1b61.png)
