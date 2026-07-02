@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0702.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607021-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607021-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607021-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription mất chức năng chỉnh ngày giờ diễn biến bệnh án ngoại trú (BV Thốt Nốt) #903
+![](https://i.vgy.me/m2uruI.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/903
+- 📕: Nguyên nhân
+- Phát sinh từ luồng: http://i.dh-his.com/hdhiswork/yeucau/issues/784.
+- Khởi tạo biến `thoigian_dienbien_private` để xác định các trường hợp bắt theo mabv nhưng logic chưa đúng dẫn đến code luôn đóng chức năng chỉnh ngày giờ diễn biến đối với các trường hợp bắt theo mabv
+![](https://i.vgy.me/73kJLV.png)
+![](https://i.vgy.me/s654KD.png)
+* Đã chỉnh sửa:
+![](https://i.vgy.me/BJnmei.png)
+
 ## [v.3.26.0702.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607020-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Lỗi - Prescription không cảnh báo vượt lượt khám theo cấu hình (BV Thốt Nốt) #902
 ![](https://i.vgy.me/0GUuJS.png)
