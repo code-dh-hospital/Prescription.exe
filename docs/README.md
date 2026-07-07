@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0707.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607072-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chức năng lấy trạng thái trái tuyến theo Nghị định 188/2025/NĐ-CP và tiếp nhận/hiệu chỉnh người bệnh trái tuyến theo mô tả [XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczNcSBXWZ3dg2656Gq249HHqzmb740h1CU5Qn_IigaJiIC4UlU6wXs-en8waSq16pUQ4qYXUhFSlyS-PqM_o7uCRhhlv6eiT3MUreN4aYO4Xum1wNhM6Wpz0O-geENTNcqV3s3iA7UG6N8dir5gdlnDd=w1288-h671-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOZL7I9TPczhO9FRTP62veLYEw8xGjTzncFMxiLTWcyZwY3DqeLt9tZ4HFLJcf50R-iI9oeFxZgiFsCBlbFBVdXILOeiCuBHSbwKk9U_9tqysIxBAzLJXQUPpKgX97jNuKFFtQShHWPWvvlY1Wx1Qvn=w1250-h845-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOip8x_oc9_iV8iNXP9L1AeDXO2K3vehqOjQvnQRCUK0GN0P21mOTV8JKJhndSeRtSKD6c0LfGAL6_b4E6HhGACmXqIjVNb39dxDEUI5gL0y-TN8pKhexZ2mgDGPuzYIAqM7qEQiT32kQBPIY6cVAyT=w1529-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/814#issuecomment-30246
+
 ## [v.3.26.0707.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607071-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Ẩn đi cột Tồn cuối tại form dự trù thuốc, VTYT #820
         - Prescriopton:
