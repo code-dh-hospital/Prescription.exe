@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0708.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607081-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Điều chỉnh theo mô tả [XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md): Thay đổi điều kiện ngày áp dụng, từ `[Ngày áp dụng] <= [Ngày hiện tại của hệ thống dữ liệu]` thành `[Ngày áp dụng] <= [Ngày đăng ký]`.
+![](https://lh3.googleusercontent.com/pw/AP1GczMI-X-MRJcfbUfsiUzNStlim_8zvd4V6lO26QIdsHWGnqNlRV-LLUf6MaMwdRJ5__NeayEGB_S0G1bswxH1S8anoCAoejbBnQmhT72MjKjBmMGLv_eeoRNciOd0U-MAKhPkMgcOsri0EpjfviTm3qnc=w936-h475-s-no-gm?authuser=0)
+- ✨: Bổ sung chức năng lấy trạng thái và chi phí trái tuyến mẫu 01 theo Nghị định 188/2025/NĐ-CP người bệnh trái tuyến theo mô tả [XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczNcSBXWZ3dg2656Gq249HHqzmb740h1CU5Qn_IigaJiIC4UlU6wXs-en8waSq16pUQ4qYXUhFSlyS-PqM_o7uCRhhlv6eiT3MUreN4aYO4Xum1wNhM6Wpz0O-geENTNcqV3s3iA7UG6N8dir5gdlnDd=w1288-h671-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPqyzX3athHC22qYC8cynaHUxVLQhp95MfJpepZqNF3Ep4oLhAnKw2og3G2sjdA-0WNimvF3iIteqeONg3ldZ-3Ifk1z14ocsjj-uWvC1ZoTgjMyhVo4LyTTUy9r5l_Oc3z-8GqpNmwOedWq90LvwmT=w767-h813-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczM0TIcdP0ztoda0tVDkEU39BArwfaAxEOKNtriHdmkhzhe8_ZQu0QAz85IuhcfZrKQwC2aGPj_SRMsYKsbNQc9JQBw4pZAUxByy6n0UQ_tn1suNYBgaWuGApioVi_3srB0fXQuJearVcRN22yKUMAwZ=w770-h844-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/814#issuecomment-30246
+
 ## [v.3.26.0708.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607080-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Lỗi in phiếu chuyển viện ký số (PK Minh Quang) #910
 ![](https://i.vgy.me/7XLOBw.png)
