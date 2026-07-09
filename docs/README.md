@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.0709.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607092-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607092-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607092-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Presscription hỗ trợ thêm mẫu Giấy cam kết chấp nhận thủ thuật, phẫu thuật, gây mê hồi sức theo thông tư 32
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/827
+- 📗: https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/BO_SUNG_GIAY_CAM_KET_PTTT_THEO_TT32_NGOAI_TRU.md
+
+- Cập nhật thư viện bổ sung thông tin Ngày sinh và tuổi của quan hệ thân nhân để người dùng cập nhật.
+
+![](https://i.vgy.me/a582u4.png)
+![](https://i.vgy.me/i78N5W.png)
+
+- Mở chức năng Phiếu thoã thuật PTTT cho toàn bộ đơn vị sử dụng.
+
+![](https://i.vgy.me/7Y2N9f.png)
+
+- Bổ sung chức năng giấy cam kết PTTT theo TT32 tương tự nội trú.
+
+![](https://i.vgy.me/oHavr1.png)
+
 ## [v.3.26.0709.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607091-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi khi đăng ký bệnh viện tuyến huyện trong tỉnh.
