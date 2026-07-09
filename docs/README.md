@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0709.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607091-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi khi đăng ký bệnh viện tuyến huyện trong tỉnh.
+![](https://lh3.googleusercontent.com/pw/AP1GczNuyJbvuh-OZMoGSfXp4JPvR0RZb72AzCmShIoJD2paL7bHWC0FnaJ2RwGtyJ1rpkRexMyIjY7SDGYW9Yfr5xJ29_l1pb5mQbzqbY79ZnrYpSA-ey_kAILsZfj4DPSwXW9MX00dlf63S-kpSfKCfR0I=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOYWDeW90eKAJA_IgJ_VoArnjsChgWMdrN3Wf52Y2mmqliLEFgCduRNUf4yUo0XEryJZlgYha1td_e4XM12Lg_bE0hzO4GUhvKQZvcSEw8BWr660wCczdrxANtU2Mzzr84wyNVvgIdnj-63F5FO-UyC=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/814#issuecomment-30513
+
 ## [v.3.26.0709.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607090-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi khi đăng ký bệnh viện tuyến huyện trong tỉnh.
