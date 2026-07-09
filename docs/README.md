@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0709.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607093-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607093-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607093-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Printer, Prescription hỗ trợ chữ ký số bác sĩ đối với toa thuốc thang TT55 (BV YHCT)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/815
+
+![](https://i.vgy.me/77Ui6C.png)
+
 ## [v.3.26.0709.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607092-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607092-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607092-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Presscription hỗ trợ thêm mẫu Giấy cam kết chấp nhận thủ thuật, phẫu thuật, gây mê hồi sức theo thông tư 32
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/827
