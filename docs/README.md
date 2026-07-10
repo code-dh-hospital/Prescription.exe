@@ -6,6 +6,26 @@
 
 #
 
+## [v.3.26.0710.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607101-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Fix lỗi không lấy được thông tin psdangky.namsinhqh đối với trường hợp ngoại trú không có maba
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/827
+
+![](https://i.vgy.me/j2xeKM.png)
+
+---
+
+- 🐛: Fix lỗi lấy sai mã đối tượng KCB và không lấy được thông tin tổng tiền bệnh nhân luỹ kế đối với BANT 
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/827
+- 📕: Sửa lại điều kiện thêm COALESCE cho maba khi lấy thông tin Giấy cam kết PTTT TT32 điều kiện để join psdangky.maba sẽ không lấy được thông tin nếu maba = null
+
+- Phiên bản trước :
+
+![](https://i.vgy.me/P4Uxxr.png)
+
+- Sau
+
+![](https://i.vgy.me/a1udyQ.png)
+
 ## [v.3.26.0710.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607100-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Lỗi in phiếu chuyển viện ký số (PK Minh Quang) #910
 - 🐛: Fix lỗi khi in có ký số, khổ giấy in ra không đúng với khổ giấy cấu hình trong tự thiết kế
