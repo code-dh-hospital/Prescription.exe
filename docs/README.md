@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0710.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607100-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Lỗi in phiếu chuyển viện ký số (PK Minh Quang) #910
+- 🐛: Fix lỗi khi in có ký số, khổ giấy in ra không đúng với khổ giấy cấu hình trong tự thiết kế
+![](https://i.vgy.me/Uq456F.png)
+![](https://i.vgy.me/T6aooG.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/910
+
 ## [v.3.26.0709.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607093-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607093-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607093-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Printer, Prescription hỗ trợ chữ ký số bác sĩ đối với toa thuốc thang TT55 (BV YHCT)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/815
