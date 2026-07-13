@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0713.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607132-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607132-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607132-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription không cảnh báo vượt lượt khám theo cấu hình (BV Thốt Nốt) #902
+- 🐛: Chức năng kiểm tra lượt khám bác sĩ Prescription mới bắt luôn bệnh án nội trú
+![](https://i.vgy.me/Lnv0Kz.gif)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/902
+
 ## [v.3.26.0713.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607131-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Sử dụng UserControl `MaMayControl` cho phép chọn nhiều mã máy khi thực hiện TT/PT.
