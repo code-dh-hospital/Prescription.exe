@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0713.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607130-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Sử dụng UserControl `MaMayControl` cho phép chọn nhiều mã máy khi thực hiện TT/PT.
+![](https://lh3.googleusercontent.com/pw/AP1GczN26G6QhanoVT11elTwTGrOBjXSB3YBPLttzHEZKsWerXFr57z6tRbYekA0oLzcOXsrZXaVMreC93l0kOcGuHaFJExZrexIVfz4pWp1L1__JcBY28Hryl3Ns01V01hkuDekjfL3W1I2xcXHqCe_-yos=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/706#issuecomment-30270
+
 ## [v.3.26.0710.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607102-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607102-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607102-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Fix lỗi lấy sai mã đối tượng KCB và không lấy được thông tin tổng tiền bệnh nhân luỹ kế đối với BANT 
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/716
