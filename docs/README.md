@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0715.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607151-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Không thấy bệnh nhân trên Printer khi xóa toa sau chuyển phòng (PK Đông Tây)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/909
+
+- Nguyên nhân gây lỗi : Trường hợp bệnh nhân được chuyển đến phòng khác khi tài khoản đăng nhập đúng tài khoản cấp toa của phòng đầu tiên thì thao tác xoá toa có cập nhật lại thông tin khambenh.sohd nhưng điều kiện madv và maphong luôn lấy theo cấu hình máy nên không cập nhật được.
+- Xử lý lỗi : khi xoá toa sẽ xác định madv và maphong đúng theo thông tin của toa thuốc để cập nhật lại trạng thái bảng khambenh đúng phòng.
+
+![](https://i.vgy.me/93Yu7U.png)
+
 ## [v.3.26.0715.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607150-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Form chỉ định CLS nút [Chỉ định lại các chỉ định đang chọn] bị ẩn (disable) #917
 ![](https://i.vgy.me/z0HUEW.png)
