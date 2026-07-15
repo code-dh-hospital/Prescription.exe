@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0715.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607150-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Form chỉ định CLS nút [Chỉ định lại các chỉ định đang chọn] bị ẩn (disable) #917
+![](https://i.vgy.me/z0HUEW.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/917
+- 📕: Nguyên nhân
+- Do cập nhật bản `v.3.26.0707.1` có thay đổi code và vị trí đặt code củ dẫn đến không chạy được vào phần enable nút `Chỉ định lại các chỉ định đang chọn`
+![](https://i.vgy.me/CqKeoB.png)
+![](https://i.vgy.me/pl41HC.png)
+
 ## [v.3.26.0713.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607133-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607133-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607133-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Sử dụng UserControl `MaMayControl` cho phép chọn nhiều mã máy khi thực hiện CLS/TT/PT. Hỗ trợ xuất XML theo nhiều mã máy.
