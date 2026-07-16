@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0716.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607160-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi nhận bệnh Có giấy chuyển nhưng thể hiện Trái tuyến.
+![](https://lh3.googleusercontent.com/pw/AP1GczN7f9ks6EooFQjbxTV3V35SF9c8SaanjORCPwI5Jfoa2HMtWMpKRXhymxLzSCog9-G2jqHMtYrUVWt76UkeRWQT7rzI7LccAYyW9WS2oA3xS3jdFO4WhAR_cHPgXQNP1MM1tfV8wU_GebnocvoKUJ-v=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczP0OJHEpRtf1eFr6E8FyXSBb4e5E1d8_Qh9jOMI8TuIBO--W595x4qu-EccasUPOgyUXfuXj8Xd_Kkgon8xGp1xpeoykufmF2JUK6uYrBQhAfWtGUKHFj08CuThVyPZwfv5A7jP6Q-4DHskbc9BaAAP=w1131-h357-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/923#issuecomment-30822
+
 ## [v.3.26.0715.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607151-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Không thấy bệnh nhân trên Printer khi xóa toa sau chuyển phòng (PK Đông Tây)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/909
