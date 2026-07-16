@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0716.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607161-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi Tại form lập phiếu PT/TT khi chỉnh lại mã máy, giao diện phần mềm chưa cập nhật hiển thị lại mã máy.
+![](https://lh3.googleusercontent.com/pw/AP1GczPA_V5th8W1RlUhj5iDzV9v3TOKso1pD4zvJxeNiBxXiwhBwpVJ2zeq1L_FOQbueb9t1hOCwn48cV87nGVKXaUpT5MNuvrtovMwMcIrpRfdbSzJ1si7-mGyii-4LH5-8sU1k0zfI01V7WMKxHi7Dfu3=w1661-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/706#issuecomment-30927
+
 ## [v.3.26.0716.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607160-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607160-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607160-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi nhận bệnh Có giấy chuyển nhưng thể hiện Trái tuyến.
