@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0720.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607202-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607202-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607202-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Thêm dấu check chọn tất cả kết quả CLS (TTYT Đức Linh) #841
+![](https://i.vgy.me/pxb7up.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/841
+
 ## [v.3.26.0720.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607201-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Không thấy bệnh nhân trên Printer khi xóa toa sau chuyển phòng (PK Đông Tây)
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/909
