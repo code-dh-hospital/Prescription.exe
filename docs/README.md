@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0720.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607200-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Mẫu 01 (697) ⇒ Điều chỉnh lấy tên bệnh khác không bao gồm bệnh chính không thay thế các ký tự theo tham số `pcchandoan`.
+![](https://lh3.googleusercontent.com/pw/AP1GczPW4oytg_7R2-b7ce4_MeDYONWG74sA_9Cj8enaLm1B-eWpdW_XXJrVKhZgeFDDX3_mqbqBHMxOUJ2q6HkonRnetRm4hDtw2hkFplgmqR78tPo3VikcvIxGSPAymQa4f6AmAU9A_9f6dAOAgFt6NSNL=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczN9sjTp-XhM5SV8YI2bAxdEML26zfIU6e4XP1ZaZZs4vx7DJJdEBNm28jNDI6gmZy-Pm_kmDNI_yO_wIJSe1cXrMpw0L8WPkr2tK8xWS25Cw6EkeLSRkUebEVjXr_WUQSQ9nZO-CriPAWacGRWh3XNl=w1555-h805-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/844#issuecomment-31026
+
 ## [v.3.26.0717.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607170-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Cải tiến UserControl `MaMayControl`: Hỗ trợ nút `[...]` cho phép tìm kiếm trong danh sách mã máy.
