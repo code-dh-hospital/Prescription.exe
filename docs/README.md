@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0720.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607201-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Không thấy bệnh nhân trên Printer khi xóa toa sau chuyển phòng (PK Đông Tây)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/909
+- 📕: Thay đổi xử lý lại xoá toa thuốc gán đúng giá trị cho khambenh.sohd và psdangky.ttkham thay vì kiểm tra chung không còn toa của đợt khám thì mới cập nhật.
+
+![](https://i.vgy.me/bdRW3n.png)
+
 ## [v.3.26.0720.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607200-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Mẫu 01 (697) ⇒ Điều chỉnh lấy tên bệnh khác không bao gồm bệnh chính không thay thế các ký tự theo tham số `pcchandoan`.
