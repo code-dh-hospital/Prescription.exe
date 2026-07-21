@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0721.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607210-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi Mẫu 01 (697) hiển thị sai bệnh kèm theo (khi không có chẩn đoán phụ).
+![](https://lh3.googleusercontent.com/pw/AP1GczO6cBU4bVY21KXYq02beqVHEyGcof79YzUYNrqf6y3BhhVSxBCFGjWykB3lIkl_2KVx_dy2L4TR0JurKpOLaICnqTgYJAyVV-iEwJKIHUQkryxWdSnkoVYsSIoM-580Zp437y1dhbgPJeaxmt1Q9K2k=w1555-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/844#issuecomment-31141
+
 ## [v.3.26.0720.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607202-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607202-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607202-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Thêm dấu check chọn tất cả kết quả CLS (TTYT Đức Linh) #841
 ![](https://i.vgy.me/pxb7up.png)
