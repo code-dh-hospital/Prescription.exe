@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0723.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607233-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607233-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607233-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Cập nhật cách tính mức hưởng khi xuất XML và phiếu 01 đối với người bệnh bệnh án ngoại trú theo mô tả: [XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md)
+![](https://lh3.googleusercontent.com/pw/AP1GczNg8SjTo5N5ju8W1O73C6DXgSi7tEm4tgTawvHpCpPfKSdMdl48NRoHhb6nc5Ox1kqxuJOJmxSR3KC-b5MN0byKRyvfZRNJiDEmuskpimlcW4cx-dCv7o4JpGXLNB0BYBcfBGieT-XuromB8Qzjvk-Y=w1555-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOClubb2ZiyJ5Zt-iScibElpXumHM-q204ZZL-QiZ39eYT82CtcVQ6rvVWwpWJ6jzBTVRaXoWKoU9wu9WmdRbK5nIked_IFymQjJVNaMBVcwqXQkwpJp6j7hywGxaazXzQEl-LAg0FE2JGZewrxkAhK=w1555-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPoCXu4xtcxhSLjejbw9sTNDsz-5lVrs-73EsmZI6AU6y641PIVHmoMziMi9WiM6QDkguWhUwS_CYR_diotl_KrY3PfZnQ61NMNbMdnBgwFuPTxgnA9ZcPoBIO8OQMlq91UYghDy4e0pkvy-umsGp3q=w1555-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMWT7v9h_BS942DtGp7rP334bzBW2vmW03nxO4OVxkjK9OjfXe0oYdx9wRQMRRyhx_4da0-Q9BbLQiYpuxswC8QCZ6-nUJfGHUwNS1JYs-J0LuCawERXySXw4pD9pdavPYC7yDQ6fJy4FZG1ssULFD8=w763-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/852#issuecomment-31238
+
 ## [v.3.26.0723.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607232-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607232-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607232-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Ghi nhận thông tin trái tuyến bệnh án ngoại trú theo mô tả: [XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md)
