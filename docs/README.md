@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0724.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607240-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi:
+1. Cảnh báo sai % thu bệnh nhân trái tuyến BANT ngày.
+![](https://lh3.googleusercontent.com/pw/AP1GczNxsGZlaJGbs2RwJZjcCkPB82F-2_xjIgMSsS9rbbi2uRFuaxqSUPHun-_TxXeiu650Xm43F05BkSfbKYszHMqKAQumnOTO1XJaPfG1YpAuF5ZQ5yfIfVc1qdTkVks1M2XoHgcdQtTegOWvXS8OutBJ=w1654-h879-s-no-gm?authuser=0)
+2. Form tổng kết hiển thị sai tiền bảo hiểm thanh toán so với bảng kê BANT đợt và ngày.
+![](https://lh3.googleusercontent.com/pw/AP1GczOLoJbGx-PD_cejG2wPuDBwpsX2Oi6zYTD2bDM8izeIr3m3QEVsCMEGDhN2Tf6NsWnxGZq4o27l-0GE3P8kS0grYJPPhMRzhWmvAl3gNcsGlakJZKvNPkdd9YpUv3ZtowpY3vsnIVcaFT6Kr-L1NQC3=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNDsrHRnuwqPsNRptnTwHrDpwnAiYhg3PbxnWpCcmJeSR6Y-Ze5hPo68wKOHzHa6d9ydiQT3yIkX3sJ-4v9uvc2pg-R6Rw9Ce4w_E_rFv26WUGIMoF3uTAVN3Dak3yMFqtgTALZG8NuvXKfsaRgJTpU=w1360-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/852#issuecomment-31362
+
 ## [v.3.26.0723.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607233-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607233-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607233-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Cập nhật cách tính mức hưởng khi xuất XML và phiếu 01 đối với người bệnh bệnh án ngoại trú theo mô tả: [XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/Nghi-dinh-188-2025/Thuc-hien-Nghi-dinh-188-2025-Kham-benh-trai-tuyen.md)
