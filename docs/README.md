@@ -6,6 +6,47 @@
 
 #
 
+## [v.3.26.0725.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607251-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Treatment: Các mẫu số hóa bệnh án mới theo TT 32/2023/TT-BYT và TT 51/2017/TT-BYT #828
+
+Câp nhật Prescription:
+
+- PK-02. Phiếu khám chuyên khoa
+
+![](https://i.vgy.me/kXTEYJ.png)
+![](https://i.vgy.me/yGM5lq.png)
+
+- HC-09. Giấy cam kết từ chối sử dụng dịch vụ khám bệnh, chữa bệnh
+
+![](https://i.vgy.me/kXTEYJ.png)
+![](https://i.vgy.me/nPQIPF.png)
+
+Script cập nhật trong mô tả
+[THONGTU51/Mota_sohoa_bieumau_theo_thongtu_51_2017_tt_byt.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU51/Mota_sohoa_bieumau_theo_thongtu_51_2017_tt_byt.md)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/828
+<<<<<<< HEAD
+
+## [v.3.26.0725.0]()
+- ✨: Yêu cầu - Treatment: Các mẫu số hóa bệnh án mới theo TT 32/2023/TT-BYT và TT 51/2017/TT-BYT #828
+
+Câp nhật Prescription:
+
+- PK-02. Phiếu khám chuyên khoa
+
+![](https://i.vgy.me/kXTEYJ.png)
+![](https://i.vgy.me/yGM5lq.png)
+
+- HC-09. Giấy cam kết từ chối sử dụng dịch vụ khám bệnh, chữa bệnh
+
+![](https://i.vgy.me/kXTEYJ.png)
+![](https://i.vgy.me/nPQIPF.png)
+
+Script cập nhật trong mô tả
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/828
+=======
+
 ## [v.3.26.0724.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607240-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi:
