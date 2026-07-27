@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0727.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607270-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi Chức năng đăng ký bệnh nhân khi chỉnh bệnh nhân đã đăng ký -> chọn bỏ qua báo lỗi
+![](https://lh3.googleusercontent.com/pw/AP1GczOSMphcvkG0AxCzGDYhzqccKAD15yANyf0BQHDybHEUQCKtCUcxxfS_aYCvdYbKOwjLbgK-_PPxDe7EeU1DemdjYllWLDmf06qDM6DOrdUhTq6S8Jy6BUvKYZHzM0eqJzPnBk7Em58X9roYgkj2ADsH=w1661-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/852#issuecomment-31420
+
 ## [v.3.26.0725.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607251-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Treatment: Các mẫu số hóa bệnh án mới theo TT 32/2023/TT-BYT và TT 51/2017/TT-BYT #828
 
