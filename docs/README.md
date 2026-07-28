@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0728.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607280-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung xuất ma_loai_kcb theo cập nhật mô tả [XML130/QD4570/ma_loai_kcb_QD1804.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD4570/ma_loai_kcb_QD1804.md): 
+![](https://lh3.googleusercontent.com/pw/AP1GczOa0AWjFF78unZDpPPcSXkectC30WoyPUhy3kOdG7bU_91Jr_aFgIdB0yuKTG7O6l0ihxO6poQq3skkA5VnPfEFg9BoIMWZeMuIpW6jKcYfRHJghzFM88hMuEVdA-_ywIsqhjepVmqClSgePepXDjG4=w1025-h837-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczN68_UmJiyuPSWhsM6ACxTF_7OvO3mjwPk912ETBaGVL4M41oF9hf_5kHEx3CQ26uGzVidXtntmqsuHNGcpWnmHbcGS1GZJocwwmNfGyQ7Q183-Hu5yoGdjMInrb56IhiU3Fw_LXI6WGJuEBQuSD6QQ=w1028-h555-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNaFOCXcFohOr5kyC_z_n6AuRObYQyQ_QvvmrZMHNNDZRcYFHXqxmfN9TgeQzF2IVhUk7x161N6rNwlAjy9esYHwNjJwbHn9rZonfNjReYarB8nat5bKsOYjTy4y3matxVKWSZ7wikvBEwrNu25HE5j=w1554-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/839#issuecomment-31428
+
 ## [v.3.26.0727.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607270-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi Chức năng đăng ký bệnh nhân khi chỉnh bệnh nhân đã đăng ký -> chọn bỏ qua báo lỗi
