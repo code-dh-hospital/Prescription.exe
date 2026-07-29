@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0729.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607290-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi xuất XML cột `ma_loai_kcb`
+1. BN có BANT đợt khám bệnh thuộc phụ lục I, có toa thuốc, không có CLS trừ công khám => ma_loai_kcb = 05. (Hiện tại phần mềm ghi nhận ma_loai_kcb = 02)
+![](https://lh3.googleusercontent.com/pw/AP1GczPOti77N8jbpENFMuWaSB4skAxd0_Rwiii87xMlIFZ_oV5mJrLhAyBmhGGqbhIhzEqe3rlouJNrepuUkoHMwu9uwze1SzQijmCxuzP0WhKaajmyfHgcQU7xCluditsqnyKUjjXzGoJFV1EbTt6h9jzs=w1555-h879-s-no-gm?authuser=0)
+2. BN có BANT đợt khám bệnh thuộc phụ lục I, có hoặc không toa thuốc, có CLS khác công khám => ma_loai_kcb = 08 (Hiện tại phần mềm ghi nhận ma_loai_kcb = 02)
+![](https://lh3.googleusercontent.com/pw/AP1GczPrclyZ8FPZ4TVhR0yjqq8qePKvWRoe-ErTusr1K8Pzw1OplZu33JtCNJpVhPG_nfnRv689vuBs59euvVcC245zjr4rSbLsLvguz-2ihW9IgqkP3qGoP2augJtnRZDdrDt8iN-NA-QZAJ-PHmvT-e8j=w1555-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/839#issuecomment-31482
+
 ## [v.3.26.0728.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607281-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi cảnh báo sai phần trăm thu người bệnh BANT quyết toán ngày trái tuyến được hưởng như cùng tuyến.
