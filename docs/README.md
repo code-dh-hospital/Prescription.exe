@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0729.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607292-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607292-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607292-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi Phiếu chỉ định CLS hiển thị chưa đủ nội dung chẩn đoán.
+![](https://lh3.googleusercontent.com/pw/AP1GczNYGx6Ip1v7wxekOwgAYbGG7BOoRHrrH43ccQrm7G3A4s1Yje6EgfPDEjhSGbniXFTPO9rwimqPwI71zzvGFl8AUZD0XLmWdQx4bATI2PuAa1c-XXiDZrARQe07QqJ4GFJVYqlWydaAFz7SOubj7SXf=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/932#issuecomment-31580
+
 ## [v.3.26.0729.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607291-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Toa thuốc ký số, phiếu chuyển viện ký số và phiếu PT-TT ký số không in được chữ ký số (PK Minh Quang) #946
 ![](https://i.vgy.me/hpqxGR.png)
