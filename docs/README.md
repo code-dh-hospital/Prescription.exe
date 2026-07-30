@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0730.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607300-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung key `pre_chonphongkham` và bổ sung `mabvbh = 74167`, cho phép chọn phòng khám trước khi khám.
+![](https://lh3.googleusercontent.com/pw/AP1GczPEZN-7Fo0Ag8PVMDEbWE-sHs1NvHlDdYzt98vDXJJ5oRn4p-NJGtxJaPprAB62rEpPT3uAevdb_1fDZ5ZX4prqM_JLy5QbUs-aSDT8sPikiQfA5WzwXj2tAvP75fsUiABb1uW6eisl768_xa5XIEZh=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/858#issuecomment-31568
+
 ## [v.3.26.0729.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607293-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607293-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607293-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription bổ sung chức năng xem kết quả Chẩn đoán hình ảnh load ảnh từ PACS #860
 	- Cập nhật:
