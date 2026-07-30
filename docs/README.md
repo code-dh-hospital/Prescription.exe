@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0730.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607301-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607301-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607301-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi load dữ liệu sổ phẫu thuật, thủ thuật khi tham số `rp.so_tt_pt = 1`.
+![](https://lh3.googleusercontent.com/pw/AP1GczMO3Bk2ubURadVDiGXVhGiFVrm0YUYz4q_b0wBx3vXLgODCe8I_ol3edYcJ0Wf8OdhK8Phvyhf-h8eByQIFmiMXOrQ33njjQMW4VwIk37JAjhMeXUckRTY2LJW52PQ4b2FV8GLc3x5DrGj8E1i0Vruj=w1578-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOoF8FcX0gRgGxIUadBvYDyCAtfVGbKrVrilUkbO46uYNMXhsCkh6Yf0WIEjoCIyDawqEMwkwoLE5p2sILx7BGSQ14w9bEsDZbhoeOyh0PpnvzefSA7ni3F9F0F4PbLTRo6DfD-ULLt2Nr7nokT7Pi7=w1578-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/929#issuecomment-31583
+
 ## [v.3.26.0730.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607300-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung key `pre_chonphongkham` và bổ sung `mabvbh = 74167`, cho phép chọn phòng khám trước khi khám.
