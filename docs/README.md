@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0731.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607310-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607310-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607310-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi chức năng cấp toa thuốc vẫn cho lưu mã bệnh kèm theo đã ngưng sử dụng.
+![](https://lh3.googleusercontent.com/pw/AP1GczN7u1TyLwoKoTT338e6N6KwiM0ySGeoywOrEs5xgn2JI43XxZoO1A_zyDggblIOVdMHgssfjP4ZqL3jCAn-ADSbuU1K7qsIPzIMvUcRgk4FYs2_pYUXW-BP_98hraiABck7zJNoUv7o8t6JanCv124l=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczO_yUVHVuhE6m_-RvHuxNmBGdLYH2DaMtfxP5kDAhdxAjXZPZ2owlFXZ4GCQJb29roI_TiJ5TJ0Q0h1w-91xPy5vBTuFZmWRPJ3yrYZJQxr3uhSH7QmUsx9O0hJJ9goEMH5QoGZvcuWR2VmaUsKNJ-l=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczM-CItYdyxeDdjicSjKP34lT0HlP9KxokTDwrMaXFNQj9WsNFVN44Jzyi1xTcc3kkpX32T05YH2gaapLgYpnGsQOfCP5Kzbdf5PxbEFTLkdDzBPCF9UUMTx2zXUw_5LCRFvd_ResmmcMtfiaqRAQfSR=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/935#issuecomment-31587
+
 ## [v.3.26.0730.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607302-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607302-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607302-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Mẫu giấy KSK và KSK định kỳ theo thông tư số 25/2026/TT-BYT (TTYT Đức Linh) #833
 - Mẫu 1
