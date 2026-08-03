@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0803.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608030-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription Chức năng ký số EMR (BV Ô Môn) #949
+![](https://i.vgy.me/UvqJnb.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/949
+
 ## [v.3.26.0731.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607312-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607312-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32607312-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Định hướng thiết kế theo project demo tại đây: https://github.com/code-dh-hospital/demo-tolaptrinh/tree/main/CrudFramework. 
 	Mục tiêu theo repo: Tách logic cập nhật dữ liệu vào Postgres + Cấu hình các control trên form + Tạo các entity theo bảng dữ liệu theo Postgres.
