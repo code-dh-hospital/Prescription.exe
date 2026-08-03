@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0803.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608031-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi Bảng kê BANT theo đợt không lấy được tên bệnh kèm theo.
+![](https://lh3.googleusercontent.com/pw/AP1GczN3kOjz8e5jvLHLWT-hpCDYZw-A86Gc1Hu4tR4DYcId1ON3fMfoJJNIU5x7wScAcKaBA9an6kB4LLZMO3Ymr_GnLADuUooUiv0QV2NBDWjigzuuWfBFNgqwqUmVC9_u5o9kNgTca89pSdLFMuBDVA-G=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/941#issuecomment-31589
+
 ## [v.3.26.0803.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608030-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription Chức năng ký số EMR (BV Ô Môn) #949
 ![](https://i.vgy.me/UvqJnb.png)
