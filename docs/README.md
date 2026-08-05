@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0805.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608050-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sổ thủ thuật, phẫu thuật khi xuất báo cáo tháng bị quá chậm gây treo hệ thống.
+![](https://lh3.googleusercontent.com/pw/AP1GczO-hcf8v5aN8-YNu3zD5_dUYPbkAImYJ4sfHr2kQFdtQPLPCdxfPgw0mOxkxdgxBMDxbuBDkxexH8JifHZ0xRi9-Sv2AqImz39M9mmWcTIYFrlycNYMuI-pbbcx7p40CwNJar4d0gdNFmpmYKJmSs9y=w1661-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/959#issuecomment-31849
+
 ## [v.3.26.0803.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608031-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi Bảng kê BANT theo đợt không lấy được tên bệnh kèm theo.
