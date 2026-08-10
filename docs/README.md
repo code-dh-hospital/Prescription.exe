@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0810.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608100-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi XML4750/XML3175 `bang3.NGAY_KQ` lấy sai giờ trả kết quả.
+![](https://lh3.googleusercontent.com/pw/AP1GczNZuEVEcnlaX0nFPuw9244OJGJBD_SHp-_ga2R6a4Gn3Zk6txUT4eHKylw_U11bYM6Uuq2R-0ZDrpT4kf0Zz1NJpISg9sPnGToVDHS9S5Wz3DwRJUUAxXtullL7az69428JRBf6rfwX-qSAc_im2yfh=w1555-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/952#issuecomment-31851
+
 ## [v.3.26.0807.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608070-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Treatment: Các mẫu số hóa bệnh án mới theo TT 32/2023/TT-BYT và TT 51/2017/TT-BYT #828
 
