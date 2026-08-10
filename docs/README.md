@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0810.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608101-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Áp dụng tham số kb.bacsi.sophuttoithieu #868
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/868
+- 📕: Mở chức năng kiểm tra `Số phút tối thiếu khám bệnh giữa 2 bệnh bệnh nhân với cùng bác sĩ.` theo tham số `kb.bacsi.sophuttoithieu` cho tất cã các đơn vị
+![](https://i.vgy.me/W52RX1.png)
+
 ## [v.3.26.0810.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608100-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi XML4750/XML3175 `bang3.NGAY_KQ` lấy sai giờ trả kết quả.
