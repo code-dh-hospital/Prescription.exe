@@ -6,6 +6,25 @@
 
 #
 
+## [v.3.26.0811.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608111-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Lỗi - Prescription, Printer bảng kê bệnh nhân ngoại trú in thiếu tên chẩn đoán phụ (BV Ngã Năm) #953
+	- Prescription: cập nhật para: TEN_BENH_KEM_THEO
+	
+	+ Lấy chẩn đoán kèm theo, theo option:
+
+	![](https://i.vgy.me/Wa8Z8C.png)
+
+	+ Lấy tất cả chẩn đoán kèm theo:
+
+	![](https://i.vgy.me/dLLz9Y.png)
+
+	+ Lấy lấy chẩn đoán kèm theo, theo phòng:
+
+	![](https://i.vgy.me/tbN4jR.png)
+	![](https://i.vgy.me/D4gDkt.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/953
+
 ## [v.3.26.0811.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608110-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription ký số sai tài khoản bác sĩ #958
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/958
