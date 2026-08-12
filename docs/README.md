@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0812.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608120-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Lỗi - Prescription, Printer bảng kê bệnh nhân ngoại trú in thiếu tên chẩn đoán phụ (BV Ngã Năm) #953
+	- Prescription: Fix lỗi load form chỉ định CLS
+
+		![](https://i.vgy.me/0FtnBw.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/953
+
 ## [v.3.26.0811.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608111-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Lỗi - Prescription, Printer bảng kê bệnh nhân ngoại trú in thiếu tên chẩn đoán phụ (BV Ngã Năm) #953
 	- Prescription: cập nhật para: TEN_BENH_KEM_THEO
