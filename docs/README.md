@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.26.0812.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608122-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608122-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608122-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Mẫu giấy KSK và KSK định kỳ theo thông tư số 25/2026/TT-BYT (TTYT Đức Linh) #833
+- 🐛: Fix lỗi không lưu được hiệu sinh
+- 🐛: Bác sĩ hiển thị tên bệnh nhân
+![](https://i.vgy.me/5AIeaa.png)
+- 🐛: Bệnh nhân đã nhập đủ thông tin vẫn hiển thị màu trắng
+![](https://i.vgy.me/Srd5Kj.png)
+- 🐛: Chưa chọn được các ICD từ thanh mục
+![](https://i.vgy.me/rxzPXi.png)
+- 🐛: Thêm chức năng chọn từng kết quả hoặc toàn bộ và lưu kêt quả CLS
+![](https://i.vgy.me/gvUHkw.png)
+- 🐛: Hổ trợ lấy danh sách bác sĩ được khám ở nhiều khoa
+![](https://i.vgy.me/zw55Wl.png)
+- 🐛: sửa lại các checkbox check sai
+![](https://i.vgy.me/22qjoP.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/833
+
 ## [v.3.26.0812.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608121-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608121-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608121-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Mẫu giấy KSK và KSK định kỳ theo thông tư số 25/2026/TT-BYT (TTYT Đức Linh) #833
 - 🐛: Fix lỗi không lưu được hiệu sinh
