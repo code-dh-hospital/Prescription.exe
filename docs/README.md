@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.26.0813.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608132-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608132-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608132-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Treatment: Các mẫu số hóa bệnh án mới theo TT 32/2023/TT-BYT và TT 51/2017/TT-BYT
+	+ Fix lỗi các mấu TT 51/2017/TT-BYT
+	+ PK-02. Phiếu khám chuyên khoa: Mở form lên đóng lại, rồi mở lại form thì lỗi, mẫu in lỗi:
+
+	![](https://files.catbox.moe/ilp4ja.gif)
+
+	+ HC-09. Giấy cam kết từ chối sử dụng dịch vụ khám bệnh, chữa bệnh:
+	+ GDSK-01. Phiếu tư vấn - hướng dẫn – giáo dục sức khoẻ: Cần thêm chức năng chọn người ký là bệnh nhân hoặc thân nhân để lấy họ tên ký cho phù hợp:
+	+ Phiếu khai thác tiền sử dị ứng:
+
+	Fix tương tự Treatment
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/828
+<<<<<<< HEAD
+
 ## [v.3.26.0813.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608131-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Bổ sung parameters liều dùng, sáng, trua, chieu, toi trên toa thuốc YHCT (TT55)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/849
