@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.0814.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608140-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription chức năng chỉ định cls báo lỗi (BV Ô Môn) #970
+	- Cập nhật:
+	+ Bệnh nhân thu phí
+		+ Fix vào chức năng chỉ định cls báo lỗi
+
+		![](https://i.vgy.me/BWAx9I.png)
+
+		+ Fix Chức năng chuyển cls vào nội trú báo lỗi.
+
+		![](https://files.catbox.moe/dhcrlr.gif)
+    
+	+ Bệnh nhân BHYT: Chức năng chuyển cls vào nội trú báo lỗi.
+
+	![](https://files.catbox.moe/5bg9ti.gif)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/970
+
 ## [v.3.26.0813.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608132-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608132-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608132-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Treatment: Các mẫu số hóa bệnh án mới theo TT 32/2023/TT-BYT và TT 51/2017/TT-BYT
 	+ Fix lỗi các mấu TT 51/2017/TT-BYT
