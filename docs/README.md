@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0817.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608170-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Bổ sung parameters liều dùng, sáng, trua, chieu, toi trên toa thuốc YHCT (TT55)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/849
+- Push lại cập nhật thư viện bổ sung para cho toa thuốc thang/YHCT TT55
+
+![](https://i.vgy.me/hM8NlI.png)
+
 ## [v.3.26.0814.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608141-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Hỗ trợ công văn 2746/BHXH-CNTT sử dụng ĐDCN/CCCD thay thế mã số BHXH - Hệ thống thông tin giám định BHYT. Bổ sung chức năng cấu hình `[Sử dụng mã kiểm tra thông tuyến cổng BHYT]` theo mô tả [BHXH-THONGTUYEN/Ma-kiem-tra-thong-tuyen-cong-BHYT.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/BHXH-THONGTUYEN/Ma-kiem-tra-thong-tuyen-cong-BHYT.md). Lưu ý: hiện tại test trên cổng đào tạo => cổng chưa cập nhật.
