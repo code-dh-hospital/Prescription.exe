@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0817.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608172-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608172-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608172-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Treatment: Các mẫu số hóa bệnh án mới theo TT 32/2023/TT-BYT và TT 51/2017/TT-BYT
+	+ HC-09. Giấy cam kết từ chối sử dụng dịch vụ khám bệnh, chữa bệnh: thiếu giới tính người thân	
+	+ Fix lỗi Phiếu khai thác tiền sử dị ứng: thông báo số
+	+ Fix GDSK-01. Phiếu tư vấn - hướng dẫn – giáo dục sức khoẻ
+
+	Fix lỗi tương tự Treatment
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/828
+
 ## [v.3.26.0817.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608171-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Thêm chức năng in, xuất file PDF mẫu KSK TT25 có chữ ký số Người kết luận #869
 ![](https://i.vgy.me/7efXcQ.png)
