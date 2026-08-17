@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0817.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608171-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Thêm chức năng in, xuất file PDF mẫu KSK TT25 có chữ ký số Người kết luận #869
+![](https://i.vgy.me/7efXcQ.png)
+![](https://i.vgy.me/Jc4ntE.png)
+![](https://i.vgy.me/HFWwh9.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/869
+
 ## [v.3.26.0817.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608170-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Bổ sung parameters liều dùng, sáng, trua, chieu, toi trên toa thuốc YHCT (TT55)
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/849
