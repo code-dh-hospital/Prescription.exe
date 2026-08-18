@@ -6,6 +6,41 @@
 
 #
 
+## [v.3.26.0818.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608183-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608183-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608183-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Mẫu giấy KSK và KSK định kỳ theo thông tư số 25/2026/TT-BYT (TTYT Đức Linh) #833
+- 🐛: MẪU 01: DƯỚI 06 TUỔI.
+- 🐛: Chưa lưu được sinh hiệu khi nhập trong form KSK
+![](https://i.vgy.me/7FEks0.png)
+- 🐛: Thêm các thông tin chức năng kết luận để phục vụ Gửi dữ liệu: người kết luận, các ICD10 kết luận, ngày hẹn tái khám, Chức năng chuyển viện
+![](https://i.vgy.me/2sU97j.png)
+- 🐛: Vào chỉ định CLS báo lỗi
+![](https://i.vgy.me/onEQvy.gif)
+- 🐛: Tab trẻ em chưa có chức năng chọn đối tượng, nguồn chi trả
+![](https://i.vgy.me/ck64wk.png)
+- 🐛: MẪU 02: TỪ 6 ĐẾN DƯỚI 18 TUỔI.
+- 🐛: Nới rộng nguồn chi trả và canh trái các textbox ICD
+![](https://i.vgy.me/waKFqw.png)
+- 🐛: tách riêng chức năng chọn khám lâm sàng vào tab `từ 6 đến dưới 18 tuổi` và `trên 18 tuổi` đồng thời bỏ tab tổng hợp
+![](https://i.vgy.me/abLUWC.png)
+![](https://i.vgy.me/EnHvyp.png)
+- 🐛: Kết luận thêm Chọn icd kết luận, chọn quyển và số KSK
+![](https://i.vgy.me/fAsSy2.png)
+- 🐛: Kết quả CLS lại ghi nhận vào Các bệnh
+![](https://i.vgy.me/hZWfAr.png)
+- 🐛: Không chỉnh được thông tin khám lâm sàng, Đổi vị trí 1 số chức năng cho phù hợp
+![](https://i.vgy.me/kBVggJ.png)
+![](https://i.vgy.me/kBVggJ.png)
+- 🐛: MẪU 03: ĐỦ 18 TUỔI
+- 🐛: Tăng độ rộng nguồn chi trả
+![](https://i.vgy.me/ipk9mq.png)
+- 🐛: Không chọn được bác sĩ khám Mắt
+![](https://i.vgy.me/0oOxOr.png)
+- 🐛: Kết luận Thêm bác sĩ kết luận, phân loại, ICD và chẩn đoán kết luận
+![](https://i.vgy.me/2Ps1iz.png)
+- 🐛: Chưa có Chức năng lấy kết quả vào CLS thực hiện theo chỉ định của bác sĩ
+![](https://i.vgy.me/AtuGcM.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/833
+
 ## [v.3.26.0818.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608182-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608182-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608182-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Cải tiến code theo yêu cầu.
