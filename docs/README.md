@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0818.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608180-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi kiểm tra thông tuyến bằng CCCD.
+![](https://lh3.googleusercontent.com/pw/AP1GczNWTeVAZs4oUReqM9mC6PoB9CORaLB9W67KQzFI7VaR4e2gRMullyemf8DgFCZN7-WVjsNjc6l99fMFIABsA-gvDWZVJ3zm7WjBn4vtITiVHqDUvkqesLkBFAR30WGrQ0GWRvaFucH7OpTMtJ5Xjr0F=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczM9P6te0K7nR2Z8W8oAWd3rB4Fw2O4VuR9nU0pNShnfpt_hQbjRsFFyswVOuQ7SuIQUj2DdswceB2EiuetcL89s654soP0lXstZQkcN_I0pOz5ADPGvSANAkFVQUKgqhk8KMXa7feOMouAGfqkDlBqE=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/862#issuecomment-33149 (hdhiswork/YEUCAU#862)
+
 ## [v.3.26.0817.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608172-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608172-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608172-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Treatment: Các mẫu số hóa bệnh án mới theo TT 32/2023/TT-BYT và TT 51/2017/TT-BYT
 	+ HC-09. Giấy cam kết từ chối sử dụng dịch vụ khám bệnh, chữa bệnh: thiếu giới tính người thân	
