@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0818.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608184-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608184-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608184-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Thêm chức năng in, xuất file PDF mẫu KSK TT25 có chữ ký số Người kết luận #869
+- ✨: Bổ sung thêm trường hợp khi in ký số có lưu file PDF, sau khi lưu file PDF có hỏi xem có muốn in phiếu ra không
+![](https://i.vgy.me/jqiviQ.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/869
+
 ## [v.3.26.0818.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608183-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608183-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608183-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Mẫu giấy KSK và KSK định kỳ theo thông tư số 25/2026/TT-BYT (TTYT Đức Linh) #833
 - 🐛: MẪU 01: DƯỚI 06 TUỔI.
