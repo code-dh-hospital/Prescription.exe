@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0818.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608182-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608182-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608182-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Cải tiến code theo yêu cầu.
+![](https://lh3.googleusercontent.com/pw/AP1GczMsou5PVkjSLxN1V9H65fp78VWDnudsAZ3PdJpTno8DFDzbicjLZL2sy_PnU_ueWAieED_fLfwIRtSxyFCKKFs7sScfiRErtTTiDOeRWkmjV2_4-MMN7z3iplKLW4KgJ9EcMBYGBo2y2FoKQN4opZMn=w1031-h723-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPYIhTYjC0KqYr_lKPoUF51ektCU2qTvKjDkOjg57hpPPAXPEY96pqR1_hSNQb1EM3stg7bi1UvLaUd1tFDF-mPZ14j3r8tav3EpdQ9SaVonlcXrZLdTa0FRorqTviYliY-fH24Kh8EBgHI_XZ4tvPB=w1469-h494-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNZY5edAhVs_79OlecG0qF0XT6maRGnbn-gH6Y5G__7iw0zBzK01PUGLqd3BTEdVLrZYYlN0WVMNm8q1c8NjB8NTSn_X8QfWpoELs5dvwosCbYrKdKnbIQnGTZP9RsHXvueuICLLUvbr1HQOTfMS31B=w1595-h415-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMEN3iL5_YWSFa0BnRUFryx-HxZiiwevtK_dxEr8S9pTztaThQvyGRvvIH5RdirGiIS3ws8WejbI4MC926d6-U9edud3sRbhM3qAbuh5n_xENZgh0nRW6y63uqXshmpLGAaoEF88HGclwphVlI3e_eQ=w738-h296-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczO_6jFsmVXtAA_OJwqxgpA9TrVAFIDDSRKdyB_0D2XT35qzFqTHVVEsbTMYWxi7JGGYCpXLq-NtNrh9KnnGByFHA_x6h8_5NdQb7jNslUPEHlbBXMaJYnYHb8zQzWGzV-u8AImygy0BJSVj6fBIypxA=w867-h796-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPGcUtZYFeMytJURuFEo5_stNph3Yp37ebDhw-j0EdBaKgq95d1YS4XEJnuxV-ic4RD1oTvNqCKB24oiF1Hi8bKhUipFthjwhtdKBEMejaXJEAyjgJN0vs40185hT21OfHFva9tSjSHLrnJqCqKQlt3=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/862#issuecomment-33203 (hdhiswork/YEUCAU#862)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/862#issuecomment-33205 (hdhiswork/YEUCAU#862)
+
 ## [v.3.26.0818.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608181-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608181-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608181-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - Prescription In toa ký số không lấy số bản in theo tham số toabaohiem #971
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/971
