@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0819.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608190-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi form đăng ký BH.
+1. Chức năng kiểm tra thông tuyến khi lưu -> Register không cảnh báo được mã thẻ bhyt bị sai.
+![](https://lh3.googleusercontent.com/pw/AP1GczPYQAZLSgjYmM_ko1Xv9R1AX_obCgQ_HtZd04SR9OeFcrjyb3UZhtvtYoNl6jL53_b3vVJcPiizwDExUtxcATktLuXXqYhZCPyhuxrAuG5gYB4qEKaOBsbKj2wY_oc24LL3E3gmt-9Ni8RoZ8seWZKk=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPuOYBtamlx_I3KjLBcPxsh1DWFf1dZyTQhZ7ARJobR0T7Ilx8Q7evOfPlvznXDptlYj6rIlOjo1tJxnT2C0AX40ElkAt2zh6HFzqy7s6FPgOFc4vQBDqc7YDwkPltrN_pHKY0Y-ZlG3oafacSzgGGJ=w1654-h879-s-no-gm?authuser=0)
+2. Chức năng kiểm tra thông tuyến: không áp dụng khi đối tượng không thuộc phạm vi BHYT hoặc chưa chọn đối tượng.
+![](https://lh3.googleusercontent.com/pw/AP1GczMmkcS0XuDh2_kFK8vX9o0JBgjjUZ5-ahVjr4yyy5075hELDyhn3Nj0zXEL2_zOzkiZsBv6Y-rOTEsl-prGwsR0b36W8CtwoWVFUM3Pt1ZmDitZU38-mfW0EnWpCuoUvp4WrhPNB1SQQmcrVJi-DyU_=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPqosgiY0-OFRS4vLXVMH-YgROlM14V6KOlt-sakCzAXu2PAJF0lrCshOX19wQqXTym1JbYoZhQR5HfGifyhc5Tln2rqg3MHlnICTZ5USXV6ZLqaym4AeRaIHpkfJ1n2cI-e36JqUIUiiyJgvo2EHwl=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/862#issuecomment-33373 (hdhiswork/YEUCAU#862)
+
 ## [v.3.26.0818.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608184-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608184-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608184-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Thêm chức năng in, xuất file PDF mẫu KSK TT25 có chữ ký số Người kết luận #869
 - ✨: Bổ sung thêm trường hợp khi in ký số có lưu file PDF, sau khi lưu file PDF có hỏi xem có muốn in phiếu ra không
