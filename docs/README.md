@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0820.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608201-NasDHSolutions.json)</sup></sup></sub>
+✨: Yêu cầu - XML3176 BANT đợt lấy mã bệnh kèm theo cấu hình lấy chẩn đoán ra viện
+☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/885
+📗: https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD3176/BO_SUNG_OPTION_BHXH_LAY_CHAN_DOAN_BANT_DOT.md
+📕: Cập nhật thư viện : Bổ sung option lấy chẩn đoán kèm theo và chẩn đoán ra viện khi xuất XML và xử lý theo option khi xuất XML1
+
+![](https://i.vgy.me/gxq9pD.png)
+
 ## [v.3.26.0820.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608200-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription ký số sai tài khoản bác sĩ khi in phiếu chỉ định cận lâm sàng #972
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/972
