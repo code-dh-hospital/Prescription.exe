@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.0820.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608203-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608203-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608203-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Mẫu giấy KSK và KSK định kỳ theo thông tư số 25/2026/TT-BYT (TTYT Đức Linh) #833
+- 🐛: Trùng số KSK khi chọn quyển KSK
+![](https://i.vgy.me/2XSAs7.png)
+- 🐛: không lấy được đối tượng, nguồn chi trả lên mẫu in, không lấy được tên bác sĩ kết luận
+![](https://i.vgy.me/R8blDH.png)
+- 🐛: Kết luận bệnh phải chọn được nhiều mã bệnh, hỗ trợ gõ mã lấy tên và mã
+![](https://i.vgy.me/KF5nAC.png)
+- 🐛: Phần mềm tự xóa hết ICD và chẩn đoán khi chọn "Đóng" hoặc "X" để đóng form chọn ICD
+![](https://i.vgy.me/Tzt3JN.gif)
+- 🐛: Trùng số KSK khi chọn quyển KSK, không lấy được đối tượng, nguồn chi trả lên mẫu in, không check quan hệ, cỡ chữ size
+![](https://i.vgy.me/6Hp23x.png)
+- 🐛: Chẩn đoán kết luận phải chọn được nhiều mã ICD, hỗ trợ gõ mã lấy tên và mã
+![](https://i.vgy.me/eah76U.png)
+- 🐛: Dư phân loại thể lực, thiếu tên bác sĩ, sai thông tin kết luận
+![](https://i.vgy.me/N4YRST.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/833
+
 ## [v.3.26.0820.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608202-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608202-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608202-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Mẫu giấy KSK và KSK định kỳ theo thông tư số 25/2026/TT-BYT (TTYT Đức Linh) #833
 - 🐛: Trùng số KSK khi chọn quyển KSK
