@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0820.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608200-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription ký số sai tài khoản bác sĩ khi in phiếu chỉ định cận lâm sàng #972
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/972
+- 📕: Bổ sung thêm param `manv_bacsichidinh`, hổ trợ ký số theo tài khoản bác sĩ chỉ định
+![](https://i.vgy.me/eyx2pu.png)
+![](https://i.vgy.me/vMmc87.png)
+
 ## [v.3.26.0819.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608191-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608191-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608191-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung chức năng load dữ liệu `XML4750/XML3176` `bang1.ngay_vao_noi_tru` theo `bang1.ma_loai_kcb là 05 hoặc 08` theo mô tả: [XML130/QD3176/bang1.ngay_vao_noi_tru.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/QD3176/bang1.ngay_vao_noi_tru.md).
