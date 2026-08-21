@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.26.0821.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608211-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608211-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608211-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Mẫu giấy KSK và KSK định kỳ theo thông tư số 25/2026/TT-BYT (TTYT Đức Linh) #833
+- 🐛: MẪU 03:
+- 🐛: Thiếu số KSK, không chỉnh được thể lực, kết kuận bệnh cho chọn nhiều mã, hỗ trợ gõ mã lấy tên và mã
+![](https://i.vgy.me/Icdiy7.png)
+- 🐛: Thiết kế lại mẫu in
+![](https://i.vgy.me/pC7c3m.png)
+- 🐛: Các ô chọn mã bác sĩ hỗ trợ chức năng gõ mã bác sĩ lấy tên và thông tin mặc định giống như chọn bác sĩ trên danh sách
+![](https://i.vgy.me/cG9gTL.gif)
+- 🐛: Thiếu chổ nhập khám TMH và RHM
+![](https://i.vgy.me/Q0kFyf.png)
+- 🐛: Chưa ghi nhận ngày lập phiếu và chưa cập nhật lại ngày KCB
+![](https://i.vgy.me/TLWab5.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/833
+
 ## [v.3.26.0821.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608210-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Bổ sung chức năng hỗ trợ cảnh hoặc chặn báo trùng thời gian chỉ định cận lâm sàng và thuốc cùng bác sĩ theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-bac-si-voi-chi-dinh-cls-va-toa-thuoc.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-bac-si-voi-chi-dinh-cls-va-toa-thuoc.md).
