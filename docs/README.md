@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0821.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608212-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608212-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608212-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi chức năng chỉnh toa thuốc => sau khi đã xóa chứng từ => thêm mới thuốc => lưu toa làm cho Fees hiển thị sai thuốc trên danh sách thuốc.
+![](https://lh3.googleusercontent.com/pw/AP1GczN747iGGEwvpcxu9IHYyc_Snj5RtSabVIgpvl5zVHmFZlEmrIA2KZsdIbW1k2CKZ0ACJt229w_ETyA8kRFc-CgR9QYmu75FBzyPNOSdfD0g-h4iHdAAXMhczzS0LH_hbrL_vy9HLa0u3oxnfVysae9M=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczM7oTjS6giw6WgOqVEk6ybWqA3h4EAUs0_ixDbiEtiGH18JSIxyGVcYptQLroq4OY8tA7MfKfm2k_YiOSFSiF-s6NmuYOuZJeex8BkU06V0rlMZSD5YCFyf1bszm354NpadeWicesW8KFJhPKl55-t_=w1658-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/976#issuecomment-33585 (hdhiswork/LOI#976)
+
 ## [v.3.26.0821.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608211-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608211-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608211-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Mẫu giấy KSK và KSK định kỳ theo thông tư số 25/2026/TT-BYT (TTYT Đức Linh) #833
 - 🐛: MẪU 03:
