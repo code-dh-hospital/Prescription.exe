@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0821.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608210-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Bổ sung chức năng hỗ trợ cảnh hoặc chặn báo trùng thời gian chỉ định cận lâm sàng và thuốc cùng bác sĩ theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-bac-si-voi-chi-dinh-cls-va-toa-thuoc.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-bac-si-voi-chi-dinh-cls-va-toa-thuoc.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczNzfiu12T0Kkvtdk2sEpPWTb82abOIE94ExYeeFXoUBFX6-PPTlAcUT5sRnYs1ymu2l3FLp_VyZhU8bMBJW6GvKho_EwJjd7ylKnTuVUWRqzeOsrDJCzd-G8kO-3EMSjv7SYhTNmnrZGxcEtpKe39z7=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMvKAxxxJv_wRpUifLrFBQ7Xt3aERL5qtjxBs9XutzriMxMoefEVf17LUWionQsMJR5XP-yGiecR1-INPMSn8gYcPJhvXy9Bv3e0XW2E8VocGMYlkabkRQthRRfSUfE_EXGrNQ1j8OLOe5vv2G7JVeV=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMXZSR_EsNNE_jMRD_BiGGhGW7VCaJ4iXyJa2HFRig6QBejAiUq1YIdMQz5YcbM-JM2gEH56GkqpLx_F3hKFsz89-RYlK_E0fNh4NMbiqPdixjjnPIHI2WzHx9vkawFwAiO3C61VGX60IQkmkzuUoFv=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOhRD-j3RefwZ_Fh7Gm_IVwyOBxF_0FfTVBOMvRGlE5FytnyggJNOkMpJqqS1K4Lj7b6JuM-wNu-_lFICZxScd0c92EhdL6J_W1dk2ElxQdx0vNMU85AWXDP1LqrR5GIHzU2BPRSciMkJh5lsf0VmOw=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczN16n0uIUYIYN8vp135mrakJ_hGettx37y2vSuPJrqiWulob3jA1P9E6Yyy4cyEbd1tu3uDfb1tY4WdEYdQZpoR0Dd7kC5suqjN6YFDAZSBHbS1o8ScDbXsqXwHuTjxBx0MwEBaaz3CgZXDruc67PIu=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczN93KFEefB20_c8MSQqzubJPZm0MJC1bOim3j8pL7bNX33hByUa6IHbAFIPhKhx3dhOUpAVmyBakpAvDG8zOmfQ-t_YPZQcnYpz__391cKsH7xBNvguvWjcdjuOGITqsuDh7NdcmK64eJhzxDcDsqX_=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNKw7Sj0OGUAEOruQVQmfJPmCN3sYpvQ_zbLYtsJAmIDnGTajGD2u6FgbiUIMlOvXMltWX1BEMYXEZ5ZYzHaBMey3QyNQa7Jibfj55nyseRr1xOM3VSO0iOuQhasUUI41Z9qTZr8SsZNLGHGOHHmDij=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/866#issuecomment-33247 (hdhiswork/YEUCAU#866)
+
 ## [v.3.26.0820.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608203-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608203-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608203-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription: Mẫu giấy KSK và KSK định kỳ theo thông tư số 25/2026/TT-BYT (TTYT Đức Linh) #833
 - 🐛: Trùng số KSK khi chọn quyển KSK
