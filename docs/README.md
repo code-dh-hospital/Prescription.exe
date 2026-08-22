@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.26.0822.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608222-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608222-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608222-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription: Mẫu giấy KSK và KSK định kỳ theo thông tư số 25/2026/TT-BYT (TTYT Đức Linh) #833
+- 🐛: MẨU 01:
+- 🐛: Chỉnh, lưu phiếu KSK phần mềm báo đơn vị tuổi không phù hợp không cho chỉnh
+![](https://i.vgy.me/DqLJwX.gif)
+- 🐛: Người đề nghị KSK đang lấy tên bác sĩ kết luận -> Lấy tên thân nhân hoặc để trống
+![](https://i.vgy.me/rYYu0j.png)
+- 🐛: Chưa lấy được tên bác sĩ kết luận
+![](https://i.vgy.me/Vak1Ji.png)
+- 🐛: MẨU 03:
+- 🐛: Chưa có thông tin bác sĩ và chữ ký scan
+![](https://i.vgy.me/6COf3T.png)
+- 🐛: Lỗi hiệu chỉnh thông tin sai đơn vị tuổi và lấy sai sinh hiệu của bệnh nhân khác
+![](https://i.vgy.me/fzRL4k.gif)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/833
+
 ## [v.3.26.0822.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608221-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608221-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608221-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Prescription hỗ trợ mẫu hồ sơ Bệnh án ngoại trú PHỤC HỒI CHỨC NĂNG (MS: 29/BV-01) theo thông tư 32 #735
 	Cập nhật: BA PHCN
