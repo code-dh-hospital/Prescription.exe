@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0824.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608241-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608241-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608241-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi Ngày giờ chỉ định CLS chưa lấy theo ngày giờ diễn biến.
+![](https://lh3.googleusercontent.com/pw/AP1GczOveSiXPSu0_lqs8lRwA9V15veM_3FOkFinaCudr3zQd11TOIxIlaPT6yMojWK1xPL-w1q_PHsjXZEChoxjLA3Zp0nlE2OEsF0oR4610EuH12pR-FFVizcwB_frKEnHcgu-0tXDKy4EqJJa99NYjEfN=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczN_oSl3l5kYc19B5DdEdFaS7OVHFtgWSvn_slstU-6nFep42FfLXOzso1p9LcwbZbh3r4DKEG6D4ZjYtfzRW8SSjA8jWDjM5qSCoMW1jvuXJ6UFwkSyLT8qNc7BUDfuwxq7rY_M2qkSJtTX5eMLio2W=w1653-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPr63dVKECZyPdH2DznSxSI5AZBXC7OxHz2EjK34HmYVvkxn8EcdXwc261A8ihG9JG56SJij93Z6MSF_TAXSm-FHBZsy9CKl-r5AUymfuTYti5nPkxGkB4xr_0u3EZVsxYfmg5X7K_CWpLGyZUdcXTO=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/977#issuecomment-33661 (hdhiswork/LOI#977)
+
 ## [v.3.26.0824.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608240-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi chức năng kiểm tra thông tuyến
