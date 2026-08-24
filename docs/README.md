@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.26.0824.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608240-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi chức năng kiểm tra thông tuyến
+1. Sửa lỗi kiểm tra thông tuyến/lưu: ghi nhận sai họ tên, giới tính, ngày kết thúc thẻ, ngày đủ 5 năm, ...
+![](https://lh3.googleusercontent.com/pw/AP1GczMcnQzoGHu1Sp2KEPURuotZbDB4vuaJuH9Y6H-kc_cyZTxxUiKUW74EvrVAvmmYkdUKHK_KHA2TCQ2Ue7x1j9RA_IMW0-SRoOsIDilnqZq6VWXk9PnG_Tee5vxE4aNKojXp35BSSurls14IlxMNoXi6=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczND3q6BHhHMsz38SOrELAe7zq2hALGD4aZaPIcj2wmmEsEgvobcWHnY68lxraqZYqaDl5CbYDS21AFHf_YRzE1QISX97h9nUreWEaoJb_NtRKKV9hTLlKdoAiZfU824eoqjkLsPopZQrVS02afg8UXV=w1654-h879-s-no-gm?authuser=0)
+2. Sửa lỗi không lấy được mã bệnh nhân cũ khi cập nhật lại thẻ BHYT.
+![](https://lh3.googleusercontent.com/pw/AP1GczORg9qIFmPVDE1c-zFBiyeXj8p2Ju57F707or2-lhAFDZVDmLwjumtj6wOyOscz7Rl_PqEG6uE-Fr-7e3TohUmv3dxoo34_P_if66-mZuMXq8-IsFdshoCrK0Gp3rBsDxejcO3Ki05axrTYXwyg_ybJ=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMmdOcAEvO0yPLU6C0uRz55wQgz7CuZt7FEn41fhJf16ERUALh7ZI9ijkOu1bul2aufpDGKFFTNIG00jN8Vki4tEH5-lZ81K0Y-TbmHtTGCbH6u7-aNbr6T7Pxa3LNfRvUiv6a-WgiTnyL0S8kObCvj=w1654-h879-s-no-gm?authuser=0)
+3. Sửa lỗi form hiệu chỉnh thông tin bệnh nhân sau khi kiểm tra thông tuyến/lưu: ghi nhận sai họ tên, giới tính, ngày kết thúc thẻ, ngày đủ 5 năm, ...
+![](https://lh3.googleusercontent.com/pw/AP1GczMFhQPdiIPPPeE0S57bY9D6_YI0EaGCC_JHBjid3Oq7RhSljn2GRx-ehxeM5q50PJWl2SM_wzRvbk4LNSAhkWvnWICtfXrcm6SNh3JXCJBC2w_mysJYVrMIYGvJFpnhdMdJ5V__R3UjWO_y4TgQFBeu=w1553-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOR97da7W744vwD8Iwm4kc9xNFWq64X4GKN_eTpc6wCfdOTKulXgOZx510ukfJ1lwi66Vl9LfhLN8oJmqG0_nobMTCsDWgKuORBkRqqbom_uoXWE4TBoed1J4KQXmOpjFb8efBxKj6dECcZhS8RTr8t=w1529-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/862#issuecomment-33724 (hdhiswork/YEUCAU#862)
+
 ## [v.3.26.0822.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608224-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608224-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608224-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Mẫu còn sai so với mẫu qui định: Chỉnh lại phần kẻ khung, in đậm, thiếu chữ, thiếu phần ký tên
 ![](https://i.vgy.me/GKuPDX.png)
