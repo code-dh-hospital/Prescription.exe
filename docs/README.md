@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0824.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608242-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608242-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608242-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi tại form ra toa lấy sai thời gian kiểm soát theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-bac-si-voi-chi-dinh-cls-va-toa-thuoc.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-bac-si-voi-chi-dinh-cls-va-toa-thuoc.md).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/866#issuecomment-33806 (hdhiswork/YEUCAU#866)
+
 ## [v.3.26.0824.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608241-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608241-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608241-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi Ngày giờ chỉ định CLS chưa lấy theo ngày giờ diễn biến.
