@@ -6,6 +6,46 @@
 
 #
 
+## [v.3.26.0826.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608262-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608262-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608262-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Prescription hỗ trợ mẫu hồ sơ Bệnh án ngoại trú PHỤC HỒI CHỨC NĂNG (MS: 29/BV-01) theo thông tư 32 #735
+	Cập nhật: mẫu bệnh án PHCN
+	
+	 + Script:
+	 
+	![](https://i.vgy.me/PKHINl.png)
+	
+	
+	![](https://i.vgy.me/m1XLZK.png)
+	![](https://i.vgy.me/l2cEom.png)
+	
+	+ Thêm phiếu khám và phiếu lượng giá (dành cho BANT Phục hồi chức năng):
+	
+	![](https://i.vgy.me/981e4K.png)
+	
+	![](https://i.vgy.me/K4beFL.png)
+	![](https://i.vgy.me/P1vEay.png)
+	
+	+ Phiếu thực hiện kỹ thuật PHCN
+	
+	![](https://i.vgy.me/gJKsB2.png)
+	![](https://i.vgy.me/buIu6L.png)
+	![](https://i.vgy.me/34sHhA.png)
+	
+	+ Kết thức bệnh án:
+	
+	![](https://i.vgy.me/PXn9ij.png)
+	![](https://i.vgy.me/GZ1spY.png)
+	![](https://i.vgy.me/NGpLBe.png)
+	![](https://i.vgy.me/CCm3VF.png)
+	![](https://i.vgy.me/usK4Hr.png)
+	![](https://i.vgy.me/36Xh4H.png)
+	![](https://i.vgy.me/DulNdg.png)
+	
+	- Mô tả: [EMR/So-hoa/29.Tong-hop-Benh-An-Ngoai-Tru-Phuc-Hoi-Chuc-Nang.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/EMR/So-hoa/29.%20Tong-hop-Benh-An-Ngoai-Tru-Phuc-Hoi-Chuc-Nang.md)
+
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/735
+<<<<<<< HEAD
+
 ## [v.3.26.0826.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608261-NasDHSolutions.json)</sup></sup></sub>
 
 
