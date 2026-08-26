@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0826.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608260-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Chức năng kiểm soát thời gian theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-bac-si-voi-chi-dinh-cls-va-toa-thuoc.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-bac-si-voi-chi-dinh-cls-va-toa-thuoc.md): loại trừ không kiểm soát trường hợp Click Khám bệnh, Ra toa, CLS tại form khám bệnh.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/866#issuecomment-33908 (hdhiswork/YEUCAU#866)
+
 ## [v.3.26.0825.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608251-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Chức năng kiểm soát thời gian theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-bac-si-voi-chi-dinh-cls-va-toa-thuoc.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-bac-si-voi-chi-dinh-cls-va-toa-thuoc.md): loại trừ không kiểm soát trường hợp điều chỉnh toa thuốc.
