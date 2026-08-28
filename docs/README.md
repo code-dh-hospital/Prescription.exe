@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0828.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608281-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Danh sách bệnh nhân khám sức khỏe hợp đồng thiếu bệnh nhân đầu tiên #985
+	
+	+ Cập nhật: Design Form bị che dòng đầu tiên
+	
+		![](https://i.vgy.me/mcOIxo.png)
+		
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/985
+
 ## [v.3.26.0828.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608280-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Mô tả và thực hiện import kết quả KSK 03 mẫu 01, 02, 03 theo TT25 từ file excel mẫu. #883
 
