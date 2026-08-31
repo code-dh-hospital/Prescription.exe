@@ -6,6 +6,24 @@
 
 #
 
+## [v.3.26.0831.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608311-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608311-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608311-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - Số ngày điều trị trên form chỉ định CLS Prescription và Mô tả ma_loai_kcb_QD1804: MA_LOAI_KCB = 02 và 08 thiếu cách lấy SO_NGAY_DTRI #986
+	 + Cập nhật: 
+		+ NGUYÊN NHÂN:
+			- Update khambenh.songaydt theo điều kiện mabn, makb, maphong, và ngaykcb = ngày làm việc --> không cập nhật được do BANT đợt có ngày kcb và ngày chỉ dịnh CLS không khớp nhau
+			- Điều chỉnh: thêm điều kiện BANT đợt --> bỏ điều điều kiện ngaykcb
+			- BANT ngày: cập nhật như hiện tại
+
+			![](https://i.vgy.me/7BYcT4.png)
+			![](https://i.vgy.me/PNoAQt.png)
+			![](https://i.vgy.me/ks6qew.png)
+
+		+ Diễn giải cách lấy SO_NGAY_DTRI cho MA_LOAI_KCB = 02 và 08
+			+ 02: SO_NGAY_DTRI = Ngày RA trừ(-) ngày VÀO cộng(+) 1
+			+ 08: SO_NGAY_DTRI = Số ngày thực tế có sử dụng DVKT
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/986`
+
 ## [v.3.26.0831.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608310-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608310-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608310-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Thêm chức năng gửi dữ liệu KSK bằng API theo phụ lục 2 QĐ 2062/QĐ-BYT #884
 ![](https://i.vgy.me/K57Oqb.png)
