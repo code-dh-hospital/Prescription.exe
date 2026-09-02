@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0902.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609020-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: LỖI - Xem Kết quả Xét nghiệm khi tham số cks.ketquacls=1 của BV Gò Vấp #974
+	+ Cập nhật: Prescription
+
+	![](https://i.vgy.me/f5qAnB.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/974
+
 ## [v.3.26.0831.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608311-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608311-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32608311-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - Số ngày điều trị trên form chỉ định CLS Prescription và Mô tả ma_loai_kcb_QD1804: MA_LOAI_KCB = 02 và 08 thiếu cách lấy SO_NGAY_DTRI #986
 	 + Cập nhật: 
