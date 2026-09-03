@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.26.0903.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609032-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Thực hiện theo mô tả [THAM_SO_HE_THONG
+  /Hau-mota-them-thamso-cauhinh_phong_cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Hau-mota-them-thamso-cauhinh_phong_cls.md)
+- ✨: Mở form popup điều phối phòng thực hiện CLS (show_DMDieuPhoi) đối với các nhóm dịch vụ có tùy chọn chuyển phòng (tuychon = 1) khi bật tham số cauhinh_phong_cls = 1 trong FrmCanLamSang.cs.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/903
+  https://i.dh-his.com/hdhiswork/YEUCAU/issues/886
+- 📕: Bác sĩ kê chỉ định cận lâm sàng tại phòng khám ngoại trú, hệ thống tự động hiển thị danh sách các phòng CLS khả dụng để điều phối người bệnh.
+  ![](https://images-worker.tlt04.workers.dev/i/01a06608-d4ac-76da-b0d6-650e3fd9b01d)
+  ![](https://images-worker.tlt36.workers.dev/i/01a06633-b4e8-7682-91b3-1965c27c14fa)
+  ![](https://images-worker.tlt26.workers.dev/i/01a06630-e46b-788d-95bf-daa43345ddc0)
+  ![](https://images-worker.tlt34.workers.dev/i/01a06638-20a8-7a50-a75c-cf82caa80003)
+  ![](https://images-worker.tlt43.workers.dev/i/01a0663e-51a3-7023-a271-d9540ce0e432)
+  ![](https://images-worker.tlt41.workers.dev/i/01a0663d-9378-7656-ae22-bcaa5f265be7)
+  ![](https://images-worker.tlt44.workers.dev/i/01a06641-5b79-7e58-94ce-8fb5a6055414)
+
 ## [v.3.26.0903.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609031-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - XML 3172 bệnh án ngoại trú có ngày y lệnh thuốc sau ngày ra viện (BV Ô Môn) #950
 	+ Cập nhật:
