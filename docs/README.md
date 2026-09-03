@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0903.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609033-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609033-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609033-NasDHSolutions.json)</sup></sup></sub>
+﻿- ✨: Nâng cấp form FrmCanLamSang hỗ trợ điều phối phòng thực hiện CLS: kiểm tra tham số cauhinh_phong_cls = 1 để nạp danh mục phòng CLS cấu hình vào combobox buồng thực hiện, hiển thị thông tin cảnh báo công suất/số lượng bệnh nhân đang chờ theo từng phòng, tự động ghi nhận mã phòng thực hiện vào bảng chỉ định cận lâm sàng và cập nhật trạng thái ra màn hình LCD phòng CLS.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/886
+- 📗: Truy vấn current.dmphong_cls, current.cauhinhmay và ghi nhận vào current.pscls_lcd, current.chidinhcls.
+- 📕: Bác sĩ chỉ định dịch vụ cận lâm sàng tại phòng khám, chọn phòng thực hiện tương ứng từ danh sách điều phối để phân bổ bệnh nhân đều giữa các phòng kỹ thuật.
+  ![](https://images-worker.tlt32.workers.dev/i/01a06699-0d46-75a0-8284-4bf59456874f)
+
 ## [v.3.26.0903.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609032-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Thực hiện theo mô tả [THAM_SO_HE_THONG
   /Hau-mota-them-thamso-cauhinh_phong_cls.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Hau-mota-them-thamso-cauhinh_phong_cls.md)
