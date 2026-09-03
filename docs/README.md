@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.26.0903.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609031-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - XML 3172 bệnh án ngoại trú có ngày y lệnh thuốc sau ngày ra viện (BV Ô Môn) #950
+	+ Cập nhật:
+		+ Khi có CLS chỉ định sau ngày ra viện
+
+		![](https://i.vgy.me/HTMJR3.png)
+		![](https://i.vgy.me/nAWTMP.png)
+
+		+ Khi có thuốc chỉ định sau ngày ra viện
+
+		![](https://i.vgy.me/2Pw5Hk.png)
+		![](https://i.vgy.me/BLhhg7.png)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/950
+
 ## [v.3.26.0903.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609030-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi khi Tham số: kb.bacsi.thoigian_cls_toathuoc= mucapdung:2|sophut:1|doituong:1 (Chỉ bắt đối tượng BHYT nhưng em có nhập đối tượng Miễn phí 07 thì Presscription vẫn bắt khi Khám bệnh) và Khi bấm vào nút Chỉnh chẩn đoán vẫn bắt theo tham số trên nên chưa hợp lệ. Vì bệnh nhân đã khám rồi chỉ cần chỉnh lại chẩn đoán.
