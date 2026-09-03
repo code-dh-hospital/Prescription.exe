@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0903.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609030-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi khi Tham số: kb.bacsi.thoigian_cls_toathuoc= mucapdung:2|sophut:1|doituong:1 (Chỉ bắt đối tượng BHYT nhưng em có nhập đối tượng Miễn phí 07 thì Presscription vẫn bắt khi Khám bệnh) và Khi bấm vào nút Chỉnh chẩn đoán vẫn bắt theo tham số trên nên chưa hợp lệ. Vì bệnh nhân đã khám rồi chỉ cần chỉnh lại chẩn đoán.
+![](https://lh3.googleusercontent.com/pw/AP1GczMiLrE0x_px96CLOOcGAv4zyYbDUnfK1H59OLamsftzm-7HS5hhZNZDzVUj4s2M46pWJa6HFbm5uk8yrD1lDddVwSFwkYiYdBjjPsO1KR1DFxK9-MzZjA7hBkiII_tNRHcdwPH0ACPTEoOg2iG5jl-f=w1661-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPE2rKtas5ct7Mjmb-tC3GHGoZjHB5j4LubN6RKflTLBM8-Fee2Zs7GorSRkqFY7wVIHCBk1zL1eSo4DBaKr2tVy7-LC2lM7_Jk8oBG3rqubBRVga76zD79bI6fBwn65i2PV0r-0jmyn9BRvfLZ1KOh=w1661-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMPGzXKLMijSoQ8nQ8xj8AWfWJMRXKvbhRBtu6TV8OZ2Tnkf0vg0GnI_MY-CC18xeDVNGgduJOiWk8ldSwY99mrrY3sD28PX5CSVV9c4GSVcik-migwuj5KGVQj154YDfZchZPkW_WvsAdVEKbttBX5=w1661-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/866#issuecomment-34362 (hdhiswork/YEUCAU#866)
+
 ## [v.3.26.0902.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609020-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609020-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609020-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - Xem Kết quả Xét nghiệm khi tham số cks.ketquacls=1 của BV Gò Vấp #974
 	+ Cập nhật: Prescription
