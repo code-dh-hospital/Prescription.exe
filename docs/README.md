@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0904.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609041-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Thêm chức năng gửi dữ liệu KSK bằng API theo phụ lục 2 QĐ 2062/QĐ-BYT #884
+- ✨: Thêm CKS bác sĩ kết luận và cks bệnh viện
+![](https://i.vgy.me/6gXJaq.png)
+- 🐛: CLS gửi lên chưa có đủ thông tin
+![](https://i.vgy.me/AjkWor.png)
+- ✨: Thêm chức năng hiển thị trạng thái đã gửi 
+![](https://i.vgy.me/0erUYE.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/884
+
 ## [v.3.26.0904.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609040-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Mô tả và thực hiện import kết quả KSK 03 mẫu 01, 02, 03 theo TT25 từ file excel mẫu
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/883
