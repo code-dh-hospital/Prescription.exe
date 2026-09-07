@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0907.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609077-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609077-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609077-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: [Prescription & HosPre.DataAccess] Fix lỗi `NpgsqlException 42601 syntax error at or near "and"` khi `Chỉnh diễn biến` BANT ngoại trú theo đợt: xóa dấu `;` thừa sau điều kiện `iddienbien` trong câu `UPDATE current.chungtu` nhánh quyết toán cuối đợt ở `BNNoiTruAdapter.UpdateNgoaiTru` (`HosPre.DataAccess/Adapters/BNNoiTruAdapter.cs`).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/993
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/991
+- 📗: Không thay đổi cấu trúc CSDL; chỉ sửa câu lệnh `UPDATE current.chungtu` (cột `maicd, kqcdoan, maicdp, kqcdoanp`, khóa `mabn + makh (mang maba ở chế độ đợt) + maba + maphong + iddienbien + date_part(ngaylap)`).
+- 📕: Vào Prescription → Bệnh án Ngoại trú → check `Theo đợt` → `Chỉnh diễn biến` → Lưu: hết popup lỗi, chứng từ cập nhật chẩn đoán đúng.
+- Thực hiện theo mô tả [FIX LỖI CHỈNH DIỄN BIẾN BANT NGOẠI TRÚ THEO ĐỢT (LOI#993)](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/BANT/Issue993-Prescription-ChinhDienBien-TheoDot.md)
+![](https://images-worker.tlt32.workers.dev/i/01a07b06-5f8c-7aab-99c5-35423666e0b5)
+![](https://images-worker.tlt43.workers.dev/i/01a07af3-8f53-78a2-bdc1-c835ff261807)
+
 ## [v.3.26.0907.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609076-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609076-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609076-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Chức năng Export dữ liệu theo mẫu để Import lên cổng dữ liệu KSK BYT
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/896
