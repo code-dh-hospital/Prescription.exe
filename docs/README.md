@@ -6,6 +6,30 @@
 
 #
 
+## [v.3.26.0907.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609072-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: [Prescription & HosPre.Reports] Sửa lỗi hiển thị sai tiền sử bệnh trên phiếu kết quả khám sức khỏe người từ đủ 18 tuổi trở lên (Mẫu số 03 - TT25/2026/TT-BYT, báo cáo xrptKSK_Du18Tuoi_TT25):
+  + [HosPre.Reports] Hàm `InKSK_du18Tuoi_tt25`: Sửa đọc đúng trường CSDL `tsgd_co_benh_truyennhiem` và `tsgd_tenbenh_truyennhiem` (thay vì `tsbenh_co_benhbamsinh`), sửa đúng thứ tự đối số truyền vào hàm `SetYesNo` (tham số thứ 3 là `parameterKhong`, thứ 4 là `parameterCo`) cho các trường `tsgd_co_benh_truyennhiem`, `dangdt`, `san_khoa`; loại bỏ dòng gọi lặp đảo ngược `cls_khac`.
+  + [HosPre.Reports] File thiết kế `xrptKSK_Du18Tuoi_TT25.Designer.cs`: Xóa binding thừa `ksk18_benh_tai_giamsucnghe_co` trên xrCheckBox1 và xrCheckBox2, xóa binding thừa `ksk18_nghien_ruoubia_co` trên xrCheckBox3..6; sửa binding `Checked` và `CheckState` khớp đúng với các parameter `tsbenh_khong`, `tsbenh_co`, `dangdt_khong`, `dangdt_co`, `san_khoa_khong`, `san_khoa_co`; sửa binding `CheckState` của `chk14Khong` về đúng `ksk18_roiloan_ythuc_khong`.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/992
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/23
+- 📗: Bổ sung cột `dagui` kiểu `numeric(1,0) DEFAULT 0` vào bảng `current.pskhamsuckhoe` trên CSDL để tránh lỗi thiếu cột khi tải danh sách bệnh nhân và cập nhật trạng thái gửi Cổng dữ liệu KSK Bộ Y tế.
+- 📕: Phân hệ Prescription > Khám bệnh > Khám sức khỏe HĐ > Tab Trên 18 tuổi > Tab con Tiền sử bệnh: In phiếu KSK cho người đủ 18 tuổi (cả bản in thường `btnInKSK_Du18_Click` lẫn bản in ký số `btnIn_KySo_KSK_Du18_Click`) hiển thị chính xác trạng thái Có / Không và nội dung chi tiết theo dữ liệu bác sĩ ghi nhận.
+- Thực hiện theo mô tả [HIỆU CHỈNH HIỂN THỊ TIỀN SỬ BỆNH TRÊN PHIẾU KẾT QUẢ KHÁM SỨC KHỎE NGƯỜI TỪ ĐỦ 18 TUỔI TRỞ LÊN (MẪU SỐ 03 - THÔNG TƯ 25/2026/TT-BYT)](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU_25/Mo-ta-hieu-chinh-hien-thi-tien-su-benh-phieu-ksk-du-18-tuoi-tt25.md)
+![](https://images-worker.tlt36.workers.dev/i/01a079af-4034-7b1a-978e-ff6772e7604f)
+![](https://images-worker.tlt26.workers.dev/i/01a079ae-fb10-704b-abb6-696c162b906c)
+
+## [v.3.26.0907.1]()
+- 🐛: [Prescription & HosPre.Reports] Sửa lỗi hiển thị sai tiền sử bệnh trên phiếu kết quả khám sức khỏe người từ đủ 18 tuổi trở lên (Mẫu số 03 - TT25/2026/TT-BYT, báo cáo xrptKSK_Du18Tuoi_TT25):
+  + [HosPre.Reports] Hàm `InKSK_du18Tuoi_tt25`: Sửa đọc đúng trường CSDL `tsgd_co_benh_truyennhiem` và `tsgd_tenbenh_truyennhiem` (thay vì `tsbenh_co_benhbamsinh`), sửa đúng thứ tự đối số truyền vào hàm `SetYesNo` (tham số thứ 3 là `parameterKhong`, thứ 4 là `parameterCo`) cho các trường `tsgd_co_benh_truyennhiem`, `dangdt`, `san_khoa`; loại bỏ dòng gọi lặp đảo ngược `cls_khac`.
+  + [HosPre.Reports] File thiết kế `xrptKSK_Du18Tuoi_TT25.Designer.cs`: Xóa binding thừa `ksk18_benh_tai_giamsucnghe_co` trên xrCheckBox1 và xrCheckBox2, xóa binding thừa `ksk18_nghien_ruoubia_co` trên xrCheckBox3..6; sửa binding `Checked` và `CheckState` khớp đúng với các parameter `tsbenh_khong`, `tsbenh_co`, `dangdt_khong`, `dangdt_co`, `san_khoa_khong`, `san_khoa_co`; sửa binding `CheckState` của `chk14Khong` về đúng `ksk18_roiloan_ythuc_khong`.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/992
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/23
+- 📗: Bổ sung cột `dagui` kiểu `numeric(1,0) DEFAULT 0` vào bảng `current.pskhamsuckhoe` trên CSDL để tránh lỗi thiếu cột khi tải danh sách bệnh nhân và cập nhật trạng thái gửi Cổng dữ liệu KSK Bộ Y tế.
+- 📕: Phân hệ Prescription > Khám bệnh > Khám sức khỏe HĐ > Tab Trên 18 tuổi > Tab con Tiền sử bệnh: In phiếu KSK cho người đủ 18 tuổi (cả bản in thường `btnInKSK_Du18_Click` lẫn bản in ký số `btnIn_KySo_KSK_Du18_Click`) hiển thị chính xác trạng thái Có / Không và nội dung chi tiết theo dữ liệu bác sĩ ghi nhận.
+- Thực hiện theo mô tả [HIỆU CHỈNH HIỂN THỊ TIỀN SỬ BỆNH TRÊN PHIẾU KẾT QUẢ KHÁM SỨC KHỎE NGƯỜI TỪ ĐỦ 18 TUỔI TRỞ LÊN (MẪU SỐ 03 - THÔNG TƯ 25/2026/TT-BYT)](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU_25/Mo-ta-hieu-chinh-hien-thi-tien-su-benh-phieu-ksk-du-18-tuoi-tt25.md)
+![](https://images-worker.tlt36.workers.dev/i/01a079af-4034-7b1a-978e-ff6772e7604f)
+![](https://images-worker.tlt26.workers.dev/i/01a079ae-fb10-704b-abb6-696c162b906c)
+
 ## [v.3.26.0907.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609070-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Không chỉnh được ngày diễn biến khi cho diễn biến trước ngày
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/991
