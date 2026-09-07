@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0907.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609076-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609076-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609076-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Chức năng Export dữ liệu theo mẫu để Import lên cổng dữ liệu KSK BYT
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/896
+- 📕: Bổ sung xuất thêm dữ liệu cho Sheet Cận lâm sàng khi xuất Excel
+
+![](https://i.vgy.me/5i651C.png)
+
 ## [v.3.26.0907.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609075-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609075-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609075-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung cơ chế tự động chọn phòng cận lâm sàng trong form chỉ định FrmCanLamSang (show_DMDieuPhoi): khi dữ liệu phòng CLS khả dụng chỉ có 1 dòng (hoặc kết quả nạp danh mục chỉ có 1 row), hệ thống tự động gán phòng điều phối vào chỉ định và lưu dữ liệu mà không cần bật form popup danh mục, giúp tối ưu thao tác chỉ định của bác sĩ.
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/886
