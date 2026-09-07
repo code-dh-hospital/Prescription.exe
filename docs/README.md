@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0907.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609073-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609073-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609073-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Thêm chức năng gửi dữ liệu KSK bằng API theo phụ lục 2 QĐ 2062/QĐ-BYT #884
+- 🐛: Hồ sơ 6-18 tuổi lỗi SAN_KHOA_KHONG_BT phải là số 1-5 theo mô tả phải thêm chức năng chọn trạng thái không bình thường -> Bổ sung chức năng chọn
+![](https://i.vgy.me/EmLQLM.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/884
+
 ## [v.3.26.0907.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609072-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: [Prescription & HosPre.Reports] Sửa lỗi hiển thị sai tiền sử bệnh trên phiếu kết quả khám sức khỏe người từ đủ 18 tuổi trở lên (Mẫu số 03 - TT25/2026/TT-BYT, báo cáo xrptKSK_Du18Tuoi_TT25):
   + [HosPre.Reports] Hàm `InKSK_du18Tuoi_tt25`: Sửa đọc đúng trường CSDL `tsgd_co_benh_truyennhiem` và `tsgd_tenbenh_truyennhiem` (thay vì `tsbenh_co_benhbamsinh`), sửa đúng thứ tự đối số truyền vào hàm `SetYesNo` (tham số thứ 3 là `parameterKhong`, thứ 4 là `parameterCo`) cho các trường `tsgd_co_benh_truyennhiem`, `dangdt`, `san_khoa`; loại bỏ dòng gọi lặp đảo ngược `cls_khac`.
