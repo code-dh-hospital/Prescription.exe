@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.26.0907.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609075-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609075-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609075-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung cơ chế tự động chọn phòng cận lâm sàng trong form chỉ định FrmCanLamSang (show_DMDieuPhoi): khi dữ liệu phòng CLS khả dụng chỉ có 1 dòng (hoặc kết quả nạp danh mục chỉ có 1 row), hệ thống tự động gán phòng điều phối vào chỉ định và lưu dữ liệu mà không cần bật form popup danh mục, giúp tối ưu thao tác chỉ định của bác sĩ.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/886
+  https://i.dh-his.com/tolaptrinh-ai/loi/issues/17
+- 📗: Đọc dữ liệu từ current.dmphong_cls kết hợp current.cauhinh_phong_cls theo mã CLS được chỉ định và ghi nhận maphong điều phối vào current.chidinhcls.
+- 📕: Tại form chỉ định cận lâm sàng ngoại trú, khi bác sĩ chọn các dịch vụ kỹ thuật mà danh mục phòng thực hiện chỉ có 1 phòng duy nhất, hệ thống tự động lưu phòng đó vào chỉ định mà không làm gián đoạn hiển thị popup chọn phòng.
+
+## [v.3.26.0907.4]()
+- ✨: Bổ sung cơ chế tự động chọn phòng cận lâm sàng trong form chỉ định FrmCanLamSang (show_DMDieuPhoi): khi dữ liệu phòng CLS khả dụng chỉ có 1 dòng (hoặc kết quả nạp danh mục chỉ có 1 row), hệ thống tự động gán phòng điều phối vào chỉ định và lưu dữ liệu mà không cần bật form popup danh mục, giúp tối ưu thao tác chỉ định của bác sĩ.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/886
+  https://i.dh-his.com/tolaptrinh-ai/loi/issues/17
+- 📗: Đọc dữ liệu từ current.dmphong_cls kết hợp current.cauhinh_phong_cls theo mã CLS được chỉ định và ghi nhận maphong điều phối vào current.chidinhcls.
+- 📕: Tại form chỉ định cận lâm sàng ngoại trú, khi bác sĩ chọn các dịch vụ kỹ thuật mà danh mục phòng thực hiện chỉ có 1 phòng duy nhất, hệ thống tự động lưu phòng đó vào chỉ định mà không làm gián đoạn hiển thị popup chọn phòng.
+
 ## [v.3.26.0907.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609073-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609073-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609073-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Thêm chức năng gửi dữ liệu KSK bằng API theo phụ lục 2 QĐ 2062/QĐ-BYT #884
 - 🐛: Hồ sơ 6-18 tuổi lỗi SAN_KHOA_KHONG_BT phải là số 1-5 theo mô tả phải thêm chức năng chọn trạng thái không bình thường -> Bổ sung chức năng chọn
