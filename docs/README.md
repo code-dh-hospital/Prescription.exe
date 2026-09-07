@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0907.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609070-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Không chỉnh được ngày diễn biến khi cho diễn biến trước ngày
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/991
+- 📕: Nguyên nhân lỗi : khi thao tác chỉnh diễn biến có chỉnh ngày giờ mới thì đã tách theo luồng cập nhật luôn ngày giờ cho quá trình điều trị nhưng lại đi kèm điều kiện qtdieutri.ngaygio = ngày giờ mới nên không update được.
+- 📕: Xử lý lỗi : khi thao tác chỉnh diễn biến có chỉnh ngày giờ mới thì điều kiện update không kèm theo ngày giờ, chỉ theo mabn,makb,maba và iddienbien
+
+![](https://postimg.cc/Y47CBGw5)
+
 ## [v.3.26.0904.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609042-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609042-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609042-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription] Tích hợp `LibraryApp.ClsBanQuyen.ApplyMainForm` tại `FrmMain_Load` (ngay sau khi hiển thị FrmHome và trước khi đăng nhập) và `ApplyChildForm` trong constructor của `FrmHome`, tự động đổi tiêu đề thành `DH.HIS Prescription`, nạp ảnh nền `background_dh.png` ngay từ bước khởi động ban đầu, cập nhật bản quyền DH và tự động quét ẩn nhóm Trợ giúp (ebPrescription.Groups["trogiup"]) khi `DHHIS_BANQUYEN=1`.
 - 🐛: Khắc phục việc menu Trợ giúp chưa bị ẩn trên Janus ExplorerBar và ảnh nền FrmHome phải đợi sau khi đăng nhập mới hiển thị.
