@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0908.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609083-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609083-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609083-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription BANT khi kết thúc bệnh án báo lỗi (BV Ngã Năm) #996
+- 🐛: bệnh án ngoại trú khi kết thúc bệnh án báo lỗi.
+![](https://i.vgy.me/jN04wl.gif)
+- 🐛: BANT đã kết thúc hoặc BANT thanh toán ngày đã in bảng kê khi vào chỉ định cls phần mềm vẫn cho thêm cls mới.
+![](https://i.vgy.me/re1Oyz.png)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/996
+
 ## [v.3.26.0908.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609082-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Hỗ trợ mở rộng giá trị tham số `kb.bacsi.sophuttoithieu` theo đối tượng, theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-cua-bac-si.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-cua-bac-si.md).
