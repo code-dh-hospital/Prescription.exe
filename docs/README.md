@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.0908.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609080-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609080-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609080-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Đồng bộ dữ liệu Hồ sơ sức khỏe nhằm tạo lập cơ sở dữ liệu dùng chung ngành Y tế (Theo Quyết định 831) #847
+![](https://i.vgy.me/2496cD.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/847
+
 ## [v.3.26.0907.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609077-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609077-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609077-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: [Prescription & HosPre.DataAccess] Fix lỗi `NpgsqlException 42601 syntax error at or near "and"` khi `Chỉnh diễn biến` BANT ngoại trú theo đợt: xóa dấu `;` thừa sau điều kiện `iddienbien` trong câu `UPDATE current.chungtu` nhánh quyết toán cuối đợt ở `BNNoiTruAdapter.UpdateNgoaiTru` (`HosPre.DataAccess/Adapters/BNNoiTruAdapter.cs`).
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/993
