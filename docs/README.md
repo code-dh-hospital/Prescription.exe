@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0908.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609082-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Hỗ trợ mở rộng giá trị tham số `kb.bacsi.sophuttoithieu` theo đối tượng, theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-cua-bac-si.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-kham-benh-cua-bac-si.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczNoHwQlyyGDNeqAqKITQg7LNTzD5DQHjZ5on-RnazXFGH4AcAJBZDwaUg5IdqkrTVkhPd9pLVsO8F1lQpIRby7p7NPeTqRq0CVZo0Oav1gVBXHjk64kc7WbtShhvHGfx9muXg-w2ffSz-dJfRoDdyzj=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczOkXmmnNjAu0glzglCickAzHnChUTTvDWEh2KHMkuddO5DNFIuAuudHYZzjROxefr71dARwKwpotwAZt4AwPC-FJ8vHDgGgu-9RF1L56UEOllQNG1zfgbUNzMlhATj0KHbthVjXs17_JElQG8pD0aVG=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNu69vhZ-VmVYmZPdlEcLDadOERBqgVYPloYniGkFKeDXw8GzHJwLSnew22XMKc0-4vu7vHlxx2446PJX86ED36B6iknYNgCNtqza26Kzbys82YTPox5zXcPq_G6hyBXwSRhO_PpPGm35P3qJCJSDKs=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/897#issuecomment-34061 (hdhiswork/YEUCAU#897)
+
 ## [v.3.26.0908.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609081-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription] Đồng bộ hỗ trợ hiển thị và kê đơn ngoại trú cho bệnh nhân sử dụng thẻ BHYT 17 ký tự (mã định danh CCCD), tương thích song song với thẻ 15 ký tự truyền thống.
 - 🐛: [Prescription] Khắc phục tình trạng cắt cụt chuỗi mã thẻ BHYT 17 ký tự khi nạp thông tin bệnh nhân đăng ký khám và lập toa thuốc ngoại trú.
