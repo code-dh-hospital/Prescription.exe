@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0909.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609090-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Hỗ trợ cảnh báo hoặc chặn thời gian thực hiện y lệnh Thủ thuật, phẫu thuật trên nhiều bệnh nhân lồng nhau theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-bat-dau-TT-PT-cua-bac-si.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-bat-dau-TT-PT-cua-bac-si.md).
+![](https://lh3.googleusercontent.com/pw/AP1GczOALVkdpoxc_aEAJF5lep9AfyjqMvgmmIFoHwTZL7sApzmRtyjedRpKHn9dmSnIQumBSFC74cC23-RTbU0WmYHZXQs78mtJLuMl6PjK-YDirS4-FyOBPm-gAO26nMjMXGoVhhL9FLpIftBkhU5tzvny=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPcTUoRi-FOZxCZzor9NIdJ4gPtMeFdNEBPR1K090KF5rlGY56xX6coBaznmLBxPACQ5ycmXQigoDlGr_0xgefaiJsTBixEQbyhoaJFa5lmXH-v1KeTTz6Y_nAyMHtw1qYs_WbjmdMmlf74GG31lCoc=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/899#issuecomment-34066 (hdhiswork/YEUCAU#899)
+
 ## [v.3.26.0908.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609083-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609083-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609083-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription BANT khi kết thúc bệnh án báo lỗi (BV Ngã Năm) #996
 - 🐛: bệnh án ngoại trú khi kết thúc bệnh án báo lỗi.
