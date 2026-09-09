@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.26.0909.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609092-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609092-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609092-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription & HosReg.Code] Đồng bộ phân hệ Kê đơn cho phép tiếp nhận/đăng ký KCB đối tượng trẻ em dưới 6 tuổi có thẻ BHYT 17 ký tự.
+- 🐛: [Prescription & HosReg.Code] Sửa lỗi tab Đăng ký KCB chặn lưu thẻ BHYT 17 ký tự của đối tượng trẻ em.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1001
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/27
+- 📗: [Prescription & HosReg.Code] Đồng bộ dữ liệu bảng current.psdangky và current.dmthebhyt.
+- 📕: [Prescription & HosReg.Code] Thao tác tiếp nhận bệnh nhân tại tab Đăng ký KCB của phân hệ Kê đơn, lưu thành công thẻ BHYT 17 ký tự cho trẻ em dưới 6 tuổi.
+- Thực hiện theo mô tả [Đăng ký khám chữa bệnh đối tượng trẻ em dưới 6 tuổi thẻ BHYT 17 ký tự](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Mo-ta-Dang-ky-KCB-doi-tuong-tre-em-the-BHYT-17-ky-tu.md)
+
+![](https://lh3.googleusercontent.com/pw/AP1GczPNb-oigQQ_mpaCjD5WQi3QEM7-GlH5IXvhJPYYkdVucXuOYRdPj5OU_SNieedno7OALdfz7GbnWs9EaA7autjoqwRcHOS4VSRiUKoJr5Rl0m3ohkIjXCj6Ac5G2gOcoS1gmb5tsjmL9azuAElXe47M=w1703-h912-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczP5Vd76JD3wFKiiMa7ic3zFDCL6ispDjhdltjKu3eDxMUZb7vOQ3mdqApQmgT0bxnVpQ-CjCqVCODO2z6sVxecAQXWlmMWFwR7z4-rPj9_j-UMRoXVL_sJ0TyxKUYC-mmJh4BjS9U4Fsc5tjKgY4y-4=w1704-h912-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczODN3JBSXcuPAtQ0vI0CflvbYRcrQ4aGx-euzL3d5-pQVQNkWabwg2nSBKzDYjrZyvMPmwjRqhqwXI5JR3G3TsJHvBvJ_Uh41z8TW1sPtZxZjpI3QkwOKnfRErolGHaeEE09kwfuBpCNLDOMXoYrq5g=w1066-h640-s-no-gm?authuser=0)
+![](https://images-worker.tlt20.workers.dev/i/01a08538-3005-7b8c-95fe-7fa0e6a4aec5)
+
 ## [v.3.26.0909.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609091-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Hỗ trợ chức năng tra cứu tiền miễn cùng chi trả theo phụ lục công văn 1839/CNTT-PM
 ![](https://i.vgy.me/fDlRAx.png)
