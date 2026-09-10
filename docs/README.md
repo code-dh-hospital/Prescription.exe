@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0910.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609101-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi
+1. BANT đợt vào phẫu thuật báo lỗi:
+![](https://lh3.googleusercontent.com/pw/AP1GczNDBzNhM-RN4ezcvw_OwvaE-_2XJF1lySLXqftI-0CYFc4JBNn14XJOF1ag_8fzaMH5nNAAexX88cNo6IrLZU_K6yyEXHp14B2Ab5OuvefUlIUgpjOikndVta2obsmjym-TxQeykzvNvEPt0VrzHJrX=w1654-h879-s-no-gm?authuser=0)
+2. Bệnh án ngoại trú khi thực hiện phẫu thuật:
+-> không load được danh sách mã máy.
+-> click vào ... chọn mã máy báo lỗi.
+![](https://lh3.googleusercontent.com/pw/AP1GczP-CIPiWMLrQG0NGtIAHeDhQV1DWH-JKegUR3gmTZp81HHuvpbAFIwAI_t9H-8d-tnyZ8OGTMj4qk6wdmlTobBBl-jQ31C9EqKLnkqyFGZ8vdDkzlfHZl4hAraXwxtXn96KPQlMuFHIIOdniGmqNEfh=w1654-h879-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczO4a-00wYJotawwa2Q0sY3bOHozTz5joxKjvhOhocf34F_3_ti-ZUrzigMYgB4nfBcTSEYsfD9Tw6EBR9WqmAxkVnZgWHShCL4Fm_NxQfwu5mjL3dsJmF9vtpf2rwuG2pDVTU_s3XETFCA3sxE7UrEx=w1654-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/999#issuecomment-35343 (hdhiswork/LOI#999)
+
 ## [v.3.26.0910.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609100-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Hỗ trợ chức năng tra cứu tiền miễn cùng chi trả theo phụ lục công văn 1839/CNTT-PM #900
 - tab Tra cứu tiền MCCT bị che khuất -> đề nghị mỡ rộng form hoặc đưa ra phía tab bệnh nhân để người dùng nhìn thấy.
