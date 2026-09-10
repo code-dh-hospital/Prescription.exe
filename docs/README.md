@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0910.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609105-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609105-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609105-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi form khám sức khỏe hợp đồng
+1. Không chỉnh được 1 số thông tin khám lâm sàng:
+![](https://lh3.googleusercontent.com/pw/AP1GczMS4mWQ9okYIwFCMvq3CaD2wPqbwLGhnhdCwlvGeemRFC8aMQnuXaGtLklbcLsgSF4IlTB39cJ-KCcXGpaNOy5DhqCXpMPcFlESk9kiuXHBOqSX4EBPnstolKQBr7i0CijcwIJ4AueRwNoVyFMut8Dg=w1654-h879-s-no-gm?authuser=0)
+2. Hiển thị thiếu thông tin khi độ phân giải 1366x768: <== **Bổ sung thanh cuộn**
+![](https://lh3.googleusercontent.com/pw/AP1GczMKH5LBKK9klJm7gEYaIYhJ20SuWq5mgfNSjGb4fd7dSu0mfeqdKPw8e675V27f3mKuvEGiWmY_u4GdABzIwPr8f8ZChtgsa5SPAhtFT61jxIScon5Pkp9c8mzGVKSrSZHP2JAx3ShOud8dWy6NscuD=w1680-h816-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1000#issuecomment-35485 (hdhiswork/LOI#1000)
+
 ## [v.3.26.0910.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609104-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609104-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609104-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi form khám sức khỏe hợp đồng
