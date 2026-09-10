@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0910.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609103-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609103-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609103-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - XML 3172 bệnh án ngoại trú có ngày y lệnh thuốc sau ngày ra viện (BV Ô Môn) #950
+	+ Fix lỗi thông báo 2 lần cùng nội dung
+
+	![](https://photos.fife.usercontent.google.com/pw/AP1GczMGj9QUWRyH30T9HvJ9RSBGRrPA9ZQh2QNXW3XvkZ0bydZl1A8ZHV2Y=w1700-h914-s-no-gm?authuser=1)
+
+	[File video](https://photos.fife.usercontent.google.com/pw/AP1GczMGj9QUWRyH30T9HvJ9RSBGRrPA9ZQh2QNXW3XvkZ0bydZl1A8ZHV2Y=w1700-h914-s-no-gm?authuser=1)
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/950
+<<<<<<< HEAD
+
 ## [v.3.26.0910.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609102-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609102-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609102-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Hiệu chỉnh thông tin form KSK HD mất thông tin CCCD, nhóm máu,...
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/994
