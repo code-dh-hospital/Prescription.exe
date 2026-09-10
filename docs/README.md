@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0910.10]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F326091010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F326091010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F326091010-NasDHSolutions.json)</sup></sup></sub>
+
+- 🐛: Sửa lỗi form khám sức khỏe hợp đồng
+1. Chưa chỉnh được ô `Khám lâm sàng khác`: 
+![](https://lh3.googleusercontent.com/pw/AP1GczPhBxzvnlINXIvOCFRH1HLm1hYkElAyLR_VurlHKnaL4SZZSEaIs3jwxBsmUAljA4orl1zAEh-j0tZT5hj9Uidz6tlkCDdVPD0eTCuwsBVA9CnZWYriIQREPT0DOPw3INnPopsz0sBWpORG19nb34QG=w1654-h879-s-no-gm?authuser=0)
+2. Điều chỉnh lại chỉ hỗ trợ thanh cuộn tab `[Trên 18 tuổi] => [Khám lâm sàng] => [Tổng hợp]`: 
+![](https://lh3.googleusercontent.com/pw/AP1GczP1ZYja4dSVyOhM5BULiDtCCWV8iw2AanVb_Y1DalkyuWMEyd8XKXPEQTMpd7goOyNZf6HVuSW1bvCyG6yjXSQV4Bsw6sqd11nHG2L2PVZ1i_Bf0apM4IwEO-fp03K1kTrNAIm8TEFD0evg1n7v6FwI=w1636-h730-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1000#issuecomment-35617 (hdhiswork/LOI#1000)
+
 ## [v.3.26.0910.9]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609109-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609109-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609109-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: LỖI - Xem Kết quả Xét nghiệm khi tham số cks.ketquacls=1 của BV Gò Vấp #974
 	+ Cập nhật: Prescription
