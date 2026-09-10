@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0910.8]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609108-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609108-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609108-NasDHSolutions.json)</sup></sup></sub>
+
+
+- 🐛: Sửa lỗi (không lấy được mã máy và lỗi khi load danh sách mã máy) trường hợp thêm phiếu TT/PT đối với CLS load mặc định:
+![](https://lh3.googleusercontent.com/pw/AP1GczPm7sIxAflY6xJ25BqYCnc91SswqUw86AYZeVMmj7R6Rs5ugHpwPoQrgTYu-j-IXqwBphO0UegS5wJbz_6pYkZdQxm4kbtsSc3QOg4dQVGUQrcyC2qNODCI92JxmtQQBMr3KFGRNTa5gnbiDCGe9eTh=w1661-h879-s-no-gm?authuser=0)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/999#issuecomment-35560 (hdhiswork/LOI#999)
+
 ## [v.3.26.0910.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609107-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609107-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609107-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription BANT khi kết thúc bệnh án báo lỗi (BV Ngã Năm) #996
 - 🐛: Trường hợp bệnh án ngoại trú ngày đã in bảng kê ,lần đầu vào chỉ định cls vẫn cho chỉ định
