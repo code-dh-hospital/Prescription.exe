@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0910.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609102-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609102-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609102-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Hiệu chỉnh thông tin form KSK HD mất thông tin CCCD, nhóm máu,...
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/994
+- 📕: Lỗi do giao diện KSK HĐ không có đầy đủ thông tin đồng bộ với Nhận bệnh nên gây ra mất 1 số thông tin khi cập nhật.
+- 📕: Xử lý : Bổ sung thông tin CCCD và sinh hiệu tại Form KSK HĐ
+- 📕: Cập nhật cấu trúc trước khi thực hiện
+
+![](https://i.vgy.me/UOjvF4.png)
+
+![](https://i.vgy.me/C1B8Md.png)
+
 ## [v.3.26.0910.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609101-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi
