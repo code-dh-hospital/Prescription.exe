@@ -6,6 +6,31 @@
 
 #
 
+## [v.3.26.0911.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609111-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Prescription - Chức năng chỉnh thông tin tại các Form danh sách KSK HĐ chuyển sang sử dụng Form hiệu chỉnh thông tin 
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/913
+- 📗: https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/SU_DUNG_FORM_CHINH_THONG_TIN_NGOAI_TRU_KSK_H%C4%90.md
+- 📕: Xử lý sử dụng chức năng chỉnh thông tin bệnh nhân ngoại trú cho các Form KSK HĐ
+
+![](https://i.vgy.me/fCwZm7.png)
+![](https://i.vgy.me/WNRwdb.png)
+
+- 🐛: Lỗi - Register/Prescription: Thao tác chỉnh thông tin tại form Khám bệnh -> mất thông tin CCCD
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1003
+- 📕: Nguyên nhân lỗi do tại Form danh sách khám bệnh khi chỉnh thông tin không đầy đủ thông tin CCCD khi cập nhật set lại giá trị sai.
+- 📕: Xử lý lỗi : sử dụng lại thông tin của bệnh nhân đã đăng ký để cập nhật đầy đủ thông tin
+
+![](https://i.postimg.cc/N0grNkNh/Prescription-dv-Ixe-Rkl-Zb.gif)
+
+- 🐛: Fix lỗi set sai thông tin ngày sinh quan hệ thân nhân khi người dùng bỏ trống cũng có giá trị
+- 📕: Nguyên nhân lỗi : khi kiểm tra giá trị trên control không có giá trị vẫn set giá trị vào
+
+![](https://i.vgy.me/bzT7Eu.png)
+
+- 📕: Xử lý lỗi : khi kiểm tra giá trị trên control nếu người dùng không nhập giá trị thì set đúng giá trị null
+
+![](https://i.vgy.me/bOYBaD.png)
+
 ## [v.3.26.0911.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609110-NasDHSolutions.json)</sup></sup></sub>
 
 - 🐛: Sửa lỗi báo sai thời gian bắt đầu TT/PT theo mô tả [THAM_SO_HE_THONG/Kiem-soat-thoi-gian-bat-dau-TT-PT-cua-bac-si.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-thoi-gian-bat-dau-TT-PT-cua-bac-si.md).
