@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0911.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609113-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609113-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609113-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Biên bản họp giải đáp thắc mắc về Quyết định số 2062/QĐ-BYT tại đầu cầu SYT Tỉnh Lâm Đồng #154
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154
+- 📕: thực hiện gán các giá trị mặc định theo yêu cầu từ `https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154#issuecomment-35408 (hdhiswork/TOLAPTRINH#154)`
+- 📕: phân loại bệnh nhân theo độ tuổi, khi click vào khám bệnh chỉ hiển thị nội dung cần nhập theo độ tuổi đó
+![](https://i.vgy.me/wm33Xp.png)
+
 ## [v.3.26.0911.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609112-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609112-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609112-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp cấu hình BuildZip|AnyCPU (xuất bin\BuildZip) + Pre/PostBuildEvent gọi visualstudio-external-tool.js; nhận Resources/DH.ModuleClient.exe bản mới tự động qua syncModuleClientExe khi build DH.ModuleClientV2
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/845
