@@ -6,6 +6,30 @@
 
 #
 
+## [v.3.26.0911.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609114-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609114-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609114-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription & HosReg.Code] Đồng bộ phân hệ Kê đơn cho phép tiếp nhận / nhận bệnh đối tượng trẻ em dưới 6 tuổi có thẻ BHYT 17 ký tự; đồng bộ HosReg.Code.dll mới từ dhlibraries.
+
+- 🐛: [Prescription & HosReg.Code] Sửa lỗi tab Đăng ký KCB và màn hình Nhận bệnh cảnh báo chặn "Thẻ bảo hiểm không đúng độ dài 15 ký tự." khi lưu hồ sơ trẻ em thẻ 17 ký tự.
+
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1001
+
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/27
+
+- 📗: [Prescription & HosReg.Code] Đồng bộ dữ liệu bảng current.psdangky và current.dmthebhyt.
+
+- 📕: [Prescription & HosReg.Code] Thao tác tiếp nhận bệnh nhân tại tab Đăng ký KCB của phân hệ Kê đơn, chọn đối tượng BHYT Trẻ em, lưu thành công thẻ BHYT 17 ký tự.
+
+- Thực hiện theo mô tả [Đăng ký khám chữa bệnh đối tượng trẻ em dưới 6 tuổi thẻ BHYT 17 ký tự](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Mo-ta-Dang-ky-KCB-doi-tuong-tre-em-the-BHYT-17-ky-tu.md)
+
+![](https://lh3.googleusercontent.com/pw/AP1GczPNb-oigQQ_mpaCjD5WQi3QEM7-GlH5IXvhJPYYkdVucXuOYRdPj5OU_SNieedno7OALdfz7GbnWs9EaA7autjoqwRcHOS4VSRiUKoJr5Rl0m3ohkIjXCj6Ac5G2gOcoS1gmb5tsjmL9azuAElXe47M=w1703-h912-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczP5Vd76JD3wFKiiMa7ic3zFDCL6ispDjhdltjKu3eDxMUZb7vOQ3mdqApQmgT0bxnVpQ-CjCqVCODO2z6sVxecAQXWlmMWFwR7z4-rPj9_j-UMRoXVL_sJ0TyxKUYC-mmJh4BjS9U4Fsc5tjKgY4y-4=w1704-h912-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczODN3JBSXcuPAtQ0vI0CflvbYRcrQ4aGx-euzL3d5-pQVQNkWabwg2nSBKzDYjrZyvMPmwjRqhqwXI5JR3G3TsJHvBvJ_Uh41z8TW1sPtZxZjpI3QkwOKnfRErolGHaeEE09kwfuBpCNLDOMXoYrq5g=w1066-h640-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczMoZanJGME84AlOBKIQ1VQzEu9yOn803_iGjtJhe2b5KYgkkI5yU3aTzkTJY_djpistC-agd9HZ_g1ztH5Msnxy2B_kR9siujGhqhjEs6sy3lQGsjeKFTM1jr2VcmH1fDwZEeAg2Fr6Y2HCPzg71Gyk=w1814-h973-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPYIROcsJZhfvUfn8yqvssbrlkoXhunNjY1SjJRiWPHVt9i3hGUa_7o8_2kunOdBBNBcqmh483HgZyQWaIowZ-a0pwGwLR9w2m_LmT_qepRAXe2-O-aTnYLn75tB29hBFjl2waYCX7ibIgQ3TvFwBmf=w1824-h973-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNX8eTg18eSRCuPiSeVQY55YvPCu5XG9MOI5J08sr7VkM9O96VO_9I1s2ym6F7it_qTHsWtQBNWuGI5mB0LNe9iu4QwUYEvcOhexVOjy75qrIHbbPPzyZFN8GjeW2GJVG9-IKog7PmKL8zr9O5fFa-a=w1837-h973-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczNhk4aZAfJhk9OThLiDOBJeAyLllsDRdAM4yMDcMvBYJtMR9lBrnHLG110DAOU8VfYSSpoyq61ZwqTYEcUnPmiEDaNXP7BsxTxOleZFbiseyrD5uED4Q2DnjrVCwCSc-LlE-pUlhsKzvtbUpob5ci64=w1814-h973-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczO5O0daXjvARmx0O8MLJHUx3lyHyZMnUhTipVRS_N8-OUVTDAovr4iC4nM2py6XFm-yUom-g2q1zv4gebeXLts0yUglPoT3EnKRAzaCe2tjF3lEEAIjmbTKJBNbOLiLTtC-ggkHVyToXzmGauVmVbOM=w1826-h973-s-no-gm?authuser=0)
+
 ## [v.3.26.0911.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609113-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609113-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609113-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Biên bản họp giải đáp thắc mắc về Quyết định số 2062/QĐ-BYT tại đầu cầu SYT Tỉnh Lâm Đồng #154
 - ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154
