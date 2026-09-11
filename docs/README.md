@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.0911.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609112-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609112-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609112-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp cấu hình BuildZip|AnyCPU (xuất bin\BuildZip) + Pre/PostBuildEvent gọi visualstudio-external-tool.js; nhận Resources/DH.ModuleClient.exe bản mới tự động qua syncModuleClientExe khi build DH.ModuleClientV2
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/845
+- 📕: Phân hệ luôn embed đúng bản DH.ModuleClient.exe mới nhất, thống nhất nguồn tải cập nhật remote/local
+- Thực hiện theo mô tả [Mô tả bổ sung cấu hình AppUpdate Postgres App tách biệt DB HIS chính](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Quan-tri-Admin/Mo-ta-bo-sung-cau-hinh-appupdate-postgres-app-tru-db-his-chinh.md)
+
+![](https://images-worker.tlt11.workers.dev/i/01a08e79-8ad8-7ce3-944c-604c313576cc)
+![](https://images-worker.tlt10.workers.dev/i/01a08e79-d157-7b05-94ff-19611903d50b)
+![](https://images-worker.tlt02.workers.dev/i/01a08f3b-912b-7723-8dc2-6350fb2e951c)
+
+> ⚠️ **Lộ trình triển khai an toàn:** bản client cũ không biết CSDL remote (chỉ đọc `{DB}_app` local). Phải publish bản mới bằng **cách cũ** cho mọi trạm xong, rồi mới tạo/bật remote (`EOptionAdmin.Enabled = true`), sau đó mới publish tiếp lên remote. Không bật remote khi còn trạm cũ.
+- Hướng dẫn cấu hình & vận hành [Mo-ta-huong-dan-cau-hinh-va-van-hanh-appupdate-remote-db.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Quan-tri-Admin/Mo-ta-huong-dan-cau-hinh-va-van-hanh-appupdate-remote-db.md)
+
 ## [v.3.26.0911.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609111-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609111-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609111-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Prescription - Chức năng chỉnh thông tin tại các Form danh sách KSK HĐ chuyển sang sử dụng Form hiệu chỉnh thông tin 
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/913
