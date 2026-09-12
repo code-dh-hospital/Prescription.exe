@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0912.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609120-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Biên bản họp giải đáp thắc mắc về Quyết định số 2062/QĐ-BYT tại đầu cầu SYT Tỉnh Lâm Đồng #154 (push lại do dll push failed)
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154
+- 📕: thực hiện gán các giá trị mặc định theo yêu cầu từ `https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154#issuecomment-35408 (hdhiswork/TOLAPTRINH#154)`
+- 📕: phân loại bệnh nhân theo độ tuổi, khi click vào khám bệnh chỉ hiển thị nội dung cần nhập theo độ tuổi đó
+![](https://i.vgy.me/wm33Xp.png)
+
 ## [v.3.26.0911.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609114-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609114-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609114-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription & HosReg.Code] Đồng bộ phân hệ Kê đơn cho phép tiếp nhận / nhận bệnh đối tượng trẻ em dưới 6 tuổi có thẻ BHYT 17 ký tự; đồng bộ HosReg.Code.dll mới từ dhlibraries.
 
