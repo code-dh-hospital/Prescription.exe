@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0914.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609142-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Thêm chức năng gửi dữ liệu KSK bằng API theo phụ lục 2 QĐ 2062/QĐ-BYT #884
+- 🐛: Mẫu 02: từ 6 đến dưới 18 tuổi
+- Tiền sử gia đình có bệnh truyền nghiễm bị check sai
+- Sản khoa thiếu phần đẻ có can thiệp
+![](https://i.vgy.me/ChJMfk.png)
+- Bổ sung thêm param hiển thị tên các icd sản khoa
+![](https://i.vgy.me/ZOfag0.png)
+- Rà soát tại dữ liệu gửi XML tất cả các trường không có dữ liệu phải để trống không gửi giá trị = -1 hay giá trị khác
+![](https://i.vgy.me/TtuZFL.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/884
+
 ## [v.3.26.0914.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609141-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Sửa lỗi khi cấu hình kb.chidinh = 1 (Cảnh báo), nhấn [Đồng ý] không còn tự động ép gán mã ICD dòng đầu tiên vào chẩn đoán phụ của bệnh nhân và cho phép kê thuốc bình thường; nhấn [Bỏ qua] dừng thêm thuốc mà không báo lỗi chẩn đoán rỗng không hợp lệ (FrmThongTinKham.cs, FrmRaToa.cs, FrmCanLamSang.cs, FrmKhamBenh.cs).
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1005
