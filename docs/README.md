@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0914.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609141-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Sửa lỗi khi cấu hình kb.chidinh = 1 (Cảnh báo), nhấn [Đồng ý] không còn tự động ép gán mã ICD dòng đầu tiên vào chẩn đoán phụ của bệnh nhân và cho phép kê thuốc bình thường; nhấn [Bỏ qua] dừng thêm thuốc mà không báo lỗi chẩn đoán rỗng không hợp lệ (FrmThongTinKham.cs, FrmRaToa.cs, FrmCanLamSang.cs, FrmKhamBenh.cs).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1005
+- 📕: Khi kê thuốc/CLS thiếu chẩn đoán kèm theo với kb.chidinh = 1, nhấn [Đồng ý] để kê thuốc mà không thêm chẩn đoán phụ; nhấn [Bỏ qua] để hủy kê; hoặc nhấn nút [Thêm chẩn đoán + thuốc/CLS] trên từng dòng lưới để chọn đúng ICD mong muốn thêm vào bệnh nhân.
+- Thực hiện theo mô tả [Mota-bosung-tienich-themcd-chong-chidinh.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/Mota-bosung-tienich-themcd-chong-chidinh.md)
+![](https://images-worker.tlt29.workers.dev/i/01a09df4-03f2-7998-b40b-ddf9e6c7d090)
+
 ## [v.3.26.0912.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609120-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Biên bản họp giải đáp thắc mắc về Quyết định số 2062/QĐ-BYT tại đầu cầu SYT Tỉnh Lâm Đồng #154 (push lại do dll push failed)
 - ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154
