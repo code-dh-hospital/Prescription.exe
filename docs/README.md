@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.0917.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609173-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609173-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609173-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Lỗi - Prescription: Thao tác xem Kết quả HA/ST phần mềm báo lỗi
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/936
+- 📕: Nguyên nhân lỗi : khi thực hiện tạo QRCode để in lên mẫu kết quả thì đơn vị dùng PACS riêng đã lấy được QRCode nhưng lại vào lấy thêm QRCode lần nữa từ Savina gây ra api trả về lỗi.
+- 📕: Xử lý : kiểm tra đúng QRCode từ hệ thống PACS đang sử dụng 
+
+![](https://i.vgy.me/mhPWUs.png)
+
 ## [v.3.26.0917.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609172-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609172-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609172-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Thêm chức năng gửi dữ liệu KSK bằng API theo phụ lục 2 QĐ 2062/QĐ-BYT #884
 - 🐛: Mẫu in 02 vẫn chưa lấy được thông tin tên bệnh theo ICD 10 của sản khoa
