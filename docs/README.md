@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0917.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609171-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Đồng bộ dữ liệu Hồ sơ sức khỏe nhằm tạo lập cơ sở dữ liệu dùng chung ngành Y tế (Theo Quyết định 831) #847
+- 🐛: Phát sinh lỗi không tìm thấy `THONGTINCHUNG`
+![](https://i.vgy.me/lWrlS8.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/847
+
 ## [v.3.26.0917.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609170-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Biên bản họp giải đáp thắc mắc về Quyết định số 2062/QĐ-BYT tại đầu cầu SYT Tỉnh Lâm Đồng #154
 - 🐛: Mối quan hệ của trẻ, trang in hiển thị sai so với trên form đã chọn.
