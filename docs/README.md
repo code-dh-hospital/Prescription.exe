@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0917.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609174-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609174-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609174-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Yêu cầu - Tích hợp máy quét vân tay ký mẫu bảng kê chi phí KCB 697 #865
+![](https://i.vgy.me/58uF8r.png)
+![](https://i.vgy.me/R8fR3a.png)
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/865
+
 ## [v.3.26.0917.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609173-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609173-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609173-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Lỗi - Prescription: Thao tác xem Kết quả HA/ST phần mềm báo lỗi
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/936
