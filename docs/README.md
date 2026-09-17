@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.26.0917.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609170-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Biên bản họp giải đáp thắc mắc về Quyết định số 2062/QĐ-BYT tại đầu cầu SYT Tỉnh Lâm Đồng #154
+- 🐛: Mối quan hệ của trẻ, trang in hiển thị sai so với trên form đã chọn.
+![](https://i.vgy.me/OlSCmv.png)
+- 🐛: Khám cơ xương và thần kinh đang mặc định là Không bình thường
+![](https://i.vgy.me/BYk5y8.png)
+- 🐛: Khám Tai-Mũi_Họng đang mặc định là Không bình thường.
+![](https://i.vgy.me/tbXPBD.png)
+- 🐛: Các tab phân loại chưa gán giá trị mặc đinh
+![](https://i.vgy.me/eKLfLo.png)
+- 🐛: Các tab khám chuyên khoa và khám lâm sàng, khi chọn phân loại bệnh thì chưa load được giá trị theo quy định, phải chọn qua phân loại của cái kế tiếp thì giá trị cái trước đó mới load được nhưng không hiển thị được phân loại của cái nào hết...
+![](https://i.vgy.me/cUFk8L.gif)
+- 🐛: Đối với mẫu này, liên quan đến sản thì có tiêu đề là Thai sản(có hay không), tên bệnh thai sản, thuốc đang điều trị thai sản. Mà trên form còn đang sử dụng chung với đối tượng từ 6-18 tuổi, đề nghị điều chỉnh lại cho phù hợp.
+![](https://i.vgy.me/RLeL7V.png)
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154
+
 ## [v.3.26.0914.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609142-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Thêm chức năng gửi dữ liệu KSK bằng API theo phụ lục 2 QĐ 2062/QĐ-BYT #884
 - 🐛: Mẫu 02: từ 6 đến dưới 18 tuổi
