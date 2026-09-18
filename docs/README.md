@@ -6,6 +6,26 @@
 
 #
 
+## [v.3.26.0918.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609180-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Biên bản họp giải đáp thắc mắc về Quyết định số 2062/QĐ-BYT tại đầu cầu SYT Tỉnh Lâm Đồng #154
+- 🐛: load sai mối quan hệ, lỗi này là ở đối tượng dưới 6 tuổi.
+![](https://i.vgy.me/C9lLBz.png)
+- 🐛: Tab kết luận, không bấm nút Chỉnh chẫn đoán nhưng vẫn chọn được Bác sĩ và ICD
+- 🐛: Chưa mặc định cho khám Tâm thần
+![](https://i.vgy.me/rhoC0K.gif)
+- 🐛: Các tab Mắt, Tai mũi họng, ăng hàm mặt, khám lâm sàng kết luận vẫn thao tác chỉnh được mặc dù chưa bấm nút Chỉnh chẩn đoán => đề nghị khóa hết các control khi chưa bấm nút Chỉnh chẩn đoán.
+- 🐛: Đối tượng khám trên 18 tuổi: 
+Chưa mặc định giá trị cho Nội tiết, Cơ xương khớp
+Chưa mặc định phân loại và giá trị cho khám Tâm thần
+![](https://i.vgy.me/bIPVja.png)
+- 🐛: Tab khám lâm sàng, cũng bị tương tự như 6-18 tuổi, đã mặc định phân loại theo quy định, nhưng khi enter chọn BS xong thì phân loại load bị sai, còn nếu gõ trực tiếp mã BS vào thì không bị, hoặc vừa click chuột vào ô Bác sĩ rồi sau đó click qua ô khá thì phân loại tại dòng đó bị mất
+![](https://i.vgy.me/yVqblZ.png)
+- 🐛: Không bấm nút Chỉnh chẩn đoán nhưng vẫn chọn được Bác sĩ, vẫn nhập được kết quả CLS, Có cận lâm sàng khác, Tên CLS khác => người dùng hiểu lầm là đã nhập và lưu rồi
+- 🐛: Các tab tiền sử bệnh, Khám lâm sàng, Xét nghiệm máu, Xét nghiệm nước tiểu, Kết luận vẫn thao tác chỉnh được mặc dù chưa bấm nút Chỉnh chẩn đoán => đề nghị khóa hết các control khi chưa bấm nút Chỉnh chẩn đoán.
+- 🐛: Phần khám thể lực, mặc định là II - Khỏe, nếu chọn lại thì theo danh sách như phân loại khám chuyên khoa: Loại I : Rất khoẻ => Gửi XML là 1 Loại II : Khoẻ => Gửi XML là2 Loại III : Trung bình => Gửi XML là 3 Loại IV : Yếu => Gửi XML là 4 Loại V : Rất yếu => Gửi XML là 5
+![](https://i.vgy.me/UDvVlV.png)
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154
+
 ## [v.3.26.0917.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609174-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609174-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609174-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Yêu cầu - Tích hợp máy quét vân tay ký mẫu bảng kê chi phí KCB 697 #865
 ![](https://i.vgy.me/58uF8r.png)
