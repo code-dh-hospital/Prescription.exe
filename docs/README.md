@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0921.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609210-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609210-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609210-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Biên bản họp giải đáp thắc mắc về Quyết định số 2062/QĐ-BYT tại đầu cầu SYT Tỉnh Lâm Đồng #154
+- 🐛: BN click khám bệnh lần đầu tiên, có chọn mối quan hệ rồi Lưu, trở về khám tiếp, sau đó vào khám lại thì bị mất => Không lưu được dữ liệu.
+- 🐛: Tab khám lâm sàng, bấm nút Chỉnh chẩn đoán mới thực hiện được thao tác sau: Các trường đang mặc định phân loại và giá trị, ô MÃ BS đang trống, khi click chuột vô không nhập gì và bấm chuột ra chổ khác thì phân loại và giá trị bị mất, chỉ mất dữ trên form chứ không mất trong dữ liệu, bấm bỏ qua thì load đúng giá trị ban đầu.
+![](https://i.vgy.me/rH4Boe.gif)
+- 🐛: Tab đủ 18 tuổi - Bị tương tự như đối tượng 6-18 tuổi phía trên, nhưng đối tượng này có thêm lỗi, không bấm Chỉnh chẩn đoán cũng thao tác được như vậy, nhưng dữ liệu đã lưu thì không bị ảnh hưởng, chỉ bị trên form.
+![](https://i.vgy.me/Vq5i1R.gif)
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154
+
 ## [v.3.26.0918.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609180-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609180-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609180-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Biên bản họp giải đáp thắc mắc về Quyết định số 2062/QĐ-BYT tại đầu cầu SYT Tỉnh Lâm Đồng #154
 - 🐛: load sai mối quan hệ, lỗi này là ở đối tượng dưới 6 tuổi.
