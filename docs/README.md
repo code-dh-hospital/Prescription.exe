@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0923.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609231-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Cập nhật `FrmLichSuBenh.cs` trong `load_Thuoc` và `xemToaThuocDLL`: nhận diện bệnh án ngoại trú theo đợt (`bant = 0` và có `maba`), truyền tham số `makb = maba` và `pNoiTru = "1"`, `pTheoNgay = false` khi gọi `XtraRPT` để in và xem trước đúng toa thuốc đợt.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1014
+- 📕: Người dùng vào chức năng Xem lịch sử bệnh trên Prescription xem được đầy đủ danh sách thuốc và double click xem chi tiết toa thuốc in ấn cho cả BANT ngày và BANT đợt.
+- Thực hiện theo mô tả [SỬA LỖI XEM LỊCH SỬ BỆNH KHÔNG HIỂN THỊ ĐỦ TOA THUỐC BỆNH ÁN NGOẠI TRÚ (BANT NGÀY VÀ ĐỢT) TRÊN PRESCRIPTION VÀ REGISTER](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/BANT/Mo-ta-Sua-loi-lich-su-benh-khong-lay-duoc-toa-thuoc-BANT.md)
+
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1014/debug-image-prescription-frmlichsubenh-bantdot.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1014/debug-image-prescription-frmlichsubenh-bantngay.png)
+
 ## [v.3.26.0923.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609230-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Đóng gói lại `HosReg.Plus.dll` mới nhất — sửa lỗi chức năng "Hiệu chỉnh thông tin bệnh nhân" (`FrmHieuChinhBN.cs`, nút "KTTT") không cảnh báo khi kiểm tra thông tuyến thất bại hoặc không trả về "ngày đủ 5 năm liên tục" BHYT.
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1015
