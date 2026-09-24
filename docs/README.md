@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0924.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609245-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609245-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609245-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Đóng gói DH.XML4750 đã sửa — gửi hồ sơ KSK TT25 lên Cổng dữ liệu sức khỏe chỉ gồm trường thuộc đúng mẫu theo tuổi, chiều cao/chiều dài đơn vị cm.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1012
+- 📕: Thực hiện theo mô tả [XML KHÁM SỨC KHỎE TT25 GỬI CỔNG (QĐ 2062) – CHỈ GỬI TRƯỜNG THUỘC ĐÚNG MẪU THEO TUỔI, CHIỀU CAO ĐƠN VỊ CM](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/Mo-ta-sua-loi-xml-ksk-tt25-gui-du-du-lieu-va-chieu-cao-cm.md)
+
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1012/debug-image-dhxml4750-bytkskgatewaymapper-xmltheomau.png)
+
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1012/debug-image-prescription-frmkhamsuckhoe-guicong-duoi6.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1012/debug-image-prescription-frmkhamsuckhoe-xuatxml-duoi18.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1012/debug-image-prescription-frmkhamsuckhoe-xuatxml-tren18.png)
+
 ## [v.3.26.0924.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609244-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609244-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609244-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung nút bấm "Xuất XML 2062" (`btnXuatXmlKsk`) trên form `FrmKhamSucKhoe_HoaHao` để kết xuất file XML hồ sơ KSK theo Quyết định 2062/QĐ-BYT phục vụ import Cổng dữ liệu SYT Cần Thơ.
 - 🐛: Sửa lỗi chọn bác sĩ (`show_BSTruc`) tự động ghi đè phân loại về "I" và nội dung về "Bình thường"; sửa lỗi bấm Đóng hoặc rời ô mã BS (`_Leave`) bị xóa trắng phân loại và nội dung khám; sửa triệt để lỗi dòng Cơ xương khớp xóa nhầm dữ liệu dòng Thận.
