@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0924.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609243-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609243-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609243-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Đóng gói OTH.Entity đã sửa — in bảng kê BANT đợt và kết thúc điều trị BANT không còn báo lỗi 'No transaction in progress' (AGiamDinh.SaveXML130 INSERT current.psxml).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/865
+- 📕: Thực hiện theo mô tả [SỬA LỖI "NO TRANSACTION IN PROGRESS" KHI IN BẢNG KÊ (LƯU XML130 VÀO CURRENT.PSXML)](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/XML130/Mo-ta-sua-loi-no-transaction-in-bang-ke-luu-xml130-current-psxml.md)
+
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-865/debug-image-othentity-bkxml917-insertpsxml.png)
+
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-865/debug-image-prescription-frmbenhanngoaitru-inbangkebantdot.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-865/debug-image-prescription-frmbenhanngoaitru-ketthucdieutribant.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-865/debug-image-printer-frminphieukcb-inbangke.png)
+
 ## [v.3.26.0924.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609242-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609242-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609242-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription & HosReg.Code] Đồng bộ phân hệ Kê đơn cho phép tiếp nhận/nhận bệnh đối tượng trẻ em dưới 6 tuổi (madt = 03, bhyt = 2) và đối tượng BHYT (madt = 01, bhyt = 1) có mã thẻ BHYT chuẩn 15 và 17 ký tự; đồng bộ HosReg.Code.dll mới từ dhlibraries.
 
