@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0924.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609241-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609241-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609241-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: [HosPre.DataAccess] Sửa lỗi chức năng lấy lại chẩn đoán cũ tại FrmKhamBenh (nút CĐ cũ [F6]) và FrmBenhAnNgoaiTru (nút btnCDCu). Chuẩn hóa tự động chuỗi tên chẩn đoán phụ theo danh mục current.dmicd (Thông tư 06/2026/TT-BYT) thay vì hiển thị tên chẩn đoán cũ trong lịch sử khám, ngăn chặn nguy cơ bị Cổng Giám định BHYT xuất toán.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1017
+- 📗: Đối chiếu và chuẩn hóa chuỗi tên chẩn đoán phụ qua bảng danh mục current.dmicd (tenviet) từ dữ liệu lịch sử bảng current.khambenh.
+- 📕: Tại FrmKhamBenh bấm nút "CĐ cũ [F6]" hoặc tại FrmBenhAnNgoaiTru bấm nút "CĐ cũ" để nạp lại chẩn đoán cũ với tên chuẩn hóa theo danh mục ICD mới. Chi tiết xem tại [SỬA LỖI LẤY LẠI CHẨN ĐOÁN CŨ CHUẨN HÓA THEO DANH MỤC ICD HIỆN HÀNH (THÔNG TƯ 06/2026/TT-BYT)](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/Mo-ta-sua-loi-lay-lai-chan-doan-cu-chuan-hoa-ten-danh-muc-icd.md)
+
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1017/debug-image-prescription-frmbenhanngoaitru-chandoancu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1017/debug-image-prescription-frmkhambenh-chandoancu.png)
+
 ## [v.3.26.0924.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609240-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung tính năng tự động xóa dòng bệnh nhân khỏi màn hình hàng chờ LCD/Tivi (current.pscls_lcd) khi bác sĩ hủy/xóa chỉ định CLS nhầm và bệnh nhân không còn chỉ định nào khác thuộc phòng CLS đó (Prescription/Forms/FrmCanLamSang.cs).
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/903
