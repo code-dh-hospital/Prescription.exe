@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0924.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609244-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609244-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609244-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung nút bấm "Xuất XML 2062" (`btnXuatXmlKsk`) trên form `FrmKhamSucKhoe_HoaHao` để kết xuất file XML hồ sơ KSK theo Quyết định 2062/QĐ-BYT phục vụ import Cổng dữ liệu SYT Cần Thơ.
+- 🐛: Sửa lỗi chọn bác sĩ (`show_BSTruc`) tự động ghi đè phân loại về "I" và nội dung về "Bình thường"; sửa lỗi bấm Đóng hoặc rời ô mã BS (`_Leave`) bị xóa trắng phân loại và nội dung khám; sửa triệt để lỗi dòng Cơ xương khớp xóa nhầm dữ liệu dòng Thận.
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/154
+- 📗: Bảng `current.pskhamsuckhoe` (các cột chuyên khoa lâm sàng: `coxuongkhop`, `plcoxuongkhop`, `than`, `plthan`, `tuanhoan`, `pltuanhoan`, `hohap`, `plhohap`, `tieuhoa`, `pltieuhoa`, `tamthan`, `pltamthan`, `thankinh`, `plthankinh`, `noitiet`, `plnoitiet`, `mat`, `plmat`, `taimuihong`, `pltaimuihong`, `ranghammat`, `plranghammat`, `dalieu`, `pldalieu`, `ngoai`, `plngoai`, `san`, `plsan`, `chon_gui_byt`, `dagui`).
+- 📕: Bác sĩ khám KSK tại `FrmKhamSucKhoe_HoaHao` (cả tab 6-18 tuổi và trên 18 tuổi) nhập phân loại bất thường và nội dung khám trước, sau đó chọn BS thì hệ thống giữ nguyên vẹn dữ liệu đã nhập (chỉ gán mặc định nếu ô đang rỗng); bấm Đóng danh sách BS hoặc click rời ô không bị mất dữ liệu; nhấn "Xuất XML 2062" để lưu file XML chuẩn Bộ Y tế.
+- 📘: Tài liệu đặc tả: [Mo-ta-sua-loi-phan-loai-bac-si-va-xuat-xml-2062-khamsuckhoe.md](../../Mo-ta-he-thong/THONGTU_25/Mo-ta-sua-loi-phan-loai-bac-si-va-xuat-xml-2062-khamsuckhoe.md)
+
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-154/debug-image-prescription-frmkhamsuckhoe-chuyenkhoa.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-154/debug-image-prescription-frmkhamsuckhoe-xuatxml.png)
+
 ## [v.3.26.0924.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609243-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609243-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609243-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Đóng gói OTH.Entity đã sửa — in bảng kê BANT đợt và kết thúc điều trị BANT không còn báo lỗi 'No transaction in progress' (AGiamDinh.SaveXML130 INSERT current.psxml).
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/865
