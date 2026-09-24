@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0924.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609240-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung tính năng tự động xóa dòng bệnh nhân khỏi màn hình hàng chờ LCD/Tivi (current.pscls_lcd) khi bác sĩ hủy/xóa chỉ định CLS nhầm và bệnh nhân không còn chỉ định nào khác thuộc phòng CLS đó (Prescription/Forms/FrmCanLamSang.cs).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/903
+- 📗: Kiểm tra phòng thực hiện qua bảng cấu hình nhỏ current.cauhinh_phong_cls và danh sách dịch vụ trên bộ nhớ RAM dtChiDinhCLS (tuyệt đối không truy vấn bảng lớn current.chidinhcls để bảo vệ hiệu năng hệ thống), sau đó gọi DH.BLLCLS.PhongCLS.ClearDanhSach để xóa khỏi current.pscls_lcd và cập nhật lại thời gian tổng của phòng.
+- 📕: Khi bác sĩ thao tác xóa dịch vụ CLS trên Form Chỉ định CLS, nếu bệnh nhân không còn dịch vụ nào khác của phòng đó, tên bệnh nhân sẽ tự động biến mất khỏi màn hình LCD/Tivi phòng tương ứng, tránh trường hợp gọi nhầm bệnh nhân đã hủy chỉ định.
+
 ## [v.3.26.0923.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609231-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Cập nhật `FrmLichSuBenh.cs` trong `load_Thuoc` và `xemToaThuocDLL`: nhận diện bệnh án ngoại trú theo đợt (`bant = 0` và có `maba`), truyền tham số `makb = maba` và `pNoiTru = "1"`, `pTheoNgay = false` khi gọi `XtraRPT` để in và xem trước đúng toa thuốc đợt.
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1014
