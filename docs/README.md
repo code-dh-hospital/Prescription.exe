@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0925.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609253-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609253-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609253-NasDHSolutions.json)</sup></sup></sub>
+- ✨: 
+- 🐛: Sửa lỗi in bảng kê 697 của BANT lần 1 lấy sai mã đối tượng (1.1 thay vì 1.16) và lặp đôi tên bệnh kèm theo
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1011
+- 📗: 
+- 📕: Cập nhật nạp đúng mã đối tượng KCB 1.16 cho Bệnh án ngoại trú ngày mắc bệnh thuộc Phụ lục II TT 01/2025/TT-BYT khi in bảng kê 697 từ phân hệ Kê đơn; khử trùng lặp chẩn đoán phụ. Chi tiết: https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Quyet-dinh-697/Mo-ta-Sua-loi-in-bang-ke-697-BANT-sai-ma-doi-tuong-lan-dau.md
+
+![](https://pacuujokpkfteaofgkkd.supabase.co/storage/v1/object/public/vuongdh-his-project/issues/issue-1011/debug-image-prescription-bangke697-chandoanphu-khongtrung.png)
+![](https://pacuujokpkfteaofgkkd.supabase.co/storage/v1/object/public/vuongdh-his-project/issues/issue-1011/debug-image-prescription-bangke697-madoituong-116.png)
+![](https://pacuujokpkfteaofgkkd.supabase.co/storage/v1/object/public/vuongdh-his-project/issues/issue-1011/debug-image-prescription-frmmain-fullflow.png)
+
 ## [v.3.26.0925.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609252-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609252-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609252-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Khám bệnh (FrmKhamBenh) - bấm 'Chỉnh' → 'Lưu' thông tin bệnh nhân không còn xóa loại giấy tờ (maloaigiayto) → Phiếu nghỉ ốm hiển thị đúng CCCD thay vì 'Không có giấy tờ'.
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1008
