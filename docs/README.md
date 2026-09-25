@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.0925.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609254-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609254-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609254-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [HosPre.DataAccess] Bổ sung UNION current.qtdieutri trong DmBenhNhanAdapter.GetLichSuBenh chế độ ngoại trú (pNoiTru = "0") cho BANT đợt (psdangky.maba LIKE 'N%' AND bant = 0) hiển thị đầy đủ các lần khám trong đợt điều trị lên lưới dgLichSuBenh.
+- 🐛: [HosPre.DataAccess/Prescription] Sửa ChiDinhCLSAdapter.GetLSCLS lấy toàn bộ CLS BANT đợt theo maba; sửa FrmLichSuBenh load_CLS truyền makb = maba và theoNgay = false; sửa GetLichSuBenh nội trú thêm COALESCE(PS.bant, 0) = 0 loại trừ BANT.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1014
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1014#issuecomment-44080 (hdhiswork/LOI#1014)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1014#issuecomment-44084 (hdhiswork/LOI#1014)
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/1014
+- 📗: Truy vấn kết hợp current.psdangky, current.qtdieutri, current.khambenh, current.chidinhcls.
+- 📕: Form FrmLichSuBenh hiển thị đầy đủ quá trình điều trị BANT đợt và chi phí cận lâm sàng, thuốc. Chi tiết: https://github.com/code-dh-hospital/Mo-ta-he-thong/blob/main/BANT/Mo-ta-Sua-loi-lich-su-benh-khong-lay-duoc-toa-thuoc-BANT.md
+
+![](https://i.vgy.me/E78YRb.png)
+
 ## [v.3.26.0925.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609253-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609253-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609253-NasDHSolutions.json)</sup></sup></sub>
 - ✨: 
 - 🐛: Sửa lỗi in bảng kê 697 của BANT lần 1 lấy sai mã đối tượng (1.1 thay vì 1.16) và lặp đôi tên bệnh kèm theo
