@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0925.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609255-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609255-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609255-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hỗ trợ cho phép xử trí Chuyển viện (03 - Chuyển viện, 14 - Chuyển viện tuyến dưới) khi chẩn đoán ICD 10 thuộc danh mục bệnh mạn tính, bên cạnh xử trí lập Bệnh án ngoại trú (07), tháo gỡ ách tắc cho các ca bệnh mạn tính diễn biến cấp tính nguy kịch cần chuyển tuyến cấp cứu.
+- 🐛: Khắc phục tình trạng khi cấu hình tham số khambenh.benhmantinh = 2 (hoặc 1), bác sĩ chọn xử trí Chuyển viện (03, 14) vẫn bị phần mềm cảnh báo chặn không cho lưu với thông báo bắt buộc lập bệnh án ngoại trú.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/933
+- 📗: current.system (khambenh.benhmantinh = 2), current.dmicd (benhmantinh = 1), current.dmxutri (maxt IN ('03', '07', '14')).
+- 📕: Form Khám bệnh (Prescription.Forms.FrmKhamBenh): Nâng cấp hàm CheckBenhManTinh() hợp thức hóa các mã xử trí chuyển viện (03, 14) bên cạnh mã xử trí lập BANT (07).
+  - Chi tiết đặc tả hệ thống: [Phiếu mô tả DH-02: Hỗ trợ Cho phép Xử trí Chuyển viện khi Chẩn đoán ICD 10 thuộc Bệnh mạn tính](https://github.com/code-dh-hospital/Mo-ta-he-thong/blob/main/KHAMBENH/Mo-ta-Cho-phep-chuyen-vien-khi-chan-doan-icd-benh-man-tinh.md)
+
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-933/debug-image-prescription-frmkhambenh-chuyenvien-direct.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-933/debug-image-prescription-frmkhambenh-chuyenvien14-direct.png)
+
 ## [v.3.26.0925.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609254-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609254-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609254-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [HosPre.DataAccess] Bổ sung UNION current.qtdieutri trong DmBenhNhanAdapter.GetLichSuBenh chế độ ngoại trú (pNoiTru = "0") cho BANT đợt (psdangky.maba LIKE 'N%' AND bant = 0) hiển thị đầy đủ các lần khám trong đợt điều trị lên lưới dgLichSuBenh.
 - 🐛: [HosPre.DataAccess/Prescription] Sửa ChiDinhCLSAdapter.GetLSCLS lấy toàn bộ CLS BANT đợt theo maba; sửa FrmLichSuBenh load_CLS truyền makb = maba và theoNgay = false; sửa GetLichSuBenh nội trú thêm COALESCE(PS.bant, 0) = 0 loại trừ BANT.
