@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0925.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609252-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609252-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609252-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Khám bệnh (FrmKhamBenh) - bấm 'Chỉnh' → 'Lưu' thông tin bệnh nhân không còn xóa loại giấy tờ (maloaigiayto) → Phiếu nghỉ ốm hiển thị đúng CCCD thay vì 'Không có giấy tờ'.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1008
+- 📗: Không thay đổi CSDL - giữ nguyên current.dmbenhnhan.maloaigiayto khi cập nhật thông tin bệnh nhân.
+- 📕: Thực hiện theo mô tả [Mo-ta-sua-loi-chinh-kham-benh-mat-loai-giay-to.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/Mo-ta-sua-loi-chinh-kham-benh-mat-loai-giay-to.md)
+
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1008/debug-image-prescription-frmkhambenh-chinh-loaigiayto.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1008/debug-image-prescription-frmnghiom-loaigiayto-cccd.png)
+
 ## [v.3.26.0925.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609251-NasDHSolutions.json)</sup></sup></sub>
 ﻿- 🐛: Đóng gói các DLL OTH.Entity.dll, OTH.Adapter.dll, DH.EMR.dll mới nhất — khắc phục lỗi XML1 thiếu thông tin giấy chuyển tuyến (GIAY_CHUYEN_TUYEN) đối với đối tượng KCB 1.3 (bệnh nhân có giấy chuyển viện đến tiếp nhận ngoại trú/nội trú).
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1009
