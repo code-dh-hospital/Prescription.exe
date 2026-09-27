@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.0927.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609270-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: [HosReg.Code] Hỗ trợ hiển thị và trích xuất đầy đủ mã số BHXH 12 ký tự từ thẻ BHYT 17 ký tự (bỏ hardcode cắt 10 ký tự sMaThe.Substring(5, 10), tăng txtSoBHXH.MaxLength = 20) trên Phiếu nghỉ ốm (FrmNghiOm) và Phiếu nghỉ dưỡng thai (FrmNghiDuongThai) khi mở từ Khám bệnh (FrmKhamBenh, FrmBenhAnNgoaiTru).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1019
+- ☑: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/issues/37
+- 📗: current.nghiom, current.nghiduongthai (trường sobhxh varchar(50))
+- 📕: Bác sĩ phòng khám mở chức năng Phiếu nghỉ ốm / Phiếu nghỉ dưỡng thai, ô số BHXH tự động hiển thị trọn vẹn 12 chữ số. Chi tiết: https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/REGISTER/Mo-ta-Register-Ho-tro-ma-so-BHXH-12-ky-tu-phieu-nghi-om.md
+
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1019/debug-image-register-frmnghiduongthai-sobhxh-12kytu.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1019/debug-image-register-frmnghiom-sobhxh-12kytu.png)
+
 ## [v.3.26.0925.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609256-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609256-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609256-NasDHSolutions.json)</sup></sup></sub> <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609256-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609256-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609256-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Khôi phục tính năng tự động xóa dòng bệnh nhân khỏi màn hình hàng chờ LCD/Tivi (current.pscls_lcd) khi bác sĩ hủy/xóa chỉ định CLS nhầm và bệnh nhân không còn chỉ định nào khác thuộc phòng CLS đó (Prescription/Forms/FrmCanLamSang.cs).
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/903
