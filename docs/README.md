@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0928.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609280-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Đóng gói HosPre.DataAccess, HosReg.DataAccess, HosReg.Plus đã sửa - Khám bệnh 'Chỉnh', Khám sức khỏe (HoaHao, MedicSG, PhuSanCT, TT32, TT32 mẫu 03), nhập KSK từ file không còn xóa CCCD, loại giấy tờ, nơi cấp, ngày cấp, điện thoại, nhóm máu của bệnh nhân đã nhập ở form khác.
+- 🐛: Khám sức khỏe HoaHao (FrmKhamSucKhoe_HoaHao) - xóa ngày cấp CCCD rồi Lưu nay gán Ngaycap = null để CSDL xóa theo (adapter chỉ ghi cột đã gán).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1008
+- ☑: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/26#issuecomment-44248
+- 📗: Không thay đổi CSDL - chỉ thu hẹp danh sách cột trong câu UPDATE current.dmbenhnhan (cột form không gán giữ nguyên).
+- 📕: Thực hiện theo mô tả [Mo-ta-chi-ghi-truong-da-gan-khi-cap-nhat-benh-nhan.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Mo-ta-chi-ghi-truong-da-gan-khi-cap-nhat-benh-nhan.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1008/debug-image-prescription-frmkhambenh-chinh-hoiquy.png)
+
 ## [v.3.26.0927.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609270-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: [HosReg.Code] Hỗ trợ hiển thị và trích xuất đầy đủ mã số BHXH 12 ký tự từ thẻ BHYT 17 ký tự (bỏ hardcode cắt 10 ký tự sMaThe.Substring(5, 10), tăng txtSoBHXH.MaxLength = 20) trên Phiếu nghỉ ốm (FrmNghiOm) và Phiếu nghỉ dưỡng thai (FrmNghiDuongThai) khi mở từ Khám bệnh (FrmKhamBenh, FrmBenhAnNgoaiTru).
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1019
