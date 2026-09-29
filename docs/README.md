@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0929.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609292-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609292-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609292-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription] Bổ sung ô nhập liệu Tên thuốc & Liều lượng (`txtTenThuocLieuLuong_Du18`), ô Mã ICD bệnh khác (`txtMaBenhKhac`) kèm phím tắt F2/Enter tra cứu danh mục ICD `dmicd` trên `FrmKhamSucKhoe_HoaHao`. Chuẩn hóa ánh xạ thẻ XML/Excel trong `ClsImportExportKSK`.
+- ✨: [DH.XML4750] Cập nhật Entity, Repository và Mapper XML9 bổ sung `TSBT_TEN_THUOC_LIEU_LUONG`, `TSBT_MA_BENH_KHAC`, `TSBT_THAI_SAN`, `TSBT_MA_BENH_THAI_SAN`, `TSBT_TEN_THUOC_THAI_SAN`.
+- ✨: [HosPre.Reports] Nâng cấp báo cáo `xrptKSK_Du18Tuoi_TT25` và `ClsIn.cs` in đầy đủ thông tin thuốc/liều lượng, thai sản và bệnh khác.
+- 🐛: Khắc phục trường hợp người dùng nhập tên bệnh khác nhưng thiếu mã ICD chuẩn, không ghi nhận được thông tin thuốc điều trị và nhãn thai sản chưa chuẩn hóa theo Thông tư 32.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/914
+- 📗: Đọc và cập nhật các cột `tenthuoc_lieuluong`, `ma_benh_khac`, `ten_benh_khac`, `san_khoa`, `san_khoa_khong_bt`, `ma_benh_san_khoa_khong_bt` trong bảng `current.pskhamsuckhoe`; tra cứu danh mục `current.dmicd`.
+- 📕: Bác sĩ khám sức khỏe người lớn (trên 18 tuổi) tại FrmKhamSucKhoe_HoaHao có thể nhập thông tin thuốc/liều lượng, bấm F2 tra cứu ICD bệnh khác, in phiếu và xuất file XML theo đúng Thông tư 32/2023/TT-BYT.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-914/debug-image-prescription-ksk18-tiensubenh-thuoc-thaisan.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-914/debug-image-prescription-ksk18-xml-output.png)
+
 ## [v.3.26.0929.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609291-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung kiểm tra toàn diện tất cả iddienbien trong ngày (đa phòng khám) đối với bệnh nhân Bệnh án ngoại trú (BANT); hiển thị hộp thoại cảnh báo xác nhận rõ ràng trước khi hủy tái khám; tự động dọn sạch diễn biến trong ngày và ghi nhận vết thao tác hủy vào `current.nhatky`.
 - 🐛: Khắc phục lỗi nút "Hủy tái khám" chỉ lấy dòng đầu tiên trong lưới quá trình điều trị (`dgQuaTrinh`) khiến trường hợp bệnh nhân chuyển phòng trong ngày bị vượt qua kiểm tra chi phí, dẫn đến gọi `HuyKhamBANT` đánh dấu `psdangky.xoa = 1` và `khambenh.xoa = 1`, làm cho hệ thống không thể kết xuất dữ liệu XML3176 / XML4750 gửi cổng BHXH.
