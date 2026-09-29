@@ -6,6 +6,36 @@
 
 #
 
+## [v.3.26.0929.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609290-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription] Bệnh án ngoại trú (FrmBenhAnNgoaiTru) - Bổ sung hiển thị Địa chỉ, Ngày sinh (ReadOnly=true), sắp xếp vị trí dưới Nơi GT và trên Ngày KT; Thêm cấu hình và tự động nạp dòng mặc định (macdinh=1) cho Chăm sóc đặc biệt và Hướng điều trị khi thêm diễn biến mới; Bổ sung tra cứu danh mục nhanh (...) và phím F2 cho Hướng điều trị và Chăm sóc đặc biệt (không bị chặn bởi trạng thái ReadOnly của form).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/934
+- ☑: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/47
+- 📗: current.dmchamsoc (bổ sung cột macdinh numeric DEFAULT 0), current.dmhuongdieutri (bảng mới: mahuongdt, diengiai, macdinh, xoa).
+- 📕: Thực hiện theo mô tả [Mo-ta-Prescription-Issue-934-BANT-DiaChi-ChamSoc.md](../../Mo-ta-he-thong/BANT/Mo-ta-Prescription-Issue-934-BANT-DiaChi-ChamSoc.md)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-934/debug-image-prescription-frmbenhanngoaitru-diachi-ngaysinh.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-934/debug-image-prescription-frmbenhanngoaitru-chamsoc-huongdt.png)
+- 🐛: Đóng gói HosPre.DataAccess, HosReg.DataAccess, HosReg.Plus đã sửa - Khám bệnh 'Chỉnh', Khám sức khỏe (HoaHao, MedicSG, PhuSanCT, TT32, TT32 mẫu 03), nhập KSK từ file không còn xóa CCCD, loại giấy tờ, nơi cấp, ngày cấp, điện thoại, nhóm máu của bệnh nhân đã nhập ở form khác.
+- 🐛: Khám sức khỏe HoaHao (FrmKhamSucKhoe_HoaHao) - xóa ngày cấp CCCD rồi Lưu nay gán Ngaycap = null để CSDL xóa theo (adapter chỉ ghi cột đã gán).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1008
+- ☑: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/26#issuecomment-44248
+- 📗: Không thay đổi CSDL - chỉ thu hẹp danh sách cột trong câu UPDATE current.dmbenhnhan (cột form không gán giữ nguyên).
+- 📕: Thực hiện theo mô tả [Mo-ta-chi-ghi-truong-da-gan-khi-cap-nhat-benh-nhan.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Mo-ta-chi-ghi-truong-da-gan-khi-cap-nhat-benh-nhan.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1008/debug-image-prescription-frmkhambenh-chinh-hoiquy.png)
+- 🐛: [Prescription] Đồng bộ hỗ trợ hiển thị và trích xuất đầy đủ mã số BHXH 12 ký tự từ thẻ BHYT 17 ký tự trên Phiếu nghỉ ốm và Phiếu nghỉ dưỡng thai khi mở từ Phòng khám ngoại trú (FrmKhamBenh, FrmBenhAnNgoaiTru).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1019
+- ☑: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/issues/37
+- ☑: https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/REGISTER/Mo-ta-Register-Ho-tro-ma-so-BHXH-12-ky-tu-phieu-nghi-om.md
+- 📗: current.nghiom, current.nghiduongthai (trường sobhxh varchar(50))
+- 📕: Bác sĩ phòng khám mở chức năng Phiếu nghỉ ốm / Phiếu nghỉ dưỡng thai, ô số BHXH tự động hiển thị trọn vẹn 12 chữ số.
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1019/debug-image-register-frmnghiduongthai-sobhxh-12kytu.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1019/debug-image-register-frmnghiom-sobhxh-12kytu.png)
+
+<div align="center">
+
+# Nhật ký thay đổi</div>
+
+##
+
 ## [v.3.26.0928.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609281-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Utilities.Executable & DH.BLLCLS, DH.DALCLS, HosPre.DataAccess] Bổ sung nút Bỏ TV trên giao diện Xét nghiệm và mở rộng hiển thị trên Chẩn đoán hình ảnh theo cauhinh_phong_cls; cập nhật trạng thái Đang thực hiện khi lấy mẫu đủ hoặc mở chẩn đoán/gửi PACS; kiểm tra hoàn tất toàn bộ dịch vụ của phòng trước khi xóa dòng trên Tivi
 - 🐛: Khắc phục tình trạng mất dòng bệnh nhân trên Tivi khi mới trả 1 kết quả dù còn nhiều chỉ định tại phòng; bổ sung công cụ hủy Tivi khi bệnh nhân bỏ về
