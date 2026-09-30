@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.0930.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609304-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609304-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609304-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [DH.XML4750] Tiện ích hỗ trợ > Danh mục cổng SYT_HCM mở form "Danh mục gửi dữ liệu KSK SYT HCM" (tên mới theo góp ý comment #45242): hiện mã danh mục và tên trên Cổng để khách hàng đối soát, thêm cột "Tên trên Cổng" cho dân tộc, nghề nghiệp, nhóm máu.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/935
+- 📕: Hướng dẫn triển khai và sử dụng [Thong-huong-dan-trien-khai-va-su-dung-gui-du-lieu-ksk-syt-hcm.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-huong-dan-trien-khai-va-su-dung-gui-du-lieu-ksk-syt-hcm.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-935/debug-image-dhxml4750-frmdanhmucsythcm-ganmacong_dantoc.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-935/debug-image-dhxml4750-frmdanhmucsythcm-laytucong_doituongkham.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-935/debug-image-dhxml4750-frmdanhmucsythcm-tentrencong_chualaytucong.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-935/debug-image-dhxml4750-frmdanhmucsythcm-xaphuong_theocong.png)
+
 ## [v.3.26.0930.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609303-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609303-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609303-NasDHSolutions.json)</sup></sup></sub>
 
 - ✨: Mở rộng độ dài nhập liệu thẻ BHYT số 2 lên 17 ký tự trên Bệnh án ngoại trú (FrmBaoHiem2_BANT) và Thông tin BHYT2 phòng khám (FrmBaoHiem2).
