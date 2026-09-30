@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0930.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609306-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609306-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609306-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Sửa lỗi không cập nhật trạng thái Cấp Cứu trên giao diện Bệnh án ngoại trú (FrmBenhAnNgoaiTru) sau khi hiệu chỉnh thông tin bệnh nhân; tự động nạp lại danh sách bệnh nhân và quá trình điều trị để làm mới radio button cấp cứu.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1025
+- 📗: Đồng bộ dữ liệu hiển thị từ current.bnnoitru (tinhtrangvv) và current.c_bann_dienbien; không làm thay đổi cấu trúc bảng CSDL.
+- 📕: Bác sĩ/Điều dưỡng sau khi bấm Hiệu chỉnh và đổi trạng thái Cấp cứu trên FrmHieuChinhBN, đóng form lại thì FrmBenhAnNgoaiTru tự động hiển thị chính xác trạng thái Cấp cứu mới ngay lập tức.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1025/debug-image-prescription-frmbenhanngoaitru-capcuu-bant.png)
+
 ## [v.3.26.0930.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609305-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609305-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609305-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: [DH.XML4750] Tiện ích hỗ trợ > Danh mục cổng SYT_HCM (Danh mục gửi dữ liệu KSK SYT HCM) - cột "Tên trên Cổng" chưa có dữ liệu không còn lặp lời nhắc trên từng dòng; hướng dẫn 1 lần trên tiêu đề và thanh trạng thái (chữ to, đậm, màu đỏ).
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/935
