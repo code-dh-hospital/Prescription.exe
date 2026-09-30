@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.0930.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609300-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tự động lấy kết quả Cận lâm sàng (CLS) và bác sĩ đọc kết quả lên mẫu Khám sức khỏe trên 18 tuổi theo Thông tư 25/2026/TT-BYT (`FrmKhamSucKhoe_HoaHao`).
+- ✨: Bổ sung bộ xử lý `KskClsAutoFillHelper` và giao diện `FrmCauHinhKskCls` cho phép tùy biến cấu hình mã dịch vụ xét nghiệm máu, nước tiểu, CĐHA lưu tại `current.coderun` (`ksk_tt25_cauhinh_laykq_cls`).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/939
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-frmkhamsuckhoehoahao-laykqcls.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-frmcauhinhkskcls-tinhgon.png)
+
 ## [v.3.26.0929.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609292-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609292-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609292-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription] Bổ sung ô nhập liệu Tên thuốc & Liều lượng (`txtTenThuocLieuLuong_Du18`), ô Mã ICD bệnh khác (`txtMaBenhKhac`) kèm phím tắt F2/Enter tra cứu danh mục ICD `dmicd` trên `FrmKhamSucKhoe_HoaHao`. Chuẩn hóa ánh xạ thẻ XML/Excel trong `ClsImportExportKSK`.
 - ✨: [DH.XML4750] Cập nhật Entity, Repository và Mapper XML9 bổ sung `TSBT_TEN_THUOC_LIEU_LUONG`, `TSBT_MA_BENH_KHAC`, `TSBT_THAI_SAN`, `TSBT_MA_BENH_THAI_SAN`, `TSBT_TEN_THUOC_THAI_SAN`.
