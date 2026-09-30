@@ -6,6 +6,12 @@
 
 #
 
+## [v.3.26.0930.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609307-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609307-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609307-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung menu "BAĐT - Ký số phiếu KSK" và "BAĐT - Hủy Ký số phiếu KSK" trên `FrmKhamSucKhoe_HoaHao` phục vụ ký số EMR; tự động nhận diện loại phiếu EMR theo độ tuổi: `EMR_KSK_DUOI6` (EMR140002), `EMR_KSK_6DEN18` (EMR140003), `EMR_KSK_TREN18` (EMR140008).
+- ✨: Nâng cấp nút "In phiếu kết quả" (`btnKetQua_Click`) tự động chuyển đổi sang mẫu in mới theo độ tuổi (Thông tư 25) thay thế hoàn toàn mẫu TT14 cũ; loại bỏ các menu in thường con trong dropdown và chỉ giữ lại các menu ký số.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/932
+![](https://i.vgy.me/50Qk56.png)
+
 ## [v.3.26.0930.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609306-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609306-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609306-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Sửa lỗi không cập nhật trạng thái Cấp Cứu trên giao diện Bệnh án ngoại trú (FrmBenhAnNgoaiTru) sau khi hiệu chỉnh thông tin bệnh nhân; tự động nạp lại danh sách bệnh nhân và quá trình điều trị để làm mới radio button cấp cứu.
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1025
