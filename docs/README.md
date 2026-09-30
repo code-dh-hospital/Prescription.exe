@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0930.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609301-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609301-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609301-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: [Prescription & HosPre.DataAccess, HosReg.DataAccess] Sửa lỗi mẫu thiết kế phiếu chỉ định CLS (xrptChiDinhCLS) hiển thị sai tên phòng thực hiện CLS: hàm GetDmPhongBySoPhong truy vấn tên phòng theo thứ tự ưu tiên cấu hình LED (current.dmphong_cls), khoa Cận lâm sàng (khoaduoc=5) và loại trừ phòng đã xóa (xoa=1), đảm bảo in đúng tên phòng X-Quang/Xét nghiệm thực tế.
+- Thực hiện theo mô tả [Sửa lỗi phiếu chỉ định cận lâm sàng ghi nhận sai tên phòng thực hiện CLS](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/PHIEU-CHIDINH-KETQUA-CLS/Mo-ta-sua-loi-in-phieu-cls-ghi-nhan-sai-ten-phong-thuc-hien.md)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1026
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/36
+- 📗: current.chidinhcls, current.dmphong, current.dmphong_cls, current.dmdonvi
+- 📕: Bác sĩ kê chỉ định cận lâm sàng và in phiếu xrptChiDinhCLS (in thường, TT32, in theo cấu hình, in tổng hợp) hiển thị đúng thông tin phòng thực hiện CLS.
+
+![](https://lh3.googleusercontent.com/pw/AP1GczMFrqTXer6Aap5LdLuarUoJvTID0hwEaeTeqQQ9sGYYumzowdc8_Qbj_H4DLyNnzh7LmfuOKZtxRjkZlTYyLC-QxelvR9Mdi_lS1s8i4gQ-57MbxImq3eGWjAnXjm9Lg-s0iQYhU2lefymCALrkaPFg=w2208-h1320-s-no-gm?authuser=0)
+![](https://lh3.googleusercontent.com/pw/AP1GczPs2mFM1oQIIBQqu0jmSrvHpFLMIwHeB9nvFLKS5X_bbSU_E0Wk437SnpDjq8ansGnt0EeZj2h_Jl44sF9vjk78wCd2dbMiMx13bYnodD32ZPwr7xyqJWn48lvIr0gH5DgLIqWlSpSSyn_PYVXLh_Ru=w2206-h1320-s-no-gm?authuser=0)
+
 ## [v.3.26.0930.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609300-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609300-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609300-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tự động lấy kết quả Cận lâm sàng (CLS) và bác sĩ đọc kết quả lên mẫu Khám sức khỏe trên 18 tuổi theo Thông tư 25/2026/TT-BYT (`FrmKhamSucKhoe_HoaHao`).
 - ✨: Bổ sung bộ xử lý `KskClsAutoFillHelper` và giao diện `FrmCauHinhKskCls` cho phép tùy biến cấu hình mã dịch vụ xét nghiệm máu, nước tiểu, CĐHA lưu tại `current.coderun` (`ksk_tt25_cauhinh_laykq_cls`).
