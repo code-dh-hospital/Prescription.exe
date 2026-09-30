@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.0930.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609303-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609303-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609303-NasDHSolutions.json)</sup></sup></sub>
+
+- ✨: Mở rộng độ dài nhập liệu thẻ BHYT số 2 lên 17 ký tự trên Bệnh án ngoại trú (FrmBaoHiem2_BANT) và Thông tin BHYT2 phòng khám (FrmBaoHiem2).
+- 🐛: Khắc phục giới hạn MaxLength = 5 và hàm split_BH cắt cố định 5 ký tự khiến thẻ BHYT 17 ký tự bị kịch trần không nhập được hoặc mất 2 ký tự cuối.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/942
+- ☑: https://i.dh-his.com/tolaptrinh-ai/loi/issues/37
+- Thực hiện theo mô tả [Mô tả mở rộng thẻ BHYT số 2 bệnh án ngoại trú lên 17 ký tự](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONG-TIN-BENH-NHAN/Mo-ta-Mo-rong-the-BHYT-so-2-benh-an-ngoai-tru-17-ky-tu.md)
+- 📗: Cột current.ttcon.mathe kiểu dữ liệu varchar(20), đã đủ điều kiện lưu 17 ký tự, không cần chạy lệnh ALTER TABLE.
+- 📕: Vào tab Bệnh án ngoại trú -> Chọn BN -> Hiệu chỉnh TT -> Thông tin BHYT2 -> Nhập thẻ BHYT số 2 dài 17 ký tự và bấm Lưu [F2].
+![](https://lh3.googleusercontent.com/pw/AP1GczPntRA9D6hjx2Ky1ITiAaMzs0G2F5_RhcgVM4iMOlDWHxp-DsMVhMFJBjS-R8wQ7J-uwHCC2rjulCp_Z5pCTx3JCOTnKdLlg964-gDstX26bDoFS93dcSmZT992ONaSiiOGMG3P-YmLYvR3GPe36Y3q=w2213-h1320-s-no-gm?authuser=0)
+
 ## [v.3.26.0930.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609302-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609302-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609302-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Cập nhật thư viện DH.XML4750 sửa lỗi xuất XML KSK TT25 (QĐ 2062) gửi dư dữ liệu theo Comment #45098 (không gửi TIEM_CHUNG_BCG_SS cho Minor, gửi thẻ rỗng cho kết luận XML8 với Minor và Adult, chuẩn hóa chiều cao cm); Sửa chức năng Xuất XML 2062 trên FrmKhamSucKhoe_HoaHao: nếu ký số không thành công thì vẫn xuất file XML chưa ký số thay vì ném lỗi chặn người dùng.
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1012
