@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.1001.8]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610018-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610018-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610018-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription] Khám sức khỏe HoaHao - Cấu hình lấy KQ CLS: danh sách chọn mã chỉ lấy CLS đang sử dụng và thuộc TT37 (bỏ giới hạn 1000 dòng nên không còn thiếu siêu âm, nội soi, DI181...), tìm không phân biệt dấu; tùy chọn "Tự động lấy KQ khi khám lần đầu / bấm Chỉnh" (chỉ điền ô đang trống, lưu ngay khi tick); chỉ tài khoản Admin được vào cấu hình CLS.
+- ✨: [Prescription] Tab Gửi cổng SYT_HCM: nút Lấy KQ CLS và Cấu hình CLS - lấy kết quả CLS theo cấu hình vào các ô chỉ số xét nghiệm máu / nước tiểu của cổng SYT TP.HCM.
+- 🐛: [Prescription] Khám sức khỏe HoaHao - "Tên cận lâm sàng khác" nhận kết quả thay vì tên CLS và "Có cận lâm sàng khác" không được chọn: nay Có = Có, Tên = tên các CLS, kết quả đưa vào ô Kết quả CLS.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/939#issuecomment-45678 (hdhiswork/YEUCAU#939)
+- 📗: Không đổi cấu trúc CSDL; thêm key current.coderun ksk_tt25_tudong_laykq_cls (tự tạo khi lưu cấu hình).
+- 📕: Thực hiện theo mô tả [Mo-ta-tu-dong-lay-ket-qua-cls-len-mau-ksk-tt25.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU_25/Mo-ta-tu-dong-lay-ket-qua-cls-len-mau-ksk-tt25.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-kskclsautofill-c45678-ketqua.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-frmcauhinhkskcls-clskhac-tudong.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-ucguicongsythcm-laykqcls.png)
+
 ## [v.3.26.1001.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610017-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610017-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610017-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Đồng bộ logic kiểm tra Bệnh án ngoại trú (isBANT) theo dòng bệnh nhân đang chọn trên lưới tại form Hiệu chỉnh thông tin bệnh nhân (FrmHieuChinhBN - HosReg.Plus): khắc phục triệt để lỗi khi mở form từ Menu hệ thống (Cấu hình hệ thống > Hiệu chỉnh thông tin) nếu không check Cấp cứu thì sau khi bấm Lưu phần mềm tự động biến thành Cấp cứu.
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1025
