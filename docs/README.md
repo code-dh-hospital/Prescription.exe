@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.26.1001.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610016-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610016-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610016-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription] Khám sức khỏe HĐ - Gửi Cổng dữ liệu sức khỏe (SYT TP.HCM, M3): giới tính gửi cổng tự lấy theo số định danh 12 số (số thứ 4); hồ sơ lệch thế kỷ / năm sinh thì báo "số định danh ... không khớp năm sinh ... - sửa thông tin bệnh nhân, không gửi".
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/935#issuecomment-45582 (hdhiswork/YEUCAU#935)
+- 📗: Không đổi cấu trúc CSDL; mô tả có câu SQL lọc hồ sơ lệch (dmbenhnhan.iddinhdanh/cmnd, gioitinh, ngaysinh).
+- 📕: Thực hiện theo mô tả [Thong-mo-ta-chuan-hoa-du-lieu-gui-cong-ksk-syt-hcm-bang-api.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-chuan-hoa-du-lieu-gui-cong-ksk-syt-hcm-bang-api.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-935/debug-image-dhxml4750-sythcmkskgatewaymapper-c45582-ketqua.png)
+
+## [v.3.26.1001.5]()
+- 🐛: Đồng bộ logic kiểm tra Bệnh án ngoại trú (isBANT) theo dòng bệnh nhân đang chọn trên lưới tại form Hiệu chỉnh thông tin bệnh nhân (FrmHieuChinhBN - HosReg.Plus): khắc phục triệt để lỗi khi mở form từ Menu hệ thống (Cấu hình hệ thống > Hiệu chỉnh thông tin) nếu không check Cấp cứu thì sau khi bấm Lưu phần mềm tự động biến thành Cấp cứu.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1025
+- 📗: Không thay đổi cấu trúc bảng CSDL; chuẩn hóa đồng bộ 3 bảng current.bnnoitru (tinhtrangvv), current.psdangky (tinhtrang), current.khambenh (tinhtrang): khi không check Cấp cứu (Bình thường) lưu tinhtrangvv='0', psdangky.tinhtrang=1, khambenh.tinhtrang=1; khi check Cấp cứu lưu tinhtrangvv='1', psdangky.tinhtrang=0, khambenh.tinhtrang=0.
+- 📕: Register, Prescription > Cấu hình hệ thống > Hiệu chỉnh thông tin (FrmHieuChinhBN) & Bệnh án ngoại trú (FrmBenhAnNgoaiTru): lưu chính xác trạng thái Cấp cứu / Bình thường cho cả bệnh nhân BANT và bệnh nhân ngoại trú thường. Đóng gói EXE Prescription.exe cùng HosReg.Plus.dll.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1025/debug-image-prescription-frmbenhanngoaitru-capcuu-bant.gif)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1025/debug-image-hosreg-plus-frmhieuchinhbn-capcuu-bant.gif)
+
 ## [v.3.26.1001.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610014-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610014-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610014-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: [Prescription] Khám sức khỏe HĐ (FrmKhamSucKhoe_HoaHao) - mẫu từ đủ 18 tuổi, tab Khám lâm sàng: chọn phân loại Loại I nhưng lưu Loại II - Tuần hoàn, Hô hấp, Tiêu hóa, Thận - Tiết niệu, Thần kinh, Tâm thần, Khám LS khác lấy theo tab nhóm tuổi đang hiển thị (trước đây ưu tiên ô của tab 6-18 tuổi đang ẩn).
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1021
