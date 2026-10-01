@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.1001.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610012-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610012-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610012-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Không có
+- 🐛: Cập nhật DLL liên quan OTH.Adapter: Sửa lỗi Bảng kê 697 lấy sai tên bệnh kèm theo ngoại trú và Bệnh án ngoại trú BANT. Khắc phục triệt để lỗi bản quyền Trial DevExpress thông qua InMemoryPatch v8.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1006
+- 📗: Không thay đổi cấu trúc bảng CSDL.
+- 📕: Thực hiện theo mô tả [Mo-ta-Sua-loi-bang-ke-697-sai-ten-benh-kem-theo.md](../../Mo-ta-he-thong/Quyet-dinh-697/Mo-ta-Sua-loi-bang-ke-697-sai-ten-benh-kem-theo.md): Đồng bộ hiển thị Bảng kê chi phí KCB 697 cho phân hệ Prescription. Ảnh minh họa: https://i.vgy.me/ULU7ID.png
+- 🐛: [Prescription] Khám sức khỏe HoaHao (FrmKhamSucKhoe_HoaHao) - mẫu từ đủ 18 tuổi: bệnh nhân nam bị khóa ô tiền sử thai sản (lưu Không); hồ sơ mới mặc định thai sản Không.
+- 🐛: [HosPre.Reports] Phiếu in KSK 6 đến dưới 18 tuổi: tiền sử bệnh/tật chọn Không nhưng tick Có.
+- 🐛: [DH.XML4750] XML KSK QĐ 2062: TSBT_MAC_BENH / TSGD_MAC_BENH gửi 1/0 thay vì tên bệnh; nam không gửi TSBT_THAI_SAN.
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154#issuecomment-44348 (hdhiswork/TOLAPTRINH#154)
+- 📕: Thực hiện theo mô tả [Mo-ta-sua-loi-phan-loai-bac-si-va-xuat-xml-2062-khamsuckhoe.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU_25/Mo-ta-sua-loi-phan-loai-bac-si-va-xuat-xml-2062-khamsuckhoe.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-154/debug-image-prescription-frmkhamsuckhoe-thaisan_nam_khoa.png)
+
 ## [v.3.26.1001.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610011-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610011-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610011-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Hỗ trợ tự động điền ngày 5 năm liên tục BHYT khi KTTT và nạp thông tin bệnh nhân cũ
 - 🐛: Khắc phục triệt để lỗi mất ngày 5 năm do FormatException, bỏ cảnh báo sai lỗi mạng khi bấm Bỏ qua
