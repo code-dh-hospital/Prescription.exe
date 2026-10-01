@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1001.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610010-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: [Prescription] Khám sức khỏe HoaHao (FrmKhamSucKhoe_HoaHao) - mẫu từ đủ 18 tuổi: bệnh nhân nam bị khóa ô tiền sử thai sản (lưu Không); hồ sơ mới mặc định thai sản Không.
+- 🐛: [HosPre.Reports] Phiếu in KSK 6 đến dưới 18 tuổi: tiền sử bệnh/tật chọn Không nhưng tick Có.
+- 🐛: [DH.XML4750] XML KSK QĐ 2062: TSBT_MAC_BENH / TSGD_MAC_BENH gửi 1/0 thay vì tên bệnh; nam không gửi TSBT_THAI_SAN.
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/154#issuecomment-44348 (hdhiswork/TOLAPTRINH#154)
+- 📕: Thực hiện theo mô tả [Mo-ta-sua-loi-phan-loai-bac-si-va-xuat-xml-2062-khamsuckhoe.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU_25/Mo-ta-sua-loi-phan-loai-bac-si-va-xuat-xml-2062-khamsuckhoe.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-154/debug-image-prescription-frmkhamsuckhoe-thaisan_nam_khoa.png)
+
 ## [v.3.26.0930.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609307-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609307-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32609307-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung menu "BAĐT - Ký số phiếu KSK" và "BAĐT - Hủy Ký số phiếu KSK" trên `FrmKhamSucKhoe_HoaHao` phục vụ ký số EMR; tự động nhận diện loại phiếu EMR theo độ tuổi: `EMR_KSK_DUOI6` (EMR140002), `EMR_KSK_6DEN18` (EMR140003), `EMR_KSK_TREN18` (EMR140008).
 - ✨: Nâng cấp nút "In phiếu kết quả" (`btnKetQua_Click`) tự động chuyển đổi sang mẫu in mới theo độ tuổi (Thông tư 25) thay thế hoàn toàn mẫu TT14 cũ; loại bỏ các menu in thường con trong dropdown và chỉ giữ lại các menu ký số.
