@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1001.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610011-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610011-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610011-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hỗ trợ tự động điền ngày 5 năm liên tục BHYT khi KTTT và nạp thông tin bệnh nhân cũ
+- 🐛: Khắc phục triệt để lỗi mất ngày 5 năm do FormatException, bỏ cảnh báo sai lỗi mạng khi bấm Bỏ qua
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1015
+- 📗: Bảng current.psdangky trường ngay5nam
+- 📕: Đóng gói EXE Prescription với DLL cập nhật: HosReg.Code, HosReg.DataAccess
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1015/debug-image-register-frmdangkybh-khamtiep-ngay5nam-1.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1015/debug-image-register-frmdangkybh-khamtiep-ngay5nam-2.png)
+
 ## [v.3.26.1001.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610010-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610010-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610010-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: [Prescription] Khám sức khỏe HoaHao (FrmKhamSucKhoe_HoaHao) - mẫu từ đủ 18 tuổi: bệnh nhân nam bị khóa ô tiền sử thai sản (lưu Không); hồ sơ mới mặc định thai sản Không.
 - 🐛: [HosPre.Reports] Phiếu in KSK 6 đến dưới 18 tuổi: tiền sử bệnh/tật chọn Không nhưng tick Có.
