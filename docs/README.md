@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.1001.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610013-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610013-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610013-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription] Khám sức khỏe HoaHao (FrmKhamSucKhoe_HoaHao) - mẫu từ đủ 18 tuổi: thêm ô Mã ICD bệnh đang điều trị (F2/Enter chọn ICD, điền tên bệnh vào "Ghi rõ tên bệnh đang điều trị", lưu cột ma_icd_ts_bamsinh -> XML TSBT_MA_BENH) và ô Tên bệnh thai sản (tự tra theo Mã ICD thai sản).
+- 🐛: [Prescription] Xem bệnh nhân 6-18 tuổi rồi xem bệnh nhân từ đủ 18 tuổi thì Mã ICD/Tên thuốc thai sản không hiện (phải bấm Chỉnh) - combo sản khoa của tab không đúng nhóm tuổi xóa nhầm mã thai sản dùng chung.
+- 🐛: [Prescription] Tên bệnh khác, Tên thuốc và liều lượng bị che ở màn hình 1366x768 - sắp xếp lại tab Tiền sử bệnh trong 960px.
+- 🐛: [Prescription] Xuất/Nhập Excel KSK mẫu từ đủ 18 tuổi có TSBT_MA_BENH (ma_icd_ts_bamsinh).
+- 🐛: [HosPre.Reports] Phiếu in thai sản in tên bệnh thay vì mã bệnh.
+- 🐛: [DH.XML4750] XML 2062 đủ TSBT_MA_BENH, TSBT_MA_BENH_KHAC, TSBT_TEN_THUOC_LIEU_LUONG; BENH_DANG_DIEU_TRI có tên thuốc.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/914#issuecomment-45420 (hdhiswork/YEUCAU#914)
+- 📗: Không thêm cột mới; dùng cột có sẵn ma_icd_ts_bamsinh, ma_benh_khac, tenthuoc_lieuluong của current.pskhamsuckhoe.
+- 📕: Thực hiện theo mô tả [Thong-mo-ta-ksk-tren-18-tuoi-thay-doi-mau-in-va-xml.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU32/Thong-mo-ta-ksk-tren-18-tuoi-thay-doi-mau-in-va-xml.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-914/debug-image-prescription-frmkhamsuckhoe-ksk18-tiensubenh-1366.png)
+
 ## [v.3.26.1001.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610012-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610012-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610012-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Không có
 - 🐛: Cập nhật DLL liên quan OTH.Adapter: Sửa lỗi Bảng kê 697 lấy sai tên bệnh kèm theo ngoại trú và Bệnh án ngoại trú BANT. Khắc phục triệt để lỗi bản quyền Trial DevExpress thông qua InMemoryPatch v8.
