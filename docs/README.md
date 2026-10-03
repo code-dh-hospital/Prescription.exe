@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1003.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610032-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: [Prescription] Đóng gói DH.XML4750 cập nhật: Sửa lỗi xuất XML KSK TT25 (QĐ 2062) mẫu Minor (6 đến dưới 18 tuổi) không lấy được thông tin tiêm chủng theo phản hồi kiểm thử Comment #45902 (XML9 nạp đủ 7 trường tiêm chủng tc_*).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1012#issuecomment-45902 (hdhiswork/LOI#1012)
+- 📗: Không thay đổi cấu trúc CSDL; truy vấn dữ liệu từ current.fn_get_hoso_khamsuckhoe.
+- 📕: Thực hiện theo mô tả [XML KHÁM SỨC KHỎE TT25 GỬI CỔNG (QĐ 2062) – CHỈ GỬI TRƯỜNG THUỘC ĐÚNG MẪU THEO TUỔI, CHIỀU CAO ĐƠN VỊ CM](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/KHAMBENH/Mo-ta-sua-loi-xml-ksk-tt25-gui-du-du-lieu-va-chieu-cao-cm.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1012/debug-image-prescription-frmkhamsuckhoe-form-that-minor.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1012/debug-image-prescription-frmkhamsuckhoe-xuatxml-duoi18.png)
+
 ## [v.3.26.1003.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610031-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610031-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610031-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription] Bổ sung hàm dùng chung XuLyChonChanDoanKham xử lý cảnh báo khi chọn chẩn đoán thiếu mã ICD từ FrmThongTinKham.
 - 🐛: [Prescription] Khi chọn chẩn đoán không có mã ICD, nếu bác sĩ chọn Bỏ qua thì xử lý theo tham số kb.chidinh (FrmMain.iKbChiDinh): nếu iKbChiDinh == 1 || iKbChiDinh == 2 thì chặn lưu toa khi chưa có chẩn đoán hợp lệ (khắc phục dứt điểm lỗi lưu sai do thiếu chẩn đoán khi kb.chidinh = 2); nếu chọn Đồng ý thì ghép tên chẩn đoán vào txtTenICDPhu.
