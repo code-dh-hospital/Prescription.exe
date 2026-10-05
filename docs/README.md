@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1005.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610050-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610050-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610050-NasDHSolutions.json)</sup></sup></sub>
+- ✨: 
+- 🐛: [Prescription] Cập nhật form Cấu hình phiếu 01 theo QĐ6556: Bổ sung ghi chú rõ ràng cho tùy chọn "Lấy giá BHYT làm giá bệnh viện (Không áp dụng cấu hình chi phí trên cùng 1 trang in)" và "Chi phí thuộc BHYT và ngoài BHYT trên cùng 1 trang in (Chỉ áp dụng lấy giá bệnh viện thực tế)" để người dùng nắm rõ quy tắc ràng buộc in tách 2 trang khi lấy giá BHYT.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1018
+- 📗: Không thay đổi cấu trúc bảng CSDL.
+- 📕: Giao diện form Cấu hình phiếu 01 theo QĐ6556 (XFrmBK6556Option).
+![](https://i.vgy.me/Oyb97s.png)
+
 ## [v.3.26.1003.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610032-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610032-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610032-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: [Prescription] Đóng gói DH.XML4750 cập nhật: Sửa lỗi xuất XML KSK TT25 (QĐ 2062) mẫu Minor (6 đến dưới 18 tuổi) không lấy được thông tin tiêm chủng theo phản hồi kiểm thử Comment #45902 (XML9 nạp đủ 7 trường tiêm chủng tc_*).
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1012#issuecomment-45902 (hdhiswork/LOI#1012)
