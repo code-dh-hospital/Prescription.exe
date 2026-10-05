@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.26.1005.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610054-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610054-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610054-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Khắc phục lỗi mất thông tin khám lâm sàng (tuần hoàn, hô hấp, tiêu hóa, thận tiết niệu, thần kinh, tâm thần, khám LS khác) và mã bác sĩ kết luận KSK khi mở lại hồ sơ bệnh nhân KSK hợp đồng từ đủ 18 tuổi; ngăn chặn việc bấm 'Chỉnh chẩn đoán' rồi 'Lưu' ghi đè dữ liệu rỗng làm mất thông tin KSK trên CSDL current.pskhamsuckhoe.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1028
+- ☑: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/106
+- 📗: Bảng current.pskhamsuckhoe (các cột tuanhoan, hohap, tieuhoa, thantietnieu, thankyle, tamthan, kls_khac, mabacsi_kl, mabs_tuanhoan, mabs_hohap, mabs_tieuhoa, mabs_thantietnieu, mabs_thankinh, mabs_tamthan, mabs_khac).
+- 📕: Phân hệ Kê đơn & Toa thuốc (Prescription.exe), form FrmKhamSucKhoe_HoaHao (Tab Khám lâm sàng và Tab Kết luận đối với đối tượng khám sức khỏe người lớn từ đủ 18 tuổi).
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1028/debug-image-prescription-frmkhamsuckhoe-ksk18-ketluan.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1028/debug-image-prescription-frmkhamsuckhoe-ksk18-khamlamsang.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1028/debug-image-prescription-ksk18-1028-ketqua.png)
+
+## [v.3.26.1005.3]()
+- 🐛: [Prescription] Sửa lỗi mở form KSK HĐ người lớn (từ đủ 18 tuổi) bị mất thông tin khám lâm sàng (tuần hoàn, hô hấp, tiêu hóa, thận, thần kinh, tâm thần, khám LS khác) và mã bác sĩ kết luận; sửa lỗi bấm "Chỉnh chẩn đoán" rồi "Lưu" ghi đè giá trị rỗng làm mất dữ liệu KSK đã lưu trong CSDL.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1028
+- 📗: Không đổi cấu trúc CSDL; đọc/ghi vào bảng current.pskhamsuckhoe qua KhamSucKhoeTT25Repository.
+- 📕: Quản lý nạp/lưu thủ công các control 2 bộ khám lâm sàng và bác sĩ kết luận, bỏ đăng ký trùng qua _kskBindingProvider tránh bị control ở tab ẩn ghi đè rỗng khi EndEdit; loại bỏ lệnh EndEditKhamSucKhoeEntity() gọi sai ngay sau khi nạp hồ sơ; hoàn thiện ChonTheoTab và setKhamBenh, setReadOnlyKB.
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1028/debug-image-prescription-ksk18-1028-ketqua.png)
+
 ## [v.3.26.1005.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610052-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610052-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610052-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cải tiến form cấu hình Cận lâm sàng KSK (FrmCauHinhKskCls): tự động kết thúc chỉnh sửa lưới (dgvMain.EndEdit()), tự động tính toán lại kết quả nếu ô kết quả đang trống mà mã CLS có giá trị, và tự động lưu cấu hình mặc định vào coderun khi bấm 'Lưu kết quả vào form'.
 - 🐛: Sửa lỗi cấu hình mã CLS lên form KSK chưa được và thao tác 'Lưu kết quả vào form' báo 0 kết quả, không có dữ liệu nào được lưu vào form (Issue #935 Comment #46146); hỗ trợ tìm kiếm control xuyên suốt Form và các Tab con/UserControl (UcGuiCongSytHcm).
