@@ -6,6 +6,20 @@
 
 #
 
+## [v.3.26.1006.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610060-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung tiếp nhận và truyền ngày đủ 5 năm liên tục khi kiểm tra thông tuyến BHYT tại các nút Kiểm tra thông tuyến trên phân hệ Khám bệnh và Bệnh án ngoại trú
+- 🐛: Khắc phục lỗi FrmKhamBenh (btnCheckThongTuyen, btnKTTT_KB) và FrmBenhAnNgoaiTru truyền chuỗi rỗng ngày đủ 5 năm khi gọi hàm setCheckMaThe kiểm tra thông tuyến, khiến bệnh nhân đã có ngày 5 năm trên hệ thống vẫn bị cảnh báo sai lệch thẻ hoặc hiện popup hỏi cập nhật ngày 5 năm
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1015#issuecomment-46283 (hdhiswork/LOI#1015)
+- 📗: Lấy giá trị ngay5nam từ htBNKhamBenh (nạp từ bảng psdangky qua DmBenhNhanAdapter) và truyền vào tham số thứ 12 của hàm setCheckMaThe
+- 📕: Mở màn hình Khám bệnh, chọn bệnh nhân BHYT, bấm nút Kiểm tra thông tuyến hoặc nút KTTT: hệ thống kiểm tra và khớp đúng ngày 5 năm, không cảnh báo sai lệch
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1015/debug-image-prescription-frmhieuchinhbn-kttt-khop-ngay5nam.png)
+- ✨: Nâng cấp cơ chế tự động lấy kết quả Cận lâm sàng (CLS) lên mẫu KSK Thông tư 25 ngay lần đầu vào xem form và khi chuyển tab đối với bệnh nhân đã có chỉ định và kết quả CLS; bổ sung cơ chế gán mặc định khám lâm sàng khi ấn nút Chỉnh.
+- 🐛: Fix lỗi bệnh nhân có kết quả CLS nhưng lần đầu mở form KSK không tự động nạp kết quả CLS (phải ấn nút Chỉnh mới lấy); fix lỗi form tự gán mặc định không đồng nhất cho các trường lâm sàng (tuần hoàn, hô hấp, tiêu hóa, thận, thần kinh, tâm thần) khiến dữ liệu lưu thực tế bị rỗng trong khi hiển thị bị ép giá trị ảo.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/939#issuecomment-46228 (hdhiswork/YEUCAU#939)
+- 📗: [Mo-ta-tu-dong-lay-ket-qua-cls-len-mau-ksk-tt25.md](../../Mo-ta-he-thong/THONGTU_25/Mo-ta-tu-dong-lay-ket-qua-cls-len-mau-ksk-tt25.md)
+- 📕: Chỉ gán mặc định khám lâm sàng ("Khỏe", "II") khi người dùng ấn nút "Chỉnh", bảo toàn đúng dữ liệu rỗng nếu bác sĩ không khám hoặc chủ động xóa kết quả.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-frmcauhinhkskcls-clskhac-tudong.gif)
+
 ## [v.3.26.1005.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610055-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610055-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610055-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Nâng cấp cơ chế tự động lấy kết quả Cận lâm sàng (CLS) lên mẫu KSK Thông tư 25 ngay lần đầu vào xem form và khi chuyển tab đối với bệnh nhân đã có chỉ định và kết quả CLS; bổ sung cơ chế gán mặc định khám lâm sàng khi ấn nút Chỉnh.
 - 🐛: Fix lỗi bệnh nhân có kết quả CLS nhưng lần đầu mở form KSK không tự động nạp kết quả CLS (phải ấn nút Chỉnh mới lấy); fix lỗi form tự gán mặc định không đồng nhất cho các trường lâm sàng (tuần hoàn, hô hấp, tiêu hóa, thận, thần kinh, tâm thần) khiến dữ liệu lưu thực tế bị rỗng trong khi hiển thị bị ép giá trị ảo.
