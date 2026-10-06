@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1006.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610063-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610063-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610063-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung tự động đồng bộ và hiển thị họ tên bác sĩ Tai Mũi Họng (TMH) và Răng Hàm Mặt (RHM) cho mẫu khám sức khỏe Thông tư 25 (mẫu từ đủ 18 tuổi FrmKhamSucKhoe_HoaHao).
+- 🐛: Khắc phục lỗi ô tên bác sĩ TMH và RHM bị trống rỗng khi đã có mã bác sĩ (hoặc khi gõ mã bác sĩ) trên tab đủ 18 tuổi; bổ sung fallback tra cứu tên bác sĩ từ dmnhanvien khi bác sĩ không nằm trong lịch trực phòng; bổ sung lưu đúng mã bác sĩ TMH và RHM từ tab đủ 18 tuổi vào Entity/Kskhopdong.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/939#issuecomment-46480 (hdhiswork/YEUCAU#939)
+- 📗: Bảng `current.dmnhanvien` (cột `manv`, `holot`, `ten`, hàm `objDmNhanVien.getHoTenBs(manv)`), bảng `current.kskhopdong` (cột `manv_tmh_ksk`, `manv_rhm_ksk`).
+- 📕: Khi xem hoặc chỉnh sửa khám sức khỏe mẫu TT25 (mẫu từ đủ 18 tuổi), nhập mã bác sĩ TMH (`003`) hoặc RHM (`002`) thì ô tên bác sĩ tương ứng tự động hiển thị đầy đủ họ tên ("DS. Nguyễn Văn Thu", "BS CKII. Trần Văn Thế"), không bị trống và không bị mất khi lưu hoặc nạp lại hồ sơ.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-c46480-hien-thi-ten-bs-tmh-rhm.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-frmkhamsuckhoe-c46419-nap-cls-khi-chinh-bacsi.gif)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-frmcauhinhkskcls-clskhac-tudong.gif)
+
 ## [v.3.26.1006.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610062-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610062-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610062-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tự động nạp kết quả CLS và thông tin Bác sĩ đọc kết quả (mã, tên) khi ấn nút Chỉnh hoặc Thêm mới khám sức khỏe Thông tư 25; bổ sung Bác sĩ đọc kết quả cho các ô CLS đã có sẵn kết quả.
 - 🐛: Khắc phục lỗi tự động nạp kết quả CLS khi đang ở chế độ xem bệnh nhân (`bChanDoan == false`), tránh gây hiểu nhầm dữ liệu đã lưu; khắc phục lỗi mất tên bác sĩ khi rời focus khỏi ô mã bác sĩ (`txtMaBacSi_*_Leave`) hoặc khi chuyển đổi giữa các tab con.
