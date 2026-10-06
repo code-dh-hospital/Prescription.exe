@@ -6,6 +6,29 @@
 
 #
 
+## [v.3.26.1006.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610065-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610065-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610065-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Khắc phục lỗi Transaction Aborted (Code 25P02) trong ChiDinhCLSAdapter khi lưu chỉ định CLS cho bệnh nhân đã có dòng chờ từ ngày trước trong current.pscls_lcd
+- ✨: Cập nhật hàm UpdateStt: Thực hiện UPDATE thời gian đăng ký và thông tin chỉ định mới vào dòng chờ current.pscls_lcd cũ nếu đã tồn tại thay vì INSERT trùng khóa chính pscls_lcd_pkey (mabn, makb, maphong, stt)
+- ✨: Đồng bộ truyền tham số NpgsqlTransaction vào các lệnh NpgsqlCommand trong KtBenhNhanDieuPhoi, GetClsDieuPhoi và UpdateStt để đảm bảo tính toàn vẹn transaction
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1032
+- 📗: current.pscls_lcd (mabn, makb, maphong, stt, thoigian_dangky, thoigian_dukien, trangthai, tong_cls, hoantat_cls)
+- 📕: Phân hệ Kê đơn ngoại trú (Prescription) & HosPre.DataAccess - Điều phối hàng chờ gọi bệnh nhân tại màn hình Tivi/LCD phòng CLS. Tài liệu chi tiết: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/src/branch/main/Mo-ta-he-thong/CAN_LAM_SANG/Mo-ta-khac-phuc-loi-dieu-phoi-hang-cho-lcd-pscls_lcd.md (hoặc relative path: [Mo-ta-khac-phuc-loi-dieu-phoi-hang-cho-lcd-pscls_lcd.md](../../Mo-ta-he-thong/CAN_LAM_SANG/Mo-ta-khac-phuc-loi-dieu-phoi-hang-cho-lcd-pscls_lcd.md))
+### Hình ảnh kiểm chứng:
+1. Thao tác lưu trên FORM THẬT HIS thành công (`Prescription.Forms.FrmCanLamSang`):
+![debug-image-prescription-frmcanlamsang-chidinh-cls-thanhcong.gif](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1032/debug-image-prescription-frmcanlamsang-chidinh-cls-thanhcong.gif)
+2. FORM THẬT HIS (`Prescription.Forms.FrmCanLamSang`):
+![debug-image-prescription-frmcanlamsang-chidinh-cls-thanhcong.png](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1032/debug-image-prescription-frmcanlamsang-chidinh-cls-thanhcong.png)
+3. Cập nhật dòng chờ `current.pscls_lcd` an toàn:
+![debug-image-prescription-chidinh-cls-capnhat-pscls_lcd-thanhcong.png](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1032/debug-image-prescription-chidinh-cls-capnhat-pscls_lcd-thanhcong.png)
+
+## [v.3.26.1006.4]()
+- 🐛: [Prescription] Khắc phục lỗi nạp danh sách bệnh nhân và kiểm tra thông tuyến BHYT phát sinh ngoại lệ PostgreSQL (ERROR: 42601: each UNION query must have the same number of columns) khi mở form Khám bệnh hoặc Nhập viện; bổ sung cấu hình cột ngay5nam vào lưới GridEX dgDSBenhNhan trên FrmKhamBenh tránh lỗi khi bấm nút Khám bệnh; đồng bộ và tích hợp thư viện HosPre.DataAccess mới nhất đã bổ sung đầy đủ trường ngay5nam ở tất cả các nhánh UNION.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/927#issuecomment-46452 (hdhiswork/YEUCAU#927)
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1015#issuecomment-46283 (hdhiswork/LOI#1015)
+- 📗: Cập nhật liên kết HosPre.DataAccess.dll (DmBenhNhanAdapter.GetDSBenhNhan, GetDSBenhNhanCC); bảng current.psdangky, current.khambenh, current.dmbenhnhan; GridEX dgDSBenhNhan (FrmKhamBenh.resx).
+- 📕: Mở phân hệ Khám bệnh (Prescription.exe), chọn ngày làm việc và phòng khám: danh sách bệnh nhân đăng ký nạp đầy đủ thông tin (họ tên, tuổi, số thẻ BHYT), thực hiện Kiểm tra thông tuyến thẻ BHYT thành công và hiển thị trạng thái hợp lệ (tích xanh), bấm nút Khám bệnh chuyển trạng thái thông suốt, không còn bị ngắt quãng bởi lỗi 42601 hay lỗi thiếu cột layout.
+![](https://i.vgy.me/HVo0QG.png)
+
 ## [v.3.26.1006.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610063-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610063-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610063-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung tự động đồng bộ và hiển thị họ tên bác sĩ Tai Mũi Họng (TMH) và Răng Hàm Mặt (RHM) cho mẫu khám sức khỏe Thông tư 25 (mẫu từ đủ 18 tuổi FrmKhamSucKhoe_HoaHao).
 - 🐛: Khắc phục lỗi ô tên bác sĩ TMH và RHM bị trống rỗng khi đã có mã bác sĩ (hoặc khi gõ mã bác sĩ) trên tab đủ 18 tuổi; bổ sung fallback tra cứu tên bác sĩ từ dmnhanvien khi bác sĩ không nằm trong lịch trực phòng; bổ sung lưu đúng mã bác sĩ TMH và RHM từ tab đủ 18 tuổi vào Entity/Kskhopdong.
