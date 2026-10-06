@@ -6,6 +6,28 @@
 
 #
 
+## [v.3.26.1006.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610067-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610067-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610067-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chuẩn hóa toàn bộ các chỉ số khám thể lực (chiều cao, cân nặng, mạch, huyết áp tâm thu, huyết áp tâm trương, nhịp thở) sang kiểu số nguyên (Integer / JTokenType.Integer) khi tạo payload JSON mẫu M3 và M2 gửi Cổng KSK SYT TP.HCM (đồng bộ thư viện DH.XML4750.v.1.26.1006.1).
+- 🐛: Khắc phục lỗi Cổng KSK SYT HCM từ chối tiếp nhận hồ sơ khám sức khỏe với mã lỗi HTTP 400 "Vui lòng truyền huyetaptamthu!" do các trường số thập phân có dấu chấm (.0, .00) bị bộ parse Integer của Cổng từ chối.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/935#issuecomment-46514 (hdhiswork/YEUCAU#935)
+- 📗: Không thay đổi cấu trúc bảng CSDL; đọc trực tiếp các chỉ số thể lực chieucao, cannang, mach, huyetap, nhiptho từ bảng current.khambenh.
+- 📕: Phân hệ Khám sức khỏe (Prescription & DH.XML4750): Cập nhật cơ chế sinh payload M3 và M2, các trường trong object kham_the_luc được format chuẩn số nguyên thuần túy, hoàn toàn không chứa ký tự thập phân, vượt qua khâu kiểm tra ràng buộc nghiêm ngặt của Cổng SYT TP.HCM.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-935/debug-image-dhxml4750-sythcmkskgatewaymapper-c46514-khamtheluc-songuyen.png)
+
+## [v.3.26.1006.6]()
+- ✨: Đồng bộ nhận diện thương hiệu DH.HIS theo biến môi trường DHHIS_BANQUYEN=1: nạp thư viện LibraryApp mới, tự động đổi hình nền đăng nhập FrmDangNhap theo tông màu y tế background_dh, chuẩn hóa thanh trạng thái Status Bar 4 ô với biểu tượng logoDH và gán tiêu đề Form Home DH.HIS Prescription.
+- 🐛: Khắc phục lỗi kiểm tra kết nối ClsConnection.v_conn trong FrmDangNhap, đảm bảo phân hệ khởi chạy an toàn khi kiểm thử hoặc ngoại tuyến.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/34#issuecomment-46526 (hdhiswork/DUAN#34)
+- 📗: Không thay đổi cấu trúc bảng hay dữ liệu PostgreSQL, cơ chế bản quyền chạy độc lập hoàn toàn với CSDL.
+- 📕: Khi biến môi trường DHHIS_BANQUYEN=1:
+  1. Giao diện đăng nhập FrmDangNhap chuyển sang hình nền nhận diện DH.HIS, loại bỏ thương hiệu cũ DHG Pharma.
+  2. Tiêu đề Form Home chuyển thành DH.HIS Prescription.
+  3. Thanh trạng thái Status Bar chuẩn hóa 4 ô: Tháng làm việc: MM/YYYY | Tài khoản đăng nhập: Fullname | [logoDH] Bản quyền © 2020-2026 thuộc về DH | Phiên bản: <version>.
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-frmdangnhap-giaodien-default.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-frmdangnhap-giaodien-dhhis.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-frmhome-tieude-12phanhe.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-statusbar-thanhtrangthai-dhhis.png)
+
 ## [v.3.26.1006.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610065-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610065-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610065-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Khắc phục lỗi Transaction Aborted (Code 25P02) trong ChiDinhCLSAdapter khi lưu chỉ định CLS cho bệnh nhân đã có dòng chờ từ ngày trước trong current.pscls_lcd
 - ✨: Cập nhật hàm UpdateStt: Thực hiện UPDATE thời gian đăng ký và thông tin chỉ định mới vào dòng chờ current.pscls_lcd cũ nếu đã tồn tại thay vì INSERT trùng khóa chính pscls_lcd_pkey (mabn, makb, maphong, stt)
