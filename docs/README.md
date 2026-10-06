@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1006.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610062-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610062-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610062-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tự động nạp kết quả CLS và thông tin Bác sĩ đọc kết quả (mã, tên) khi ấn nút Chỉnh hoặc Thêm mới khám sức khỏe Thông tư 25; bổ sung Bác sĩ đọc kết quả cho các ô CLS đã có sẵn kết quả.
+- 🐛: Khắc phục lỗi tự động nạp kết quả CLS khi đang ở chế độ xem bệnh nhân (`bChanDoan == false`), tránh gây hiểu nhầm dữ liệu đã lưu; khắc phục lỗi mất tên bác sĩ khi rời focus khỏi ô mã bác sĩ (`txtMaBacSi_*_Leave`) hoặc khi chuyển đổi giữa các tab con.
+- ☑: [YEUCAU Issue #939 Comment #46419](https://i.dh-his.com/hdhiswork/YEUCAU/issues/939#issuecomment-46419 (hdhiswork/YEUCAU#939))
+- 📗: Gỡ bỏ SetBindingMember cho các ô CLS và mã Bác sĩ CLS trong `InitKhamSucKhoeBinding()`, nạp qua `PullKhamSucKhoeSpecialFields()` và lưu qua `PushKhamSucKhoeSpecialFields()` (chuẩn LOI#1028); thêm chốt chặn `if (!this.bChanDoan) return;` trong `TuDongLayKqClsKhiTrong()`.
+- 📕: Không có rủi ro phá vỡ; tương thích ngược hoàn toàn với cấu hình tự nạp CLS và các form KSK TT32/TT25 khác.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-frmkhamsuckhoe-c46419-nap-cls-khi-chinh-bacsi.gif)
+
 ## [v.3.26.1006.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610061-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription] Bổ sung 2 tùy chọn in "Phiếu bàn giao người bệnh chuyển khoa (Bác sĩ)" và "Phiếu bàn giao người bệnh chuyển khoa (Điều dưỡng)" tại nút "In ấn" trên FrmNhapVien khi lập bệnh án ngoại trú nhập viện (BV Da Liễu Cần Thơ).
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/927
