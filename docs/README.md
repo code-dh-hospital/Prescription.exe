@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1006.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610061-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610061-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610061-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription] Bổ sung 2 tùy chọn in "Phiếu bàn giao người bệnh chuyển khoa (Bác sĩ)" và "Phiếu bàn giao người bệnh chuyển khoa (Điều dưỡng)" tại nút "In ấn" trên FrmNhapVien khi lập bệnh án ngoại trú nhập viện (BV Da Liễu Cần Thơ).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/927
+- ☑: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/issues/53
+- 📗: current.bnnoitru, current.khambenh, current.dmbenhnhan, current.psdangky, current.dmdonvi, current.dmnhanvien (Chỉ SELECT nạp dữ liệu Print Preview, READ-ONLY, tuyệt đối không INSERT/UPDATE CSDL).
+- 📕: Thực hiện theo mô tả [Mo-ta-bo-sung-phieu-ban-giao-chuyen-khoa-ngoai-tru-nhap-vien.md](../../Mo-ta-he-thong/SO-HOA/Mo-ta-bo-sung-phieu-ban-giao-chuyen-khoa-ngoai-tru-nhap-vien.md)
+![](https://i.vgy.me/QDhoLv.png)
+![](https://i.vgy.me/gsr0VI.png)
+![](https://i.vgy.me/j48nni.png)
+
 ## [v.3.26.1006.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610060-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610060-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610060-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung tiếp nhận và truyền ngày đủ 5 năm liên tục khi kiểm tra thông tuyến BHYT tại các nút Kiểm tra thông tuyến trên phân hệ Khám bệnh và Bệnh án ngoại trú
 - 🐛: Khắc phục lỗi FrmKhamBenh (btnCheckThongTuyen, btnKTTT_KB) và FrmBenhAnNgoaiTru truyền chuỗi rỗng ngày đủ 5 năm khi gọi hàm setCheckMaThe kiểm tra thông tuyến, khiến bệnh nhân đã có ngày 5 năm trên hệ thống vẫn bị cảnh báo sai lệch thẻ hoặc hiện popup hỏi cập nhật ngày 5 năm
