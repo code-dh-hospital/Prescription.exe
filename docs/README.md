@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.26.1007.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610072-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp cơ chế tự động gửi hồ sơ KSK theo QĐ 2062/QĐ-BYT về Cổng tiếp nhận Kho dữ liệu Y tế Vĩnh Long (API v1.5) vào nút hiện tại `btnGuiCongDuLieuSucKhoe` ("Gửi Cổng dữ liệu sức khỏe") trên form `FrmKhamSucKhoe_HoaHao`.
+- 🐛: Form Khám sức khỏe hợp đồng chưa hỗ trợ gửi hồ sơ trực tiếp đến Cổng tiếp nhận SYT Vĩnh Long chuẩn QĐ 2062 khi cơ sở bật cấu hình `SytVinhLong2062_SuDung`.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/948
+- 📗: Đọc thông số cấu hình từ `current.coderun` qua `HisObj.GetOptionTT25KSK()`, cập nhật trạng thái "Đã gửi" và ghi nhật ký đồng bộ dữ liệu.
+- 📕: Bác sĩ hoặc nhân viên KSK sau khi nhập xong kết quả chỉ cần bấm nút "Gửi Cổng dữ liệu sức khỏe", hệ thống tự động kiểm tra cấu hình, xác thực API và gửi XML 2062 kèm thông báo kết quả.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-948/debug-image-hosadmin-xfrmoptionbhxh-cauhinh-syt-vinhlong-2026.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-948/debug-image-prescription-frmkhamsuckhoe-gui-cong-syt-vinhlong-2062.png)
+- ✨: Mẫu khám sức khỏe Thông tư 25 (từ đủ 18 tuổi - FrmKhamSucKhoe_HoaHao): ô "Kết quả CLS" giữ đúng kết quả CLS tự lấy khi bấm Chỉnh (Điện tim, Siêu âm... của mục CLS khác) và được lưu vào phiếu; ô "Có cận lâm sàng khác" luôn hiển thị chữ "Không" / "Có".
+- 🐛: Bấm Chỉnh tự lấy KQ CLS nhưng ô "Kết quả CLS" bị xóa trắng (bind 2 control cùng trường KqclsKsk, tab con tạo handle sau đẩy rỗng đè lên) nên lưu rỗng; ô "Có cận lâm sàng khác" hiện số 0 / 1 thay vì chữ khi xem phiếu đã lưu (gán decimal vào combo giá trị int); ô Tên CLS khác đã có chữ thì ô Kết quả CLS trống không được bổ sung.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/939#issuecomment-46704 (hdhiswork/YEUCAU#939)
+- 📗: Không đổi cấu trúc CSDL. Bảng current.pskhamsuckhoe: kqcls_ksk (varchar), cls_khac (numeric 0 = Không, 1 = Có); không đổi cấu hình current.coderun (ksk_tt25_cauhinh_laykq_cls, ksk_tt25_tudong_laykq_cls). Code: bỏ bind KqclsKsk, nạp/lưu qua PullKhamSucKhoeSpecialFields / PushKhamSucKhoeSpecialFields / DongBoKqClsVaoEntity; GanGiaTriCoKhong / LayGiaTriCoKhong; KskClsAutoFillHelper.BoSungKetQuaCls.
+- 📕: Thực hiện theo mô tả [Mo-ta-tu-dong-lay-ket-qua-cls-len-mau-ksk-tt25.md](../../Mo-ta-he-thong/THONGTU_25/Mo-ta-tu-dong-lay-ket-qua-cls-len-mau-ksk-tt25.md). Kiểm chứng trên form HIS thật, CSDL tra_tracu_ksk_ketquacls_25092026, Bệnh Nhân 1 (2026028473 / 2609011428) và Bệnh Nhân 2 (2026028474 / 2609011429): 7/7 đạt.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-c46704-sau-03_bn1_chinh_mo_o_ket_qua_cls.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-c46704-sau-01_bn1_xem_co_cls_khac.png)
+
 ## [v.3.26.1007.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610071-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp cơ chế tự động gửi dữ liệu chỉ định CĐHA sang máy chủ PACS ở chế độ `OnSaveOrder` trên form chỉ định ngoại trú `Prescription.Forms.FrmCanLamSang` thông qua `DH.PublicCLS.Pacs.Services.PacsDispatcherHelper`.
 - ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-46703 (hdhiswork/DUAN#38)
