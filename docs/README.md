@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.1007.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610073-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610073-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610073-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chuẩn hóa hiển thị thông báo kết quả gửi hồ sơ khám sức khỏe theo 3 trường hợp độc lập (thành công toàn bộ, thất bại toàn bộ, thành công một phần) sử dụng hộp thoại chuẩn XMsgBox với định dạng HTML rich-text nổi bật (màu sắc, in đậm, in nghiêng).
+- 🐛: Khắc phục lỗi khi gửi cổng bị từ chối hoặc lỗi nhưng thông báo popup vẫn hiển thị câu chữ "Đã gửi thành công (0/1)" và dùng hộp thoại cảnh báo Warning màu vàng đơn điệu.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/948#issuecomment-46963 (hdhiswork/YEUCAU#948)
+- 📗: Không thay đổi cấu trúc bảng hay dữ liệu PostgreSQL; tiếp tục ghi nhận chi tiết kết quả vào current.kskgateway_log.
+- 📕: Màn hình FrmKhamSucKhoe_HoaHao sau khi bấm "Gửi Cổng dữ liệu sức khỏe":
+  1. Nếu tất cả thành công: hiển thị hộp thoại Thông báo (XMsgBox.Info) với tiêu đề xanh lá cây `✓ GỬI HỒ SƠ LÊN CỔNG DỮ LIỆU THÀNH CÔNG`.
+  2. Nếu tất cả lỗi / cổng từ chối: hiển thị hộp thoại Cảnh báo (XMsgBox.Warn) với tiêu đề đỏ `✕ GỬI HỒ SƠ LÊN CỔNG DỮ LIỆU KHÔNG THÀNH CÔNG`, liệt kê chi tiết lỗi in nghiêng mà không có chữ "Đã gửi thành công 0/1".
+  3. Nếu thành công một phần: hiển thị kết quả thành công và danh sách lỗi riêng biệt.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-948/debug-image-hosadmin-xfrmoptionbhxh-cauhinh-syt-vinhlong-2026.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-948/debug-image-prescription-frmkhamsuckhoe-gui-cong-syt-vinhlong-2062.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-948/debug-image-prescription-xmsgbox-phan-hoi-cong-syt-vinhlong-2062.png)
+
 ## [v.3.26.1007.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610072-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610072-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610072-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp cơ chế tự động gửi hồ sơ KSK theo QĐ 2062/QĐ-BYT về Cổng tiếp nhận Kho dữ liệu Y tế Vĩnh Long (API v1.5) vào nút hiện tại `btnGuiCongDuLieuSucKhoe` ("Gửi Cổng dữ liệu sức khỏe") trên form `FrmKhamSucKhoe_HoaHao`.
 - 🐛: Form Khám sức khỏe hợp đồng chưa hỗ trợ gửi hồ sơ trực tiếp đến Cổng tiếp nhận SYT Vĩnh Long chuẩn QĐ 2062 khi cơ sở bật cấu hình `SytVinhLong2062_SuDung`.
