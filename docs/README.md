@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.1008.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610083-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610083-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610083-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp cơ chế tự động chuyển chi phí BANT sang bệnh án nội trú tại `FrmNhapVien` khi lưu mới hồ sơ nhập viện (`ChuyenVaoBANT`), đồng thời bổ sung logic hoàn trả nguyên vẹn về BANT (`ChuyenRaBANT`) khi người dùng hủy hoặc xóa hồ sơ nhập viện.
+- 🐛: Khắc phục sự cố không thể liên thông chi phí chỉ định CLS và đơn thuốc từ hồ sơ bệnh án ngoại trú vào bệnh án nội trú khi tiếp nhận điều trị tại BV Cái Răng.
+- ☑: [YEUCAU Issue #729](https://i.dh-his.com/hdhiswork/YEUCAU/issues/729) - Prescription hỗ trợ chuyển chi phí BANT vào hs bệnh án nội trú.
+- 📗: Cập nhật các trường `maba`, `noitru` trên `current.chidinhcls`, `current.chuyencls`, `current.chungtu`, `current.thuchi` và quản lý liên kết `current.bnnoitru`.
+- 📕: Tự động tiền kiểm tra kho cấp phát / tủ trực của khoa điều trị nội trú đích; hiển thị cảnh báo chi tiết nếu có đơn thuốc không phù hợp; tự động hoàn trả dữ liệu sạch sẽ khi thao tác xóa hồ sơ nhập viện.
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-prescription-frmnhapvien-chuyencphi-bant.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-prescription-frmnhapvien-kiemtra-khocp.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-prescription-frmnhapvien-hoantra-bant.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-truocnhapvien.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-noitru-saunhapvien.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-sauhoantra.png)
+
 ## [v.3.26.1008.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610082-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610082-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610082-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp cơ chế tự động chuyển chi phí BANT sang bệnh án nội trú tại `FrmNhapVien` khi lưu mới hồ sơ nhập viện (`ChuyenVaoBANT`), đồng thời bổ sung logic hoàn trả nguyên vẹn về BANT (`ChuyenRaBANT`) khi người dùng hủy hoặc xóa hồ sơ nhập viện.
 - 🐛: Khắc phục sự cố không thể liên thông chi phí chỉ định CLS và đơn thuốc từ hồ sơ bệnh án ngoại trú vào bệnh án nội trú khi tiếp nhận điều trị tại BV Cái Răng.
