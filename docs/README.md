@@ -6,6 +6,38 @@
 
 #
 
+## [v.3.26.1007.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610075-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610075-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610075-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chuẩn hóa toàn bộ các câu lệnh truy vấn nạp dữ liệu đơn thuốc, chỉ định cận lâm sàng và bệnh án ngoại trú sử dụng OTH.Common.ClsSqlOidHelper.CastOid(...) và đồng bộ build Prescription.exe phòng ngừa lỗi tràn số OID > 2.14 tỷ
+- 🐛: Khắc phục triệt để lỗi OverflowException / ArgumentException khi nạp toa thuốc, chỉ định CLS và bệnh án điều trị ngoại trú trên các cơ sở dữ liệu có OID vượt ngưỡng 2.14 tỷ
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/161
+- 📗: Toàn bộ các bảng kedon, toathuoc, chidinhcls, ketquacls, bant truy vấn cột oid được ép kiểu CAST(oid AS bigint) AS oid
+- 📕: Phân hệ Kê toa & Khám bệnh ngoại trú (Prescription) - Kê đơn thuốc, chỉ định dịch vụ cận lâm sàng và quản lý bệnh án ngoại trú. Chi tiết tài liệu: [Mo-ta-chuan-hoa-cast-oid-sang-bigint-toan-he-thong.md](../../Mo-ta-he-thong/PGDATABASE/Mo-ta-chuan-hoa-cast-oid-sang-bigint-toan-he-thong.md)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-bang-ke-bien-lai.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-chi-tiet-hoa-don-thu-phi.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-dong-bo-hoa-don-1.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-dong-bo-hoa-don-2.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-medicine-frmchecktoncuoi-ton-cuoi.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-medicine-frmchecktrunglo-trung-lo.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-medicine-frmtkthekho-the-kho-duoc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-secondstore-frmtkthekhotutruc-tu-truc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-prescription-frmcanlamsang-chi-dinh-cls.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-prescription-frmratoa-toa-thuoc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frminphieukcb-kcb-ngoaitru.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frmketoa-ke-toa-tong-hop.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frmphucvu-phuc-vu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frmxacnhan-xac-nhan-toa-thuoc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-admin-xfrmmau192021-mau-21.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-admin-xfrmeditchungtu-chung-tu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-admin-xfrmeditchungtu-chung-tu-vtyt.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-monitor-goi-so.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-bhxh-frmbctonghop-ngoaitru-mau21.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-bhxh-xfrmbkxuatxml4750-thuoc-bhyt.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-list-frmdanhmuc-dmdoituong.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-list-frmdanhmuc-dmphankhu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-treatment-thtoant-du-tru.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-treatment-chungtu-noi-tru.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-cls-chidinhcls-xet-nghiem.png)
+
 ## [v.3.26.1007.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610074-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610074-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610074-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp chuẩn hóa giao diện bản quyền DH.HIS Prescription (Kê đơn ngoại trú) khi kích hoạt DHHIS_BANQUYEN
 - 🐛: Đồng bộ nhận diện thương hiệu DH.HIS, thanh trạng thái 4 ô logoDH và tiêu đề Form Home
