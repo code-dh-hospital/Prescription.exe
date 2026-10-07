@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1007.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610071-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610071-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610071-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp cơ chế tự động gửi dữ liệu chỉ định CĐHA sang máy chủ PACS ở chế độ `OnSaveOrder` trên form chỉ định ngoại trú `Prescription.Forms.FrmCanLamSang` thông qua `DH.PublicCLS.Pacs.Services.PacsDispatcherHelper`.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-46703 (hdhiswork/DUAN#38)
+- 📗: Cập nhật mã `idpacs` trong bảng `current.chidinhcls` và ghi nhận lịch sử gửi nhận vào `current.pacs_message_log`.
+- 📕: Bác sĩ ngoại trú lưu chỉ định CLS thì hệ thống tự động phát hiện các dịch vụ X-Quang, CT, MRI, Siêu âm và gửi sang PACS bất đồng bộ, không làm đơ giao diện; tự động hủy đơn khi xóa dịch vụ.
+- Thực hiện theo mô tả [Triển khai cơ chế tự động gửi chỉ định CĐHA sang PACS khi lưu phiếu (OnSaveOrder) đa phân hệ](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/DH-PACS/Mo-ta-tu-dong-gui-chi-dinh-pacs-onsaveorder-da-phan-he.md)
+
+
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-939/debug-image-prescription-c46704-sau-01_bn1_xem_co_cls_khac.png)
+
 ## [v.3.26.1007.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610070-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610070-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610070-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Mẫu khám sức khỏe Thông tư 25 (từ đủ 18 tuổi - FrmKhamSucKhoe_HoaHao): ô "Kết quả CLS" giữ đúng kết quả CLS tự lấy khi bấm Chỉnh (Điện tim, Siêu âm... của mục CLS khác) và được lưu vào phiếu; ô "Có cận lâm sàng khác" luôn hiển thị chữ "Không" / "Có".
 - 🐛: Bấm Chỉnh tự lấy KQ CLS nhưng ô "Kết quả CLS" bị xóa trắng (bind 2 control cùng trường KqclsKsk, tab con tạo handle sau đẩy rỗng đè lên) nên lưu rỗng; ô "Có cận lâm sàng khác" hiện số 0 / 1 thay vì chữ khi xem phiếu đã lưu (gán decimal vào combo giá trị int); ô Tên CLS khác đã có chữ thì ô Kết quả CLS trống không được bổ sung.
