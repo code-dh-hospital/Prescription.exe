@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1007.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610074-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610074-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610074-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp chuẩn hóa giao diện bản quyền DH.HIS Prescription (Kê đơn ngoại trú) khi kích hoạt DHHIS_BANQUYEN
+- 🐛: Đồng bộ nhận diện thương hiệu DH.HIS, thanh trạng thái 4 ô logoDH và tiêu đề Form Home
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/34#issuecomment-47093 (hdhiswork/DUAN#34)
+- 📗: Không thay đổi CSDL
+- 📕: Chuẩn hóa nhận diện thương hiệu DH.HIS theo biến môi trường DHHIS_BANQUYEN = 1
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-statusbar-thanhtrangthai-dhhis.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-libraryapp-frmhome-tieude-12phanhe.png)
+
 ## [v.3.26.1007.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610073-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610073-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610073-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Chuẩn hóa hiển thị thông báo kết quả gửi hồ sơ khám sức khỏe theo 3 trường hợp độc lập (thành công toàn bộ, thất bại toàn bộ, thành công một phần) sử dụng hộp thoại chuẩn XMsgBox với định dạng HTML rich-text nổi bật (màu sắc, in đậm, in nghiêng).
 - 🐛: Khắc phục lỗi khi gửi cổng bị từ chối hoặc lỗi nhưng thông báo popup vẫn hiển thị câu chữ "Đã gửi thành công (0/1)" và dùng hộp thoại cảnh báo Warning màu vàng đơn điệu.
