@@ -6,6 +6,53 @@
 
 #
 
+## [v.3.26.1008.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610081-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610081-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610081-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription & DH.PublicCLS] Bổ sung 2 menu [Hủy gửi PACS] và [Gửi lại PACS] vào DropDownContextMenu của nút [Chuyển CLS TH] trên form FrmCanLamSang ngoại trú (chỉ hiển thị khi bật auto save); hỗ trợ Hủy gửi PACS riêng biệt (giữ nguyên CLS trên HIS) và Gửi lại PACS với Accession Number mới; tự động gọi Hủy PACS khi bấm nút [Xóa] chỉ định; giữ nguyên dàn button chuẩn của Form.
+- 🐛: [Prescription & Treatment.DataAccess] Khắc phục tình trạng khi sửa/lưu chỉ định CLS bị gửi lại trùng lặp các dịch vụ cũ đã có idpacs; đảm bảo dòng mới kế thừa idpacs và chỉ gửi các CLS mới bổ sung.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-46979 (hdhiswork/DUAN#38)
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-46703 (hdhiswork/DUAN#38)
+- 📗: Cập nhật trường idpacs trong bảng current.chidinhcls khi thực hiện hủy gửi (xóa rỗng idpacs) hoặc gửi lại PACS (sinh idpacs mới); bảo toàn idpacs trong ChiDinhCLSAdapter.Update().
+- 📕: Thực hiện theo mô tả [Triển khai cơ chế tự động gửi chỉ định CĐHA sang PACS khi lưu phiếu OnSaveOrder đa phân hệ và chức năng Hủy/Gửi lại PACS](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/DH-PACS/Mo-ta-tu-dong-gui-chi-dinh-pacs-onsaveorder-da-phan-he.md)
+  - Phân hệ Ngoại trú (Prescription) tự động bật/tắt (Enable/Disable) 2 menu theo dòng CLS đang chọn: Đã gửi PACS -> [Hủy gửi PACS] Enabled, [Gửi lại PACS] Disabled; Chưa gửi/Vừa hủy -> [Hủy gửi PACS] Disabled, [Gửi lại PACS] Enabled; Đã có kết quả -> Cả 2 menu Disabled.
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-38/pacs-cancel-resend-flow.gif)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-38/pacs-prescription-flow.gif)
+
+## [v.3.26.1008.0]()
+
+- ✨: [Prescription & DH.PublicCLS] Bổ sung 2 menu [Hủy gửi PACS] và [Gửi lại PACS] vào DropDownContextMenu của nút [Chuyển CLS TH] trên form FrmCanLamSang ngoại trú (chỉ hiển thị khi bật auto save); hỗ trợ Hủy gửi PACS riêng biệt (giữ nguyên CLS trên HIS) và Gửi lại PACS với Accession Number mới; tự động gọi Hủy PACS khi bấm nút [Xóa] chỉ định; giữ nguyên dàn button chuẩn của Form.
+- 🐛: [Prescription & Treatment.DataAccess] Khắc phục tình trạng khi sửa/lưu chỉ định CLS bị gửi lại trùng lặp các dịch vụ cũ đã có idpacs; đảm bảo dòng mới kế thừa idpacs và chỉ gửi các CLS mới bổ sung.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-46979 (hdhiswork/DUAN#38)
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-46703 (hdhiswork/DUAN#38)
+- 📗: Cập nhật trường idpacs trong bảng current.chidinhcls khi thực hiện hủy gửi (xóa rỗng idpacs) hoặc gửi lại PACS (sinh idpacs mới); bảo toàn idpacs trong ChiDinhCLSAdapter.Update().
+- 📕: Thực hiện theo mô tả [Triển khai cơ chế tự động gửi chỉ định CĐHA sang PACS khi lưu phiếu OnSaveOrder đa phân hệ và chức năng Hủy/Gửi lại PACS](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/DH-PACS/Mo-ta-tu-dong-gui-chi-dinh-pacs-onsaveorder-da-phan-he.md)
+  - Phân hệ Ngoại trú (Prescription) tự động bật/tắt (Enable/Disable) 2 menu theo dòng CLS đang chọn: Đã gửi PACS -> [Hủy gửi PACS] Enabled, [Gửi lại PACS] Disabled; Chưa gửi/Vừa hủy -> [Hủy gửi PACS] Disabled, [Gửi lại PACS] Enabled; Đã có kết quả -> Cả 2 menu Disabled.
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-38/pacs-cancel-resend-flow.gif)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-38/pacs-prescription-flow.gif)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-chi-tiet-hoa-don-thu-phi.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-dong-bo-hoa-don-1.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-fees-dong-bo-hoa-don-2.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-medicine-frmchecktoncuoi-ton-cuoi.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-medicine-frmchecktrunglo-trung-lo.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-medicine-frmtkthekho-the-kho-duoc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-secondstore-frmtkthekhotutruc-tu-truc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-prescription-frmcanlamsang-chi-dinh-cls.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-prescription-frmratoa-toa-thuoc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frminphieukcb-kcb-ngoaitru.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frmketoa-ke-toa-tong-hop.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frmphucvu-phuc-vu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-printer-frmxacnhan-xac-nhan-toa-thuoc.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-admin-xfrmmau192021-mau-21.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-admin-xfrmeditchungtu-chung-tu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-admin-xfrmeditchungtu-chung-tu-vtyt.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-monitor-goi-so.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-bhxh-frmbctonghop-ngoaitru-mau21.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-bhxh-xfrmbkxuatxml4750-thuoc-bhyt.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-list-frmdanhmuc-dmdoituong.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-list-frmdanhmuc-dmphankhu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-treatment-thtoant-du-tru.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-treatment-chungtu-noi-tru.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-161/debug-image-cls-chidinhcls-xet-nghiem.png)
+
 ## [v.3.26.1007.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610075-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610075-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610075-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Chuẩn hóa toàn bộ các câu lệnh truy vấn nạp dữ liệu đơn thuốc, chỉ định cận lâm sàng và bệnh án ngoại trú sử dụng OTH.Common.ClsSqlOidHelper.CastOid(...) và đồng bộ build Prescription.exe phòng ngừa lỗi tràn số OID > 2.14 tỷ
 - 🐛: Khắc phục triệt để lỗi OverflowException / ArgumentException khi nạp toa thuốc, chỉ định CLS và bệnh án điều trị ngoại trú trên các cơ sở dữ liệu có OID vượt ngưỡng 2.14 tỷ
