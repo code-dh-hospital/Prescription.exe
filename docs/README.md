@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1008.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610084-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610084-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610084-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Khóa và xóa các trường tiền sử thai sản (combo, tên bệnh, mã ICD, tên thuốc) và mục Khám sản phụ khoa khi bệnh nhân là Nam; phân biệt kiểm tra sinh hiệu theo tab đang mở (Khám bệnh / Đăng ký) và đồng bộ hai chiều.
+- 🐛: Sửa lỗi mất sinh hiệu KSK khi bấm nút "Chỉnh", lỗi kẹt thông báo "Chiều cao không hợp lý." khi nhập số hợp lệ; sửa lỗi tự động gán mặc định Sản phụ khoa ("Khỏe", "Loại II") và cho phép nhập tiền sử thai sản đối với bệnh nhân Nam (LOI #1034 comment #46991 & #47114).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1034
+- 📗: Cập nhật hàm `ktInput()`, `KhoaThaiSanTheoGioiTinh()`, `IsBenhNhanNam()`, `NapThaiSanDu18()`, `getBenhNhanKB()`, `ttConTrol_KB()`, `btnChinh_Click()`, `khamBenh()`, `ApplySanKhoaKhongBinhThuongState()` và `CapNhatTenBenhThaiSanDu18()` trong `Forms/FrmKhamSucKhoe_HoaHao.cs`.
+- 📕: Nghiệp vụ KSK: Bệnh nhân Nam tuyệt đối không hiển thị mặc định hoặc cho phép nhập thông tin sản phụ khoa / thai sản; Sinh hiệu sau khi lưu được đồng bộ vào cả `khambenh` và `psdangky`.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1034/debug-image-prescription-hieu-chinh-sinh-hieu-day-du.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1034/debug-image-prescription-frmkhamsuckhoe-thai-san-nam-khoa.png)
+
 ## [v.3.26.1008.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610083-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610083-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610083-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp cơ chế tự động chuyển chi phí BANT sang bệnh án nội trú tại `FrmNhapVien` khi lưu mới hồ sơ nhập viện (`ChuyenVaoBANT`), đồng thời bổ sung logic hoàn trả nguyên vẹn về BANT (`ChuyenRaBANT`) khi người dùng hủy hoặc xóa hồ sơ nhập viện.
 - 🐛: Khắc phục sự cố không thể liên thông chi phí chỉ định CLS và đơn thuốc từ hồ sơ bệnh án ngoại trú vào bệnh án nội trú khi tiếp nhận điều trị tại BV Cái Răng.
