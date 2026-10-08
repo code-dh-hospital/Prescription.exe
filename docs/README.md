@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.1008.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610085-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610085-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610085-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chuẩn hóa hiển thị tiêu đề thông báo kết quả gửi hồ sơ khám sức khỏe (XMsgBox.Info / XMsgBox.Warn) nằm gọn gàng trên cùng 1 dòng thông qua đường kẻ phân cách Divider, không còn bị ngắt rớt chữ 'THÀNH CÔNG' xuống dòng thứ 2 (YEUCAU #948 Comment #47375).
+- 🐛: Khắc phục hiện tượng chữ 'THÀNH CÔNG' bị rớt dòng trong popup thông báo thành công khi gửi hồ sơ KSK lên Cổng dữ liệu sức khỏe do cơ chế đo kích thước font chuỗi thô của form XFrmMsgBox.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/948#issuecomment-47375 (hdhiswork/YEUCAU#948)
+- 📗: Cập nhật biến lineDivider và các chuỗi thông báo msgThanhCong, msgThatBai, msgKetHop trong btnGuiCongDuLieuSucKhoe_Click (Prescription/Forms/FrmKhamSucKhoe_HoaHao.cs).
+- 📕: Màn hình FrmKhamSucKhoe_HoaHao sau khi bấm 'Gửi Cổng dữ liệu sức khỏe':
+1. Khi gửi thành công: hiển thị thông báo với tiêu đề nổi bật `✓ GỬI HỒ SƠ LÊN CỔNG DỮ LIỆU THÀNH CÔNG` nằm trọn vẹn trên 1 dòng đơn, phân cách bằng đường kẻ thanh lịch với chi tiết số lượng hồ sơ tiếp nhận.
+2. Khi gửi thất bại: tiêu đề `✕ GỬI HỒ SƠ LÊN CỔNG DỮ LIỆU KHÔNG THÀNH CÔNG` cũng nằm trọn vẹn trên 1 dòng kèm chi tiết phản hồi của cổng.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-948/debug-image-prescription-xmsgbox-thanh-cong-cung-dong.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-948/debug-image-prescription-xmsgbox-phan-hoi-cong-syt-vinhlong-2062.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-948/debug-image-prescription-frmkhamsuckhoe-gui-cong-syt-vinhlong-2062.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-948/debug-image-hosadmin-xfrmoptionbhxh-cauhinh-syt-vinhlong-2026.png)
+
 ## [v.3.26.1008.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610084-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610084-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610084-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Khóa và xóa các trường tiền sử thai sản (combo, tên bệnh, mã ICD, tên thuốc) và mục Khám sản phụ khoa khi bệnh nhân là Nam; phân biệt kiểm tra sinh hiệu theo tab đang mở (Khám bệnh / Đăng ký) và đồng bộ hai chiều.
 - 🐛: Sửa lỗi mất sinh hiệu KSK khi bấm nút "Chỉnh", lỗi kẹt thông báo "Chiều cao không hợp lý." khi nhập số hợp lệ; sửa lỗi tự động gán mặc định Sản phụ khoa ("Khỏe", "Loại II") và cho phép nhập tiền sử thai sản đối với bệnh nhân Nam (LOI #1034 comment #46991 & #47114).
