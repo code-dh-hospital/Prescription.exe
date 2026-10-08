@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.1008.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610086-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610086-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610086-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung các parameter thông tin thẻ BHYT (số thẻ, nơi ĐKKCB ban đầu, hạn thẻ, mức hưởng, đối tượng) phục vụ thiết kế mẫu Phiếu cam kết nhập viện hưởng BHYT tại chức năng lập phiếu nhập viện nội trú
+- 🐛: Khắc phục lỗi crash khi in Giấy cung cấp thông tin và cam kết nhập viện (bảo vệ an toàn TenSYT/TenBV từ License và null-check tham số hệ thống)
+- 🐛: [FrmNhapVien] Phòng vệ an toàn khi bóc tách chuỗi tmh (Split @) trong getBenhNhan, khắc phục lỗi văng ngoại lệ phát sinh khi mở hồ sơ nhập viện tại bệnh viện chuyên khoa không phải TMH (BV Da Liễu)
+- 🐛: [FrmNhapVien] Truyền đúng mã bệnh án nội bộ khi iMaBaNoiBo == 1 (txtSoBANoiBo) vào xfrm03_CungCapTTNV, đảm bảo nạp đầy đủ thông tin hành chính và thẻ BHYT bệnh nhân khi mở form cam kết nhập viện
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/929
+- 📗: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/124
+- 📕: ../Mo-ta-he-thong/SO-HOA/Mo-ta-phieu-cam-ket-nhap-vien-bhyt-issue-929.md
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-frmnhapvien-menu-ttnhapvien.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-xfrm03-cungcapttnv-form.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-xfrm03-cungcapttnv-printpreview.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-frmmain-fullflow-main.png)
+
 ## [v.3.26.1008.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610085-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610085-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610085-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Chuẩn hóa hiển thị tiêu đề thông báo kết quả gửi hồ sơ khám sức khỏe (XMsgBox.Info / XMsgBox.Warn) nằm gọn gàng trên cùng 1 dòng thông qua đường kẻ phân cách Divider, không còn bị ngắt rớt chữ 'THÀNH CÔNG' xuống dòng thứ 2 (YEUCAU #948 Comment #47375).
 - 🐛: Khắc phục hiện tượng chữ 'THÀNH CÔNG' bị rớt dòng trong popup thông báo thành công khi gửi hồ sơ KSK lên Cổng dữ liệu sức khỏe do cơ chế đo kích thước font chuỗi thô của form XFrmMsgBox.
