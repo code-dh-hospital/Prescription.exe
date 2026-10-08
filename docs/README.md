@@ -6,6 +6,25 @@
 
 #
 
+## [v.3.26.1008.10]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F326100810-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F326100810-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F326100810-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chuẩn hóa nhận diện thương hiệu DH.HIS và tương thích hiển thị phiên bản trên thanh trạng thái
+- 🐛: Sửa lỗi System.FormatException khi parse phiên bản phần mềm trong FrmMain.dangNhap(), loadCauHinhMay() và tmrTime_Tick()
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/34
+- 📗: Không thay đổi CSDL
+- 📕: Quản lý kê đơn và đăng nhập phân hệ Prescription
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-34/debug-image-prescription-frmmain-home.png)
+- ✨: Bổ sung các parameter thông tin thẻ BHYT (số thẻ, nơi ĐKKCB ban đầu, hạn thẻ, mức hưởng, đối tượng) phục vụ thiết kế mẫu Phiếu cam kết nhập viện hưởng BHYT tại chức năng lập phiếu nhập viện nội trú
+- 🐛: Khắc phục lỗi crash khi in Giấy cung cấp thông tin và cam kết nhập viện (bảo vệ an toàn TenSYT/TenBV từ License và null-check tham số hệ thống)
+- 🐛: [FrmNhapVien] Phòng vệ an toàn khi bóc tách chuỗi tmh (Split @) trong getBenhNhan, khắc phục lỗi văng ngoại lệ phát sinh khi mở hồ sơ nhập viện tại bệnh viện chuyên khoa không phải TMH (BV Da Liễu)
+- 🐛: [FrmNhapVien] Truyền đúng mã bệnh án nội bộ khi iMaBaNoiBo == 1 (txtSoBANoiBo) vào xfrm03_CungCapTTNV, đảm bảo nạp đầy đủ thông tin hành chính và thẻ BHYT bệnh nhân khi mở form cam kết nhập viện
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/929
+- 📗: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/124
+- 📕: ../Mo-ta-he-thong/SO-HOA/Mo-ta-phieu-cam-ket-nhap-vien-bhyt-issue-929.md
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-frmnhapvien-menu-ttnhapvien.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-xfrm03-cungcapttnv-form.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-xfrm03-cungcapttnv-printpreview.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-frmmain-fullflow-main.png)
+
 ## [v.3.26.1008.9]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610089-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610089-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610089-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung kiểm tra trạng thái hồ sơ BANT nguồn (`bnnoitru.dain > 0`), kiểm tra phiếu thu có thuốc khác kho không thể chuyển vào nội trú, và tự động hoàn trả CLS, thuốc về lại BANT khi xóa hồ sơ nhập viện.
 - 🐛: Khắc phục sự cố bị chặn nhầm không cho xóa nhập viện đối với bệnh nhân BANT đã chuyển chi phí (`KtCLSNT` / `KtRaToaNT`), và ngăn ngừa lệch tiền khi đơn thuốc không cùng kho nhưng đã thu tiền ngoại trú.
