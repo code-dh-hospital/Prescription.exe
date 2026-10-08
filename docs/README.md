@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.1008.8]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610088-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610088-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610088-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung kiểm tra trạng thái hồ sơ BANT nguồn (`bnnoitru.dain > 0` hoặc đã xuất XML), kiểm tra phiếu thu có thuốc khác kho không thể chuyển vào nội trú, và tự động hoàn trả CLS, thuốc về lại BANT khi xóa hồ sơ nhập viện.
+- 🐛: Khắc phục sự cố bị chặn nhầm không cho xóa nhập viện đối với bệnh nhân BANT đã chuyển chi phí (`KtCLSNT` / `KtRaToaNT`), và ngăn ngừa lệch tiền khi đơn thuốc không cùng kho nhưng đã thu tiền ngoại trú.
+- ☑: [YEUCAU Issue #729](https://i.dh-his.com/hdhiswork/YEUCAU/issues/729) - Prescription hỗ trợ chuyển chi phí BANT vào hs bệnh án nội trú.
+- 📗: Kiểm tra bảng `current.bnnoitru` (`dain > 0, ngayinphieu, xuat_xml_917, dagui, daguibhxh, daguibyt`), xác thực ràng buộc xử trí nội trú mới `KtXuTriMoiNoiTru`, đối chiếu `current.chungtu` và `current.pshdxn` với `current.thuchi`.
+- 📕: Chặn chuyển chi phí nếu BANT đã in bảng kê thanh toán hoặc xuất XML; cảnh báo nếu phiếu thu có thuốc khác kho; tự động hoàn trả dữ liệu sạch sẽ về BANT khi người dùng xóa nhập viện.
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-prescription-frmnhapvien-chuyencphi-bant.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-prescription-frmnhapvien-kiemtra-khocp.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-prescription-frmnhapvien-hoantra-bant.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-truocnhapvien.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-noitru-saunhapvien.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-sauhoantra.png)
+
 ## [v.3.26.1008.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610087-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610087-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610087-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung mã CSKCB 79426 - Viện Y Dược Học Dân Tộc (TP HCM) vào danh sách đơn vị theo hợp đồng MaBVBH_ByHopDong
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/953
