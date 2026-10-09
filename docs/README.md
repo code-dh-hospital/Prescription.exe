@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1009.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610091-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung các parameter thông tin thẻ BHYT (số thẻ, nơi ĐKKCB ban đầu, hạn thẻ, mức hưởng, đối tượng) phục vụ thiết kế mẫu Phiếu cam kết nhập viện hưởng BHYT tại chức năng lập phiếu nhập viện nội trú
+- 🐛: Khắc phục lỗi crash khi in Giấy cung cấp thông tin và cam kết nhập viện (bảo vệ an toàn TenSYT/TenBV từ License và null-check tham số hệ thống), phòng vệ ngoại lệ Split trong getBenhNhan và truyền đúng mã bệnh án nội bộ vào xfrm03_CungCapTTNV
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/929
+- 📗: Không thay đổi CSDL
+- 📕: ../Mo-ta-he-thong/SO-HOA/Mo-ta-phieu-cam-ket-nhap-vien-bhyt-issue-929.md
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-xfrm03-cungcapttnv-form.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-xfrm03-cungcapttnv-printpreview.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-fullflow-fix-badimage.gif)
+
 ## [v.3.26.1009.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610090-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cập nhật thư viện DH.XML4750 bổ sung 4 trường kết luận KSK (BINH_THUONG, NGUY_CO_MAC_LAO, VAN_DE_SUC_KHOE, GHI_RO_VAN_DE_SUC_KHOE) vào khối XML12 (KET_LUAN) của XML 2062 gửi Cổng dữ liệu KSK Bộ Y tế.
 - 🐛: Khắc phục lỗi Cổng tiếp nhận KSK Bộ Y tế (csdlksk.vn) báo thiếu thẻ "Thẻ BINH_THUONG không được để trống hoặc sai định dạng" đối với hồ sơ KSK trẻ em dưới 6 tuổi (BV Bình Thủy).
