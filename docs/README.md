@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1009.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610093-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610093-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610093-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp trọn bộ chuỗi thư viện DH.Classes và DH.BaoCao chuẩn hóa AnyCPU.
+- 🐛: Khắc phục triệt để lỗi BadImageFormatException khi mở phiếu Thông tin và cam kết nhập viện (xfrm03_CungCapTTNV gọi DH.Classes).
+- ☑: [YEUCAU Issue #729](https://i.dh-his.com/hdhiswork/YEUCAU/issues/729) - [YEUCAU Issue #929](https://i.dh-his.com/hdhiswork/YEUCAU/issues/929)
+- 📗: Tương thích hoàn toàn với DH.Classes v.4.26.1009.0 và DH.BaoCao v.4.26.1009.2.
+- 📕: Loại bỏ hoàn toàn sự cố nạp thư viện 32-bit trên tiến trình Prescription.exe 64-bit.
+
 ## [v.3.26.1009.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610092-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610092-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610092-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp thư viện báo cáo DH.BaoCao chuẩn hóa AnyCPU (CorFlags ILONLY=1, 32BITREQ=0).
 - 🐛: Khắc phục triệt để sự cố BadImageFormatException khi mở menu Thông tin và cam kết nhập viện cùng các menu con hệ thống.
