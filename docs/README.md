@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1009.7]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610097-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610097-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610097-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chặn thao tác lập, sửa và xóa Phiếu chăm sóc cấp 2-3 TT32 đối với bệnh án ngoại trú đã ra viện
+- 🐛: Khắc phục việc vẫn cho phép thao tác trên phiếu chăm sóc sau khi bệnh án ngoại trú đã hoàn tất và kết thúc ra viện
+- ☑: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/issues/891
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/891
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/920
+- 📗: Quản lý và lập phiếu theo dõi, chăm sóc cấp 2, 3 cho bệnh án ngoại trú theo ngày và theo đợt
+- 📕: Cập nhật ràng buộc dữ liệu chỉ tiêu chăm sóc current.phieuchamsoc_tt32 và chặn chỉnh sửa sau khi ra viện
+![](https://i.vgy.me/egl8YO.png)
+
 ## [v.3.26.1009.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610096-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610096-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610096-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bản thử nghiệm sử dụng Phiếu chăm sóc theo TT32 (Cấp 2-3 cho bệnh án ngoại trú)
 - 🐛: Tự động sắp xếp lại thứ tự chỉ tiêu và chẩn đoán, khắc phục lỗi ràng buộc thứ tự khi chỉnh sửa chỉ tiêu trong Phiếu chăm sóc TT32
