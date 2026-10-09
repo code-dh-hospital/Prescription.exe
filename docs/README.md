@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1009.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610092-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610092-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610092-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp thư viện báo cáo DH.BaoCao chuẩn hóa AnyCPU (CorFlags ILONLY=1, 32BITREQ=0).
+- 🐛: Khắc phục triệt để sự cố BadImageFormatException khi mở menu Thông tin và cam kết nhập viện cùng các menu con hệ thống.
+- ☑: [YEUCAU Issue #729](https://i.dh-his.com/hdhiswork/YEUCAU/issues/729) - [YEUCAU Issue #929](https://i.dh-his.com/hdhiswork/YEUCAU/issues/929)
+- 📗: Tương thích hoàn toàn với DH.BaoCao.dll v.4.26.1009.1 trên cả nền tảng x86 và x64.
+- 📕: Đảm bảo tiến trình 64-bit nạp thư viện an toàn, không còn xung đột kiến trúc nền tảng.
+
 ## [v.3.26.1009.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610091-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung các parameter thông tin thẻ BHYT (số thẻ, nơi ĐKKCB ban đầu, hạn thẻ, mức hưởng, đối tượng) phục vụ thiết kế mẫu Phiếu cam kết nhập viện hưởng BHYT tại chức năng lập phiếu nhập viện nội trú
 - 🐛: Khắc phục lỗi crash khi in Giấy cung cấp thông tin và cam kết nhập viện (bảo vệ an toàn TenSYT/TenBV từ License và null-check tham số hệ thống), phòng vệ ngoại lệ Split trong getBenhNhan và truyền đúng mã bệnh án nội bộ vào xfrm03_CungCapTTNV
