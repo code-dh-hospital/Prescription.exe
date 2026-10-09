@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1009.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610090-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật thư viện DH.XML4750 bổ sung 4 trường kết luận KSK (BINH_THUONG, NGUY_CO_MAC_LAO, VAN_DE_SUC_KHOE, GHI_RO_VAN_DE_SUC_KHOE) vào khối XML12 (KET_LUAN) của XML 2062 gửi Cổng dữ liệu KSK Bộ Y tế.
+- 🐛: Khắc phục lỗi Cổng tiếp nhận KSK Bộ Y tế (csdlksk.vn) báo thiếu thẻ "Thẻ BINH_THUONG không được để trống hoặc sai định dạng" đối với hồ sơ KSK trẻ em dưới 6 tuổi (BV Bình Thủy).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/954
+- 📗: current.fn_get_hoso_khamsuckhoe, current.pskhamsuckhoe (đọc các trường kết luận KSK cho cả 3 nhóm tuổi).
+- 📕: ../Mo-ta-he-thong/THONGTU_25/Mo-ta-bo-sung-truong-xml12-ksk-2062-issue-954.md
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-954/debug-image-prescription-frmkhamsuckhoe-xuatxml-2062-treem.png)
+
 ## [v.3.26.1008.10]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F326100810-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F326100810-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F326100810-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Chuẩn hóa nhận diện thương hiệu DH.HIS và tương thích hiển thị phiên bản trên thanh trạng thái
 - 🐛: Sửa lỗi System.FormatException khi parse phiên bản phần mềm trong FrmMain.dangNhap(), loadCauHinhMay() và tmrTime_Tick()
