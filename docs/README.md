@@ -6,6 +6,37 @@
 
 #
 
+## [v.3.26.1011.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610110-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp ngữ cảnh ký số EMR (DHEmrContext) khi kê đơn và in toa thuốc ngoại trú TT 05 (DONTHUOC_NGOAITRU) và TT 55 (DONTHUOC_YHCT)
+- ✨: Chuẩn hóa luồng ký số Phiếu chỉ định cận lâm sàng (PHIEU_CHIDINH_CLS - Mẫu 29/41) tích hợp KySoPhieuChiDinhClsHelper, DtChiTiet danh sách CLS phục vụ tra cứu metadata và cơ chế Server-First
+- ✨: Phân tách đợt chỉ định CLS theo dot_chidinh (idchidinh / ngaykcb) cho toàn bộ 5 phân hệ (Xét nghiệm, CĐHA, PTT, Thăm dò CN, Khám bệnh/Giường) trong inPhieuThietKe, hỗ trợ ký số độc lập từng đợt chỉ định trong cùng ca khám
+- 🐛: Tự động kiểm tra và bỏ qua (skip) các phiếu chỉ định của đợt cũ đã được ký số thành công trên Server EMR (LayPdfDaKy), khắc phục triệt để lỗi các dịch vụ chỉ định ở đợt sau (CH123, CH134) không hiển thị form ký số
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/165
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/917
+- 📗: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/112
+- 📕: ../Mo-ta-he-thong/Chu-ky-so/Mo-ta-chuan-hoa-luong-nghiep-vu-csharp-desktop-issue165.md
+- 📕: https://i.dh-his.com/hdhiswork/TOLAPTRINH/wiki/EMR-Dac-Ta-Dich-Vu-NodeJS-Ky-So-Va-Tich-Hop-CSharp
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-165/debug-image-prescription-frmtoathuoc-intoacks-menu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-165/debug-image-prescription-xfrmpdfsign-toathuoc-tt05-preview.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-165/debug-image-prescription-emrweb-toathuoc-daky-thanhcong.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-165/debug-image-prescription-frmcanlamsang-inkysomenu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-165/debug-image-prescription-xfrmpdfsign-chidinh-xetnghiem.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-165/debug-image-prescription-xfrmpdfsign-chidinh-chandoanhinhanh.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-165/debug-image-prescription-xfrmpdfsign-chidinh-xquang.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-165/debug-image-prescription-xfrmpdfsign-chidinh-thamdo-chucnang.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-165/debug-image-prescription-emrweb-chidinh-xetnghiem-daky-thanhcong.png)
+- ✨: Bổ sung các parameter thông tin thẻ BHYT (số thẻ, nơi ĐKKCB ban đầu, hạn thẻ, mức hưởng, đối tượng) phục vụ thiết kế mẫu Phiếu cam kết nhập viện hưởng BHYT tại chức năng lập phiếu nhập viện nội trú
+- 🐛: Khắc phục lỗi crash khi in Giấy cung cấp thông tin và cam kết nhập viện (bảo vệ an toàn TenSYT/TenBV từ License và null-check tham số hệ thống)
+- 🐛: [FrmNhapVien] Phòng vệ an toàn khi bóc tách chuỗi tmh (Split @) trong getBenhNhan, khắc phục lỗi văng ngoại lệ phát sinh khi mở hồ sơ nhập viện tại bệnh viện chuyên khoa không phải TMH (BV Da Liễu)
+- 🐛: [FrmNhapVien] Truyền đúng mã bệnh án nội bộ khi iMaBaNoiBo == 1 (txtSoBANoiBo) vào xfrm03_CungCapTTNV, đảm bảo nạp đầy đủ thông tin hành chính và thẻ BHYT bệnh nhân khi mở form cam kết nhập viện
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/929
+- 📗: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/124
+- 📕: ../Mo-ta-he-thong/SO-HOA/Mo-ta-phieu-cam-ket-nhap-vien-bhyt-issue-929.md
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-frmnhapvien-menu-ttnhapvien.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-xfrm03-cungcapttnv-form.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-xfrm03-cungcapttnv-printpreview.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-929/debug-image-prescription-frmmain-fullflow-main.png)
+
 ## [v.3.26.1009.8]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610098-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610098-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610098-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Khám bệnh ngoại trú: Sửa lỗi trường OBR-4.2 trong bản tin HL7 OMI^O23 gửi sang PACS hiển thị đúng tên dịch vụ chỉ định thay vì tên khoa khám bệnh; cập nhật hộp thoại xác nhận hủy PACS hiển thị đúng tên dịch vụ.
 - ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-47973 (hdhiswork/DUAN#38)
