@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.1012.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610120-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Khám bệnh ngoại trú: Đồng bộ bản tin HL7 gửi PACS hiển thị đúng giới tính PID-8 (M/F) và tên dịch vụ OBR-4.2 không có tiền tố số thứ tự.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-48154 (hdhiswork/DUAN#38)
+- 📕: Gửi OBR-4.2 và PID-8 chuẩn xác cho PACS tại Phòng khám ngoại trú khi lưu chỉ định, gửi lại và hủy gửi PACS.
+
 ## [v.3.26.1011.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610110-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp ngữ cảnh ký số EMR (DHEmrContext) khi kê đơn và in toa thuốc ngoại trú TT 05 (DONTHUOC_NGOAITRU) và TT 55 (DONTHUOC_YHCT)
 - ✨: Chuẩn hóa luồng ký số Phiếu chỉ định cận lâm sàng (PHIEU_CHIDINH_CLS - Mẫu 29/41) tích hợp KySoPhieuChiDinhClsHelper, DtChiTiet danh sách CLS phục vụ tra cứu metadata và cơ chế Server-First
