@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1012.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610122-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610122-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610122-NasDHSolutions.json)</sup></sup></sub>
+- ✨: (Dồn nhật ký DLL) Bảng kê 697 đồng nhất ghi chú số lượng phim theo `dmcls.slphimxq` — cập nhật từ `OTH.Entity` + `OTH.Adapter`, không sửa C# tại Prescription.
+- 🐛: Sửa lỗi xem bảng kê 697 luôn hiện ghi chú phim khi `dmcls.slphimxq = 0` (BN 2609026427, CLS CH2848).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/958 (phân tích: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/issues/150)
+- 📗: Không đổi CSDL; kiểm chứng trên `an_omon_qd1977_092026` (`sum = 0` → ẩn ghi chú).
+- 📕: Thực hiện theo mô tả [Mo-ta-Dong-nhat-ghi-chu-phim-bang-ke-697-yeucau-958.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Quyet-dinh-697/Mo-ta-Dong-nhat-ghi-chu-phim-bang-ke-697-yeucau-958.md)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-958/debug-image-prescription-bangke697-ghichuphim-db.png)
+
 ## [v.3.26.1012.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610121-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610121-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610121-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Khám bệnh ngoại trú: Đồng bộ trường OBR-5 trong bản tin HL7 gửi PACS hiển thị đúng trạng thái cấp cứu Y (Cấp cứu) và N (Thường) từ thông tin chỉ định phòng khám ngoại trú.
 - ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-48154 (hdhiswork/DUAN#38)
