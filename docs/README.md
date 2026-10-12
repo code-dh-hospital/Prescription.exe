@@ -6,6 +6,11 @@
 
 #
 
+## [v.3.26.1012.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610121-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610121-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610121-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: Khám bệnh ngoại trú: Đồng bộ trường OBR-5 trong bản tin HL7 gửi PACS hiển thị đúng trạng thái cấp cứu Y (Cấp cứu) và N (Thường) từ thông tin chỉ định phòng khám ngoại trú.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-48154 (hdhiswork/DUAN#38)
+- 📕: Tự động gửi OBR-5 chuẩn xác cho PACS khi lưu chỉ định hoặc gửi lại chỉ định từ Phòng khám ngoại trú.
+
 ## [v.3.26.1012.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610120-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Khám bệnh ngoại trú: Đồng bộ bản tin HL7 gửi PACS hiển thị đúng giới tính PID-8 (M/F) và tên dịch vụ OBR-4.2 không có tiền tố số thứ tự.
 - ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-48154 (hdhiswork/DUAN#38)
