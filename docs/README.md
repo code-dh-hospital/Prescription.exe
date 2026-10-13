@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1013.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610131-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chuẩn hóa xuất dữ liệu KSK TT25 (mẫu Full 254 cột): lấy đúng mã đối tượng hiện có của bệnh nhân trên lưới (madoituong), bổ sung mapping import cờ tái khám HEN_KHAM_LAN_SAU (tai_kham) và tiền sử thai sản TSBT_THAI_SAN, TSBT_MA_BENH_THAI_SAN, TSBT_TEN_THUOC_THAI_SAN.
+- 🐛: Khắc phục lỗi xuất Excel cột MADTUONG không lấy đúng mã đối tượng hệ thống; khắc phục lỗi import lại file KSK vừa xuất bị chặn validate tại 2 cột HEN_KHAM_LAN_SAU (chuỗi ngày '01/10/2026') và SAN_KHOA_KHONG_BT ('thuốc thai sản') theo phản hồi kiểm thử Issue #883 comment #48031.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/883#issuecomment-48031 (hdhiswork/YEUCAU#883)
+- 📗: Giữ nguyên hằng số mã đối tượng mặc định MA_DOI_TUONG_MAC_DINH = '06' (Thu Phí); xuất MADTUONG lấy từ cột madoituong; phân biệt độ tuổi < 18 và >= 18 khi xuất/nhập các cột sản khoa và tiền sử thai sản.
+- 📕: Kiểm thử thực tế trên CSDL tra_duclinh_full_04052026: 3 ca bệnh nhân (dưới 6 tuổi, 6-18 tuổi, trên 18 tuổi) xuất Excel và import lại đạt 100% (Pass).
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-883/debug-image-prescription-issue-883-kiem-chung-comment-48031-pass.png)
+
 ## [v.3.26.1013.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610130-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung bảo tồn Maloai, Slphimxq và metadata trong khối GroupBy của CalFooter để giữ đúng số lượng phim X-quang khi gọi ChangeSourcePhanChiPhi
 - 🐛: Sửa lỗi Bảng kê 697 không hiện / không in ghi chú số lượng phim X-quang khi xem và in do GroupBy trong CalFooter làm mất thông tin loại CLS và số phim mặc định danh mục
