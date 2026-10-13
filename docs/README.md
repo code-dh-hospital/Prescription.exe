@@ -6,6 +6,25 @@
 
 #
 
+## [v.3.26.1013.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610133-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610133-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610133-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hoàn thiện quy trình nhập viện và xóa hồ sơ nội trú từ BANT trên FrmNhapVien: không chặn lưu hồ sơ nhập viện, bổ sung gọi objBNNoiTru.Delete() và dọn XML nội trú khi xóa bệnh án; cập nhật điều kiện chặn chuyển chi phí theo dain > 0.
+- 🐛: Sửa lỗi bấm Đồng ý xóa bệnh án nội trú tiếp nhận từ BANT nhưng form không xóa và không đóng; sửa lỗi chặn lưu hồ sơ nhập viện khi BANT đã có XML130.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/729
+- 📗: Quản lý trạng thái lưu và xóa bệnh án nội trú trong current.bnnoitru khi thao tác trên FrmNhapVien.
+- 📕: Phân hệ Khám bệnh & Ngoại trú - Bác sĩ lập hồ sơ nhập viện và xóa hồ sơ nhập viện mượt mà, đúng trạng thái dữ liệu.
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-giulai-572k.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-truocchuyen.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-noitru-132k.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-prescription-chuyencphi-chan-thuoc-da-thu-tien.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-prescription-chuyencphi-chan-xuat-xml130.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-treatment-frmtongketchiphi-noitru-132k.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-sauhoantra.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-truocnhapvien.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-fees-frmcphibenhnhan-noitru-saunhapvien.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-prescription-frmnhapvien-chuyencphi-bant.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-prescription-frmnhapvien-hoantra-bant.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-729/debug-image-prescription-frmnhapvien-kiemtra-khocp.png)
+
 ## [v.3.26.1013.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610132-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610132-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610132-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Khám bệnh, Bệnh án ngoại trú → Phiếu nghỉ ốm: bệnh nhân đã in phiếu thanh toán vẫn được Chỉnh phiếu nghỉ ốm, chỉ mở các thông tin không liên quan thanh toán BHYT (Người đại diện, Bác sĩ, Họ tên cha, Họ tên mẹ, Mẫu số); các ô thuộc XML11 thanh toán giữ khóa, Xóa vẫn chặn; chỉ khi chỉnh phiếu đã in phiếu thanh toán mới ghi nhật ký riêng (cũ -> mới) và nhắc In - ký số lại.
 - 🐛: Bỏ khóa nút Chỉnh phiếu nghỉ ốm theo CheckDain6556 (psdangky.dain = 1) khi phiếu đã có số phiếu.
