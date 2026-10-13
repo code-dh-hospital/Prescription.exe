@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1013.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610132-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610132-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610132-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Khám bệnh, Bệnh án ngoại trú → Phiếu nghỉ ốm: bệnh nhân đã in phiếu thanh toán vẫn được Chỉnh phiếu nghỉ ốm, chỉ mở các thông tin không liên quan thanh toán BHYT (Người đại diện, Bác sĩ, Họ tên cha, Họ tên mẹ, Mẫu số); các ô thuộc XML11 thanh toán giữ khóa, Xóa vẫn chặn; chỉ khi chỉnh phiếu đã in phiếu thanh toán mới ghi nhật ký riêng (cũ -> mới) và nhắc In - ký số lại.
+- 🐛: Bỏ khóa nút Chỉnh phiếu nghỉ ốm theo CheckDain6556 (psdangky.dain = 1) khi phiếu đã có số phiếu.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/959
+- 📗: Cập nhật DLL liên quan: HosReg.Code (Forms/FrmNghiOm.cs). Thực hiện theo mô tả [Cho phép chỉnh phiếu nghỉ ốm sau khi in phiếu thanh toán](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/REGISTER/Mo-ta-Cho-phep-chinh-phieu-nghi-om-sau-in-phieu-thanh-toan.md)
+- 📕: Không dùng tham số, không thay đổi CSDL; không sửa code Prescription.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-959/debug-image-prescription-frmnghiom-bant-chinh-sau-in.png)
+
 ## [v.3.26.1013.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610131-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610131-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610131-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Chuẩn hóa xuất dữ liệu KSK TT25 (mẫu Full 254 cột): lấy đúng mã đối tượng hiện có của bệnh nhân trên lưới (madoituong), bổ sung mapping import cờ tái khám HEN_KHAM_LAN_SAU (tai_kham) và tiền sử thai sản TSBT_THAI_SAN, TSBT_MA_BENH_THAI_SAN, TSBT_TEN_THUOC_THAI_SAN.
 - 🐛: Khắc phục lỗi xuất Excel cột MADTUONG không lấy đúng mã đối tượng hệ thống; khắc phục lỗi import lại file KSK vừa xuất bị chặn validate tại 2 cột HEN_KHAM_LAN_SAU (chuỗi ngày '01/10/2026') và SAN_KHOA_KHONG_BT ('thuốc thai sản') theo phản hồi kiểm thử Issue #883 comment #48031.
