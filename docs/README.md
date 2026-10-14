@@ -6,6 +6,23 @@
 
 #
 
+## [v.3.26.1014.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610144-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610144-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610144-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription & DH.PublicCLS] Cập nhật bản tin HL7 OMI^O23 gửi máy chủ PACS ECO bổ sung phân đoạn OBR-47.1 phân định dịch vụ hưởng BHYT (giá trị 1) và dịch vụ viện phí / thu phí (giá trị 0) căn cứ đồng thời current.dmdoituong.bhyt IN (1, 2) và current.chidinhcls.bhyt = 1.
+- 🐛: [Prescription & DH.PublicCLS] Khắc phục tình trạng máy chủ PACS ECO nhận giá trị mặc định khi bác sĩ kê dịch vụ thu phí hoặc dịch vụ BHYT không thanh trên phân hệ Ngoại trú.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-48788 (hdhiswork/DUAN#38)
+- 📗: current.dmdoituong (bhyt IN (1, 2)), current.chidinhcls (bhyt = 1).
+- 📕: Thực hiện theo mô tả [Tự động gửi chỉ định PACS OnSaveOrder đa phân hệ](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/DH-PACS/Mo-ta-tu-dong-gui-chi-dinh-pacs-onsaveorder-da-phan-he.md)
+
+
+- ✨: Khám sức khỏe HĐ (mẫu từ đủ 18 tuổi): ô Tên bệnh thai sản được lưu vào cột mới ten_benh_san_khoa_khong_bt và hiển thị lại đúng khi mở hồ sơ; hồ sơ cũ vẫn lấy tên theo Mã ICD.
+- 🐛: Tên bệnh thai sản nhập rồi lưu, đóng form mở lại thì mất (LOI #1034 comment #48751).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1034#issuecomment-48751 (hdhiswork/LOI#1034)
+- 📗: Cập nhật PushKhamSucKhoeSpecialFields(), NapThaiSanDu18(), LamSachDuLieuSanKhoaBenhNhanNam() trong Forms/FrmKhamSucKhoe_HoaHao.cs; cập nhật DLL liên quan: DH.XML4750 (KhamSucKhoeTT25Entity, KhamSucKhoeTT25Repository). Cột mới current.pskhamsuckhoe.ten_benh_san_khoa_khong_bt. Thực hiện theo mô tả [Mô tả lỗi 1034 - mất sinh hiệu KSK và kiểm tra chiều cao](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU_25/Mo-ta-loi-1034-mat-sinh-hieu-ksk-va-kiem-tra-chieu-cao.md)
+- 📕: Nghiệp vụ KSK TT25 - tiền sử thai sản; bệnh nhân Nam vẫn khóa và xóa trắng mục thai sản (gồm cả tên bệnh). Cần chạy cập nhật cấu trúc ScriptSQL14102026.sql (UpdateStruc) trước khi dùng bản này.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1034/debug-image-prescription-frmkhamsuckhoe-ten-benh-thai-san-mo-lai.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1034/debug-image-capnhat-quanlytaptincapnhat-scriptsql14102026.png)
+
 ## [v.3.26.1014.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610143-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610143-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610143-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Khám sức khỏe HĐ (mẫu từ đủ 18 tuổi): ô Tên bệnh thai sản được lưu vào cột mới ten_benh_san_khoa_khong_bt và hiển thị lại đúng khi mở hồ sơ; hồ sơ cũ vẫn lấy tên theo Mã ICD.
 - 🐛: Tên bệnh thai sản nhập rồi lưu, đóng form mở lại thì mất (LOI #1034 comment #48751).
