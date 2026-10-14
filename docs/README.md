@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1014.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610143-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610143-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610143-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Khám sức khỏe HĐ (mẫu từ đủ 18 tuổi): ô Tên bệnh thai sản được lưu vào cột mới ten_benh_san_khoa_khong_bt và hiển thị lại đúng khi mở hồ sơ; hồ sơ cũ vẫn lấy tên theo Mã ICD.
+- 🐛: Tên bệnh thai sản nhập rồi lưu, đóng form mở lại thì mất (LOI #1034 comment #48751).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1034#issuecomment-48751 (hdhiswork/LOI#1034)
+- 📗: Cập nhật PushKhamSucKhoeSpecialFields(), NapThaiSanDu18(), LamSachDuLieuSanKhoaBenhNhanNam() trong Forms/FrmKhamSucKhoe_HoaHao.cs; cập nhật DLL liên quan: DH.XML4750 (KhamSucKhoeTT25Entity, KhamSucKhoeTT25Repository). Cột mới current.pskhamsuckhoe.ten_benh_san_khoa_khong_bt. Thực hiện theo mô tả [Mô tả lỗi 1034 - mất sinh hiệu KSK và kiểm tra chiều cao](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU_25/Mo-ta-loi-1034-mat-sinh-hieu-ksk-va-kiem-tra-chieu-cao.md)
+- 📕: Nghiệp vụ KSK TT25 - tiền sử thai sản; bệnh nhân Nam vẫn khóa và xóa trắng mục thai sản (gồm cả tên bệnh). Cần chạy cập nhật cấu trúc ScriptSQL14102026.sql (UpdateStruc) trước khi dùng bản này.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1034/debug-image-prescription-frmkhamsuckhoe-ten-benh-thai-san-mo-lai.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1034/debug-image-capnhat-quanlytaptincapnhat-scriptsql14102026.png)
+
 ## [v.3.26.1014.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610142-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Lưu phiếu PT/TT (Tình hình phẫu thuật) không còn treo nhiều phút: kiểm tra thời gian tối thiểu mã máy (tham số mamay.thoigianthuchien.toithieu) phần Xét nghiệm lọc psmotaxn trước rồi mới join chidinhcls (subquery OFFSET 0), tránh quét 13 triệu dòng chidinhcls: 205,7 s -> 0,98 s; kết quả không đổi.
 - 🐛: Sửa chậm khi lưu do truy vấn kiểm tra trùng mã máy phần Xét nghiệm (YEUCAU #961, BV Trà Cú).
