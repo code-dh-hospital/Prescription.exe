@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1014.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610140-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription & DH.PublicCLS] Bổ sung 2 trường dữ liệu định danh PV1-19 (AdmissionCode = makb) và OBR-19 (ParaClinReqCode = iddienbien hoặc makb.madv.maphong) vào bản tin HL7 OMI^O23 gửi máy chủ PACS ECO, chuẩn hóa đồng bộ 3 bên HIS - PACS - EMR.
+- 🐛: Khắc phục sự cố PACS trả kết quả sang EMR bị thiếu thông tin định danh lượt khám (AdmissionCode) và mã đợt diễn biến chỉ định (ParaClinReqCode), đảm bảo EMR nhận diện và gắn kết quả CĐHA chính xác vào hồ sơ bệnh án.
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38
+- ☑: https://i.dh-his.com/hdhiswork/DUAN/issues/38#issuecomment-48617 (hdhiswork/DUAN#38)
+- 📗: current.chidinhcls (iddienbien, makb, madv, maphong), current.khambenh (makb)
+- 📕: Phân hệ Ngoại trú: Tự động trích xuất ParaClinReqCode (sinh theo makb.madv.maphong khi ngoại trú) và AdmissionCode (makb) đóng gói vào phân đoạn PV1-19 và OBR-19 khi tự động gửi PACS lúc lưu chỉ định hoặc gửi lại thủ công.
+
 ## [v.3.26.1013.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610133-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610133-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610133-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Hoàn thiện quy trình nhập viện và xóa hồ sơ nội trú từ BANT trên FrmNhapVien: không chặn lưu hồ sơ nhập viện, bổ sung gọi objBNNoiTru.Delete() và dọn XML nội trú khi xóa bệnh án; cập nhật điều kiện chặn chuyển chi phí theo dain > 0.
 - 🐛: Sửa lỗi bấm Đồng ý xóa bệnh án nội trú tiếp nhận từ BANT nhưng form không xóa và không đóng; sửa lỗi chặn lưu hồ sơ nhập viện khi BANT đã có XML130.
