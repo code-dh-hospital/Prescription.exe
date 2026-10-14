@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1014.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610141-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp cập nhật ChuyenCPhi v.3.26.1014.0 chuẩn hóa định dạng ngày nhập viện ISO YYYY-MM-DD qua TO_CHAR(ngayvv, 'YYYY-MM-DD') và parser an toàn trong quy trình ChuyenVaoBANT.
+- 🐛: Khắc phục triệt để lỗi NpgsqlException: date/time field value out of range: "14/10/2026 12:00:00 AM" (Code 22008) khi lập phiếu nhập viện hoặc bấm chuyển chi phí từ BANT vào nội trú trên FrmNhapVien.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/729
+- 📗: So sánh ngày chỉ định CLS và ngày kê đơn thuốc qua TO_CHAR(ngaykcb, 'YYYY-MM-DD') = TO_CHAR(ngayvv, 'YYYY-MM-DD') trong current.chidinhcls, current.chuyencls và current.chungtu.
+- 📕: Phân hệ Khám bệnh & Ngoại trú - Bác sĩ lập hồ sơ nhập viện và chuyển chi phí từ BANT sang bệnh án nội trú trơn tru, không còn lỗi định dạng ngày giờ.
+
 ## [v.3.26.1014.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610140-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610140-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610140-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription & DH.PublicCLS] Bổ sung 2 trường dữ liệu định danh PV1-19 (AdmissionCode = makb) và OBR-19 (ParaClinReqCode = iddienbien hoặc makb.madv.maphong) vào bản tin HL7 OMI^O23 gửi máy chủ PACS ECO, chuẩn hóa đồng bộ 3 bên HIS - PACS - EMR.
 - 🐛: Khắc phục sự cố PACS trả kết quả sang EMR bị thiếu thông tin định danh lượt khám (AdmissionCode) và mã đợt diễn biến chỉ định (ParaClinReqCode), đảm bảo EMR nhận diện và gắn kết quả CĐHA chính xác vào hồ sơ bệnh án.
