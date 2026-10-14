@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1014.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610142-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610142-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610142-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Lưu phiếu PT/TT (Tình hình phẫu thuật) không còn treo nhiều phút: kiểm tra thời gian tối thiểu mã máy (tham số mamay.thoigianthuchien.toithieu) phần Xét nghiệm lọc psmotaxn trước rồi mới join chidinhcls (subquery OFFSET 0), tránh quét 13 triệu dòng chidinhcls: 205,7 s -> 0,98 s; kết quả không đổi.
+- 🐛: Sửa chậm khi lưu do truy vấn kiểm tra trùng mã máy phần Xét nghiệm (YEUCAU #961, BV Trà Cú).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/961
+- 📗: Cập nhật DLL liên quan: DH.XML4750 (Helper.CheckThoiGianMaMay). Thực hiện theo mô tả [Kiểm soát trùng mã máy thực hiện](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THAM_SO_HE_THONG/Kiem-soat-trung-ma-may-thuc-hien.md)
+- 📕: Không sửa code Prescription; không thay đổi CSDL.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-961/debug-image-prescription-frmphauthuat-toc-do-luu-pttt.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-961/debug-image-prescription-frmphauthuat-luu-pttt-fullflow.gif)
+
 ## [v.3.26.1014.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610141-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610141-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610141-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp cập nhật ChuyenCPhi v.3.26.1014.0 chuẩn hóa định dạng ngày nhập viện ISO YYYY-MM-DD qua TO_CHAR(ngayvv, 'YYYY-MM-DD') và parser an toàn trong quy trình ChuyenVaoBANT.
 - 🐛: Khắc phục triệt để lỗi NpgsqlException: date/time field value out of range: "14/10/2026 12:00:00 AM" (Code 22008) khi lập phiếu nhập viện hoặc bấm chuyển chi phí từ BANT vào nội trú trên FrmNhapVien.
