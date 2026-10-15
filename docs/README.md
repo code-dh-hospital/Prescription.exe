@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1015.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610153-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610153-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610153-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Mở lại truyền `maba` BANT từ `FrmBenhAnNgoaiTru` sang `FrmNhapVien` qua `htNhapVien["maba"]` để nhập viện từ BANT đợt không cần fallback query.
+- 🐛: Fix fallback query tìm BANT trong `FrmNhapVien` - bỏ điều kiện `ravien = 0`, thêm `ORDER BY ravien ASC` để ưu tiên BANT còn hoạt động nhưng vẫn tìm được BANT đợt đã kết thúc (`ravien = 1`).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/729
+- 📗: Truy vấn `current.bnnoitru` theo `mabn`, `namvien = 0`, `bangay IN (0,1)` với thứ tự `ravien ASC, ngayvv DESC LIMIT 1`.
+- 📕: Hỗ trợ luồng nhập viện từ BANT đợt (bệnh án ngoại trú theo đợt, `bangay = 0`) tại BV Cái Răng - BANT đợt có thể đã kết thúc (`ravien = 1`) nhưng vẫn cần chuyển chi phí vào nội trú.
+
 ## [v.3.26.1015.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610152-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610152-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610152-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription & DH.PublicCLS] Cập nhật bản tin HL7 OMI^O23 gửi máy chủ PACS ECO chuẩn hóa trường phân đoạn OBR-47.1 phân định dịch vụ hưởng BHYT (giá trị 1) và dịch vụ viện phí / thu phí (giá trị 0) căn cứ đồng thời current.dmdoituong.bhyt IN (1, 2) và current.chidinhcls.bhyt = 1.
 
