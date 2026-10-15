@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1015.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610151-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610151-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610151-NasDHSolutions.json)</sup></sup></sub>
+- ✨: In phiếu ký số (toa thuốc...): bác sĩ chưa cấu hình chữ ký số thì cảnh báo tài khoản chưa cấu hình và in phiếu không ký số, không còn báo lỗi chặn in.
+- 🐛: Prescription in toa thuốc ký số báo lỗi "Ký số thất bại ... chưa được cấu hình thông tin ký số" và không in được toa (LOI #1044).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1044
+- 📗: Cập nhật DLL liên quan: XtraRPT (CallSignAPI, ShowPdfSignVerificationForm). Không phát sinh cột mới. Thực hiện theo mô tả [Mô tả lỗi 1044 - in phiếu khi tài khoản chưa cấu hình chữ ký số](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Chu-ky-so/Mo-ta-loi-1044-in-phieu-khi-tai-khoan-chua-cau-hinh-chu-ky-so.md)
+- 📕: Không sửa code Prescription.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1044/debug-image-xtrarpt-kyso-canh-bao-chua-cau-hinh.png)
+
 ## [v.3.26.1015.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610150-NasDHSolutions.json)</sup></sup></sub>
 - ✨: In phiếu kết quả KSK từ đủ 18 tuổi: mục Tiền sử thai sản in đúng Tên bệnh thai sản nhập trên form.
 - 🐛: Mẫu in chưa lấy Tên bệnh thai sản nhập trên form (LOI #1034 comment #48842).
