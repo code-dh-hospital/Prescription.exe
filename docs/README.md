@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1015.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610150-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610150-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610150-NasDHSolutions.json)</sup></sup></sub>
+- ✨: In phiếu kết quả KSK từ đủ 18 tuổi: mục Tiền sử thai sản in đúng Tên bệnh thai sản nhập trên form.
+- 🐛: Mẫu in chưa lấy Tên bệnh thai sản nhập trên form (LOI #1034 comment #48842).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1034#issuecomment-48842 (hdhiswork/LOI#1034)
+- 📗: Cập nhật DLL liên quan: HosPre.Reports (ClsIn.NoiDungThaiSanDu18). Không phát sinh cột mới. Thực hiện theo mô tả [Mô tả lỗi 1034 - mất sinh hiệu KSK và kiểm tra chiều cao](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU_25/Mo-ta-loi-1034-mat-sinh-hieu-ksk-va-kiem-tra-chieu-cao.md)
+- 📕: Không sửa code Prescription; XML gửi cổng BYT/Xuất XML 2062 giữ nguyên.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1034/debug-image-prescription-inksk-du18-ten-benh-thai-san.png)
+
 ## [v.3.26.1014.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610144-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610144-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610144-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription & DH.PublicCLS] Cập nhật bản tin HL7 OMI^O23 gửi máy chủ PACS ECO bổ sung phân đoạn OBR-47.1 phân định dịch vụ hưởng BHYT (giá trị 1) và dịch vụ viện phí / thu phí (giá trị 0) căn cứ đồng thời current.dmdoituong.bhyt IN (1, 2) và current.chidinhcls.bhyt = 1.
 - 🐛: [Prescription & DH.PublicCLS] Khắc phục tình trạng máy chủ PACS ECO nhận giá trị mặc định khi bác sĩ kê dịch vụ thu phí hoặc dịch vụ BHYT không thanh trên phân hệ Ngoại trú.
