@@ -6,6 +6,10 @@
 
 #
 
+## [v.3.26.1016.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610162-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: YEUCAU #729 - Thêm KtBAKetThuc vào btnXoa FrmNhapVien: BA nội trú đã kết thúc không cho xóa nhập viện từ BANT
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/729
+
 ## [v.3.26.1016.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610161-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cấu hình KSK CLS: thêm tùy chọn "Gửi kết quả CLS nhập trên form vào XML 2062" (mặc định không gửi, chỉ Admin, lưu ngay khi tick vào current.coderun ksk_2062_gui_cls_nhap_tay).
 - 🐛: Mẫu KSK 6 đến dưới 18 tuổi: chưa bấm Chỉnh chẩn đoán vẫn chọn/nhập được Tiền sử bệnh (sản khoa không bình thường, tiền sử gia đình, bẩm sinh, tiêm chủng...) nhưng không được lưu; chọn Sản khoa không bình thường = Có, nhập SK không bình thường và Mã ICD sản khoa rồi Lưu thì mất cả 2 giá trị, combo về Không (LOI #1047).
