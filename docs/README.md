@@ -6,6 +6,10 @@
 
 #
 
+## [v.3.26.1016.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610163-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610163-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610163-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: YEUCAU #729 - Bổ sung kiểm tra chi phí nội trú (CLS/thuốc) trước khi cho xóa nhập viện từ BANT
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/729
+
 ## [v.3.26.1016.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610162-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: YEUCAU #729 - Thêm KtBAKetThuc vào btnXoa FrmNhapVien: BA nội trú đã kết thúc không cho xóa nhập viện từ BANT
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/729
