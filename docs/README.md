@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1019.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610190-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bệnh án ngoại trú: mở CLS - DV vẫn khóa trạng thái đang khám (dakham = 4) nhưng chỉ khóa / trả trạng thái đúng dòng khambenh của bệnh án (có maba), không đụng dòng khám ban đầu không maba.
+- 🐛: Bệnh nhân mới lập BANT vào CLS - DV chỉ định thủ thuật thì dòng khambenh không có mã bệnh án bị dakham = 4; vào CLS lần nữa bấm Bỏ qua thì dòng có mã bệnh án cũng = 4 -> Printer báo bệnh nhân đang khám, không in được bảng kê (LOI #1049).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1049 (hdhiswork/LOI#1049)
+- 📗: Forms/FrmCanLamSang.cs: lockBenhNhan() khi bBANT gọi KhamBenh.UpdateDaKhamBANT(maba); ttKhamBenhHienTai() / tenMayKhoaHienTai() khi bBANT lấy TtKhamBenhBANT / GetTenMayKhoaBANT (trước đây TtKhamBenh lấy MAX cả 2 dòng). Ngoại trú, KSK giữ nguyên. Cần cập nhật kèm HosPre.DataAccess và HosPre.BusinessLogic bản mới. Thực hiện theo mô tả [Mô tả lỗi 1049 - BANT CLS chỉ khóa dòng khambenh BANT](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/BANT/Mo-ta-loi-1049-bant-cls-chi-khoa-dong-bant.md)
+- 📕: Không phát sinh cột mới, không cần script dữ liệu. Printer vẫn chặn in trong lúc đang mở CLS - DV (dòng BANT = 4).
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1049/debug-image-prescription-frmcanlamsang-bant-luu-boqua-khong-ket-dakham.gif)
+
 ## [v.3.26.1017.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610170-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: YEUCAU #729 - Xóa guard chi phí lỗi (donthuoc không tồn tại) gây crash nút Xóa bệnh án
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/729
