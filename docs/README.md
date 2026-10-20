@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1020.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610201-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610201-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610201-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Khám sức khỏe hợp đồng - Xuất XML 2062 (dùng DH.XML4750 1.26.1020.0): XML8 KET_LUAN_BENH (mã ICD kết luận) gửi cho cả 3 mẫu; XML12 CAC_VAN_DE_SUC_KHOE mẫu 6-18 tuổi lấy ô 'Các bệnh' thống nhất với phiếu in. Lưu hồ sơ không còn mất sinh hiệu khi chưa mở Sinh hiệu (bản 3.26.1020.0).
+- 🐛: XML8 thiếu KET_LUAN_BENH với mẫu 6-18 và từ đủ 18 tuổi; XML12 CAC_VAN_DE_SUC_KHOE lấy 'Cần giải quyết' khác phiếu in; Lưu KSK mất sinh hiệu (LOI #1047 comment #49508).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1047#issuecomment-49508 (hdhiswork/LOI#1047)
+- 📗: Phát hành lại kèm ảnh kiểm chứng Xuất XML 2062 thật (hồ sơ 6-18 tuổi 2605002284: KET_LUAN_BENH = I10; M53, CAC_VAN_DE_SUC_KHOE = các bệnh), không đổi mã nguồn so với 3.26.1020.0. Thực hiện theo mô tả [Mô tả lỗi 1047 - XML 2062 KSK sai giá trị, thiếu, dư theo mẫu](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU_25/Mo-ta-loi-1047-xml2062-ksk-sai-gia-tri-thieu-du-theo-mau.md)
+- 📕: Không phát sinh cột mới. Hồ sơ test đã mất sinh hiệu trước bản sửa cần nhập lại.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1047/debug-image-prescription-xuatxml2062-6-18-xml8-ket-luan-benh.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1047/debug-image-prescription-xuatxml2062-6-18-xml12-cac-van-de-suc-khoe.png)
+
 ## [v.3.26.1020.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610200-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610200-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610200-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Khám sức khỏe hợp đồng: lưu hồ sơ đồng bộ sinh hiệu theo dữ liệu hồ sơ (Entity) thay vì ô nhập trong panel Sinh hiệu - không còn ghi rỗng khi chưa mở Sinh hiệu.
 - 🐛: Vào KSK, Lưu mà chưa mở chức năng nhập Sinh hiệu lần nào thì mất toàn bộ sinh hiệu (chiều cao, cân nặng, huyết áp, mạch, nhiệt độ...) ở khambenh và psdangky (LOI #1047 comment #49508).
