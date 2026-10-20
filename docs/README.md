@@ -6,6 +6,32 @@
 
 #
 
+## [v.3.26.1020.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610206-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610206-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610206-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Loại bỏ hoàn toàn thẻ XML CDATA khi trích xuất tên bệnh kèm theo cho bệnh án ngoại trú (BANT).
+- 🐛: Khắc phục lỗi phiếu tổng kết chi phí BANT theo đợt (Bảng kê 697) hiển thị dính thẻ `<![CDATA[ ... ]]>` ở mục 17 Bệnh kèm theo.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1055
+- 📗: Không thay đổi cấu trúc bảng CSDL; áp dụng trên database phòng khám / bệnh viện (ví dụ `tuan_pkba2_102026`).
+- 📕: Phân hệ Prescription / Khám bệnh: Khi in Bảng kê chi phí KCB 697 cho bệnh nhân BANT, tên bệnh kèm theo hiển thị chuẩn xác, không còn dính mã định dạng XML CDATA.
+[📄 Tải file PDF trang in Bảng kê 697 BANT](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1055/BangKeChiPhi697_BANT_Issue1055.pdf)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1055/debug-image-prescription-bangke697-trang-in-chuan.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1055/debug-image-prescription-bangke697-bant-khong-dinh-cdata.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1055/debug-image-prescription-bangke697-bant-ten-benh-kem-theo.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1055/debug-image-prescription-frmmain-fullflow.png)
+
+## [v.3.26.1020.6]()
+- ✨: Loại bỏ hoàn toàn thẻ XML CDATA khi trích xuất tên bệnh kèm theo cho bệnh án ngoại trú (BANT).
+- 🐛: Khắc phục lỗi phiếu tổng kết chi phí BANT theo đợt (Bảng kê 697) hiển thị dính thẻ `<![CDATA[ ... ]]>` ở mục 17 Bệnh kèm theo.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1055
+- 📗: Không thay đổi cấu trúc bảng CSDL; áp dụng trên database phòng khám / bệnh viện (ví dụ `tuan_pkba2_102026`).
+- 📕: Phân hệ Prescription / Khám bệnh: Khi in Bảng kê chi phí KCB 697 cho bệnh nhân BANT, tên bệnh kèm theo hiển thị chuẩn xác, không còn dính mã định dạng XML CDATA.
+
+[📄 Tải file PDF trang in Bảng kê 697 BANT](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1055/BangKeChiPhi697_BANT_Issue1055.pdf)
+
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1055/debug-image-prescription-bangke697-trang-in-chuan.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1055/debug-image-prescription-bangke697-bant-khong-dinh-cdata.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1055/debug-image-prescription-bangke697-bant-ten-benh-kem-theo.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1055/debug-image-prescription-frmmain-fullflow.png)
+
 ## [v.3.26.1020.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610205-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610205-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610205-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung kiểm soát cảnh báo và chặn trùng thời gian chỉ định cận lâm sàng, kê toa thuốc và lưu diễn biến khám bệnh tại giao diện Bệnh án ngoại trú `FrmBenhAnNgoaiTru.cs` cho cả trường hợp đợt (`txtBant = 0`) và ngày (`txtBant = 1`) theo tham số `kb.bacsi.thoigian_cls_toathuoc`.
 - 🐛: Khắc phục tình trạng bỏ sót kiểm tra trùng giờ y lệnh khi điều trị bệnh án ngoại trú theo đợt (`txtBant = 0`) tại các nút Cấp toa (`btnCapToa_Click`), Chỉ định CLS (`btnCLS_Click`) và bổ sung kiểm tra trước khi Lưu khám bệnh/diễn biến trong `ktTTKhamBenh`.
