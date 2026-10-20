@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1020.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610204-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610204-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610204-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chuẩn hóa luồng in và xem toa thuốc có chữ ký số tại `FrmRaToa`: Nút `[Xem]` (`btnXem`) và nút `[In toa]` (`btnInChiTiet`) khi bật tham số `cks.toathuoc = 1` sẽ kích hoạt luồng tra cứu Server-First qua `ShowPdfSignVerificationForm`.
+- 🐛: Khắc phục lỗi khi click nút `[In toa CKS]` và xem lại toa thuốc: Toa thuốc đã ký trước đó được nạp trực tiếp từ Server để xem/in với đầy đủ chữ ký số và thời gian ký số gốc, tuyệt đối không ký mới làm sai lệch mốc thời gian chỉ định; đồng thời tương thích với cả 2 phiên bản Server NodeJS (mới và cũ).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/917
+- 📗: Kiểm tra tham số cấu hình hệ thống `cks.toathuoc` trong `sys_param`.
+- 📕: Bác sĩ sau khi ra toa thuốc và ký số, nếu mở lại xem hoặc in lại toa thuốc thì hệ thống hiển thị chính xác bản PDF đã ký số từ Server, đảm bảo tính toàn vẹn và pháp lý của hồ sơ bệnh án điện tử.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-917/debug-image-prescription-intoacks-menu.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-917/debug-image-prescription-toathuoc-kyso-thanhcong.png)
+
 ## [v.3.26.1020.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610203-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610203-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610203-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Khám sức khỏe hợp đồng (mẫu 6-18 tuổi và từ đủ 18 tuổi): nạp thông tin khám Tai Mũi Họng, Răng Hàm Mặt từ hồ sơ vào cả 2 bộ ô ngay khi mở hồ sơ - Chỉnh rồi Lưu không còn mất dữ liệu khi chưa mở tab TMH / RHM.
 - 🐛: Mở hồ sơ KSK, bấm Chỉnh rồi Lưu mà không chuyển sang tab Tai - Mũi - Họng / Răng - Hàm - Mặt thì mất toàn bộ thông tin khám TMH, RHM (chỉ còn bác sĩ) (LOI #1047 comment #49674).
