@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1022.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610221-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610221-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610221-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung và hoàn thiện phiếu Theo dõi và Chăm sóc cấp 2, 3 cho bệnh án ngoại trú (theo ngày và theo đợt) theo Thông tư 32/2023/TT-BYT; đồng bộ các thư viện OTH.Entity.dll và DH.XML4750.dll hỗ trợ in ấn và thiết kế mẫu động.
+- 🐛: Khắc phục lỗi nạp thông tin hành chính khi mở phiếu chăm sóc và chuẩn hóa cơ chế binding dữ liệu sinh hiệu, tư vấn giáo dục sức khỏe trên bản in.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/891
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/920
+- 📗: current.cs_phieuchamsoc, current.cs_phieuchamsoc_ct, current.cs_dm_nhom, current.cs_dm_chitiet
+- 📕: Phân hệ Kê đơn ngoại trú (Prescription) - Menu Bệnh án ngoại trú -> Phiếu chăm sóc Thông tư 32
+![](https://i.vgy.me/XearOM.png)
+
 ## [v.3.26.1022.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610220-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Mở rộng kiểm tra trùng y lệnh cùng bác sĩ cho cả Bệnh án ngoại trú đợt (bant = 0) và máy cấu hình Cấp cứu
 - 🐛: Khắc phục lỗi bỏ qua kiểm tra trùng giờ y lệnh khi lưu CLS/Toa thuốc cho BANT đợt và khi lưu khám bệnh cấp cứu
