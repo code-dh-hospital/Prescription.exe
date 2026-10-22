@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1022.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610220-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610220-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610220-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Mở rộng kiểm tra trùng y lệnh cùng bác sĩ cho cả Bệnh án ngoại trú đợt (bant = 0) và máy cấu hình Cấp cứu
+- 🐛: Khắc phục lỗi bỏ qua kiểm tra trùng giờ y lệnh khi lưu CLS/Toa thuốc cho BANT đợt và khi lưu khám bệnh cấp cứu
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/971
+- 📗: Cập nhật điều kiện gọi CheckThoiGianBacSi_KhamBenh_CLS_ToaThuoc tại FrmCanLamSang, FrmRaToa và FrmKhamBenh
+- 📕: Cảnh báo hoặc chặn trùng giờ y lệnh công khám, chỉ định cận lâm sàng và cấp toa thuốc giữa bệnh nhân khám ngoại trú và bệnh án ngoại trú
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-971/debug-image-prescription-canh-bao-trung-gio-cls-toathuoc-bant.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-971/debug-image-prescription-frmbenhanngoaitru-giao-dien-bant.png)
+
 ## [v.3.26.1021.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610211-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610211-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610211-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung phương thức tiện ích GetInt(DataRow, string) và hoàn thiện các tham số xuất/nhập KSK trong ClsImportExportKSK.
 - 🐛: Khắc phục 4 lỗi biên dịch CS0103 trên server CI (gọi nhầm TenFileMau, thiếu hàm GetInt, nhầm tham số pRow trong BuildGiaTriXuat) gây thất bại build Prescription.exe-3.26.1021.0 theo YEUCAU #883.
