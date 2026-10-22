@@ -6,6 +6,18 @@
 
 #
 
+## [v.3.26.1022.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610222-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610222-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610222-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Khám sức khỏe hợp đồng (`FrmKhamSucKhoe_HoaHao`) - Gửi cổng dữ liệu sức khỏe BYT và Xuất XML KSK 2062: `<MA_CSKCB>` lấy theo Mã CSKCB của cấu hình Cổng BYT đang dùng (thay trước khi ký số, không làm hỏng chữ ký).
+- 🐛: XML gửi / xuất cho trạm y tế được khám hộ ghi sai `<MA_CSKCB>` (mã bệnh viện thay vì mã trạm).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/940
+- 📗: Đọc cấu hình `current.coderun` mã `EOptionTT25KSK`. Đặc tả: [Mo-ta-cau-hinh-api-ksk-2062-theo-ma-cskcb-kham-ho](../../Mo-ta-he-thong/THONGTU_25/Mo-ta-cau-hinh-api-ksk-2062-theo-ma-cskcb-kham-ho.md)
+- 📕: Gửi hồ sơ của trạm: vào HospitalAdmin chọn Mã CSKCB của trạm -> Lưu -> quay lại form KSK bấm Gửi cổng / Xuất XML.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-940/debug-image-hosadmin-xfrmoptionbhxh-tt25-chon-lai-ma-benh-vien.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-940/debug-image-hosadmin-xfrmoptionbhxh-tt25-chon-ma-tram-nap-lai.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-940/debug-image-hosadmin-xfrmoptionbhxh-tt25-macskcb-mac-dinh-mabvbh.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-940/debug-image-hosadmin-xfrmoptionbhxh-tt25-nhap-cau-hinh-tram-92034.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-940/debug-image-hosadmin-xfrmoptionbhxh-tt25-nhap-ma-moi-92034.png)
+
 ## [v.3.26.1022.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610221-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610221-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610221-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung và hoàn thiện phiếu Theo dõi và Chăm sóc cấp 2, 3 cho bệnh án ngoại trú (theo ngày và theo đợt) theo Thông tư 32/2023/TT-BYT; đồng bộ các thư viện OTH.Entity.dll và DH.XML4750.dll hỗ trợ in ấn và thiết kế mẫu động.
 - 🐛: Khắc phục lỗi nạp thông tin hành chính khi mở phiếu chăm sóc và chuẩn hóa cơ chế binding dữ liệu sinh hiệu, tư vấn giáo dục sức khỏe trên bản in.
