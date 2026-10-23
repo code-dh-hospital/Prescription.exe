@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1023.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610231-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Demo ký số theo chuẩn mới cho mẫu phiếu chỉ định cận lâm sàng kèm theo DHEmrContext
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/163
+- 📗: Bổ sung dữ liệu ký số chuẩn mới cho phiếu chỉ định cận lâm sàng, liên kết Gateway EMR
+- 📕: Nạp thông tin người chỉ định và cấu hình ký số điện tử trên FrmCanLamSang
+![](https://i.vgy.me/JDRv3R.png)
+![](https://i.vgy.me/3JJwps.png)
+
 ## [v.3.26.1023.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610230-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Demo ký số theo chuẩn mới cho mẫu phiếu chỉ định cận lâm sàng
 - ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/163
