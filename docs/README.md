@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1023.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610230-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Demo ký số theo chuẩn mới cho mẫu phiếu chỉ định cận lâm sàng
+- ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/163
+- 📗: Đóng gói DHEmrContext, mã phiếu chỉ định và danh sách chi tiết dịch vụ CLS phục vụ ký số EMR
+- 📕: Gọi ShowPdfSignVerificationForm và API ký số theo quy chuẩn EMR Server-First
+![](https://i.vgy.me/JDRv3R.png)
+![](https://i.vgy.me/3JJwps.png)
+
 ## [v.3.26.1022.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610224-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610224-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610224-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Mẫu số hóa in qua XtraReport hỗ trợ chữ ký scan nhân viên theo trường dữ liệu `<<NVSIGN:[ten_truong]>>` (VD `<<NVSIGN:[manv_tuvan]>>`) - mã NV lấy theo từng dòng / nhóm lúc in, mỗi mục in đúng chữ ký người thực hiện (thư viện `XtraRPT`).
 - 🐛: Chữ ký scan nhân viên không hiện khi marker `<<NVSIGN>>` dùng trường dữ liệu kéo từ thiết kế (chỉ chạy với mã gõ cứng như `<<NVSIGN:00>>`).
