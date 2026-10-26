@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1026.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610264-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610264-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610264-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung cơ chế phòng vệ và tự động truy vấn ngày đủ 5 năm khi kiểm tra thông tuyến BHYT trên form Bệnh án ngoại trú (FrmBenhAnNgoaiTru)
+- 🐛: Khắc phục lỗi ném ngoại lệ NullReferenceException tại Janus.Windows.GridEX.GetValue("ngay5nam") khi bấm nút KTTT trên form Bệnh án ngoại trú do lưới dgDSBenhNhan chưa có cột ngay5nam
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1064#issuecomment-50451 (hdhiswork/LOI#1064)
+- 📗: Kiểm tra Columns.Contains("ngay5nam"); nếu không có cột trên lưới, tự động fallback truy vấn từ CSDL (COALESCE(ps.ngay5nam, nt.ngay5nam)) theo mabn và maba, nếu không có truyền rỗng
+- 📕: Vào menu Bệnh án ngoại trú, chọn bệnh nhân BHYT, bấm nút KTTT: form kiểm tra thông tuyến mở lên bình thường, truyền đúng ngày 5 năm hợp lệ (nếu có) hoặc chuỗi rỗng, không bị crash ứng dụng
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1064/debug-image-prescription-bant-kttt-khop-ngay5nam.png)
+
 ## [v.3.26.1026.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610263-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610263-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610263-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: [DH.XML4750] Cập nhật thư viện DH.XML4750 sửa lỗi chọn Bác sĩ trên "Giấy cam kết chấp thuận PT-TT-GMHS" từ phân hệ Kê đơn/Thủ thuật ngoại trú (khắc phục lỗi ADO.NET String vs Int32 khi mở FrmChonV1).
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1056
