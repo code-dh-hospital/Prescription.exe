@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1026.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610261-NasDHSolutions.json)</sup></sup></sub>
+- 🐛: [FrmPhauThuat] Sửa lỗi không hiển thị tên máy (txtTenMay bị rỗng) và mất chọn mã máy khi xem lại phiếu Phẫu thuật - Thủ thuật đã lưu đối với các máy có mã chứa ký tự tiếng Việt (như ĐHN.3[Nguồn thu đơn vị].0023). Bỏ ToUpper() khi đọc mã máy bindingData và chọn kíp mổ để so sánh chính xác trong PostgreSQL (Collation C phân biệt hoa thường); reset cờ maMayControl.NewValue = false sau khi lưu.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1063
+- 📗: [Mo-ta-loi-1063-prescription-xem-ten-may-phau-thuat.md](../../Mo-ta-he-thong/BANT/Mo-ta-loi-1063-prescription-xem-ten-may-phau-thuat.md)
+- 📕: [Ảnh kiểm chứng hiển thị tên máy trên Form Phẫu thuật](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1063/debug-image-prescription-frmphauthuat-xem-tenmay.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1063/debug-image-prescription-frmphauthuat-xem-tenmay.png)
+
 ## [v.3.26.1026.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610260-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Khám sức khỏe hợp đồng - Gửi Cổng dữ liệu sức khỏe SYT TP.HCM (dùng DH.XML4750 1.26.1026.0): số trong `kham_lam_san` (mắt, TMH) và `can_lam_san` gửi dạng chuẩn ngắn nhất - số nguyên không còn ".0" (8.0 → 8), số lẻ bỏ số 0 thừa (1.020 → 1.02), chuỗi giữ nguyên.
 - 🐛: Gửi cổng SYT TP.HCM lỗi 401 "Xác thực chữ ký số không thành công hoặc dữ liệu đã bị thay đổi" khi hồ sơ có giá trị số như 10.0, 5.0, 1.030, 0.70 (YEUCAU #935 comment #50311).
