@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1026.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610262-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610262-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610262-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chỉ định CLS - cấp STT phòng lấy mẫu xét nghiệm không trùng khi nhiều máy lưu cùng lúc (thư viện `HosPre.DataAccess`).
+- 🐛: Phiếu chỉ định xét nghiệm của nhiều bệnh nhân (khám ở nhiều phòng khác nhau) cùng 1 STT tại 1 phòng lấy mẫu.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1062
+- 📗: Không đổi cấu trúc CSDL. Đặc tả: [Mo-ta-loi-1062-trung-stt-lay-mau-xet-nghiem](../../Mo-ta-he-thong/CAN_LAM_SANG/Mo-ta-loi-1062-trung-stt-lay-mau-xet-nghiem.md)
+- 📕: Khám bệnh -> Chỉ định CLS -> Lưu -> chọn phòng lấy mẫu -> In phiếu.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1062/debug-image-prescription-chidinhcls-capstt-6may-truoc-sau.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1062/debug-image-prescription-chidinhcls-trungstt-solieu-21-10.png)
+
 ## [v.3.26.1026.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610261-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610261-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610261-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: [FrmPhauThuat] Sửa lỗi không hiển thị tên máy (txtTenMay bị rỗng) và mất chọn mã máy khi xem lại phiếu Phẫu thuật - Thủ thuật đã lưu đối với các máy có mã chứa ký tự tiếng Việt (như ĐHN.3[Nguồn thu đơn vị].0023). Bỏ ToUpper() khi đọc mã máy bindingData và chọn kíp mổ để so sánh chính xác trong PostgreSQL (Collation C phân biệt hoa thường); reset cờ maMayControl.NewValue = false sau khi lưu.
 - ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1063
