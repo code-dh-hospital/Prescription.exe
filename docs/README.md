@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1026.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610260-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610260-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610260-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Khám sức khỏe hợp đồng - Gửi Cổng dữ liệu sức khỏe SYT TP.HCM (dùng DH.XML4750 1.26.1026.0): số trong `kham_lam_san` (mắt, TMH) và `can_lam_san` gửi dạng chuẩn ngắn nhất - số nguyên không còn ".0" (8.0 → 8), số lẻ bỏ số 0 thừa (1.020 → 1.02), chuỗi giữ nguyên.
+- 🐛: Gửi cổng SYT TP.HCM lỗi 401 "Xác thực chữ ký số không thành công hoặc dữ liệu đã bị thay đổi" khi hồ sơ có giá trị số như 10.0, 5.0, 1.030, 0.70 (YEUCAU #935 comment #50311).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/935#issuecomment-50311 (hdhiswork/YEUCAU#935)
+- 📗: Không đổi mã nguồn Prescription; phát hành kèm DH.XML4750.dll 1.26.1026.0 (KskGateway/SytHcmKskGatewayMapper.cs - ToNum chuẩn hóa số trước khi ký số, áp dụng mẫu M3 và M2). Thực hiện theo mô tả [Mô tả chuẩn hóa dữ liệu gửi cổng KSK SYT HCM bằng API](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/Thong-mo-ta-chuan-hoa-du-lieu-gui-cong-ksk-syt-hcm-bang-api.md)
+- 📕: Không phát sinh cột mới.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-935/debug-image-dhxml4750-sythcmkskgatewaymapper-c50311-so-chuan-hoa.png)
+
 ## [v.3.26.1023.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610231-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Demo ký số theo chuẩn mới cho mẫu phiếu chỉ định cận lâm sàng kèm theo DHEmrContext
 - ☑: https://i.dh-his.com/hdhiswork/TOLAPTRINH/issues/163
