@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1027.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610270-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610270-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610270-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription] Mở rộng ô nhập liệu txtBH6_M (thuộc tính MaxLength từ 5 lên 7) và nâng cấp hàm phân rã mã thẻ split_BH trên form Thông tin thẻ BHYT số 2 Bệnh án ngoại trú (FrmBaoHiem2_BANT) và form BHYT2 phòng khám (FrmBaoHiem2), cho phép nhập trọn vẹn và tự động nhận diện mã thẻ BHYT 17 ký tự theo định danh cá nhân CCCD.
+- 🐛: [Prescription] Khắc phục lỗi kịch trần MaxLength = 5 tại ô txtBH6_M khiến người dùng không thể nhập 2 ký tự cuối của thẻ BHYT 17 ký tự, và khắc phục hàm split_BH cắt cứng Substring(10, 5) làm mất 2 ký tự cuối khi nạp thẻ 17 ký tự đã lưu trong CSDL; chuẩn hóa kiểm tra độ dài thẻ 15 hoặc 17 ký tự khi bấm Lưu.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1065
+- ☑: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/issues/237
+- 📗: Cột current.ttcon.mathe có kiểu dữ liệu character varying(20), đã đủ điều kiện lưu trữ 17 ký tự, không cần chạy câu lệnh DDL ALTER TABLE nào đối với CSDL.
+- 📕: Mở phân hệ Kê đơn (Prescription.exe) -> Vào tab Bệnh án ngoại trú -> Chọn bệnh nhân ngoại trú (ví dụ MaBN: 2026000029, MaBA: N2026000011) -> Nhấn nút [Hiệu chỉnh TT] -> Chọn [Thông tin BHYT2] -> Nhập mã thẻ BHYT số 2 dài 17 ký tự (ô thứ 6 gõ đủ 7 số định danh CCCD) -> Nhấn Lưu [F2] thành công.
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1065/debug-image-prescription-frmbaohiem2-bant-the-bhyt2-17-ky-tu.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1065/debug-image-prescription-frmbaohiem2-bant-nghiem-thu-thuc-te.png)
+
 ## [v.3.26.1026.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610264-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610264-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610264-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung cơ chế phòng vệ và tự động truy vấn ngày đủ 5 năm khi kiểm tra thông tuyến BHYT trên form Bệnh án ngoại trú (FrmBenhAnNgoaiTru)
 - 🐛: Khắc phục lỗi ném ngoại lệ NullReferenceException tại Janus.Windows.GridEX.GetValue("ngay5nam") khi bấm nút KTTT trên form Bệnh án ngoại trú do lưới dgDSBenhNhan chưa có cột ngay5nam
