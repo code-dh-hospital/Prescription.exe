@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1028.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610282-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610282-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610282-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung gọi `emrContext.EnsureIdHoSo()` ngay khi khởi tạo DHEmrContext trong `KySoPhieuChiDinhClsHelper`, đồng bộ mã định danh UUID v7 tất định cho toàn bộ các nhóm phiếu chỉ định cận lâm sàng (Xét nghiệm, Hình ảnh, Thăm dò chức năng, Phẫu thuật thủ thuật).
+- 🐛: Khắc phục lỗi kiểm tra bản ký có sẵn trước khi mở phiếu: Truyền cả `IdHoSo` lẫn `maphieu` vào candidate names của `LayPdfDaKy`, giúp phát hiện chính xác bản ký đã ký trước đó trên Gateway EMR; Gán `MaNvTrinhKy` ưu tiên lấy mã bác sĩ chỉ định `sMaBacSi`.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/917#issuecomment-50885 (hdhiswork/YEUCAU#917)
+- 📗: Đọc dữ liệu `idchidinh`, `ngaykcb`, `manv` từ bảng `current.chidinhcls` để sinh UUID v7 tất định chuẩn RFC 9562.
+- 📕: Bác sĩ bấm in/ký số hoặc xem lại phiếu chỉ định cận lâm sàng có thể hủy ký số lượt 1 an toàn và đồng bộ trạng thái trực tiếp lên Web EMR.
+
 ## [v.3.26.1028.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610281-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription] Mở quyền Cập nhật / Lưu (pChoPhepSua = true) khi gọi Phiếu bàn giao người bệnh chuyển khoa (Bác sĩ và Điều dưỡng) tại FrmNhapVien; cho phép nhân viên y tế phòng khám điền đầy đủ thông tin lâm sàng và xử trí trước khi in hoặc ký số EMR chuyển khoa nội trú.
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/927#issuecomment-46700 (hdhiswork/YEUCAU#927)
