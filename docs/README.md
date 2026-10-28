@@ -6,6 +6,19 @@
 
 #
 
+## [v.3.26.1028.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610281-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610281-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610281-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription] Mở quyền Cập nhật / Lưu (pChoPhepSua = true) khi gọi Phiếu bàn giao người bệnh chuyển khoa (Bác sĩ và Điều dưỡng) tại FrmNhapVien; cho phép nhân viên y tế phòng khám điền đầy đủ thông tin lâm sàng và xử trí trước khi in hoặc ký số EMR chuyển khoa nội trú.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/927#issuecomment-46700 (hdhiswork/YEUCAU#927)
+- 📗: [Mo-ta-bo-sung-phieu-ban-giao-chuyen-khoa-ngoai-tru-nhap-vien.md](../../Mo-ta-he-thong/SO-HOA/Mo-ta-bo-sung-phieu-ban-giao-chuyen-khoa-ngoai-tru-nhap-vien.md)
+- 📕: Prescription/Forms/FrmNhapVien.cs gọi xfrmBG01_PhieuBanGiao_ChuyenKhoaBS và xfrm24_GiayBanGiao_NguoiBenh_ChuyenKhoa với quyền sửa true.
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-927/debug-image-prescription-frmnhapvien-phieu-ban-giao-chuyen-khoa-cap-nhat.png)
+- ✨: Phiếu chỉ định cận lâm sàng: thêm tham số pHoiBenh (giá trị ô Hỏi bệnh) - chức năng tự thiết kế có sẵn pHoiBenh để kéo vào phiếu (dòng 'Triệu chứng'). Khám bệnh lấy txtHoiBenh_KB, bệnh án ngoại trú lấy txtHoibenh; KSK / ARV để trống.
+- 🐛: Phiếu chỉ định cận lâm sàng chưa có thông tin hỏi bệnh / triệu chứng trước khi chỉ định theo nhắc nhở của giám định BHXH (YEUCAU #968).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/968 (hdhiswork/YEUCAU#968)
+- 📗: FrmKhamBenh / FrmBenhAnNgoaiTru truyền htCLS["hoibenh"] khi mở CLS - DV; FrmCanLamSang mọi kiểu in phiếu chỉ định (inPhieuThietKe, inPhieuThietKeTT32, inPhieuYcCauHinh, inPhieuYC, inPhieuYCChuan, in tổng hợp) và 2 chỗ in tổng hợp FrmKhamBenh SetPara("pHoiBenh") cạnh pLyDo (pLyDo giữ nguyên). Thực hiện theo mô tả [Mô tả yêu cầu 968 - Phiếu chỉ định CLS para Hỏi bệnh](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/CAN_LAM_SANG/Mo-ta-yeucau-968-phieu-chi-dinh-cls-para-hoi-benh.md)
+- 📕: Không phát sinh cột mới. Trang in đã tự thiết kế ở các đơn vị (current.xtrareports) không tự sửa - Thiết kế, kéo pHoiBenh vào phiếu dưới dòng Khoa (xem hướng dẫn trong Mo-ta-he-thong/CAN_LAM_SANG).
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-968/debug-image-issue968-ket-qua-kiem-chung.png)
+
 ## [v.3.26.1028.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610280-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Đồng bộ phát hành biểu mẫu dùng chung Giấy khám bệnh theo yêu cầu có người duyệt và chữ ký scan, nạp trang in mặc định bảo toàn cấu trúc schema dtNhanVienKy trong Report Designer.
 - 🐛: Tương thích đồng bộ với phân hệ Treatment và thư viện DH.XML4750 theo yêu cầu #976.
