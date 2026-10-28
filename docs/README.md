@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1028.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610280-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610280-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610280-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Đồng bộ phát hành biểu mẫu dùng chung Giấy khám bệnh theo yêu cầu có người duyệt và chữ ký scan, nạp trang in mặc định bảo toàn cấu trúc schema dtNhanVienKy trong Report Designer.
+- 🐛: Tương thích đồng bộ với phân hệ Treatment và thư viện DH.XML4750 theo yêu cầu #976.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/976
+- 📗: CSDL current.bnnoitru bổ sung cột manv_nguoicungcap, current.sohoa5 bổ sung cột manv_nguoiduyet; Thực hiện theo mô tả [Mô tả YEUCAU 976 - chọn nhân viên cung cấp thông tin và duyệt kcb theo yêu cầu](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/SO-HOA/Mo-ta-yeucau-976-chon-nhan-vien-cung-cap-thong-tin-va-duyet-kcb-theo-yeu-cau.md).
+- 📕: Phân hệ Prescription đồng bộ sử dụng form và biểu mẫu in khám bệnh theo yêu cầu kèm ảnh chữ ký scan người duyệt.
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-976/debug-image-dhbaocao-xfrm03-cungcapttnv-nguoicungcap-va-report-designer.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-976/debug-image-treatment-xfrmgiaykhambenh-theoyeucau-nguoiduyet-va-report-designer.png)
+
 ## [v.3.26.1027.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610271-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610271-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610271-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Giấy cam kết chấp thuận phẫu thuật, thủ thuật và gây mê hồi sức: in có hỏi ký điện tử người bệnh (<<BNSIGN>>); mẫu có tham số manv_bspt (mã BS phẫu thuật), manv_bsgm (mã BS gây mê) để lấy chữ ký scan <<NVSIGN:[Parameters.manv_bspt]>>, <<NVSIGN:[Parameters.manv_bsgm]>>; mẫu mặc định đặt sẵn 3 ô chữ ký.
 - 🐛: Giấy cam kết phẫu thuật đã đặt <<BNSIGN>> nhưng in không hỏi ký người bệnh; không có tham số mã bác sĩ phẫu thuật / gây mê cho chữ ký scan (YEUCAU #951 comment #50665).
