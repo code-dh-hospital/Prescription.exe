@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1029.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610290-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tích hợp hoàn chỉnh luồng lưu & nạp lại Phiếu bàn giao người bệnh chuyển khoa (Bác sĩ & Điều dưỡng) khi lập bệnh án nhập viện ngoại trú theo Phương án B.
+- 🐛: Khắc phục lỗi mất thông tin Bác sĩ (058, 059) và Điều dưỡng (02, 05) khi lưu trên FrmNhapVien (Comment #50987); đồng bộ chuẩn xác số bệnh án nội bộ (txtSoBANoiBo) khi FrmMain.iMaBaNoiBo == 1 thay vì gán cứng txtSoBA tiếp nhận.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/927, https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/issues/53
+- 📗: Dữ liệu phân lập an toàn với mapc = '', mapn = '' trong current.chuyenphong, không làm ô nhiễm danh sách chuyển phòng ngoại trú; không can thiệp current.bnnoitru.
+- 📕: Mở FrmNhapVien -> Chọn In Phiếu bàn giao (Bác sĩ / Điều dưỡng) -> Cập nhật thông tin giao nhận -> Nhấn Lưu -> Form lưu và hiển thị chuẩn xác.
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-927/debug-image-prescription-xfrmBG01-bacsi-kiemchung.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-927/debug-image-prescription-xfrm24-dieuduong-kiemchung.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-927/debug-image-prescription-xfrm-nhapvien-soba-noibo-thucte.png)
+
 ## [v.3.26.1028.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610282-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610282-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610282-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung gọi `emrContext.EnsureIdHoSo()` ngay khi khởi tạo DHEmrContext trong `KySoPhieuChiDinhClsHelper`, đồng bộ mã định danh UUID v7 tất định cho toàn bộ các nhóm phiếu chỉ định cận lâm sàng (Xét nghiệm, Hình ảnh, Thăm dò chức năng, Phẫu thuật thủ thuật).
 - 🐛: Khắc phục lỗi kiểm tra bản ký có sẵn trước khi mở phiếu: Truyền cả `IdHoSo` lẫn `maphieu` vào candidate names của `LayPdfDaKy`, giúp phát hiện chính xác bản ký đã ký trước đó trên Gateway EMR; Gán `MaNvTrinhKy` ưu tiên lấy mã bác sĩ chỉ định `sMaBacSi`.
