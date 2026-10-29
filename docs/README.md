@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1029.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610291-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610291-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610291-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Phối hợp cập nhật hàm _ShowPdfSignVerificationForm (XtraRPT): Bỏ qua tiền kiểm tra cks.LayPdfDaKy trước khi ký số, ủy thác hoàn toàn cơ chế dò tìm và ký mới cho NodeJS EMR Gateway; Khắc phục lỗi kẹt bản in đóng dấu [ĐÃ HỦY KÝ] khi người dùng thực hiện [In toa CKS] trên toa thuốc đã từng hủy ký.
+- 🐛: Sửa lỗi phân hệ Prescription khi bấm In toa CKS với toa thuốc đã hủy ký hiển thị lại file PDF cũ có watermark ĐÃ HỦY KÝ và bị khóa nút Ký lần 1.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/917
+- 📗: Đọc tham số cks.url, cks.toathuoc trong current.system trên CSDL yhct_ct_full (Port 5433).
+- 📕: Mở FrmRaToa -> chọn toa thuốc đã hủy ký -> bấm [In toa] -> [In toa CKS] -> Form thẩm tra chữ ký số nạp bản ký mới sạch sẽ, không có watermark ĐÃ HỦY KÝ.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-917/debug-image-prescription-toathuoc-kyso-thanhcong.png)
+
 ## [v.3.26.1029.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610290-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610290-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32610290-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tích hợp hoàn chỉnh luồng lưu & nạp lại Phiếu bàn giao người bệnh chuyển khoa (Bác sĩ & Điều dưỡng) khi lập bệnh án nhập viện ngoại trú theo Phương án B.
 - 🐛: Khắc phục lỗi mất thông tin Bác sĩ (058, 059) và Điều dưỡng (02, 05) khi lưu trên FrmNhapVien (Comment #50987); đồng bộ chuẩn xác số bệnh án nội bộ (txtSoBANoiBo) khi FrmMain.iMaBaNoiBo == 1 thay vì gán cứng txtSoBA tiếp nhận.
