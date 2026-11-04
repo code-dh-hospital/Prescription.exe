@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1104.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611042-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611042-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611042-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung điều kiện kiểm tra isInphieuYCKySo khi gán dot_chidinh trong FrmCanLamSang.inPhieuThietKe, đảm bảo in phiếu chỉ định CLS thông thường [F4] không bị phân tách theo từng mốc thời gian idchidinh.
+- 🐛: Khắc phục lỗi in phiếu chỉ định CLS chưa thực hiện bị tách thành nhiều phiếu rời rạc tại PK Medic Miền Đông (v3.26.1012.1), khôi phục hành vi gom chung tất cả chỉ định chưa thực hiện vào 1 phiếu in duy nhất như phiên bản v3.26.1009.8 đồng thời bảo tồn chuẩn ký số EMR (Issue #165, #917).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1080
+- 📗: CSDL tuan_medic_nghiom_thieuchandoan (PK Medic Miền Đông - 74206), cấu hình yc.theoloaixn = 0, phieuycchuan = 2, kiểm tra bảng current.chidinhcls.
+- 📕: Mở phân hệ Khám bệnh -> Khám bệnh -> Chỉ định CLS (FrmCanLamSang) -> Bấm [F4] In phiếu để in gom toàn bộ dịch vụ CLS chưa thực hiện trên 1 tờ phiếu.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1080/debug-image-prescription-frmcanlamsang-in-phieu-gom-xet-nghiem.jpg)
+
 ## [v.3.26.1104.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611041-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611041-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611041-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Đồng bộ thư viện OTH.Adapter.dll đảm bảo in Bảng kê chi phí Bệnh án ngoại trú đợt (BANT - FrmBenhAnNgoaiTru) không sửa đổi ngày in phiếu tiếp nhận ngoại trú.
 - 🐛: Khắc phục lỗi in bảng kê chi phí KCB bệnh án đợt làm sai lệch dữ liệu đồng bộ trạng thái bệnh án điện tử EMR.
