@@ -6,6 +6,25 @@
 
 #
 
+## [v.3.26.1104.1]()
+- ✨: Đồng bộ thư viện OTH.Adapter.dll đảm bảo in Bảng kê chi phí Bệnh án ngoại trú đợt (BANT - FrmBenhAnNgoaiTru) không sửa đổi ngày in phiếu tiếp nhận ngoại trú.
+- 🐛: Khắc phục lỗi in bảng kê chi phí KCB bệnh án đợt làm sai lệch dữ liệu đồng bộ trạng thái bệnh án điện tử EMR.
+- ☑: [YEUCAU Issue #988](https://i.dh-his.com/hdhiswork/YEUCAU/issues/988)
+- 📗: Cơ sở dữ liệu emr_omon (TTYT KV Ô Môn), kiểm tra bảng current.psdangky và current.bnnoitru
+- 📕: [Mo-ta-chan-update-psdangky-ngayinphieu-in-bang-ke-noi-tru-issue-988.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/NOITRU/Mo-ta-chan-update-psdangky-ngayinphieu-in-bang-ke-noi-tru-issue-988.md)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-988/debug-image-treatment-frmxuatvien-inbangke697-psdangky-null.png)
+
+## [v.3.26.1104.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611040-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611040-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611040-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Chuyển đổi in phiếu dự trù thuốc & VTYT khoa phòng sang mẫu tự thiết kế XtraReport (mã báo cáo: Prescription_PhieuDuTruKhoa) sử dụng mẫu mặc định OTH.XReports.HosMed.XtraPhieuDuTruKhoa có group 2 cấp độ (tenkho, tennhom)
+- 🐛: Loại bỏ việc phụ thuộc vào Crystal Reports cứng (FrmTrangIn), cho phép cơ sở y tế tự điều chỉnh tiêu đề, layout mẫu in theo nhu cầu
+- ☑: [hdhiswork/YEUCAU Issue #987](https://i.dh-his.com/hdhiswork/YEUCAU/issues/987)
+- 📗: Đọc dữ liệu chi tiết phiếu dự trù từ bảng dutru kết hợp dmthuoc theo số chứng từ và phân loại maloai
+- 📕: Tại FrmPhieuDuTruKhoa, khi bấm nút In ấn sẽ tự động gọi XtraRPT.Xtra.PrintPreviewDialogWithDefault hiển thị xem trước và cho phép thiết kế lại mẫu in
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-987/debug-image-prescription-phieudutru-tuthietke.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-987/debug-image-treatment-phieudutru-tuthietke.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-987/debug-image-prescription-phieudutru-ketqua.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-987/debug-image-treatment-phieudutru-ketqua.png)
+
 ## [v.3.26.1103.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611030-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611030-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611030-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Thiết kế và tích hợp kiến trúc `KskFieldRegistry` (Single Source of Truth) quản lý tập trung toàn bộ siêu dữ liệu Combobox KSK TT25 (dấu hiệu sinh tồn, lâm sàng < 6 tuổi, tiêm chủng, sản khoa, phân loại chuyên khoa/thể lực/sức khỏe I-V, Có/Không). Cung cấp cơ chế dịch biên tự động (Border Adapter) hai chiều giữa giá trị Form C# (0-based) và Cổng BYT QĐ 2062/QĐ-BYT (1-based), tự động sinh mô tả hướng dẫn Dòng 3 cho file mẫu Excel `Mau_Import_KSK_Full.xlsm`.
 - 🐛: Tái cấu trúc toàn diện `FrmKhamSucKhoe_HoaHao.cs` nạp tập trung `DataSource` cho tất cả ComboBox giao diện từ `KskFieldRegistry.Bind()` và `GetTiemChungDataTable()`, bảo toàn quy ước dòng đầu tiên `(-1, "")`; chuẩn hóa `FormatNgayGio` trong `ClsImportExportKSK.cs` luôn xuất đủ định dạng ngày giờ `dd/MM/yyyy HH:mm:ss` cho các trường ngày giờ khám khi cập nhật (`forUpdate = true`), giải quyết triệt để lỗi kiểm tra hợp lệ dòng khi import lại chính file vừa xuất.
