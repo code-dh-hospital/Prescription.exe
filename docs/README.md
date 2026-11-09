@@ -6,6 +6,22 @@
 
 #
 
+## [v.3.26.1109.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611091-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Giấy cam kết phẫu thuật, thủ thuật (TT32) hỗ trợ lưu lựa chọn "Đồng ý" / "Không đồng ý", nhập câu cam kết viết tay, định dạng in đậm và khoanh tròn số đầu câu ①/② trên mẫu in xtraGiay_CamKet_PhauThuat.
+- 🐛: Giấy cam kết phẫu thuật - thủ thuật TT32 chưa hỗ trợ lưu trạng thái đồng ý/không đồng ý và câu cam kết của người bệnh/thân nhân (YEUCAU #966).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/966
+- 📗: Không sửa code Prescription: FrmPhauThuat đã mở DH.XML4750.FORMS.ThongTu32.xfrmGiayChapThuan_PhauThuat; phát hành lại để kèm DLL DH.XML4750 mới. Thực hiện theo mô tả [Mô tả yêu cầu 966 - Giấy KCB theo yêu cầu và Cam kết PT-TT](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/NOITRU/Mo-ta-treatment-issue-966-giay-kcb-yc-cam-ket-pttt.md)
+- 📕: Cột mới camket_dongy, cau_camket trong current.phauthuat.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-966/debug-image-treatment-xfrmgiaychapthuan-camket-pttt.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-966/debug-image-treatment-xtragiaycamket-preview.png)
+- ✨: Ký số XML 2062 khám sức khỏe theo chuẩn mới của cổng: ký CKS_NGUOI_KET_LUAN và CKS_BENH_VIEN trong 1 lần qua SoftDreams /api/sign/xml-ksk (dịch vụ ký số NodeJS).
+- 🐛: Gửi cổng dữ liệu sức khỏe báo "CKS_NGUOI_KET_LUAN hoặc CKS_BENH_VIEN ... không phải Base64 hợp lệ", hồ sơ đứng ở Đang thực hiện (LOI #1076 comment #51873).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1076#issuecomment-51873 (hdhiswork/LOI#1076)
+- 📗: Không sửa code Prescription; sửa tại DH.XML4750 (BytKskGatewayXmlSigner) và DH.ChuKySo (gửi kèm CTS bác sĩ kết luận). Áp dụng cho Gửi cổng dữ liệu sức khỏe và Xuất XML 2062 trên form Khám sức khỏe hợp đồng. Thực hiện theo mô tả [Mô tả lỗi 1076 - Ký số XML 2062 KSK qua API xml-ksk](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU_25/Mo-ta-loi-1076-ky-so-xml2062-ksk-api-xml-ksk.md)
+- 📕: Không phát sinh cột mới (CTS đọc từ current.dmcts, bác sĩ từ manv_ketluan_ksk). Cần cập nhật DH.ChuKySo và dịch vụ ký số NodeJS (ldhchukyso) cùng lúc; bác sĩ kết luận phải có CTS riêng trong current.dmcts.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1076/debug-image-dhxml4750-xml2062-kyso-xmlksk-request-ket-qua.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1076/debug-image-dhxml4750-xml2062-kyso-xmlksk-request-json.png)
+
 ## [v.3.26.1109.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611090-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611090-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611090-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Sổ phẫu thuật / Sổ thủ thuật hiển thị và xuất thêm Ngày/giờ chỉ định, Ngày/giờ kết thúc (dùng DH.ReportCLS 3.26.1106.0, DH.DALCLS 3.26.1106.1 trở lên) - đồng bộ với Reports.
 - 🐛: Prescription chưa thấy cột Ngày/giờ chỉ định, Ngày/giờ kết thúc trên Sổ phẫu thuật / Sổ thủ thuật do bản phát hành trước còn kèm DH.ReportCLS / DH.DALCLS cũ (YEUCAU #1002 comment #52199).
