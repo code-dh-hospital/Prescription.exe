@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1109.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611092-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611092-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611092-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Phát hành kèm DH.ChuKySo 24.26.1109.0 và DH.XML4750 1.26.1109.1 (bản 3.26.1109.1 build trước khi CI build xong 2 DLL này): Khám sức khỏe hợp đồng - Gửi cổng dữ liệu sức khỏe / Xuất XML 2062 ký CKS_NGUOI_KET_LUAN và CKS_BENH_VIEN qua SoftDreams /api/sign/xml-ksk; Giấy cam kết phẫu thuật, thủ thuật TT32.
+- 🐛: Cổng dữ liệu sức khỏe báo "CKS_NGUOI_KET_LUAN hoặc CKS_BENH_VIEN ... không phải Base64 hợp lệ" (LOI #1076 comment #51873).
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1076#issuecomment-51873 (hdhiswork/LOI#1076), https://i.dh-his.com/hdhiswork/YEUCAU/issues/966
+- 📗: Không sửa code Prescription. Cần dịch vụ ký số NodeJS (ldhchukyso) bản có /api/sign/xml-ksk. Thực hiện theo mô tả [Mô tả lỗi 1076 - Ký số XML 2062 KSK qua API xml-ksk](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/THONGTU_25/Mo-ta-loi-1076-ky-so-xml2062-ksk-api-xml-ksk.md)
+- 📕: Không phát sinh cột mới cho LOI#1076; bác sĩ kết luận cần có chứng thư số riêng trong current.dmcts.
+
 ## [v.3.26.1109.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611091-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611091-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611091-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Giấy cam kết phẫu thuật, thủ thuật (TT32) hỗ trợ lưu lựa chọn "Đồng ý" / "Không đồng ý", nhập câu cam kết viết tay, định dạng in đậm và khoanh tròn số đầu câu ①/② trên mẫu in xtraGiay_CamKet_PhauThuat.
 - 🐛: Giấy cam kết phẫu thuật - thủ thuật TT32 chưa hỗ trợ lưu trạng thái đồng ý/không đồng ý và câu cam kết của người bệnh/thân nhân (YEUCAU #966).
