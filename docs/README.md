@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1109.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611093-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611093-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611093-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Giấy cam kết phẫu thuật, thủ thuật (TT32) hỗ trợ lưu lựa chọn "Đồng ý" / "Không đồng ý", nhập câu cam kết viết tay, định dạng in đậm và khoanh tròn số đầu câu ①/② trên mẫu in xtraGiay_CamKet_PhauThuat.
+- 🐛: Tái phát hành Prescription.exe liên kết với DH.ChuKySo (v24.26.1109.0) và DH.XML4750 (v1.26.1109.1) mới nhất sau khi CI cập nhật dhlibraries (YEUCAU #966, LOI #1076).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/966
+- 📗: Không sửa code Prescription: FrmPhauThuat đã mở DH.XML4750.FORMS.ThongTu32.xfrmGiayChapThuan_PhauThuat; phát hành lại để cập nhật đồng bộ các thư viện DLL mới nhất. Thực hiện theo mô tả [Mô tả yêu cầu 966 - Giấy KCB theo yêu cầu và Cam kết PT-TT](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/NOITRU/Mo-ta-treatment-issue-966-giay-kcb-yc-cam-ket-pttt.md)
+- 📕: Cột mới camket_dongy, cau_camket trong current.phauthuat.
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-966/debug-image-treatment-xfrmgiaychapthuan-camket-pttt.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-966/debug-image-treatment-xtragiaycamket-preview.png)
+
 ## [v.3.26.1109.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611092-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611092-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611092-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Phát hành kèm DH.ChuKySo 24.26.1109.0 và DH.XML4750 1.26.1109.1 (bản 3.26.1109.1 build trước khi CI build xong 2 DLL này): Khám sức khỏe hợp đồng - Gửi cổng dữ liệu sức khỏe / Xuất XML 2062 ký CKS_NGUOI_KET_LUAN và CKS_BENH_VIEN qua SoftDreams /api/sign/xml-ksk; Giấy cam kết phẫu thuật, thủ thuật TT32.
 - 🐛: Cổng dữ liệu sức khỏe báo "CKS_NGUOI_KET_LUAN hoặc CKS_BENH_VIEN ... không phải Base64 hợp lệ" (LOI #1076 comment #51873).
