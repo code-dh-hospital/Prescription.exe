@@ -6,6 +6,21 @@
 
 #
 
+## [v.3.26.1110.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611101-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Gộp luồng ký số Giấy ra viện mới của upstream (ShowPdfSignVerificationForm: SIGN = bác sĩ txtMaBsCk, SIGN2 = người đại diện ccbManvdd), giữ tham số manv_giamdoc (người đại diện), manv_nguoiky2 (bác sĩ) cho marker; Hồ sơ - Ký số Phần I dùng biến form Chọn chữ ký riêng.
+- 🐛: Khắc phục lỗi build sau khi upstream bỏ biến xFormKySo dùng chung.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/962 (báo cáo: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/304)
+- 📗: Cập nhật DLL liên quan: XtraRPT. Không thay đổi CSDL. Mô tả: [Mo-ta-yeucau-962-chu-ky-mau-in-luong-cu.md](../../Mo-ta-he-thong/SO-HOA/Mo-ta-yeucau-962-chu-ky-mau-in-luong-cu.md)
+- 📕: Bệnh án ngoại trú chung -> Giấy ra viện ký số: chọn người đại diện, bác sĩ trên form rồi In - Ký số.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-t4-bant-giayravien-kyso.png)
+- ✨: Bệnh án ngoại trú YHCT và Bệnh án ngoại trú chung: nút Hồ sơ thêm Hồ sơ ▼ -> Hồ sơ - Ký số (Phần I và Giấy ra viện ký số, form Chọn chữ ký chọn 1 lần: ô BGĐ = Giám đốc / Đại diện đơn vị, ô 2 = Trưởng khoa / Người hành nghề); nút In ấn (Lập BANT) thêm In ▼ -> IN - Ký số Phần I (chọn BGĐ, Trưởng khoa ở form Chọn chữ ký). Phần II, Phần III, Giấy ra viện thêm tham số manv_bacsi, manv_giamdoc. Phiếu phẫu thuật thủ thuật thêm tham số manv_phauthuat_chinh, manv_gayme_chinh (người thực hiện chính trong ekip). Cập nhật DLL XtraRPT, OTH, HosPre.Reports, DH.XML4750.
+- 🐛: Khắc phục chữ ký scan / chữ ký bệnh nhân không hiện trên BANT YHCT Phần I/II/III, Tờ điều trị, Giấy ra viện (in ra nguyên chữ marker).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/962 (báo cáo: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/304)
+- 📗: Cập nhật DLL liên quan: XtraRPT, OTH, HosPre.Reports, DH.XML4750. Không thay đổi CSDL. Mô tả: [Mo-ta-yeucau-962-chu-ky-mau-in-luong-cu.md](../../Mo-ta-he-thong/SO-HOA/Mo-ta-yeucau-962-chu-ky-mau-in-luong-cu.md)
+- 📕: Khám bệnh -> Lập BANT YHCT -> In ấn ▼ -> IN - Ký số; Bệnh án ngoại trú -> BANT YHCT -> In: chữ ký scan bác sĩ hiện trên Phần II/III. Giấy ra viện ký số: thiết kế <<SIGN>> / <<SIGN2>> (hoặc <<SIGN:{{[Parameters.manv_giamdoc]}}>>, manv_giamdoc / manv_nguoiky2 lấy theo người chọn ở form Chọn chữ ký) và In ▼ -> IN - Ký số.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-prescription-bant-yhct-phan2-nvsign-oth.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-prescription-frmmain-fullflow.png)
+
 ## [v.3.26.1110.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611100-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611100-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611100-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Cập nhật giao diện form cấu hình Option 6556 (`XFrmBK6556Option`) từ `OTH.XForms.v.1.0` và tích hợp hàm kiểm tra chặn in hồ sơ đã nhập viện từ `DH.XML4750`.
 - 🐛: Khắc phục lỗi in bảng kê ngoại trú cho bệnh nhân đã xử trí nhập viện gây xung đột đồng bộ trạng thái EMR (SyncADM kéo bệnh nhân đã xuất viện về đang điều trị) và xuất toán BHYT.
