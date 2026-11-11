@@ -6,6 +6,53 @@
 
 #
 
+## [v.3.26.1111.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611110-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611110-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611110-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Gộp luồng ký số Giấy ra viện mới của upstream (ShowPdfSignVerificationForm: SIGN = bác sĩ txtMaBsCk, SIGN2 = người đại diện ccbManvdd), giữ tham số manv_giamdoc (người đại diện), manv_nguoiky2 (bác sĩ) cho marker; Hồ sơ - Ký số Phần I dùng biến form Chọn chữ ký riêng.
+- 🐛: Khắc phục lỗi build sau khi upstream bỏ biến xFormKySo dùng chung.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/962 (báo cáo: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/304)
+- 📗: Cập nhật DLL liên quan: XtraRPT. Không thay đổi CSDL. Mô tả: [Mo-ta-yeucau-962-chu-ky-mau-in-luong-cu.md](../../Mo-ta-he-thong/SO-HOA/Mo-ta-yeucau-962-chu-ky-mau-in-luong-cu.md)
+- 📕: Bệnh án ngoại trú chung -> Giấy ra viện ký số: chọn người đại diện, bác sĩ trên form rồi In - Ký số.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-t4-bant-giayravien-kyso.png)
+- ✨: Bệnh án ngoại trú YHCT và Bệnh án ngoại trú chung: nút Hồ sơ thêm Hồ sơ ▼ -> Hồ sơ - Ký số (Phần I và Giấy ra viện ký số, form Chọn chữ ký chọn 1 lần: ô BGĐ = Giám đốc / Đại diện đơn vị, ô 2 = Trưởng khoa / Người hành nghề); nút In ấn (Lập BANT) thêm In ▼ -> IN - Ký số Phần I (chọn BGĐ, Trưởng khoa ở form Chọn chữ ký). Phần II, Phần III, Giấy ra viện thêm tham số manv_bacsi, manv_giamdoc. Phiếu phẫu thuật thủ thuật thêm tham số manv_phauthuat_chinh, manv_gayme_chinh (người thực hiện chính trong ekip). Cập nhật DLL XtraRPT, OTH, HosPre.Reports, DH.XML4750.
+- 🐛: Khắc phục chữ ký scan / chữ ký bệnh nhân không hiện trên BANT YHCT Phần I/II/III, Tờ điều trị, Giấy ra viện (in ra nguyên chữ marker).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/962 (báo cáo: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/304)
+- 📗: Cập nhật DLL liên quan: XtraRPT, OTH, HosPre.Reports, DH.XML4750. Không thay đổi CSDL. Mô tả: [Mo-ta-yeucau-962-chu-ky-mau-in-luong-cu.md](../../Mo-ta-he-thong/SO-HOA/Mo-ta-yeucau-962-chu-ky-mau-in-luong-cu.md)
+- 📕: Khám bệnh -> Lập BANT YHCT -> In ấn ▼ -> IN - Ký số; Bệnh án ngoại trú -> BANT YHCT -> In: chữ ký scan bác sĩ hiện trên Phần II/III. Giấy ra viện ký số: thiết kế <<SIGN>> / <<SIGN2>> (hoặc <<SIGN:{{[Parameters.manv_giamdoc]}}>>, manv_giamdoc / manv_nguoiky2 lấy theo người chọn ở form Chọn chữ ký) và In ▼ -> IN - Ký số.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-prescription-bant-yhct-phan2-nvsign-oth.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-prescription-frmmain-fullflow.png)
+- ✨: Khôi phục hiển thị hộp thoại `Chọn máy in - In phiếu BHYT (QĐ6556)` (`XFrmPrintDia` constructor 2 tham số) trong `BKChiPhiKCB6556.PrintByOption` khi `PrintBy = ChonMayIn`, cho phép chọn máy in, chỉnh số bản in và lưu `Mặc định` cho các lần in sau; truyền `printerName` và `copies` thực chọn vào luồng ký số / in trực tiếp và chặn fallback `XRpt.Print` khi đã vào `ShowPdfSignVerificationForm` (`!isView`) để chống in double số bản in. Cập nhật DLL liên quan: `OTH.XForms`.
+- 🐛: Khắc phục lỗi trên `Prescription` (`FrmKhamBenh`, `FrmBenhAnNgoaiTru`, `FrmDieuTriBANTARV`) không hiện hộp thoại chọn máy in bảng kê BHYT 6556 và không lưu được máy in / số bản in mặc định khi `PrintBy = ChonMayIn`.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1083 (báo cáo PR: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/325)
+- 📗: Cập nhật DLL liên quan: `OTH.XForms`. Không thay đổi CSDL. Mô tả: [Mo-ta-khoi-phuc-hop-thoai-chon-may-in-bang-ke-bhyt-6556-issue-1083.md](../../Mo-ta-he-thong/CAU%20HINH%20IN%20PHIEU%20KCB%206556/Mo-ta-khoi-phuc-hop-thoai-chon-may-in-bang-ke-bhyt-6556-issue-1083.md)
+- 📕: Điều trị bệnh án ARV / Khám bệnh / Bệnh án ngoại trú -> In phiếu 01/BV (BHYT) -> hiển thị hộp thoại `Chọn máy in - In phiếu BHYT (QĐ6556)`, chọn máy in (vd `Microsoft Print to PDF`), chọn số bản in (`2`), bấm `Mặc định` để nhớ cấu hình cho lần in sau.
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1083/debug-image-prescription-frmdieutribantarv-chonmayin-6556.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1083/debug-image-othxforms-xfrmprintdia-tunap-macdinh-lan2.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1083/debug-image-prescription-frmdieutribantarv-fullflow-target.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1083/debug-image-prescription-frmmain-fullflow-main.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1083/debug-image-prescription-frmdieutribantarv-ketqua-in-pdf-6556.jpg)
+
+## [3.26.1110.3] - 2026-11-10
+
+- ✨: Chữ ký số, chữ ký scan, chữ ký người bệnh trên các mẫu in Bệnh án ngoại trú YHCT, Bệnh án chung, Giấy ra viện, Tờ điều trị, Phiếu khám vào viện, Phiếu PTTT.
+- 🐛: Khắc phục toàn bộ lỗi chữ ký scan / ký số trên Prescription theo yêu cầu #962 (T1, T2, T3, T4, T5, T18, T19 đạt 100%).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/962 (báo cáo: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/304)
+- 📗: Cập nhật DLL liên quan: XtraRPT, OTH, HosPre.Reports, DH.XML4750. Không thay đổi CSDL. Mô tả: [Mo-ta-yeucau-962-chu-ky-mau-in-luong-cu.md](../../Mo-ta-he-thong/SO-HOA/Mo-ta-yeucau-962-chu-ky-mau-in-luong-cu.md)
+- 📕: Kết quả kiểm thử thực tế trên CSDL tra_yhct_kyso_hsba_092026:
+  - T1: BANT Phần I - Ký số BGĐ, TK, BS (mã 02, 27, 00)
+    ![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-t1-bant-phan1-kyso.png)
+  - T2: BANT Phần II - Scan bác sĩ (mã 00)
+    ![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-t2-bant-phan2-scan-bacsi.png)
+  - T3: BANT Phần III - Scan bác sĩ (mã 00)
+    ![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-t3-bant-phan3-scan-bacsi.png)
+  - T4: BANT Giấy ra viện - Ký số người đại diện và bác sĩ hành nghề (mã 02, 00)
+    ![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-t4-bant-giayravien-kyso.png)
+  - T5: BANT Tờ điều trị - Scan bác sĩ từng dòng (mã 182, 00)
+    ![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-t5-bant-todieutri-scan-tungdong.png)
+  - T18: Phiếu khám vào viện Prescription - Scan bác sĩ (mã 182)
+    ![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-t18-prescription-phieukhamvaovien-scan.png)
+  - T19: Phiếu PTTT Prescription - Scan người lập phiếu và người thực hiện chính trong ekip (mã 00, 27)
+    ![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-t19-prescription-phauthuat-scan.png)
+
 ## [v.3.26.1110.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611101-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611101-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611101-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Gộp luồng ký số Giấy ra viện mới của upstream (ShowPdfSignVerificationForm: SIGN = bác sĩ txtMaBsCk, SIGN2 = người đại diện ccbManvdd), giữ tham số manv_giamdoc (người đại diện), manv_nguoiky2 (bác sĩ) cho marker; Hồ sơ - Ký số Phần I dùng biến form Chọn chữ ký riêng.
 - 🐛: Khắc phục lỗi build sau khi upstream bỏ biến xFormKySo dùng chung.
