@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1112.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611121-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611121-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611121-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Trích biên bản hội chẩn (Bệnh án ngoại trú -> Hội chẩn -> Trích BBHC) thêm tham số manv_chutoa, manv_thuky (ô Chủ tọa, Thư ký) để thiết kế chữ ký scan <<NVSIGN:[Parameters.manv_chutoa]>>, <<NVSIGN:[Parameters.manv_thuky]>>.
+- 🐛: Khắc phục Trích biên bản hội chẩn BANT chưa có mã nhân viên chủ tọa, thư ký nên không cấu hình được chữ ký scan.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/962#issuecomment-52850 (hdhiswork/YEUCAU#962) (báo cáo: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/330)
+- 📗: Cập nhật DLL liên quan: XtraRPT. Không thay đổi CSDL. Mô tả: [Mo-ta-yeucau-962-dot2-chu-ky-hsba-noitru-yhct-treatment.md](../../Mo-ta-he-thong/SO-HOA/Mo-ta-yeucau-962-dot2-chu-ky-hsba-noitru-yhct-treatment.md)
+- 📕: Bệnh án ngoại trú -> Hội chẩn -> Trích BBHC -> thiết kế đặt <<NVSIGN:[Parameters.manv_chutoa]>> (Chủ tọa), <<NVSIGN:[Parameters.manv_thuky]>> (Thư ký).
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-962/debug-image-t23-prescription-trichbbhc-scan.png)
+
 ## [v.3.26.1112.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611120-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611120-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611120-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Mở rộng tham số cks.toathuoc hỗ trợ giá trị "2" tự động kích hoạt luồng Ký số toa thuốc ngoại trú ngay sau khi lưu thành công (luuToaThuoc() == true) trên FrmRaToa; mở rộng điều kiện hiển thị menu con "In toa CKS" và các luồng Xem toa, In toa chi tiết, In toa TT26 khi cks.toathuoc bằng 1 hoặc 2.
 - 🐛: Khắc phục tình trạng Bác sĩ sau khi kê đơn và bấm Lưu toa thuốc thì chưa tự động gọi ký số nếu cấu hình cks.toathuoc = 2; tối ưu hóa quy trình kê đơn 1-click không phải nhấn thêm phím tắt F2 hoặc chọn menu thủ công.
