@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1113.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611130-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611130-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611130-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Khám sức khỏe hợp đồng (CLS - DV, FrmCanLamSang mở với KSKHD = true): xóa CLS theo ngày chỉ định của chính dòng CLS (đăng ký / chỉ định trước, bệnh nhân đến khám ngày khác); kiểm tra CLS đã thực hiện, toa vật tư theo ngày chỉ định; xóa không được thì báo "Không xóa được cận lâm sàng [mã] chỉ định ngày ..." và giữ dòng.
+- 🐛: Khắc phục KSK HĐ xóa CLS chỉ định khác ngày làm việc: dòng mất trên lưới, nhật ký ghi đã xóa nhưng CSDL không xóa (Delete() lọc theo ngày làm việc khớp 0 dòng), mở lại form CLS vẫn còn.
+- ☑: https://i.dh-his.com/hdhiswork/LOI/issues/1089 (báo cáo: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/334)
+- 📗: Không thay đổi CSDL. Mô tả: [Mo-ta-loi-1089-ksk-hd-xoa-cls-chi-dinh-khac-ngay.md](../../Mo-ta-he-thong/KHAMBENH/Mo-ta-loi-1089-ksk-hd-xoa-cls-chi-dinh-khac-ngay.md)
+- 📕: Khám sức khỏe HĐ -> chọn BN đăng ký ngày trước -> Khám bệnh -> CLS - DV -> chọn CLS chỉ định ngày khác -> Xóa -> đóng mở lại form CLS không còn. Khám bệnh thường, BANT không đổi.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1089/debug-image-prescription-frmcanlamsang-ksk-xoa-cls-khac-ngay.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1089/debug-image-prescription-fullflow-ksk-xoa-cls-khac-ngay.gif)
+
 ## [v.3.26.1112.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611121-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611121-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611121-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Trích biên bản hội chẩn (Bệnh án ngoại trú -> Hội chẩn -> Trích BBHC) thêm tham số manv_chutoa, manv_thuky (ô Chủ tọa, Thư ký) để thiết kế chữ ký scan <<NVSIGN:[Parameters.manv_chutoa]>>, <<NVSIGN:[Parameters.manv_thuky]>>.
 - 🐛: Khắc phục Trích biên bản hội chẩn BANT chưa có mã nhân viên chủ tọa, thư ký nên không cấu hình được chữ ký scan.
