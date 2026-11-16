@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1116.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611162-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Bổ sung nút [Thông tin SKSS/BMTE] tại tab Khám bệnh (tabKhamBenh) trên FrmKhamBenh, tự động căn chỉnh vị trí linh hoạt theo cấu hình Phiếu dinh dưỡng, hỗ trợ mở nhanh form FrmThongTinSKSS từ giao diện khám bệnh.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/967
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-967/debug-image-prescription-tab-khambenh-mo-form-skss.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-967/debug-image-prescription-tab-khambenh-nut-skss.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-967/debug-image-prescription-menu-thong-tin-skss-bmte.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-967/debug-image-prescription-skss-bmte-form.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-967/debug-image-prescription-skss-bmte-gui-cong-thanh-cong.jpg)
+
 ## [v.3.26.1116.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611161-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611161-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611161-NasDHSolutions.json)</sup></sup></sub>
 # 2026-11-13
 - ✨: Tích hợp mở Form Thông tin SKSS/BMTE (DH.ThongTinKSK.FORMS.FrmThongTinSKSS) qua UIContextMenu của nút [Khám bệnh] tại danh sách khám bệnh FrmKhamBenh; sử dụng OTH.XControl.XButton và DevExpress XtraTabControl kèm icon chức năng; hỗ trợ nạp tự động từ HIS, xem trước XML, lưu CSDL và nút bấm gửi Cổng trực tiếp tại form.
