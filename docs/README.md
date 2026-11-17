@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1117.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611170-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611170-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611170-NasDHSolutions.json)</sup></sup></sub>
+- ✨: [Prescription] Bổ sung và đồng bộ tính năng ghi nhận người thực hiện, ngày kết quả công khám bảng XML3 theo QĐ 3176/4750 (BV TMĐ TG)
+- 🐛: Đồng bộ cập nhật từ OTH.Entity, OTH.Adapter và OTH.XForms.v.1.0 cho phân hệ Toa thuốc / Khám bệnh
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/993
+- 📗: Lưu cấu hình EOptionBHXH vào current.coderun
+- 📕: Phân hệ Toa thuốc đồng bộ dữ liệu xuất XML 4750/3176 với người thực hiện và ngày kết quả công khám
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-993/debug-image-admin-xfrmbkxuatxml4750-xml03-congkham.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-993/debug-image-admin-xfrmoptionbhxh-cauhinh-xml3.png)
+
 ## [v.3.26.1116.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611162-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611162-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611162-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Bổ sung nút [Thông tin SKSS/BMTE] tại tab Khám bệnh (tabKhamBenh) trên FrmKhamBenh, tự động căn chỉnh vị trí linh hoạt theo cấu hình Phiếu dinh dưỡng, hỗ trợ mở nhanh form FrmThongTinSKSS từ giao diện khám bệnh.
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/967
