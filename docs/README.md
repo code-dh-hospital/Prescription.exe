@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1119.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611190-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tối ưu điều kiện kiểm tra hạn mức lượt khám trong `FrmBenhAnNgoaiTru.cs` theo tham số `luotkhamngay.tuychon`, bỏ qua kiểm tra DB khi lưu hồ sơ BANT đợt với tham số nhỏ hơn 2; Chuẩn hóa toàn bộ 245 hộp thoại tại `FrmKhamBenh.cs` từ `MsgBoxAdv` sang `XMsgBox` phù hợp theo từng ngữ cảnh (Error, Warn, Info, Ques).
+- 🐛: Phối hợp cùng `HosPre.DataAccess` sửa lỗi chặn lưu khám ngoại trú không chính xác tại BV Đa khoa Gò Vấp khi bác sĩ có lượt khám BANT đợt trong ngày.
+- ☑: [hdhiswork/LOI#1098](https://i.dh-his.com/hdhiswork/LOI/issues/1098)
+- 📗: Đọc và đối soát tham số hệ thống `luotkhamngay.tuychon` từ bảng `current.system`.
+- 📕: Tham chiếu tài liệu đặc tả [Mo-ta-tinh-han-muc-luot-kham-theo-tuy-chon.md](../../Mo-ta-he-thong/BANT/Mo-ta-tinh-han-muc-luot-kham-theo-tuy-chon.md).
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1098/debug-image-prescription-frmkhambenh-tinh-luot-kham.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1098/debug-image-prescription-frmmain-fullflow.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1098/debug-image-prescription-frmkhambenh-canh-bao-luot-kham-thuc-te.jpg)
+
 ## [v.3.26.1117.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611171-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611171-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611171-NasDHSolutions.json)</sup></sup></sub>
 - ✨: [Prescription & DH.PublicCLS] Đồng bộ thư viện DH.PublicCLS.dll (v.3.26.1117.0) cập nhật chuẩn hóa chuỗi chẩn đoán ICD và bản tin HL7 OMI^O23 gửi máy chủ PACS ECO.
 - 🐛: [Prescription] Đảm bảo mã ICD chính đi liền ngay sau tên chẩn đoán chính theo định dạng "Chính (ICD chính) ; Phụ (ICD phụ)", khắc phục tình trạng mã ICD chính bị rỗng (LOI #1096).
