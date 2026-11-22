@@ -6,6 +6,32 @@
 
 #
 
+## [v.3.26.1122.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611221-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611221-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611221-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hỗ trợ chỉ định CLS/thủ thuật BANT theo đợt nhiều ngày: Tự động tách thành N ngày liên tiếp khi SL > 1, ghi nhận thangkt là FrmMain.strThangKT và namkt là FrmMain.strNamKT, hiển thị cột Ngày CĐ; Bổ sung cột Dự kiến ra viện và tô màu cảnh báo trên danh sách BANT; Xây dựng form FrmGhiNhanThucHienCLS ghi nhận thực hiện CLS theo ngày cho KTV/Điều dưỡng (chọn Người TH kèm mã CCHN, ghi nhận Ngày TH y lệnh, Thời gian KQ với ràng buộc ngaykcb <= giolaymau <= ngaykq, cập nhật theo bộ 4 khóa nghiệp vụ mabn, makb, macls, ngaykcb, xoa = 0).
+- 🐛: Đóng gói lại Prescription.exe đồng bộ với HosPre.BusinessLogic.dll (v.1.26.1122.0) và HosPre.DataAccess.dll (v.1.26.1122.0) mới nhất trên dhlibraries.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1020
+- 📗: Cập nhật chidinhcls (dath, giolaymau, ngaykq, nguoi_thuc_hien) theo mabn, makb, macls, ngaykcb, xoa = 0.
+- 📕: Phân hệ Prescription: Khám bệnh -> Bệnh án ngoại trú -> Chỉ định CLS và nút [CLS - DV] -> Ghi nhận thực hiện CLS/Thủ thuật (KTV).
++ Ảnh minh chứng:
+- https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-frmbenhanngoaitru-dukienravien-menucls.jpg
+- https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-chidinhtheodot-xacnhantachngay.jpg
+- https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-chidinhtheodot-thongbaotachthanhcong.jpg
+- https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-chidinhtheodot-danhsachdangon.jpg
+- https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-frmghinhanthuchiencls-hoanthanh.png
+
+## [v.3.26.1122.0]()
+- ✨: Hỗ trợ chỉ định CLS/thủ thuật BANT theo đợt nhiều ngày: Tự động tách thành N ngày liên tiếp khi SL > 1, ghi nhận thangkt là FrmMain.strThangKT và namkt là FrmMain.strNamKT, hiển thị cột Ngày CĐ; Bổ sung cột Dự kiến ra viện và tô màu cảnh báo trên danh sách BANT; Xây dựng form FrmGhiNhanThucHienCLS ghi nhận thực hiện CLS theo ngày cho KTV/Điều dưỡng (chọn Người TH kèm mã CCHN, ghi nhận Ngày TH y lệnh, Thời gian KQ với ràng buộc ngaykcb <= giolaymau <= ngaykq, cập nhật theo bộ 4 khóa nghiệp vụ mabn, makb, macls, ngaykcb, xoa = 0).
+- 🐛: Khắc phục hiện tượng context menu bị treo khi mở form bằng BeginInvoke, mở rộng form toàn màn hình, nút điều khiển neo góc phải dưới không bị cấn dòng.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1020
+- 📗: Cập nhật chidinhcls (dath, giolaymau, ngaykq, nguoi_thuc_hien) theo mabn, makb, macls, ngaykcb, xoa = 0.
+- 📕: Phân hệ Prescription: Khám bệnh -> Bệnh án ngoại trú -> Chỉ định CLS và nút [CLS - DV] -> Ghi nhận thực hiện CLS/Thủ thuật (KTV).
+  + Ảnh minh chứng:
+    - https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-frmbenhanngoaitru-dukienravien-menucls.jpg
+    - https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-chidinhtheodot-xacnhantachngay.jpg
+    - https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-chidinhtheodot-thongbaotachthanhcong.jpg
+    - https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-chidinhtheodot-danhsachdangon.jpg
+    - https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-frmghinhanthuchiencls-hoanthanh.png
+
 ## [v.3.26.1119.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611190-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611190-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611190-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tối ưu điều kiện kiểm tra hạn mức lượt khám trong `FrmBenhAnNgoaiTru.cs` theo tham số `luotkhamngay.tuychon`, bỏ qua kiểm tra DB khi lưu hồ sơ BANT đợt với tham số nhỏ hơn 2; Chuẩn hóa toàn bộ 245 hộp thoại tại `FrmKhamBenh.cs` từ `MsgBoxAdv` sang `XMsgBox` phù hợp theo từng ngữ cảnh (Error, Warn, Info, Ques).
 - 🐛: Phối hợp cùng `HosPre.DataAccess` sửa lỗi chặn lưu khám ngoại trú không chính xác tại BV Đa khoa Gò Vấp khi bác sĩ có lượt khám BANT đợt trong ngày.
