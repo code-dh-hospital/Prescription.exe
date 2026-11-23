@@ -6,6 +6,28 @@
 
 #
 
+## [v.3.26.1123.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611231-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hoàn thiện quy trình nhập viện và xóa bệnh án BANT trên phân hệ Prescription
+- 🐛: Khắc phục NullReferenceException khi xóa công khám (FormKB null) và khắc phục lỗi xóa phiếu nhập viện BANT phải xóa 2 lần
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/729
+- 📗: Cập nhật chính xác makb nội trú sau khi sinh số và xóa trúng hồ sơ nội trú (namvien = 1) trong current.bnnoitru
+- 📕: Mở form nhập viện từ FrmBenhAnNgoaiTru không bị crash khi xác nhận xóa công khám, xóa bệnh án BANT thành công ngay lần đầu và tự động làm mới danh sách bệnh nhân
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-sauhoantra.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-truocchuyen.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-truocnhapvien.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-fees-frmcphibenhnhan-noitru-132k.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-fees-frmcphibenhnhan-noitru-saunhapvien.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-prescription-chuyencphi-chan-thuoc-da-thu-tien.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-prescription-chuyencphi-chan-xuat-xml130.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-prescription-frmnhapvien-chuyencphi-bant.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-prescription-frmnhapvien-hoantra-bant.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-prescription-frmnhapvien-kiemtra-khocp.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-treatment-frmtongketchiphi-noitru-132k.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-fees-frmcphibenhnhan-bant-giulai-572k.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-prescription-frmbenhanngoaitru-nhapvien-bant.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-printer-frmmokhoachungtu-bant-dain.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-729/debug-image-treatment-frmkhambenhnoitru-contextmenu-chuyencphi-bant.jpg)
+
 ## [v.3.26.1123.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611230-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611230-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611230-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tự động đánh dấu tick Dịch vụ và áp Đơn giá dịch vụ khi Bác sĩ chỉ định cận lâm sàng mới (FrmCanLamSang) đối với người bệnh thuộc đối tượng có cấu hình "Khám dịch vụ & chỉ định CLS DV" (khamdichvu = 2). Áp dụng đồng bộ cho cả luồng Khám ngoại trú thường, Bệnh án ngoại trú theo ngày và Bệnh án ngoại trú theo đợt; Bác sĩ vẫn có thể bỏ chọn tick dịch vụ khi cần.
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1032
