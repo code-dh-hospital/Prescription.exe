@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1123.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611232-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611232-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611232-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tổng kết BANT **YHCT / Răng Hàm Mặt / PHCN** có ô **Xử trí** khi kết thúc điều trị (F2 chọn; 03 Chuyển viện bật nút **Chuyển tuyến**, chưa lập phiếu chuyển viện thì không cho lưu). Admin có nút **Đặt mặc định** để đặt sẵn PP điều trị / Kết quả / Xử trí; tổng kết lần đầu tự điền vào ô còn trống. Cập nhật kèm DLL: LibraryApp.
+- 🐛: Lưu tổng kết 3 form trên không còn ghi rỗng `bnnoitru.maxt`.
+- ☑: [hdhiswork/YEUCAU#1023](https://i.dh-his.com/hdhiswork/YEUCAU/issues/1023)
+- 📗: Không thêm bảng / cột. Giá trị mặc định lưu 1 dòng `current.coderun` (`code = 'giatri_macdinh_form'`, JSON khóa `<Form>.<ô nhập>`), phần mềm tự tạo.
+- 📕: Đặc tả: [Mo-ta-yeucau-1023-xu-tri-gia-tri-mac-dinh-bant-yhct-rhm-phcn.md](../../Mo-ta-he-thong/BANT/Mo-ta-yeucau-1023-xu-tri-gia-tri-mac-dinh-bant-yhct-rhm-phcn.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1023/debug-image-prescription-frmtkbantyhct-admin-nhap-mac-dinh.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1023/debug-image-prescription-frmtkbantyhct-nhap-moi-khongadmin.png)
+
 ## [v.3.26.1123.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611231-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611231-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611231-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Hoàn thiện quy trình nhập viện và xóa bệnh án BANT trên phân hệ Prescription
 - 🐛: Khắc phục NullReferenceException khi xóa công khám (FormKB null) và khắc phục lỗi xóa phiếu nhập viện BANT phải xóa 2 lần
