@@ -6,6 +6,30 @@
 
 #
 
+## [v.3.26.1123.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611233-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611233-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611233-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hỗ trợ tùy chọn "In - theo ngày chỉ định (BANT)" trên menu in FrmCanLamSang; mở rộng kích thước ô nhập Ngày TH y lệnh và Thời gian KQ trên FrmGhiNhanThucHienCLS lên 220px, mở rộng cột Ngày TH y lệnh và Thời gian KQ trên lưới lên 165px.
+- 🐛: Khắc phục hiển thị bị khuất phút của Ngày TH y lệnh và Thời gian KQ do nút mũi tên dropdown che; giữ nguyên tên CLS gốc và bổ sung cột tenclsphu cho phiếu in để người dùng tự ghép trên Report Designer.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1020
+- 📗: current.chidinhcls (bổ sung truy vấn và sắp xếp dữ liệu theo ngaykcb, giữ nguyên tencls và tenclsphu)
+- 📕: Mở FrmCanLamSang -> Nhấp nút [In] -> Chọn "In - theo ngày chỉ định (BANT)"; Tại FrmBenhAnNgoaiTru -> Bấm [CLS - DV] -> Chọn "Ghi nhận thực hiện CLS/Thủ thuật (KTV)"
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-chidinhtheodot-danhsachdangon.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-chidinhtheodot-thongbaotachthanhcong.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-chidinhtheodot-xacnhantachngay.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-frmbenhanngoaitru-dukienravien-menucls.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-frmghinhanthuchiencls-danhsach.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-frmghinhanthuchiencls-hoanthanh.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-frmseanngoaitru-ngayraviendukien.png)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-frmghinhanthuchiencls-tenphu10-phienban32611231.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-phieuchidinhthuthuat-in-tencls-tenclsphu.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-thietketrangin-calculatedfield-tenclsdaydu.jpg)
+- ✨: Tổng kết BANT **YHCT / Răng Hàm Mặt / PHCN** có ô **Xử trí** khi kết thúc điều trị (F2 chọn; 03 Chuyển viện bật nút **Chuyển tuyến**, chưa lập phiếu chuyển viện thì không cho lưu). Admin có nút **Đặt mặc định** để đặt sẵn PP điều trị / Kết quả / Xử trí; tổng kết lần đầu tự điền vào ô còn trống. Cập nhật kèm DLL: LibraryApp.
+- 🐛: Lưu tổng kết 3 form trên không còn ghi rỗng `bnnoitru.maxt`.
+- ☑: [hdhiswork/YEUCAU#1023](https://i.dh-his.com/hdhiswork/YEUCAU/issues/1023)
+- 📗: Không thêm bảng / cột. Giá trị mặc định lưu 1 dòng `current.coderun` (`code = 'giatri_macdinh_form'`, JSON khóa `<Form>.<ô nhập>`), phần mềm tự tạo.
+- 📕: Đặc tả: [Mo-ta-yeucau-1023-xu-tri-gia-tri-mac-dinh-bant-yhct-rhm-phcn.md](../../Mo-ta-he-thong/BANT/Mo-ta-yeucau-1023-xu-tri-gia-tri-mac-dinh-bant-yhct-rhm-phcn.md)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1023/debug-image-prescription-frmtkbantyhct-admin-nhap-mac-dinh.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1023/debug-image-prescription-frmtkbantyhct-nhap-moi-khongadmin.png)
+
 ## [v.3.26.1123.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611232-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611232-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611232-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tổng kết BANT **YHCT / Răng Hàm Mặt / PHCN** có ô **Xử trí** khi kết thúc điều trị (F2 chọn; 03 Chuyển viện bật nút **Chuyển tuyến**, chưa lập phiếu chuyển viện thì không cho lưu). Admin có nút **Đặt mặc định** để đặt sẵn PP điều trị / Kết quả / Xử trí; tổng kết lần đầu tự điền vào ô còn trống. Cập nhật kèm DLL: LibraryApp.
 - 🐛: Lưu tổng kết 3 form trên không còn ghi rỗng `bnnoitru.maxt`.
