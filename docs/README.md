@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.1124.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611241-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611241-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611241-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hỗ trợ loại trừ dịch vụ Công khám (`kho = 'KB'`, `maloai = 'KB'`) trên Phiếu chỉ định cận lâm sàng / thủ thuật theo ngày (BANT) `Prescription_ChiDinhCls_TheoNgay` tại `FrmCanLamSang`.
+- 🐛: Khắc phục dịch vụ công khám (như Khám Y học cổ truyền) bị in kèm vào danh sách chỉ định thủ thuật theo ngày.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1020
+- 📗: current.chidinhcls (lọc loại trừ `(kho is null or kho <> 'KB') and (maloai is null or maloai <> 'KB')`)
+- 📕: Mở FrmCanLamSang -> Nhấp nút [In] -> Chọn "In - theo ngày chỉ định (BANT)"
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-phieuchidinhcls-loaitru-khambenh-yhct.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-phieuchidinhthuthuat-yeucau-loaitru-congkham.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-phieuchidinhthuthuat-in-tencls-tenclsphu.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-thietketrangin-calculatedfield-tenclsdaydu.jpg)
+
 ## [v.3.26.1124.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611240-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Tự động check dịch vụ và lấy đơn giá dịch vụ lúc chỉ định cận lâm sàng khi Danh mục đối tượng có cấu hình Khám dịch vụ (khamdichvu = 2).
 - 🐛: Bổ sung cơ chế phòng thủ đa tầng (fallback query trực tiếp CSDL) trong FrmCanLamSang phòng ngừa trường hợp DLL HosPre.DataAccess chưa đồng bộ.
