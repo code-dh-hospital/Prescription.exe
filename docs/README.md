@@ -6,6 +6,16 @@
 
 #
 
+## [v.3.26.1124.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611245-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611245-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611245-NasDHSolutions.json)</sup></sup></sub>
+# NHẬT KÝ MÃ NGUỒN - Prescription
+### Ngày: 24/11/2026
+- ✨: Đồng bộ thư viện DH.PublicCLS (v.3.26.1124.1): chuẩn hóa định dạng bác sĩ chỉ định ORC-12 (|[mabs]^[hoten_bacsi]|) khi kê đơn ngoại trú và chỉ định CĐHA gửi sang PACS.
+- 🐛: Khắc phục triệt để lỗi lặp mã bác sĩ và loại bỏ chuỗi UI thừa (; Thực hiện: admin; Chẩn đoán: ... - ID: ...) trong phân đoạn ORC-12 tại phân hệ Kê đơn ngoại trú.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1052 , https://i.dh-his.com/hdhiswork/LOI/issues/1103
+- 📗: current.chidinhcls (idpacs character varying(50)), current.dmnhanvien.
+- 📕: Mở phân hệ Khám bệnh ngoại trú (Prescription) -> Kê đơn thuốc & chỉ định CĐHA -> Bấm Lưu / Gửi PACS bản tin HL7 chuẩn định dạng.
+![Minh chứng kiểm thử](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1052/debug-image-publiccls-pacsdispatcher-bac-si-va-idpacs.png)
+
 ## [v.3.26.1124.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611244-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611244-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611244-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Toa dược liệu (`toaduoclieu = 1`): danh sách chọn thuốc chỉ lấy thuốc **kho 06** (trước đây loại trừ kho 01 nên lẫn thuốc kho khác); Toa Thuốc Tây giữ loại trừ kho 06.
 - 🐛: Liều dùng toa dược liệu đổi định dạng `{SL} {ĐVT} * 1 thang * {số thang} thang` (trước: `* 1 thang({n})`), sinh lại khi sửa SL / số thang.
