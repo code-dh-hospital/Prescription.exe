@@ -6,6 +6,13 @@
 
 #
 
+## [v.3.26.1124.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611240-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611240-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611240-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Tự động check dịch vụ và lấy đơn giá dịch vụ lúc chỉ định cận lâm sàng khi Danh mục đối tượng có cấu hình Khám dịch vụ (khamdichvu = 2).
+- 🐛: Bổ sung cơ chế phòng thủ đa tầng (fallback query trực tiếp CSDL) trong FrmCanLamSang phòng ngừa trường hợp DLL HosPre.DataAccess chưa đồng bộ.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1032
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1032/debug-image-prescription-frmcanlamsang-tudongcheck-dichvu.png)
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1032/debug-image-register-frmdangkybh-chidinhttdo.png)
+
 ## [v.3.26.1123.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611233-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611233-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611233-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Hỗ trợ tùy chọn "In - theo ngày chỉ định (BANT)" trên menu in FrmCanLamSang; mở rộng kích thước ô nhập Ngày TH y lệnh và Thời gian KQ trên FrmGhiNhanThucHienCLS lên 220px, mở rộng cột Ngày TH y lệnh và Thời gian KQ trên lưới lên 165px.
 - 🐛: Khắc phục hiển thị bị khuất phút của Ngày TH y lệnh và Thời gian KQ do nút mũi tên dropdown che; giữ nguyên tên CLS gốc và bổ sung cột tenclsphu cho phiếu in để người dùng tự ghép trên Report Designer.
