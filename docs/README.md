@@ -6,6 +6,17 @@
 
 #
 
+## [v.3.26.1124.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611243-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611243-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611243-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hỗ trợ cải tiến cách tính tự động số lượng và liều dùng khi cấu hình tham số tinhsoluong=2 trên FrmRaToa: tự động chuyển đổi nhãn 'Số ngày uống :' thành 'Số thang thuốc :' và nhãn 'SL' thành 'Số lượng thuốc mỗi ngày' khi là Toa Dược liệu; ẩn/khóa 4 ô phân liều (Sáng/Trưa/Chiều/Tối) đối với Toa Dược liệu; tính tổng số lượng = SL gốc * ngày uống đối với thuốc Tây có phân liều và toa dược liệu; giữ nguyên số lượng thuốc không nhân ngày uống đối với thuốc Tây không phân liều (chai, lọ, tuýp bôi); tự động sinh liều dùng chuẩn và chống nhân dồn số lượng khi sửa thuốc trên lưới.
+- 🐛: Sau kiểm thử: bỏ biến ẩn `dSoLuongGoc` (toa Tây ra sai tổng, sửa dòng dược liệu hiện 70 thay vì 10) - ô Số lượng luôn là số gốc, chọn dòng hiện số gốc và lưu nhân lại đúng 1 lần; Enter ở ô Tối (không phân liều) / Số lượng (dược liệu) vào Liều dùng, Enter Liều dùng / Cách uống trống mở danh mục cách dùng (không còn báo "Chưa nhập chỉ định uống" 2 lần và xóa trắng). Enter ở Cách uống / Liều dùng chỉ bấm nút đang hiện (Thêm hoặc Lưu khi sửa) - trước đây thêm thuốc 2 lần, lần 2 báo "Liều dùng không được để trống".
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1022
+- 📗: [Mo-ta-YEUCAU-1022-Prescription-Tinh-So-Luong-Toa-Thuoc.md](../../Mo-ta-he-thong/KHAMBENH/Mo-ta-YEUCAU-1022-Prescription-Tinh-So-Luong-Toa-Thuoc.md)
+- 📕: https://i.dh-his.com/code-dh-hospital/dh-hos-code-only/pulls/376
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1022/debug-image-1022-pre-case1-tay-co-phan-lieu.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1022/debug-image-1022-pre-case2-tay-khong-phan-lieu.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1022/debug-image-1022-pre-case3-duoc-lieu-them-luoi.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1022/debug-image-1022-pre-case4-chon-dong-duoc-lieu-hien-10.png)
+
 ## [v.3.26.1124.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611242-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611242-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611242-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Đồng bộ hiển thị và bảo toàn mã IDPACS cận lâm sàng khi kê đơn ngoại trú
 - 🐛: Khắc phục lỗi sai tên bác sĩ chỉ định gửi PACS và mất idpacs khi lưu toa khám bệnh
