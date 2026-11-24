@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1124.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611242-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611242-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611242-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Đồng bộ hiển thị và bảo toàn mã IDPACS cận lâm sàng khi kê đơn ngoại trú
+- 🐛: Khắc phục lỗi sai tên bác sĩ chỉ định gửi PACS và mất idpacs khi lưu toa khám bệnh
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1052 , https://i.dh-his.com/hdhiswork/LOI/issues/1103
+- 📗: current.chidinhcls (idpacs character varying(50))
+- 📕: Gửi chỉ định PACS từ khám bệnh ngoại trú và bảo toàn mã Accession Number
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1052/debug-image-publiccls-pacsdispatcher-bac-si-va-idpacs.png)
+![](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1052/debug-image-prescription-frmchidinhcls-fullflow-integration.png)
+
 ## [v.3.26.1124.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611241-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611241-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611241-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Hỗ trợ loại trừ dịch vụ Công khám (`kho = 'KB'`, `maloai = 'KB'`) trên Phiếu chỉ định cận lâm sàng / thủ thuật theo ngày (BANT) `Prescription_ChiDinhCls_TheoNgay` tại `FrmCanLamSang`.
 - 🐛: Khắc phục dịch vụ công khám (như Khám Y học cổ truyền) bị in kèm vào danh sách chỉ định thủ thuật theo ngày.
