@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1124.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611246-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611246-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611246-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Form Khám sức khỏe HĐ (`FrmKhamSucKhoe_HoaHao`) thêm hàng bộ lọc dưới "Đơn vị hợp đồng": **Ngày ĐK từ … đến …** (mặc định tắt), **Gửi BYT** (Tất cả / Đã gửi / Chưa gửi), **Kết luận** (Tất cả / Đã kết luận / Chưa kết luận); kết hợp (AND) với Chưa khám / Đã khám / Tất cả, lọc ngay trên danh sách, giữ dòng << Chọn tất cả >>.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1018
+- 📗: Không thay đổi CSDL; cần `HosPre.DataAccess` mới (cột `daketluan`). Mô tả: [Mo-ta-yeucau-1018-loc-danh-sach-ksk-hd.md](../../Mo-ta-he-thong/THONGTU_25/Mo-ta-yeucau-1018-loc-danh-sach-ksk-hd.md)
+- 📕: Khám sức khỏe HĐ → chọn Đơn vị hợp đồng → tick Ngày ĐK / chọn Gửi BYT / Kết luận để lọc; vd Đã kết luận + Chưa gửi + 01/08 - 30/11 → danh sách hồ sơ khám xong chưa gửi BYT.
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1018/debug-image-prescription-frmkhamsuckhoe-hoahao-loc-6-ket-hop.png)
+![](https://nnotmymmhysawugaoegv.supabase.co/storage/v1/object/public/image-debug/issues/issue-1018/debug-image-prescription-frmkhamsuckhoe-hoahao-loc-3-da-gui.png)
+
 ## [v.3.26.1124.5]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611245-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611245-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611245-NasDHSolutions.json)</sup></sup></sub>
 # NHẬT KÝ MÃ NGUỒN - Prescription
 ### Ngày: 24/11/2026
