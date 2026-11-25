@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1125.1]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611251-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611251-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611251-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Hỗ trợ nhập lọc tìm kiếm trực tiếp tại dòng lọc (FilterRow) cột `Dự kiến ra viện` (`ngayraviendukien`) trên danh sách bệnh nhân ngoại trú (`FrmBenhAnNgoaiTru`).
+- 🐛: Khắc phục lỗi không bấm con trỏ vào ô FilterRow của cột `Dự kiến ra viện` do chỉ định `EditType = NoEdit` mà chưa gán `FilterEditType = TextBox` (mặc định Janus kế thừa `SameAsEditType`), đồng thời thiết lập `FilterRowComparison = Contains` để tìm nhanh theo ngày/tháng.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1020
+- 📗: Không thay đổi cấu trúc CSDL (`current.bnnoitru` + `current.chidinhcls` giữ nguyên cột `ngayraviendukien` dạng `dd/mm/yyyy`).
+- 📕: Mở `FrmBenhAnNgoaiTru` -> Bấm vào ô FilterRow cột `Dự kiến ra viện` -> Nhập ngày cần lọc (vd `21/12`). Đặc tả: [Mo-ta-yeucau-1020-prescription-cls-bant-nhieungay.md](../../Mo-ta-he-thong/BANT/Mo-ta-yeucau-1020-prescription-cls-bant-nhieungay.md)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-frmbenhanngoaitru-filter-dukienravien-pass.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1020/debug-image-prescription-frmbanngoaitru-filter-ngaydukienravien.png)
+
 ## [v.3.26.1125.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611250-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Đồng bộ thư viện `DH.PublicCLS` mới nhất: chuẩn hóa cô lập `idpacs` theo từng dòng dịch vụ và thống nhất cấu trúc HL7 `OBR-2` dạng `|[idpacs]^[idpacs]|` khi kê đơn ngoại trú và gửi chỉ định CĐHA sang PACS.
 - 🐛: Khắc phục triệt để lỗi cập nhật đè `idpacs` giữa các CLS cùng đợt chỉ định (`idchidinh`) và đồng bộ chuẩn định dạng `OBR-2`, `ORC-12` trên phân hệ Kê đơn ngoại trú (`Prescription`).
