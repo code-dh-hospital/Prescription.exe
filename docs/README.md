@@ -6,6 +6,14 @@
 
 #
 
+## [v.3.26.1125.0]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611250-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611250-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611250-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Đồng bộ thư viện `DH.PublicCLS` mới nhất: chuẩn hóa cô lập `idpacs` theo từng dòng dịch vụ và thống nhất cấu trúc HL7 `OBR-2` dạng `|[idpacs]^[idpacs]|` khi kê đơn ngoại trú và gửi chỉ định CĐHA sang PACS.
+- 🐛: Khắc phục triệt để lỗi cập nhật đè `idpacs` giữa các CLS cùng đợt chỉ định (`idchidinh`) và đồng bộ chuẩn định dạng `OBR-2`, `ORC-12` trên phân hệ Kê đơn ngoại trú (`Prescription`).
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1052 , https://i.dh-his.com/hdhiswork/LOI/issues/1103
+- 📗: Không thay đổi cấu trúc CSDL tại `Prescription`; sử dụng `current.chidinhcls` và `current.pacs_message_log`.
+- 📕: Mở Kê đơn ngoại trú (`Prescription`) -> Chỉ định nhiều dịch vụ CĐHA cùng lúc -> Lưu -> Mỗi CLS nhận một `idpacs` riêng biệt và `OBR-2` hiển thị chuẩn `|[idpacs]^[idpacs]|`.
+![Minh chứng kiểm thử](https://xgtqkapnwmjscfabjeod.supabase.co/storage/v1/object/public/votranh415/issues/issue-1052/debug-image-publiccls-pacsdispatcher-bac-si-va-idpacs.png)
+
 ## [v.3.26.1124.6]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611246-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611246-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611246-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Form Khám sức khỏe HĐ (`FrmKhamSucKhoe_HoaHao`) thêm hàng bộ lọc dưới "Đơn vị hợp đồng": **Ngày ĐK từ … đến …** (mặc định tắt), **Gửi BYT** (Tất cả / Đã gửi / Chưa gửi), **Kết luận** (Tất cả / Đã kết luận / Chưa kết luận); kết hợp (AND) với Chưa khám / Đã khám / Tất cả, lọc ngay trên danh sách, giữ dòng << Chọn tất cả >>.
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1018
