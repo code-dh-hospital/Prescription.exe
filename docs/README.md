@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1127.4]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611274-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611274-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611274-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Cập nhật đồng bộ thư viện `DH.ThongTinKSK` (`v.1.26.1127.1`) và `OTH.Adapter` (`v.1.26.1127.1`): chuẩn hóa toàn bộ 6 tab `FrmThongTinSKSS` theo Quyết định 3412/QĐ-BYT (ngày 03/11/2025).
+- 🐛: Khắc phục lỗi gửi hồ sơ Tránh thai/Phá thai lên Cổng SKSS/BMTE (`NGUOI_THUC_HIEN` chọn danh mục `1,2,3,9`, chuẩn hóa `PT_TUAN_THAI` kiểu số nguyên dương, bỏ fallback `"BS. Bệnh viện"`).
+- ☑: [hdhiswork/LOI#1106](https://i.dh-his.com/hdhiswork/LOI/issues/1106)
+- 📗: Không thay đổi cấu trúc CSDL (`current.skss_bmte`). Tài liệu mô tả: [Mo-ta-loi-1106-nhap-lieu-va-gui-du-lieu-skss-bmte-qd3412.md](../../Mo-ta-he-thong/Quan-tri-Admin/Mo-ta-loi-1106-nhap-lieu-va-gui-du-lieu-skss-bmte-qd3412.md)
+- 📕: Trên `Prescription` ➔ Khám bệnh ➔ mở `FrmThongTinSKSS`, kiểm tra Tab Tránh thai/Phá thai chọn `Người thực hiện` (`1,2,3,9`), nhập tuần thai số nguyên và Ký gửi cổng SKSS/BMTE (F9).
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1106/debug-image-dhthongtinsksk-frmthongtinskss-phathai.jpg)
+![](https://qbsuhafypjhbdmwkygfy.supabase.co/storage/v1/object/public/nguyenvietvinh/issues/issue-1106/debug-image-dhthongtinsksk-frmthongtinskss-tranhthai.jpg)
+
 ## [v.3.26.1127.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611273-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611273-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611273-NasDHSolutions.json)</sup></sup></sub>
 - ✨: Thay thế SearchLookUpEdit chọn người đại diện bằng TextBox thông thường (txtManvdd, txtTendd), tích hợp lớp static NguoiDaiDien (ANghiepVuChung) nạp cache in-memory chuẩn hóa họ tên không chức danh (hoten_khong_chucdanh), hỗ trợ phím F2 hoặc Enter (khi ô trống) mở DanhMucV2.FrmChonV1 lọc danh sách Ban Giám Đốc (is_bgd = true).
 - 🐛: Sửa in Giấy ra viện ngoại trú đẩy đúng tham số daidien, không gán mặc định tên giám đốc khi bỏ trống người đại diện.
