@@ -6,6 +6,15 @@
 
 #
 
+## [v.3.26.1127.3]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611273-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611273-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611273-NasDHSolutions.json)</sup></sup></sub>
+- ✨: Thay thế SearchLookUpEdit chọn người đại diện bằng TextBox thông thường (txtManvdd, txtTendd), tích hợp lớp static NguoiDaiDien (ANghiepVuChung) nạp cache in-memory chuẩn hóa họ tên không chức danh (hoten_khong_chucdanh), hỗ trợ phím F2 hoặc Enter (khi ô trống) mở DanhMucV2.FrmChonV1 lọc danh sách Ban Giám Đốc (is_bgd = true).
+- 🐛: Sửa in Giấy ra viện ngoại trú đẩy đúng tham số daidien, không gán mặc định tên giám đốc khi bỏ trống người đại diện.
+- ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1019
+- 📗: current.bnnoitru (manv_daidien_giayravien). Mô tả: [Mo-ta-Chon-truong-khoa-dai-dien-va-loc-ho-so-cv3220.md](https://github.com/dhhiswork/Mo-ta-he-thong/blob/main/BHXH/Mo-ta-Chon-truong-khoa-dai-dien-va-loc-ho-so-cv3220.md)
+- 📕: Sử dụng cột manv_daidien_giayravien đã có sẵn trong current.bnnoitru, không thêm cột mới vào CSDL.
+![](https://lqqnqxgltxypjldfawom.supabase.co/storage/v1/object/public/HIS_BUCKET/issues/issue-1019/debug-image-prescription-tktbantchung-chondaidien.png)
+![](https://i.vgy.me/rUDDof.png)
+
 ## [v.3.26.1127.2]() <sub><sup><sup>[⬇️OneDrive](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611272-OneDrive.json) [⬇️GoogleStorage](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611272-GoogleStorage.json) [⬇️NasDHSolutions](https://code-dh-hospital.github.io/directTo/?&redirect_url=https%3A%2F%2Fo-dh-007-default-rtdb.asia-southeast1.firebasedatabase.app%2FdirectTo%2FPrescriptionexe%2F32611272-NasDHSolutions.json)</sup></sup></sub>
 - 🐛: Giữ nhãn nút `"In - theo ngày chỉ định (BANT)"` (`btnInChiDinhTheoNgay_Clicked`), đồng thời cập nhật toàn bộ luồng (`btnInChiDinhTheoNgay_Clicked`, sửa `soluong > 1`, `themCanLamSang`, `FrmGhiNhanThucHienCLS` / `ChiDinhCLSAdapter.GetDSChiDinhThucHienTheoNgay`) lọc theo danh sách `maloai` Admin cấu hình (`EOptionCLS.GetSetMaLoaiChiDinhTruocNgay()`) thay vì bắt cứng `kho IN ('TT', 'PT')` (chỉ fallback về `TT`/`PT` khi Admin chưa cấu hình `maloai`); đồng thời sau khi đóng `FrmChonNgayChiDinhCLS`, tự động focus lại `FrmCanLamSang` ngay tại lưới `dgChiDinhCLS` ở dòng đầu tiên vừa thêm (`FocusDongChiDinh`).
 - ☑: https://i.dh-his.com/hdhiswork/YEUCAU/issues/1054#issuecomment-55452 (hdhiswork/YEUCAU#1054)
